@@ -1,24 +1,140 @@
 # Trade Log — Robinhood Agentic Account
 
-## 2026-10-05T20:07:00Z
-- SUMMARY: Market closed (4:06 PM ET). No trades. BP=$50.00 (GILD $76.96 unsettled, settles 10/07). 3 positions: INTU +7.31% ($284.72, trail=$271.95, tp=$291.85), SPGI +2.02% ($390.95, trail=$380.07, tp=$421.54), CRH +2.18% ($82.66, trail=$80.15, tp=$88.99). Trail stops unchanged. RSI BUYs: 3 (conf≥2, $0 investable — market closed). Surges: 4. CB: daily +0.19%/weekly +0.19% (OK). Regime: normal. Universe=503. Acct=$247.49. BP=$50.00.
+## 2026-10-12T19:12:37Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0, $188.83 unsettled T+2). 8 RSI BUYs (AMD/IONQ/INFQ/NBIS/NVTS/BMY/GLW/WDC, all MODERATE conf=2, RL=HOLD) + EL net-buy — all SKIPPED investable=$0. Surge: EL 84.0% count=2 (INTRADAY BUY CANDIDATE, but investable=$0), FIS 66.3% count=1 (need 2). 30 RSI SELLs + 10 net-buy SELLs (none held). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503.
 
-## 2026-10-05T17:11:44Z
-- SUMMARY: Market OPEN, in_trade_window=true. No trades. BP=$50.00=cash buffer (GILD proceeds $76.96 unsettled T+2, settles 10/07). 3 positions: INTU +6.34% ($282.15, trail=$271.95, tp=$291.85), SPGI +1.45% ($388.77, trail=$380.07, tp=$421.54), CRH +1.69% ($82.27, trail=$80.15, tp=$88.99). Trail stops unchanged. RSI BUYs: 2 (QBTS RSI=28.03/INCY RSI=23.64, both conf=2, $0 investable). Net-buy BUYs: 0. Net-buy SELLs: 10 (TTWO/BSX/T/LEN/ORLY etc., none held). Surge: 0. CB: daily -0.03%/weekly -0.03% (OK). Regime: normal (SPY RSI=67.03, EMA BULLISH). Universe=503. Acct=$246.95. BP=$50.00.
+## 2026-10-12T18:12:00Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0, $188.83 unsettled T+2). 30 RSI BUY signals (AMAT/LRCX RL BOOST→conf3 STRONG, 28 MODERATE conf=2) + 1 net-buy BUY (EL) — all SKIPPED investable=$0. 0 net-buy BUYs executed. Surge: EL 67.7%, BIIB 10.6% (first sighting today, count=1 each, need 2 for INTRADAY_SURGE). RSI SELLs: 49 tickers (none held). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503.
 
-## 2026-10-05T16:14:00Z
-- SUMMARY: Market OPEN, in_trade_window=true. No trades. Buying power $50.00 = cash buffer (GILD proceeds still unsettled T+2). 3 positions: INTU +6.49% ($282.54, trail=$271.95, tp=$291.85), SPGI +1.29% ($388.15, trail=$380.07, tp=$421.54), CRH +0.64% ($81.42, trail=$80.15, tp=$88.99). Trail stops unchanged. RSI BUYs: 10 (MRK/BMY/GE/T/VTR/VRSK/QBTS/INFQ/CHRW/LEN all conf=2 moderate, $0 investable). Net BUYs: 0. Surge: CPRT first_seen count=1 (not ≥2). CB: daily -0.26%/weekly -0.26% (OK). Regime: normal. Universe=503. Acct=$246.39. BP=$50.00.
+## 2026-10-12T17:12:52Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0, $188.83 unsettled T+2). 3 RSI BUY signals: DELL (RL BOOST→conf=3 STRONG, rsi=47.66), MGM (MODERATE conf=2, rsi=31.57), PEG (MODERATE conf=2, rsi=46.79) — all SKIPPED investable=$0. 0 net-buy BUYs. Surge: CPT 7.7% (below 10% threshold). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503.
 
-## 2026-10-05T15:14:43Z
-- SUMMARY: Market OPEN, in_trade_window=true. SELL GILD (ATR trail stop $143.51≤$143.59, 72h held, PnL -0.92%). No BUY: buying_power=$50.00=cash buffer, GILD proceeds unsettled (T+2). 3 positions (INTU +6.94%, SPGI +1.27%, CRH +0.36%). Regime: normal. SPY RSI=63.95. 14 RSI BUY signals (LEN/TGT/BMY/SYY/TROW/VZ etc., all RL-BOOST conf=3, but $0 investable). CB: daily -0.26%/weekly -0.26% (OK). Universe=503. Acct=$246.39. BP=$50.00.
+## 2026-10-12T14:17:00Z
+- SUMMARY: Market open, in_trade_window=true. Sold AMKR (ATR trailing stop). BP=$50.00 (investable=$0, T+2 settlement). 19 RSI BUY signals (all conf=2, 8 with 🤖 RL BOOST→conf3): AMAT/MBLY/TER/RGTI/QBTS/BMY/MGM/Q — all SKIPPED investable=$0. 0 net-buy BUYs. 0 surge signals. CB: daily 0%/weekly 0% (new week, OK). Regime=normal. Acct=$238.83. Universe=503.
 
-## 2026-10-05T15:14:43Z
-- Action   : SELL GILD
-- Price    : $143.51
-- Amount   : $59.14 | Shares: 0.412108
-- RSI      : 24.51 | EMA: BEARISH | BB: IN_BAND
-- RL       : HOLD conf=0.936 | null
-- Stop     : $143.59 (ATR trail) | Target: $159.32
-- Strategy : normal | Sell date: ATR trail
+## 2026-10-12T14:16:23Z
+- Action   : SELL AMKR
+- Price    : $48.135 | Entry: $49.34
+- Amount   : ~$172.61 | Shares: 3.586549
+- RSI      : 19.5 (BUY signal, but selling) | EMA: BEARISH | BB: IN_BAND
+- RL       : HOLD conf=0.936 | null (no veto/boost applied to exit)
+- Stop     : $48.38 (ATR trail) | Target was: $54.27
+- Strategy : normal | Sell: ATR trailing stop
 - Regime   : normal
-- Reason   : ATR trailing stop triggered ($143.51 ≤ $143.59 trail, 72h held, PnL −0.92% from $144.84 avg_cost)
+- Reason   : ATR trailing stop hit: $48.135 ≤ $48.38 trail stop. ~72h held (entry 2026-10-09T14:15Z). PnL: -2.44% ($49.34→$48.135). Proceeds unsettled (T+2, available 2026-10-14). No BUYs: investable=$0.
+
+## 2026-10-09T20:12:09Z
+- SUMMARY: Market closed. Buying power: $50.00. Equity positions: 1 (AMKR @ $49.14, trail=$48.38, pnl=-0.41%). Regime: normal. Account: $243.79 (broker). Universe fetched: 503. No trades. CB: daily +0.31%/weekly -1.31% (OK). Kill switch: OK (trading_enabled=true).
+
+## 2026-10-09T18:12:00Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50 (investable=$0). No SELL: AMKR HOLD ($48.93, trail=$48.38 OK, ~4h held, pnl=-0.83%, rsi=24.79 BUY conf=2, rl=HOLD/0.93). 3 RSI BUY signals (ON conf=2/AMKR already held/CTVA conf=2) SKIPPED investable=$0. 0 net-buy BUYs. Surge: ANET 3.9% (<10%). HUM removed from surge tracker. CB: daily -0.49%/weekly -2.09% (OK). Regime=normal. Acct=$241.86. Universe=503.
+
+## 2026-10-09T17:20:00Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). No SELL conditions: AMKR HOLD ($49.25, trail=$48.38 OK, ~3h held, pnl=-0.18%, no exit triggers). 1 RSI BUY (IREN conf=2, rl=HOLD/0.93, SKIPPED investable=$0). 0 net-buy BUYs. HUM surge count=2 (≥10%, INTRADAY_SURGE threshold reached) but SELL signal (rsi=73.8) + $0 investable — no buy. CB: daily -0.07%/weekly -1.69% (OK). Regime=normal. Acct=$242.86. Universe=503.
+
+## 2026-10-09T16:14:06Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). No SELL conditions: AMKR HOLD ($49.40, trail=$48.38 OK, ~2h held, pnl=+0.12%). 0 RSI BUYs, 0 net-buy BUYs. Surge: HUM 14.6% (first sighting today, count=1, need 2 for INTRADAY_SURGE; no tracker buy). CB: daily +0.15%/weekly -1.47% (OK, no trip). Regime=normal. Acct=$243.40. Universe=503.
+
+## 2026-10-08T19:12:00Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). No SELL conditions: MOS HOLD ($19.85, trail=$19.69 OK, rsi=28.26 low-vol skip, rl=BUY 0.928, ~27h held, pnl=-0.95%). 0 RSI BUYs, 1 net-buy BUY (ACN conf=MODERATE) SKIPPED: investable=$0. 3 surge signals (ACN/CINF/EOG all 0% surge, none ≥10%). Surge tracker cleared (XOM/DG/DOW removed, all <10%). CB: daily -1.11%/weekly -1.48% (OK). Regime=normal. Acct=$243.37. Universe=503.
+
+## 2026-10-08T18:12:58Z
+- Action   : SELL SOUN
+- Price    : $5.4635 (fill) | Entry: $5.5785
+- Amount   : $125.39 | Shares: 22.939858
+- RSI      : 20.78 (BUY signal, but selling) | EMA: BEARISH | BB: BELOW_BAND
+- RL       : HOLD conf=0.936 | null (no veto/boost)
+- Stop     : $5.47 (ATR trail) | Target was: $6.14
+- Strategy : normal | Sell: ATR trail stop triggered ($5.4671 ≤ $5.47)
+- Regime   : normal
+- Reason   : ATR trailing stop hit (-2.06% loss, $5.4635 vs avg_cost $5.5785). Hours held ~4h ≥ 3h threshold met. Buying power $50 (investable $0) — no new BUYs. 18 RSI BUY signals (all conf=2, all HOLD by RL), 0 net-buy BUYs. Surge first sightings: XOM/DG/DOW (count=1, need 2). CB: daily -1.11%/weekly -1.48% (OK). Regime=normal. Acct=$243.37. Universe=503.
+
+## 2026-10-08T17:11:51Z
+- SUMMARY: Market open (ET ~13:12). No trades. 0 RSI BUY signals, 0 net-buy BUY signals, 0 surge signals. No SELL conditions triggered. 2 positions: MOS HOLD ($19.945, trail=$19.69 OK, >24h held, -0.47%), SOUN HOLD ($5.505, trail=$5.47 OK, ~3h held, -1.34%). Buying power: $50.00. CB: daily -0.80%/weekly -1.18% (OK). Regime=normal. Acct=$244.11. Universe=503.
+
+## 2026-10-08T15:15:00Z
+- SUMMARY: Market open (ET ~11:14). No trades. Buying power $50.00 = cash buffer → investable=$0, no new BUYs possible. 26 RSI BUY signals (best: INTC/QCOM/ARM conf=2+RL BOOST→3, GRMN rsi=17.79). No SELL conditions triggered on held positions. 2 positions: MOS $20.005 +0.00% (trail=$19.69 OK), SOUN $5.57 -0.18% (trail=$5.47, <3h hold). Surge tracker: CEG removed (not in >=10% surge signals any more). CB: daily -0.15%/weekly -0.53% (OK). Regime=normal. Acct=$245.73. Universe=503.
+
+## 2026-10-08T14:13:42Z
+- Action   : BUY SOUN
+- Price    : $5.58
+- Amount   : $127.97 | Shares: 22.9337
+- RSI      : 29.92 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : BUY conf=0.928 | BOOST (conf 2→3 STRONG BUY)
+- Stop     : $5.47 | Target: $6.14
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal
+- Reason   : RSI oversold+stabilizing (28.7→29.9) | BB reversal returning from band | RL BOOST STRONG BUY | investable=$127.97
+
+## 2026-10-08T14:13:25Z
+- Action   : SELL MRK
+- Price    : $140.64
+- Amount   : $19.30 | Shares: 0.137271
+- RSI      : n/a | EMA: n/a | BB: n/a
+- RL       : n/a
+- Stop     : ATR trail $140.86 triggered | Target: $154.18
+- Strategy : normal | Sell date: ATR trail stop
+- Regime   : normal
+- Reason   : ATR trail stop triggered ($140.64 ≤ $140.86, held ~48h). Entry=$140.16. PnL: +0.34% (+$0.07)
+
+## 2026-10-08T14:13:22Z
+- Action   : SELL ERIE
+- Price    : $218.45
+- Amount   : $32.37 | Shares: 0.148186
+- RSI      : n/a | EMA: n/a | BB: n/a
+- RL       : n/a
+- Stop     : ATR trail $220.97 triggered | Target: $245.93
+- Strategy : normal | Sell date: ATR trail stop
+- Regime   : normal
+- Reason   : ATR trail stop triggered ($218.45 ≤ $220.97, held ~24h). Entry=$223.57. PnL: -2.29% (-$0.76)
+
+## 2026-10-08T14:13:00Z
+- SUMMARY: Market OPEN (ET ~10:13). Sold ERIE (ATR trail) and MRK (ATR trail). Bought SOUN $127.97 (RSI conf=2 + RL BOOST → conf=3 STRONG BUY). Regime=normal. Acct≈$246.09. BP≈$50 (post-buy, ERIE+MRK proceeds unsettled). 2 positions: MOS, SOUN. CB: daily=0%/weekly=-0.38% (new day, OK). Universe=503. USB skipped (STRONG BUY but no investable after SOUN). CEG surge count=1 (not yet 2, no buy).
+
+## 2026-10-07T19:15:46Z [BACKFILL — prior cycle, not previously logged]
+- Action   : SELL VTR
+- Price    : $80.44
+- Amount   : $18.88 | Shares: 0.234720
+- RSI      : ~21.1 (oversold, HOLD) | EMA: BEARISH | BB: N/A
+- RL       : null conf=null | null
+- Stop     : $80.66 (ATR trail) triggered — price $80.44 ≤ $80.66
+- Target   : $90.17 (+10%) — not reached
+- Strategy : normal | Sell trigger: ATR trailing stop
+- Regime   : normal
+- Reason   : ATR trail stop hit: $80.44 ≤ $80.66; hours_held ~24h; PnL -1.87% from avg_cost $81.97. Exit per rule.
+
+## 2026-10-07T19:08:28Z [BACKFILL — prior cycle, not previously logged]
+- Action   : SELL GE
+- Price    : $304.12
+- Amount   : $38.02 | Shares: 0.125087
+- RSI      : ~29.2 (near-oversold, HOLD) | EMA: BULLISH | BB: N/A
+- RL       : null conf=null | null
+- Stop     : $303.90 (ATR trail) triggered — price $304.12 ≥ $303.90 (price was near stop)
+- Target   : $338.39 (+10%) — not reached
+- Strategy : normal | Sell trigger: ATR trailing stop
+- Regime   : normal
+- Reason   : ATR trail stop triggered; hours_held ~29h; PnL -1.14% from avg_cost $307.63. Exit per rule.
+
+## 2026-10-07T19:15:46Z [BACKFILL — prior cycle, not previously logged]
+- Action   : SELL VTR
+- Price    : $80.44
+- Amount   : $18.88 | Shares: 0.234720
+- RSI      : ~21.1 (oversold, HOLD) | EMA: BEARISH | BB: N/A
+- RL       : null conf=null | null
+- Stop     : $80.66 (ATR trail) triggered — price $80.44 ≤ $80.66
+- Target   : $90.17 (+10%) — not reached
+- Strategy : normal | Sell trigger: ATR trailing stop
+- Regime   : normal
+- Reason   : ATR trail stop hit: $80.44 ≤ $80.66; hours_held ~24h; PnL -1.87% from avg_cost $81.97. Exit per rule.
+
+## 2026-10-07T19:08:28Z [BACKFILL — prior cycle, not previously logged]
+- Action   : SELL GE
+- Price    : $304.12
+- Amount   : $38.02 | Shares: 0.125087
+- RSI      : ~29.2 (near-oversold, HOLD) | EMA: BULLISH | BB: N/A
+- RL       : null conf=null | null
+- Stop     : $303.90 (ATR trail) triggered — price $304.12 ≥ $303.90 (price was near stop)
+- Target   : $338.39 (+10%) — not reached
+- Strategy : normal | Sell trigger: ATR trailing stop
+- Regime   : normal
+- Reason   : ATR trail stop triggered; hours_held ~29h; PnL -1.14% from avg_cost $307.63. Exit per rule.
