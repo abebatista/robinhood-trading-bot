@@ -1,5 +1,19 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-12T14:17:00Z
+- SUMMARY: Market open, in_trade_window=true. Sold AMKR (ATR trailing stop). BP=$50.00 (investable=$0, T+2 settlement). 19 RSI BUY signals (all conf=2, 8 with 🤖 RL BOOST→conf3): AMAT/MBLY/TER/RGTI/QBTS/BMY/MGM/Q — all SKIPPED investable=$0. 0 net-buy BUYs. 0 surge signals. CB: daily 0%/weekly 0% (new week, OK). Regime=normal. Acct=$238.83. Universe=503.
+
+## 2026-10-12T14:16:23Z
+- Action   : SELL AMKR
+- Price    : $48.135 | Entry: $49.34
+- Amount   : ~$172.61 | Shares: 3.586549
+- RSI      : 19.5 (BUY signal, but selling) | EMA: BEARISH | BB: IN_BAND
+- RL       : HOLD conf=0.936 | null (no veto/boost applied to exit)
+- Stop     : $48.38 (ATR trail) | Target was: $54.27
+- Strategy : normal | Sell: ATR trailing stop
+- Regime   : normal
+- Reason   : ATR trailing stop hit: $48.135 ≤ $48.38 trail stop. ~72h held (entry 2026-10-09T14:15Z). PnL: -2.44% ($49.34→$48.135). Proceeds unsettled (T+2, available 2026-10-14). No BUYs: investable=$0.
+
 ## 2026-10-09T20:12:09Z
 - SUMMARY: Market closed. Buying power: $50.00. Equity positions: 1 (AMKR @ $49.14, trail=$48.38, pnl=-0.41%). Regime: normal. Account: $243.79 (broker). Universe fetched: 503. No trades. CB: daily +0.31%/weekly -1.31% (OK). Kill switch: OK (trading_enabled=true).
 
