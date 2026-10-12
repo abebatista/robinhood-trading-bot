@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-05",
+  "updated_at": "2026-10-12",
   "backtest_days": 14,
   "strategy_return": null,
   "spy_return": null,
-  "win_rate": 0.0,
-  "avg_win_pnl": null,
-  "avg_loss_pnl": -0.0151,
+  "win_rate": 0.167,
+  "avg_win_pnl": 0.34,
+  "avg_loss_pnl": -1.96,
   "risk_reward": null,
-  "total_trades": 3,
-  "wins": 0,
-  "losses": 3,
+  "total_trades": 6,
+  "wins": 1,
+  "losses": 5,
   "circuit_breaker_halts": 0,
-  "rl_training_samples": 625,
+  "rl_training_samples": 627,
   "rl_states_learned": 19,
   "rl_target_samples": 200,
-  "note": "Backtest skipped — yfinance/Yahoo Finance blocked in CCR sandbox (403). 3 closed trades in current log window: GILD (-0.92%, 72h ATR trail), INVH (-1.31%, 168h ATR trail), VICI (-2.3%, 120h ATR trail), all normal strategy. NO_CHANGE: n=3 < 5 for RSI_OVERSOLD; no momentum trades (n=0 < 3); avg_hold_hours=120h not < 2h for ATR threshold. Open: INTU/SPGI/CRH. Updated by daily learning CCR"
+  "note": "Updated by daily learning CCR. Backtest skipped — yfinance blocked by cloud network policy (403). Config change kept: RSI_OVERSOLD 30→32 based on 6-trade live win_rate=16.7% < 40% threshold. RL samples=627 well past 200 target but q_table not retrained (old buggy rows still mixed in per CLAUDE.md)."
 }

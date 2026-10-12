@@ -501,3 +501,12 @@
 - Backtest: skipped — yfinance/Yahoo Finance blocked in CCR sandbox (403 errors)
 - RL samples: 625/200 (READY — 425 over target)
 - Notes: All 3 closed trades hit ATR trailing stops at loss; open positions INTU/SPGI/CRH all profitable (+7.31%/+2.02%/+2.18%). Account at $247.49, trading_enabled=true. Kill switch floor at $200, current peak $249.
+
+## 2026-10-12
+- Trades analysed: 6 (AMKR, SOUN, MRK, ERIE, VTR, GE — last 30 log entries post-trim)
+- Win rate: 16.7% overall (normal: 16.7%, momentum: 0 trades, surge: 0 trades)
+- EMA breakdown: BEARISH 0/3 wins (avg -2.12%), BULLISH 0/1 (avg -1.14%), UNKNOWN 1/2 (avg -0.97%)
+- Config changes: RSI_OVERSOLD 30 → 32 (normal win_rate=16.7% < 40%, n=6 >= 5 threshold)
+- Backtest: SKIPPED — yfinance blocked by cloud network policy (403). Config change kept on statistical evidence.
+- RL samples: 627/200 (target exceeded; q_table stale at 19 states per CLAUDE.md note — retrain needed once clean rows dominate)
+- Notes: account_value=$238.83 (down from $249 peak, -4.1%). All buying power consumed by T+2 unsettled proceeds from AMKR sale ($188.83 unsettled until 2026-10-14). No open equity positions. RSI tightened to reduce low-quality mean-reversion setups — consistent with CLAUDE.md's finding that full-universe scan surfaces more low-quality entries. ATR trailing stop accounting for all exits (fast stops on SOUN ~4h, longer holds on others).
