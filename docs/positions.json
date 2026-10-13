@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-13T15:13:12Z",
+  "updated_at": "2026-10-13T16:10:00Z",
   "buying_power": 50.0,
   "market_regime": "normal",
-  "account_value": 235.52,
+  "account_value": 234.10,
   "peak_value": 249.0,
   "day_start_value": 238.83,
   "day_start_date": "2026-10-13",
   "week_start_value": 238.83,
   "week_start_date": "2026-10-12",
   "trading_enabled": true,
-  "kill_switch_pct": 0.2,
+  "kill_switch_pct": 0.20,
   "kill_switch_floor": 200.0,
   "disabled_reason": null,
   "positions": [
@@ -17,9 +17,9 @@
       "ticker": "CAT",
       "quantity": 0.242195,
       "avg_cost": 779.66,
-      "current_price": 765.985,
-      "pnl_pct": -0.0175,
-      "value": 185.52,
+      "current_price": 759.25,
+      "pnl_pct": -0.0262,
+      "value": 183.89,
       "entry_atr_pct": 0.02,
       "entry_time": "2026-10-13T14:14:58Z",
       "trail_stop": 748.47,
@@ -29,10 +29,10 @@
     }
   ],
   "last_actions": [
-    "2026-10-13T15:13Z No trades. Market open+in_window. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$765.99 (PnL=-1.75%). Stop=$748.47 (ATR, no ratchet), TP=$857.63. No exit conditions (hours_held=1h<3h min; signal=BUY; price>stop). No new BUYs (investable=$0). 37 RSI BUYs (QQQ/JNJ/VRT/AVAV/CRDO+32 more) — all skipped. Surge: none ≥10%. CB: daily -1.16%/weekly -1.16% (OK). Regime=normal. Universe=503.",
+    "2026-10-13T16:10Z No trades. Market open+in_window. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$759.25 (PnL=-2.62%). Stop=$748.47 (ATR, no ratchet profit<0), TP=$857.63. No exit conditions (hours_held=1.9h<3h min; signal=BUY; price>stop). No new BUYs (investable=$0). 30 RSI BUYs (JNJ/VRT/ANET/CDNS/AVAV/IREN+24 more) — all skipped. 1 Net BUY (LIN) — skipped. 6 RL BOOST candidates (conf=0.928) but investable=$0. Surge: none >=10%. CB: daily -1.98%/weekly -1.98% (OK). Regime=normal. Universe=503.",
+    "2026-10-13T15:13Z No trades. Market open+in_window. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$765.99 (PnL=-1.75%). Stop=$748.47 (ATR, no ratchet), TP=$857.63. No exit conditions (hours_held=1h<3h min; signal=BUY; price>stop). No new BUYs (investable=$0). 37 RSI BUYs (QQQ/JNJ/VRT/AVAV/CRDO+32 more) — all skipped. Surge: none >=10%. CB: daily -1.16%/weekly -1.16% (OK). Regime=normal. Universe=503.",
     "2026-10-13T14:19Z No trades. BP=$50.00 (investable=$0). CAT fill confirmed: 0.242195 sh @ $779.66. Price=$778.30 (PnL=-0.17%). Stop=$748.47, TP=$857.63. No exit conditions. CB: daily -0.12%/weekly -0.12% (OK). Regime=normal. Acct=$238.54.",
-    "2026-10-13T14:15Z BUY CAT $188.83 (0.2422 sh @ ~$779.50). RL BOOST conf=2→3 STRONG BUY. RSI=25.5 oversold, BB below band. Stop=$748.32, TP=$857.45. investable=$188.83. Regime=normal. Acct=$238.83. Universe=503.",
-    "2026-10-12T20:15:04Z Market closed. No trades. BP=$50.00 ($188.83 unsettled T+2). 11 RSI BUYs (MU/SOUN/IONQ/NVTS/INFQ/RGTI/QBTS/OKLO/UUUU/AEHR/SNDK) + 2 net-buy BUYs (ZTS/EL) — market closed. 2 surge signals (ZTS 16.3%/EL 123.3%). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503.",
-    "2026-10-12T19:12Z No trades. Market open, in_trade_window=true. BP=$50.00 (investable=$0, $188.83 unsettled T+2). 8 RSI BUYs (AMD/IONQ/INFQ/NBIS/NVTS/BMY/GLW/WDC MODERATE conf=2) + EL net-buy — all skipped investable=$0. Surge: EL count=2 (INTRADAY cand, investable=$0), FIS count=1. 30 RSI SELLs (none held). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503."
+    "2026-10-13T14:15Z BUY CAT $188.83 (0.2422 sh @ ~$779.50). RL BOOST conf=2->3 STRONG BUY. RSI=25.5 oversold, BB below band. Stop=$748.32, TP=$857.45. investable=$188.83. Regime=normal. Acct=$238.83. Universe=503.",
+    "2026-10-12T20:15:04Z Market closed. No trades. BP=$50.00 ($188.83 unsettled T+2). 11 RSI BUYs (MU/SOUN/IONQ/NVTS/INFQ/RGTI/QBTS/OKLO/UUUU/AEHR/SNDK) + 2 net-buy BUYs (ZTS/EL) — market closed. 2 surge signals (ZTS 16.3%/EL 123.3%). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503."
   ]
 }

@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-13T16:10:00Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ avg $779.66, price=$759.25 (PnL=-2.62%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. No exit conditions (hours_held=1.9h<3h min for rules b/c; signal=BUY; price $759.25>stop $748.47; price<TP). No new BUYs (investable=$0). 30 RSI BUY signals (all conf=2, bearish-ema — JNJ/VRT/ANET/CDNS/AVAV/IREN + 24 more, all skipped investable=$0). 1 Net BUY: LIN (also skipped, investable=$0). JNJ/VRT/ANET/CDNS/AVAV/IREN have rl_action=BUY conf=0.928 (would RL BOOST to conf=3 if investable). Surge: 0 signals ≥10%. CB: daily -1.98%/weekly -1.98% (OK). Kill switch: trading_enabled=true. Regime=normal. Acct=$234.10. Universe=503.
+
 ## 2026-10-13T15:13:12Z
 - SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ avg $779.66, price=$765.99 (PnL=-1.75%). ATR trail_stop=$748.47 (no ratchet, profit<2.5%), TP=$857.63. No exit conditions (hours_held=1h<3h min for rules b/c; signal=BUY; price>stop; price<TP). No new BUYs (investable=$0). 37 RSI BUY signals (QQQ/JNJ/VRT/AVAV/CRDO/ALAB+31 more — all skipped, investable=$0). Surge tracker: no 10%+ signals. CB: daily -1.16%/weekly -1.16% (OK). Kill switch: trading_enabled=true. Regime=normal. Acct=$235.52. Universe=503.
 
