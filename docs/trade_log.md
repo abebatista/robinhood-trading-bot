@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-13T18:14:00Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$765.12 (PnL=-1.86%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. No exit (hours_held=4.0h; signal=BUY; price $765.12>stop $748.47; price<TP). No new BUYs (investable=$0). 14 RSI BUYs (MU conf=2 RSI=20.9, JNJ/AMAT/LRCX/KLAC/ASML/PL/CRWV/BEN/HWM/INCY/IVZ/TTWO/CAT — all conf=2, RL BOOST→conf3: BEN/HWM/INCY/IVZ — all skipped investable=$0). 1 Net BUY: LIN (skipped). Surge: CI 68.3% count=1, FTV 720.1% count=1 (need 2). CB: daily -1.47%/weekly -1.47% (OK). Kill switch: trading_enabled=true. Regime=normal. Acct=$235.31. Universe=503.
+
 ## 2026-10-13T17:13:08Z
 - SUMMARY: Market open+in_window. Buying power: $50.00. Equity positions: 1. Regime: normal (SPY $777.24 > EMA200 $770.42). Account: $234.14. Universe fetched: 503. CAT: 0.242195sh @ $779.66, price=$760.23 (PnL=-2.49%). Stop=$748.47 (ATR, no ratchet profit<0), TP=$857.63. No exit (hours_held≈2.97h<3h min; signal=HOLD; price>stop). No new BUYs (investable=$0). 7 RSI BUYs (TER/LAZR/QBTS/INFQ/AVAV/AEHR/STX all conf=2, RL=HOLD) — all skipped (investable=$0). 1 net-buy BUY (LIN) — skipped. Surge: none >=10%. CB: daily -1.96%/weekly -1.96% (OK). Kill switch: trading_enabled=true.
 
