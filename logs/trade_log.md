@@ -1,5 +1,11 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-13T18:14:00Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$765.12 (PnL=-1.86%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. No exit (hours_held=4.0h; signal=BUY; price $765.12>stop $748.47; price<TP). No new BUYs (investable=$0). 14 RSI BUYs (MU conf=2 RSI=20.9, JNJ/AMAT/LRCX/KLAC/ASML/PL/CRWV/BEN/HWM/INCY/IVZ/TTWO/CAT — all conf=2, RL BOOST→conf3: BEN/HWM/INCY/IVZ — all skipped investable=$0). 1 Net BUY: LIN (skipped). Surge: CI 68.3% count=1, FTV 720.1% count=1 (need 2). CB: daily -1.47%/weekly -1.47% (OK). Kill switch: trading_enabled=true. Regime=normal. Acct=$235.31. Universe=503.
+
+## 2026-10-13T17:13:00Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$760.23 (PnL=-2.49%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. No exit (hours_held≈2.97h<3h min; signal=HOLD; price>stop). 7 RSI BUYs (TER/LAZR/QBTS/INFQ/AVAV/AEHR/STX) — all skipped (investable=$0). CB: daily -1.96%/weekly -1.96% (OK). Kill switch: trading_enabled=true. Regime=normal. Acct=$234.14. Universe=503.
+
 ## 2026-10-13T16:10:00Z
 - SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ avg $779.66, price=$759.25 (PnL=-2.62%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. No exit conditions (hours_held=1.9h<3h min for rules b/c; signal=BUY; price $759.25>stop $748.47; price<TP). No new BUYs (investable=$0). 30 RSI BUY signals (all conf=2, bearish-ema — JNJ/VRT/ANET/CDNS/AVAV/IREN + 24 more, all skipped investable=$0). 1 Net BUY: LIN (also skipped, investable=$0). JNJ/VRT/ANET/CDNS/AVAV/IREN have rl_action=BUY conf=0.928 (would RL BOOST to conf=3 if investable). Surge: 0 signals ≥10%. CB: daily -1.98%/weekly -1.98% (OK). Kill switch: trading_enabled=true. Regime=normal. Acct=$234.10. Universe=503.
 
@@ -45,30 +51,6 @@
 - Strategy : normal | Sell: ATR trailing stop
 - Regime   : normal
 - Reason   : ATR trailing stop hit: $48.135 ≤ $48.38 trail stop. ~72h held (entry 2026-10-09T14:15Z). PnL: -2.44% ($49.34→$48.135). Proceeds unsettled (T+2, available 2026-10-14). No BUYs: investable=$0.
-
-## 2026-10-07T19:15:46Z [BACKFILL — prior cycle, not previously logged]
-- Action   : SELL VTR
-- Price    : $80.44
-- Amount   : $18.88 | Shares: 0.234720
-- RSI      : ~21.1 (oversold, HOLD) | EMA: BEARISH | BB: N/A
-- RL       : null conf=null | null
-- Stop     : $80.66 (ATR trail) triggered — price $80.44 ≤ $80.66
-- Target   : $90.17 (+10%) — not reached
-- Strategy : normal | Sell trigger: ATR trailing stop
-- Regime   : normal
-- Reason   : ATR trail stop hit: $80.44 ≤ $80.66; hours_held ~24h; PnL -1.87% from avg_cost $81.97. Exit per rule.
-
-## 2026-10-07T19:08:28Z [BACKFILL — prior cycle, not previously logged]
-- Action   : SELL GE
-- Price    : $304.12
-- Amount   : $38.02 | Shares: 0.125087
-- RSI      : ~29.2 (near-oversold, HOLD) | EMA: BULLISH | BB: N/A
-- RL       : null conf=null | null
-- Stop     : $303.90 (ATR trail) triggered — price $304.12 ≥ $303.90 (price was near stop)
-- Target   : $338.39 (+10%) — not reached
-- Strategy : normal | Sell trigger: ATR trailing stop
-- Regime   : normal
-- Reason   : ATR trail stop triggered; hours_held ~29h; PnL -1.14% from avg_cost $307.63. Exit per rule.
 
 ## 2026-10-07T19:15:46Z [BACKFILL — prior cycle, not previously logged]
 - Action   : SELL VTR
