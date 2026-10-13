@@ -1,23 +1,38 @@
 {
-  "updated_at": "2026-10-12T20:15:04Z",
+  "updated_at": "2026-10-13T14:15:00Z",
   "buying_power": 50.0,
   "market_regime": "normal",
   "account_value": 238.83,
   "peak_value": 249.0,
   "day_start_value": 238.83,
-  "day_start_date": "2026-10-12",
+  "day_start_date": "2026-10-13",
   "week_start_value": 238.83,
   "week_start_date": "2026-10-12",
   "trading_enabled": true,
   "kill_switch_pct": 0.2,
   "kill_switch_floor": 200.0,
   "disabled_reason": null,
-  "positions": [],
+  "positions": [
+    {
+      "ticker": "CAT",
+      "quantity": 0.24224,
+      "avg_cost": 779.50,
+      "current_price": 779.50,
+      "pnl_pct": 0.0,
+      "value": 188.83,
+      "entry_atr_pct": 0.02,
+      "entry_time": "2026-10-13T14:14:58Z",
+      "trail_stop": 748.32,
+      "take_profit": 857.45,
+      "strategy": "normal",
+      "sell_date": null
+    }
+  ],
   "last_actions": [
-    "2026-10-12T20:15:04Z Market closed. No trades. BP=$50.00 (investable=$0, $188.83 unsettled T+2). 11 RSI BUYs (MU/SOUN/IONQ/NVTS/INFQ/RGTI/QBTS/OKLO/UUUU/AEHR/SNDK) + 2 net-buy BUYs (ZTS/EL) \u2014 market closed. 2 surge signals (ZTS 16.3%/EL 123.3%). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503.",
-    "2026-10-12T19:12Z No trades. Market open, in_trade_window=true. BP=$50.00 (investable=$0, $188.83 unsettled T+2). 8 RSI BUYs (AMD/IONQ/INFQ/NBIS/NVTS/BMY/GLW/WDC MODERATE conf=2) + EL net-buy \u2014 all skipped investable=$0. Surge: EL count=2 (INTRADAY cand, investable=$0), FIS count=1. 30 RSI SELLs (none held). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503.",
-    "2026-10-12T18:12Z No trades. Market open, in_trade_window=true. BP=$50.00 (investable=$0, $188.83 unsettled T+2). 30 RSI BUY signals (AMAT/LRCX RL BOOST\u2192STRONG, 28 MODERATE) + EL net-buy \u2014 all skipped investable=$0. Surge: EL 67.7%/BIIB 10.6% (count=1, need 2). 49 RSI SELLs (none held). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503.",
-    "2026-10-12T17:12Z No trades. Market open, in_trade_window=true. BP=$50.00 (investable=$0, $188.83 unsettled T+2). 3 RSI BUYs: DELL (RL BOOST\u2192STRONG conf=3), MGM (MODERATE conf=2), PEG (MODERATE conf=2) \u2014 all skipped investable=$0. 0 net-buy BUYs. Surge: CPT 7.7% (below 10% threshold). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503.",
-    "2026-10-12T16:15:00Z Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0, $188.83 unsettled T+2). 4 RSI BUY signals (CSCO/TSM RL BOOST\u2192STRONG, CTVA/MOS MODERATE) all skipped investable=$0. 0 net-buy BUYs. Surge: DOW+EBAY count=1 each (need 2). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503."
+    "2026-10-13T14:15Z BUY CAT $188.83 (0.2422 sh @ ~$779.50). RL BOOST conf=2→3 STRONG BUY. RSI=25.5 oversold, BB below band. Stop=$748.32, TP=$857.45. investable=$188.83. Regime=normal. Acct=$238.83. Universe=503.",
+    "2026-10-12T20:15:04Z Market closed. No trades. BP=$50.00 ($188.83 unsettled T+2). 11 RSI BUYs (MU/SOUN/IONQ/NVTS/INFQ/RGTI/QBTS/OKLO/UUUU/AEHR/SNDK) + 2 net-buy BUYs (ZTS/EL) — market closed. 2 surge signals (ZTS 16.3%/EL 123.3%). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503.",
+    "2026-10-12T19:12Z No trades. Market open, in_trade_window=true. BP=$50.00 (investable=$0, $188.83 unsettled T+2). 8 RSI BUYs (AMD/IONQ/INFQ/NBIS/NVTS/BMY/GLW/WDC MODERATE conf=2) + EL net-buy — all skipped investable=$0. Surge: EL count=2 (INTRADAY cand, investable=$0), FIS count=1. 30 RSI SELLs (none held). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503.",
+    "2026-10-12T18:12Z No trades. Market open, in_trade_window=true. BP=$50.00 (investable=$0, $188.83 unsettled T+2). 30 RSI BUY signals (AMAT/LRCX RL BOOST→STRONG, 28 MODERATE) + EL net-buy — all skipped investable=$0. Surge: EL 67.7%/BIIB 10.6% (count=1, need 2). 49 RSI SELLs (none held). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503.",
+    "2026-10-12T17:12Z No trades. Market open, in_trade_window=true. BP=$50.00 (investable=$0, $188.83 unsettled T+2). 3 RSI BUYs: DELL (RL BOOST→STRONG conf=3), MGM (MODERATE conf=2), PEG (MODERATE conf=2) — all skipped investable=$0. 0 net-buy BUYs. Surge: CPT 7.7% (below 10% threshold). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503."
   ]
 }
