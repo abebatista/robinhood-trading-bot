@@ -510,3 +510,12 @@
 - Backtest: SKIPPED — yfinance blocked by cloud network policy (403). Config change kept on statistical evidence.
 - RL samples: 627/200 (target exceeded; q_table stale at 19 states per CLAUDE.md note — retrain needed once clean rows dominate)
 - Notes: account_value=$238.83 (down from $249 peak, -4.1%). All buying power consumed by T+2 unsettled proceeds from AMKR sale ($188.83 unsettled until 2026-10-14). No open equity positions. RSI tightened to reduce low-quality mean-reversion setups — consistent with CLAUDE.md's finding that full-universe scan surfaces more low-quality entries. ATR trailing stop accounting for all exits (fast stops on SOUN ~4h, longer holds on others).
+
+## 2026-10-13
+- Trades analysed: 3 closed pairs visible in trimmed log (AMKR -2.44% ATR-stop/normal/BEARISH EMA/72h; VTR -1.87% ATR-stop/normal/BEARISH EMA/24h; GE -1.14% ATR-stop/normal/BULLISH EMA/29h); 1 open (CAT BUY 2026-10-13, pnl=-0.89%)
+- Win rate: 0% overall (normal: 0% [n=3]; momentum: n/a [n=0]; surge: n/a [n=0])
+- EMA-trend win rate: BEARISH entry 0% (n=2); BULLISH entry 0% (n=1)
+- Config changes: none — NO_CHANGE: RSI_OVERSOLD n=3 < 5 minimum (RSI_OVERSOLD=32 retained from 2026-10-12 tightening); MOMENTUM_VOL_MIN n=0 < 3 minimum; ATR_VOLATILITY_THRESHOLD avg_hold=41.7h not < 2h
+- Backtest: SKIPPED — yfinance/PyPI blocked in cloud sandbox (403, recurring per CLAUDE.md); prior metrics null
+- RL samples: 627/200 (READY — 0 new rows; rl_collector skipped, yfinance unavailable; 19 Q-states, stale per CLAUDE.md)
+- Notes: All 3 closed trades hit ATR trailing stops at losses. CAT open position entered 2026-10-13 at RSI=25.5 (RL BOOST conf 2→3), currently -0.89%. Account $237.14 (peak $249, kill switch floor $200). Buying power $50 (at buffer). Normal regime. Universe=503. PyPI install continues to fail (network policy). trim_log kept 16/16 entries.

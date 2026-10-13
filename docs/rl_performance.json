@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-12",
+  "updated_at": "2026-10-13",
   "backtest_days": 14,
   "strategy_return": null,
   "spy_return": null,
-  "win_rate": 0.167,
-  "avg_win_pnl": 0.34,
-  "avg_loss_pnl": -1.96,
+  "win_rate": 0.0,
+  "avg_win_pnl": null,
+  "avg_loss_pnl": -1.82,
   "risk_reward": null,
-  "total_trades": 6,
-  "wins": 1,
-  "losses": 5,
+  "total_trades": 3,
+  "wins": 0,
+  "losses": 3,
   "circuit_breaker_halts": 0,
   "rl_training_samples": 627,
   "rl_states_learned": 19,
   "rl_target_samples": 200,
-  "note": "Updated by daily learning CCR. Backtest skipped — yfinance blocked by cloud network policy (403). Config change kept: RSI_OVERSOLD 30→32 based on 6-trade live win_rate=16.7% < 40% threshold. RL samples=627 well past 200 target but q_table not retrained (old buggy rows still mixed in per CLAUDE.md)."
+  "note": "Updated by daily learning CCR. Backtest skipped — yfinance/PyPI blocked in cloud sandbox (403, known per CLAUDE.md). 3 closed trades visible in trimmed log: AMKR -2.44%, VTR -1.87%, GE -1.14% — all ATR trailing-stop losses. NO_CHANGE on all thresholds: n=3 < 5 minimum for RSI_OVERSOLD; no momentum trades (n<3); avg_hold=41.7h not fast-stopped. CAT position open since 2026-10-13T14:14Z (currently -0.89%). RSI_OVERSOLD=32 retained from 2026-10-12 tightening. rl_collector could not run (yfinance unavailable); 627 samples unchanged."
 }
