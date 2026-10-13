@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-13T20:27:38.024818+00:00",
+  "timestamp": "2026-10-13T20:56:54.088631+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -1971,13 +1971,13 @@
     {
       "ticker": "ADM",
       "action": "HOLD",
-      "price": 83.22000122070312,
-      "rsi": 65.09,
+      "price": 82.94999694824219,
+      "rsi": 63.23,
       "ema_trend": "BULLISH",
       "bb_signal": "ABOVE_BAND",
       "confidence": 0,
-      "atr_pct": 0.0089,
-      "reason": "RSI=65.1 (stable), BB=ABOVE_BAND, EMA=BULLISH",
+      "atr_pct": 0.0092,
+      "reason": "RSI=63.2 (stable), BB=ABOVE_BAND, EMA=BULLISH",
       "fib_target": null,
       "rl_action": "HOLD",
       "rl_confidence": 0.918
@@ -2082,17 +2082,17 @@
     },
     {
       "ticker": "ADP",
-      "action": "HOLD",
-      "price": 275.7900085449219,
-      "rsi": 68.38,
+      "action": "SELL",
+      "price": 276.7300109863281,
+      "rsi": 75.39,
       "ema_trend": "BULLISH",
-      "bb_signal": "IN_BAND",
-      "confidence": 0,
-      "atr_pct": 0.0049,
-      "reason": "RSI=68.4 (falling), BB=IN_BAND, EMA=BULLISH",
+      "bb_signal": "ABOVE_BAND",
+      "confidence": 2,
+      "atr_pct": 0.005,
+      "reason": "RSI overbought (75.4) | price above BB upper band",
       "fib_target": null,
-      "rl_action": "HOLD",
-      "rl_confidence": 0.918
+      "rl_action": null,
+      "rl_confidence": null
     },
     {
       "ticker": "AZO",
@@ -2629,13 +2629,13 @@
     {
       "ticker": "CNP",
       "action": "HOLD",
-      "price": 39.369998931884766,
-      "rsi": 69.96,
+      "price": 39.35499954223633,
+      "rsi": 69.61,
       "ema_trend": "BULLISH",
       "bb_signal": "ABOVE_BAND",
       "confidence": 0,
-      "atr_pct": 0.0048,
-      "reason": "RSI=70.0 (stable), BB=ABOVE_BAND, EMA=BULLISH",
+      "atr_pct": 0.0052,
+      "reason": "RSI=69.6 (stable), BB=ABOVE_BAND, EMA=BULLISH",
       "fib_target": null,
       "rl_action": "HOLD",
       "rl_confidence": 0.918
@@ -6479,13 +6479,13 @@
     {
       "ticker": "STX",
       "action": "HOLD",
-      "price": 747.2100219726562,
-      "rsi": 43.14,
+      "price": 734.1199951171875,
+      "rsi": 36.29,
       "ema_trend": "BEARISH",
       "bb_signal": "IN_BAND",
       "confidence": 0,
-      "atr_pct": 0.0193,
-      "reason": "RSI=43.1 (stable), BB=IN_BAND, EMA=BEARISH",
+      "atr_pct": 0.0196,
+      "reason": "low volume (0.54x avg) \u2014 skipping",
       "fib_target": null,
       "rl_action": null,
       "rl_confidence": null
@@ -6661,13 +6661,13 @@
     {
       "ticker": "STT",
       "action": "HOLD",
-      "price": 173.9600067138672,
-      "rsi": 46.99,
+      "price": 174.33999633789062,
+      "rsi": 49.57,
       "ema_trend": "BEARISH",
       "bb_signal": "IN_BAND",
       "confidence": 0,
-      "atr_pct": 0.0071,
-      "reason": "RSI=47.0 (stable), BB=IN_BAND, EMA=BEARISH",
+      "atr_pct": 0.0073,
+      "reason": "RSI=49.6 (stable), BB=IN_BAND, EMA=BEARISH",
       "fib_target": null,
       "rl_action": null,
       "rl_confidence": null
@@ -6885,13 +6885,13 @@
     {
       "ticker": "TMO",
       "action": "HOLD",
-      "price": 663.3400268554688,
-      "rsi": 57.19,
+      "price": 662.1875,
+      "rsi": 55.48,
       "ema_trend": "BULLISH",
-      "bb_signal": "ABOVE_BAND",
+      "bb_signal": "IN_BAND",
       "confidence": 0,
       "atr_pct": 0.0069,
-      "reason": "RSI=57.2 (stable), BB=ABOVE_BAND, EMA=BULLISH",
+      "reason": "RSI=55.5 (stable), BB=IN_BAND, EMA=BULLISH",
       "fib_target": null,
       "rl_action": "HOLD",
       "rl_confidence": 0.918
@@ -7529,13 +7529,13 @@
     {
       "ticker": "WSM",
       "action": "HOLD",
-      "price": 239.97999572753906,
-      "rsi": 50.6,
+      "price": 239.16000366210938,
+      "rsi": 47.25,
       "ema_trend": "NEUTRAL",
       "bb_signal": "IN_BAND",
       "confidence": 0,
-      "atr_pct": 0.0077,
-      "reason": "RSI=50.6 (stable), BB=IN_BAND, EMA=NEUTRAL",
+      "atr_pct": 0.0084,
+      "reason": "RSI=47.2 (falling), BB=IN_BAND, EMA=NEUTRAL",
       "fib_target": null,
       "rl_action": null,
       "rl_confidence": null
@@ -7669,13 +7669,13 @@
     {
       "ticker": "ZTS",
       "action": "HOLD",
-      "price": 74.33000183105469,
-      "rsi": 51.17,
+      "price": 74.58000183105469,
+      "rsi": 54.28,
       "ema_trend": "BULLISH",
-      "bb_signal": "BELOW_BAND",
+      "bb_signal": "IN_BAND",
       "confidence": 0,
-      "atr_pct": 0.0059,
-      "reason": "RSI=51.2 (falling), BB=BELOW_BAND, EMA=BULLISH",
+      "atr_pct": 0.0058,
+      "reason": "RSI=54.3 (falling), BB=IN_BAND, EMA=BULLISH",
       "fib_target": null,
       "rl_action": "HOLD",
       "rl_confidence": 0.91
@@ -7995,15 +7995,6 @@
       "reason": "Buy vol \u219128.3% vs prior day | Net buy reversed: 1.69M \u2192 0.00M | OBV -1.6M/day"
     },
     {
-      "ticker": "ABT",
-      "price": 102.61000061035156,
-      "buy_surge_pct": 0.0836,
-      "buy_vol_d2": 6392991,
-      "buy_vol_d3": 6927499,
-      "net_buy_d3": 4039599,
-      "reason": "Buy vol \u21918.4% vs prior day | 1d streak | latest 4.04M | OBV 3.4M/day"
-    },
-    {
       "ticker": "AOS",
       "price": 57.88999938964844,
       "buy_surge_pct": 1.0814,
@@ -8011,6 +8002,15 @@
       "buy_vol_d3": 1653739,
       "net_buy_d3": 1602061,
       "reason": "Buy vol \u2191108.1% vs prior day | 1d streak | latest 1.60M | OBV 0.4M/day"
+    },
+    {
+      "ticker": "ABT",
+      "price": 102.61000061035156,
+      "buy_surge_pct": 0.0836,
+      "buy_vol_d2": 6392991,
+      "buy_vol_d3": 6927499,
+      "net_buy_d3": 4039599,
+      "reason": "Buy vol \u21918.4% vs prior day | 1d streak | latest 4.04M | OBV 3.4M/day"
     }
   ]
 }
