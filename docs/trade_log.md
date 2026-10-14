@@ -1,8 +1,5 @@
 # Trade Log — Robinhood Agentic Account
 
-## 2026-10-14T20:11:28Z
-- SUMMARY: Market closed (after 16:00 ET). No trades. BP=$50.00. Equity positions: 0. Regime: bearish_ema. Account: $230.33. Universe fetched: 503. No RSI BUY signals (conf>=2). 71 RSI SELL signals (no positions to sell). Net-buy BUYs: LIN, STLD. Surges: LIN, STLD, LVS, DE (market closed — surge tracker not updated, only updates when market_open=true). CB: daily 1.93%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. trading_halted=false.
-
 ## 2026-10-14T19:10:33Z
 - SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0 — unsettled $180.33 T+1 from CAT sale at 14:15ET). 0 equity positions. No SELLs (no open positions). No BUYs: investable=$0 (< $15 min). Regime=bearish_ema. SPY RSI=27.88 (PANIC filter A active). 0 RSI BUY signals, 1 net buy (LIN, investable=$0). Surges: LIN 162% (count=1 new), DOW 12% (count=1 new), GILD 266% (count=1 new). HD/CME/COST removed (no longer surging). CB: daily 1.93%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.
 
