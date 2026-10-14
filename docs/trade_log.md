@@ -1,7 +1,7 @@
 # Trade Log — Robinhood Agentic Account
 
 ## 2026-10-14T19:10:33Z
-- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0 — unsettled $180.33 T+1 from CAT sale at 14:15ET). 0 equity positions. No SELLs (no open positions). No BUYs: investable=$0 (< $15 min). Regime=bearish_ema. SPY RSI=27.88 (PANIC filter A active). 0 RSI BUY signals, 1 net buy (LIN, bypass panic via net-buy but investable=$0). Surges: LIN 162% (count=1 new), DOW 12% (count=1 new), GILD 266% (count=1 new). HD/CME/COST removed (no longer surging). CB: daily 1.93%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0 — unsettled $180.33 T+1 from CAT sale at 14:15ET). 0 equity positions. No SELLs (no open positions). No BUYs: investable=$0 (< $15 min). Regime=bearish_ema. SPY RSI=27.88 (PANIC filter A active). 0 RSI BUY signals, 1 net buy (LIN, investable=$0). Surges: LIN 162% (count=1 new), DOW 12% (count=1 new), GILD 266% (count=1 new). HD/CME/COST removed (no longer surging). CB: daily 1.93%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.
 
 ## 2026-10-14T18:09:13Z
 - Action   : SELL CAT
