@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T18:15:00Z",
+  "updated_at": "2026-10-14T19:10:33Z",
   "buying_power": 50.0,
   "market_regime": "bearish_ema",
   "account_value": 230.33,
@@ -14,9 +14,9 @@
   "disabled_reason": null,
   "positions": [],
   "last_actions": [
-    "2026-10-14T18:15Z Market open, in_window=true. SOLD CAT 0.242195sh @ ~$744.65 (ATR trail stop triggered: $745.23 \u2264 $748.47; held 28h). Proceeds ~$180.33. P&L \u2248 -4.49% (-$8.48). BP=$50.00 (unsettled T+1: $180.33). 0 equity positions. No BUYs: SPY RSI=28.15 (panic, REGIME FILTER A active), investable=$0, regime=bearish_ema. 0 RSI BUYs, 0 net BUYs. Surge: HD count=1, CME count=1, COST count=1 (all first-seen, count<2, no intraday_surge). CB: daily 1.93%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.",
-    "2026-10-14T17:12Z Market open, in_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$749.50 (PnL=-3.87%). Stop=$748.47 (ATR, no ratchet profit<0), TP=$857.63. \u26a0\ufe0f Very close to stop ($1.03 margin). Signal=HOLD (RSI=25.7, EMA=BEARISH, BB=BELOW_BAND, conf=0). RL=HOLD conf=0.919. No exit. No BUYs (investable=$0). 0 RSI BUYs, 1 net BUY LIN (skipped). Surge: LIN 112% count=1. CB: daily 1.43%/weekly 3.06% (OK). Regime=bearish_ema. Acct=$231.53. Universe=503.",
-    "2026-10-14T16:11Z Market open, in_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$749.33 (PnL=-3.89%). Stop=$748.47 (ATR, no ratchet profit<0), TP=$857.63. \u26a0\ufe0f Trail stop margin only $0.86. Signal=BUY (RSI=26.87, EMA=BEARISH, BB=BELOW_BAND, conf=2). RL=HOLD conf=0.906. No exit. No BUYs (investable=$0). 3 RSI BUYs, 0 strong. CB: daily 1.41%/weekly 3.05% (OK). Regime=normal. Acct=$231.55. Universe=503.",
-    "2026-10-14T15:11Z Market open, in_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$756.69 (PnL=-2.95%). Stop=$748.47 (ATR, no ratchet profit<0), TP=$857.63. Signal=HOLD (RSI=28.26, EMA=BEARISH, BB=BELOW_BAND). RL=HOLD conf=0.906. No exit. No BUYs (investable=$0). 1 RSI BUY MU conf=2 (skipped), 1 Net BUY GOOG (skipped). CB: daily 0.68%/weekly 2.32% (OK). Regime=normal. Acct=$233.28. Universe=503."
+    "2026-10-14T19:10Z Market open, in_window=true. No trades. BP=$50.00 (investable=$0, unsettled $180.33 T+1). 0 positions. No SELLs (no positions). No BUYs: investable=$0. SPY RSI=27.88 (PANIC). Regime=bearish_ema. Surges: LIN 162%(new), DOW 12%(new), GILD 266%(new). CB: daily 1.93%/weekly 3.56% (OK). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.",
+    "2026-10-14T18:15Z Market open, in_window=true. SOLD CAT 0.242195sh @ ~$744.65 (ATR trail stop triggered: $745.23 ≤ $748.47; held 28h). Proceeds ~$180.33. P&L ≈ -4.49% (-$8.48). BP=$50.00 (unsettled T+1: $180.33). 0 equity positions. No BUYs: SPY RSI=28.15 (panic, REGIME FILTER A active), investable=$0, regime=bearish_ema. 0 RSI BUYs, 0 net BUYs. Surge: HD count=1, CME count=1, COST count=1 (all first-seen, count<2, no intraday_surge). CB: daily 1.93%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.",
+    "2026-10-14T17:12Z Market open, in_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$749.50 (PnL=-3.87%). Stop=$748.47 (ATR, no ratchet profit<0), TP=$857.63. ⚠️ Very close to stop ($1.03 margin). Signal=HOLD (RSI=25.7, EMA=BEARISH, BB=BELOW_BAND, conf=0). RL=HOLD conf=0.919. No exit. No BUYs (investable=$0). 0 RSI BUYs, 1 net BUY LIN (skipped). Surge: LIN 112% count=1. CB: daily 1.43%/weekly 3.06% (OK). Regime=bearish_ema. Acct=$231.53. Universe=503.",
+    "2026-10-14T16:11Z Market open, in_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$749.33 (PnL=-3.89%). Stop=$748.47 (ATR, no ratchet profit<0), TP=$857.63. ⚠️ Trail stop margin only $0.86. Signal=BUY (RSI=26.87, EMA=BEARISH, BB=BELOW_BAND, conf=2). RL=HOLD conf=0.906. No exit. No BUYs (investable=$0). 3 RSI BUYs, 0 strong. CB: daily 1.41%/weekly 3.05% (OK). Regime=normal. Acct=$231.55. Universe=503."
   ]
 }
