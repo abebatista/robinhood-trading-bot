@@ -1,5 +1,19 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-14T18:09:13Z
+- Action   : SELL CAT
+- Price    : $744.65 (est. fill — ATR trail stop triggered: last quote $745.23 ≤ stop $748.47)
+- Amount   : $180.33 | Shares: 0.242195
+- RSI      : 24.41 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : HOLD conf=0.886 | null
+- Stop     : $748.47 (TRIGGERED) | Target: $857.63
+- Strategy : normal | Sell date: ATR trailing stop
+- Regime   : bearish_ema
+- Reason   : ATR trail stop hit. SPY in panic (RSI=28.15 <30). Market bearish_ema regime. Held 28h from 2026-10-13T14:14Z. Est. P&L ≈ -4.49% (-$8.48). Account $230.33.
+
+## 2026-10-14T18:15:00Z
+- SUMMARY: Market open, in_window=True. SOLD CAT (ATR trail stop triggered). Buying power: $50.00 (unsettled T+1: ~$180.33). 0 equity positions. No BUYs: SPY RSI=28.15 (PANIC, REGIME FILTER A — skip all buys). bearish_ema regime. 0 RSI BUYs, 0 net BUYs, 3 surge (HD/CME/COST, count=1 first-seen only). CB: daily 1.93%/weekly 3.56% (OK). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.
+
 ## 2026-10-14T16:11:44Z
 - SUMMARY: Market open, in_trade_window=True. No trades placed. Buying power: $50.00 (investable=$0.00 — $50 buffer = $50 remaining). Equity positions: 1 (CAT). Regime: normal. Account: $231.55. Universe fetched: 503. CAT: 0.242195sh @ $779.66, price=$749.33 (PnL=-3.89%). ATR trail_stop=$748.47 (no ratchet, profit<0). TP=$857.63. Signal=BUY (RSI=26.87 oversold/stabilizing, EMA=BEARISH, BB=BELOW_BAND, conf=2). RL=HOLD conf=0.906. No exit (price $749.33 > trail_stop $748.47 — ⚠️ margin only $0.86; > stop-loss $740.68; < TP $857.63; CAT not in net_sell). No new BUYs: investable=$0. 3 RSI BUYs noted (no strong buys). 0 net_buy_buy signals. 1 Surge (AMT 6.0%, below 10% threshold). CB: daily 1.41%/weekly 3.05% (OK, <3%/<5%). Kill switch: trading_enabled=true.
 
