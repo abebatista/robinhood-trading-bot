@@ -1,10 +1,24 @@
 # Trade Log — Robinhood Agentic Account
 
-## 2026-10-14T17:12:00Z
-- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$749.50 (PnL=-3.87%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. No exit (price $749.50>$748.47, no SELL signal, price<TP). No new BUYs (investable=$0). RSI BUY: 0. Net BUY: 1 (LIN — skipped, investable=$0). Surge: LIN (112% count=1, need 2) — no intraday candidates. CB: daily 1.43%/weekly 3.06% (OK). Kill switch: trading_enabled=true. Regime=bearish_ema. ⚠️ Regime changed to bearish_ema this cycle (SPY $770.32 < EMA200 $770.55). Acct=$231.53. Universe=503.
+## 2026-10-14T18:09:13Z
+- Action   : SELL CAT
+- Price    : $744.65 (est. fill — ATR trail stop triggered: last quote $745.23 ≤ stop $748.47)
+- Amount   : $180.33 | Shares: 0.242195
+- RSI      : 24.41 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : HOLD conf=0.886 | null
+- Stop     : $748.47 (TRIGGERED) | Target: $857.63
+- Strategy : normal | Sell date: ATR trailing stop
+- Regime   : bearish_ema
+- Reason   : ATR trail stop hit. SPY in panic (RSI=28.15 <30). Market bearish_ema regime. Held 28h from 2026-10-13T14:14Z. Est. P&L ≈ -4.49% (-$8.48). Account $230.33.
 
-## 2026-10-14T15:11:44Z
-- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$756.69 (PnL=-2.95%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. No exit (hours_held=24.9h≥3h; signal=HOLD RSI=28.26 EMA=BEARISH BB=BELOW_BAND; price $756.69>stop $748.47; price<TP). No new BUYs (investable=$0). RSI BUY: 1 (MU conf=2, RL=HOLD conf=0.93 — skipped investable=$0). Net BUY: 1 (GOOG — skipped investable=$0). Surge: 0. CB: daily 0.68%/weekly 2.32% (OK). Kill switch: trading_enabled=true. Regime=normal. Acct=$233.28. Universe=503.
+## 2026-10-14T18:15:00Z
+- SUMMARY: Market open, in_window=True. SOLD CAT (ATR trail stop triggered). Buying power: $50.00 (unsettled T+1: ~$180.33). 0 equity positions. No BUYs: SPY RSI=28.15 (PANIC, REGIME FILTER A — skip all buys). bearish_ema regime. 0 RSI BUYs, 0 net BUYs, 3 surge (HD/CME/COST, count=1 first-seen only). CB: daily 1.93%/weekly 3.56% (OK). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.
+
+## 2026-10-14T16:11:44Z
+- SUMMARY: Market open, in_trade_window=True. No trades placed. Buying power: $50.00 (investable=$0.00 — $50 buffer = $50 remaining). Equity positions: 1 (CAT). Regime: normal. Account: $231.55. Universe fetched: 503. CAT: 0.242195sh @ $779.66, price=$749.33 (PnL=-3.89%). ATR trail_stop=$748.47 (no ratchet, profit<0). TP=$857.63. Signal=BUY (RSI=26.87 oversold/stabilizing, EMA=BEARISH, BB=BELOW_BAND, conf=2). RL=HOLD conf=0.906. No exit (price $749.33 > trail_stop $748.47 — ⚠️ margin only $0.86; > stop-loss $740.68; < TP $857.63; CAT not in net_sell). No new BUYs: investable=$0. 3 RSI BUYs noted (no strong buys). 0 net_buy_buy signals. 1 Surge (AMT 6.0%, below 10% threshold). CB: daily 1.41%/weekly 3.05% (OK, <3%/<5%). Kill switch: trading_enabled=true.
+
+## 2026-10-14T14:12:00Z
+- SUMMARY: Market open, in_trade_window=True. No trades placed. Buying power: $50.00 (investable=$0.00 — $50 buffer = $50 remaining). Equity positions: 1 (CAT). Regime: normal. Account: $234.87. Universe fetched: 503. CAT: 0.242195sh @ $779.66, price=$763.30 (PnL=-2.10%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. Signal=HOLD (RSI=29.73, EMA=BEARISH, BB=IN_BAND). RL=BUY conf=0.928. No exit (price $763.30 > stop $748.47; price < TP $857.63; HOLD signal). No new BUYs: investable=$0 (buying_power=$50, buffer=$50). 58 RSI BUYs noted (top: QQQ RSI=26.75 RL_BUY, BAC RSI=15.3, C RSI=22.34, RIVN RSI=18.64 — all skipped investable=$0). 1 Net BUY: GOOG (skipped). 0 Surge. CB: daily 0.00%/weekly 1.66% (OK). Kill switch: trading_enabled=true.
 
 ## 2026-10-13T20:15:13Z
 - SUMMARY: Market closed (16:05 ET). No trades. BP=$50.00. Equity positions: 1 (CAT). Regime: normal. Account: $237.14. Universe fetched: 503. CAT: 0.242195sh @ $779.66, price=$772.70 (PnL=-0.89%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. Signal=HOLD (RSI=34.01, EMA=BEARISH, BB=IN_BAND). No exit (market closed). Kill switch: trading_enabled=true. CB: daily 0.71%/weekly 0.71% (OK). 5 RSI BUYs, 59 RSI SELLs noted (no action, market closed).
