@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-14T16:11:44Z",
+  "updated_at": "2026-10-14T17:12:00Z",
   "buying_power": 50.0,
-  "market_regime": "normal",
-  "account_value": 231.55,
+  "market_regime": "bearish_ema",
+  "account_value": 231.53,
   "peak_value": 249.0,
   "day_start_value": 234.87,
   "day_start_date": "2026-10-14",
@@ -17,9 +17,9 @@
       "ticker": "CAT",
       "quantity": 0.242195,
       "avg_cost": 779.66,
-      "current_price": 749.33,
-      "pnl_pct": -0.0389,
-      "value": 181.55,
+      "current_price": 749.50,
+      "pnl_pct": -0.0387,
+      "value": 181.53,
       "entry_atr_pct": 0.02,
       "entry_time": "2026-10-13T14:14:58Z",
       "trail_stop": 748.47,
@@ -29,9 +29,9 @@
     }
   ],
   "last_actions": [
+    "2026-10-14T17:12Z Market open, in_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$749.50 (PnL=-3.87%). Stop=$748.47 (ATR, no ratchet profit<0), TP=$857.63. ⚠️ Very close to stop ($1.03 margin). Signal=HOLD (RSI=25.7, EMA=BEARISH, BB=BELOW_BAND, conf=0). RL=HOLD conf=0.919. No exit. No BUYs (investable=$0). 0 RSI BUYs, 1 net BUY LIN (skipped). Surge: LIN 112% count=1. CB: daily 1.43%/weekly 3.06% (OK). Regime=bearish_ema. Acct=$231.53. Universe=503.",
     "2026-10-14T16:11Z Market open, in_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$749.33 (PnL=-3.89%). Stop=$748.47 (ATR, no ratchet profit<0), TP=$857.63. ⚠️ Trail stop margin only $0.86. Signal=BUY (RSI=26.87, EMA=BEARISH, BB=BELOW_BAND, conf=2). RL=HOLD conf=0.906. No exit. No BUYs (investable=$0). 3 RSI BUYs, 0 strong. CB: daily 1.41%/weekly 3.05% (OK). Regime=normal. Acct=$231.55. Universe=503.",
     "2026-10-14T15:11Z Market open, in_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$756.69 (PnL=-2.95%). Stop=$748.47 (ATR, no ratchet profit<0), TP=$857.63. Signal=HOLD (RSI=28.26, EMA=BEARISH, BB=BELOW_BAND). RL=HOLD conf=0.906. No exit. No BUYs (investable=$0). 1 RSI BUY MU conf=2 (skipped), 1 Net BUY GOOG (skipped). CB: daily 0.68%/weekly 2.32% (OK). Regime=normal. Acct=$233.28. Universe=503.",
-    "2026-10-14T14:12Z Market open, in_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$763.30 (PnL=-2.10%). Stop=$748.47 (ATR, no ratchet profit<0), TP=$857.63. Signal=HOLD (RSI=29.73, EMA=BEARISH). RL=BUY conf=0.928. No exit. No BUYs (investable=$0). 58 RSI BUYs, 1 Net BUY GOOG -- all skipped. CB: daily 0.0%/weekly 1.66% (OK). Regime=normal. Acct=$234.87. Universe=503.",
-    "2026-10-13T14:15Z BUY CAT $188.83 (0.2422 sh @ ~$779.50). RL BOOST conf=2->3 STRONG BUY. RSI=25.5 oversold, BB below band. Stop=$748.32, TP=$857.45. investable=$188.83. Regime=normal. Acct=$238.83. Universe=503."
+    "2026-10-14T14:12Z Market open, in_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$763.30 (PnL=-2.10%). Stop=$748.47 (ATR, no ratchet profit<0), TP=$857.63. Signal=HOLD (RSI=29.73, EMA=BEARISH). RL=BUY conf=0.928. No exit. No BUYs (investable=$0). 58 RSI BUYs, 1 Net BUY GOOG -- all skipped. CB: daily 0.0%/weekly 1.66% (OK). Regime=normal. Acct=$234.87. Universe=503."
   ]
 }

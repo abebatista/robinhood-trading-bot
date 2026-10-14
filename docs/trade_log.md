@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-14T17:12:00Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$749.50 (PnL=-3.87%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. No exit (price $749.50>$748.47, no SELL signal, price<TP). No new BUYs (investable=$0). RSI BUY: 0. Net BUY: 1 (LIN — skipped, investable=$0). Surge: LIN (112% count=1, need 2) — no intraday candidates. CB: daily 1.43%/weekly 3.06% (OK). Kill switch: trading_enabled=true. Regime=bearish_ema. ⚠️ Regime changed to bearish_ema this cycle (SPY $770.32 < EMA200 $770.55). Acct=$231.53. Universe=503.
+
 ## 2026-10-14T15:11:44Z
 - SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$756.69 (PnL=-2.95%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. No exit (hours_held=24.9h≥3h; signal=HOLD RSI=28.26 EMA=BEARISH BB=BELOW_BAND; price $756.69>stop $748.47; price<TP). No new BUYs (investable=$0). RSI BUY: 1 (MU conf=2, RL=HOLD conf=0.93 — skipped investable=$0). Net BUY: 1 (GOOG — skipped investable=$0). Surge: 0. CB: daily 0.68%/weekly 2.32% (OK). Kill switch: trading_enabled=true. Regime=normal. Acct=$233.28. Universe=503.
 
