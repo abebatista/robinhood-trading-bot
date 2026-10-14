@@ -519,3 +519,10 @@
 - Backtest: SKIPPED — yfinance/PyPI blocked in cloud sandbox (403, recurring per CLAUDE.md); prior metrics null
 - RL samples: 627/200 (READY — 0 new rows; rl_collector skipped, yfinance unavailable; 19 Q-states, stale per CLAUDE.md)
 - Notes: All 3 closed trades hit ATR trailing stops at losses. CAT open position entered 2026-10-13 at RSI=25.5 (RL BOOST conf 2→3), currently -0.89%. Account $237.14 (peak $249, kill switch floor $200). Buying power $50 (at buffer). Normal regime. Universe=503. PyPI install continues to fail (network policy). trim_log kept 16/16 entries.
+## 2026-10-14
+- Trades analysed: 4 (CAT -4.49%, AMKR -2.44%, VTR -1.87%, GE -1.14%)
+- Win rate: 0% overall (normal: 0%, momentum: n/a — 0 trades, surge: n/a — 0 trades)
+- Config changes: none (n_trades=4 < 5 minimum for RSI_OVERSOLD; 0 momentum trades; avg_hold=38.25h)
+- Backtest: skipped — yfinance blocked by cloud network policy (403, known issue per CLAUDE.md)
+- RL samples: 629/200 (target exceeded; q_table has 19 states, retrain pending per CLAUDE.md note)
+- Notes: All exits via ATR trailing stop in a bearish_ema regime. RSI_OVERSOLD=32 retained from 2026-10-12 tightening. Account at $230.33 (kill switch floor $200). rl_collector +2 rows today.
