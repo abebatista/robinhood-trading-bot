@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-14T16:11:44Z
+- SUMMARY: Market open, in_trade_window=True. No trades placed. Buying power: $50.00 (investable=$0.00 — $50 buffer = $50 remaining). Equity positions: 1 (CAT). Regime: normal. Account: $231.55. Universe fetched: 503. CAT: 0.242195sh @ $779.66, price=$749.33 (PnL=-3.89%). ATR trail_stop=$748.47 (no ratchet, profit<0). TP=$857.63. Signal=BUY (RSI=26.87 oversold/stabilizing, EMA=BEARISH, BB=BELOW_BAND, conf=2). RL=HOLD conf=0.906. No exit (price $749.33 > trail_stop $748.47 — ⚠️ margin only $0.86; > stop-loss $740.68; < TP $857.63; CAT not in net_sell). No new BUYs: investable=$0. 3 RSI BUYs noted (no strong buys). 0 net_buy_buy signals. 1 Surge (AMT 6.0%, below 10% threshold). CB: daily 1.41%/weekly 3.05% (OK, <3%/<5%). Kill switch: trading_enabled=true.
+
 ## 2026-10-14T14:12:00Z
 - SUMMARY: Market open, in_trade_window=True. No trades placed. Buying power: $50.00 (investable=$0.00 — $50 buffer = $50 remaining). Equity positions: 1 (CAT). Regime: normal. Account: $234.87. Universe fetched: 503. CAT: 0.242195sh @ $779.66, price=$763.30 (PnL=-2.10%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. Signal=HOLD (RSI=29.73, EMA=BEARISH, BB=IN_BAND). RL=BUY conf=0.928. No exit (price $763.30 > stop $748.47; price < TP $857.63; HOLD signal). No new BUYs: investable=$0 (buying_power=$50, buffer=$50). 58 RSI BUYs noted (top: QQQ RSI=26.75 RL_BUY, BAC RSI=15.3, C RSI=22.34, RIVN RSI=18.64 — all skipped investable=$0). 1 Net BUY: GOOG (skipped). 0 Surge. CB: daily 0.00%/weekly 1.66% (OK). Kill switch: trading_enabled=true.
 
