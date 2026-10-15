@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-15T18:10:06Z",
-  "buying_power": 230.33,
-  "market_regime": "bearish_ema",
-  "account_value": 230.33,
+  "updated_at": "2026-10-15T19:13:30Z",
+  "buying_power": 72.54,
+  "market_regime": "normal",
+  "account_value": 230.32,
   "peak_value": 249.0,
   "day_start_value": 230.33,
   "day_start_date": "2026-10-15",
@@ -12,11 +12,54 @@
   "kill_switch_pct": 0.20,
   "kill_switch_floor": 200.0,
   "disabled_reason": null,
-  "positions": [],
+  "positions": [
+    {
+      "ticker": "WMB",
+      "quantity": 1.301344,
+      "avg_cost": 69.29,
+      "current_price": 69.305,
+      "pnl_pct": 0.0002,
+      "value": 90.16,
+      "entry_atr_pct": 0.0111,
+      "entry_time": "2026-10-15T19:12:36Z",
+      "trail_stop": 67.75,
+      "take_profit": 76.22,
+      "strategy": "normal",
+      "sell_date": null
+    },
+    {
+      "ticker": "PLD",
+      "quantity": 0.355969,
+      "avg_cost": 126.64,
+      "current_price": 126.625,
+      "pnl_pct": -0.0001,
+      "value": 45.08,
+      "entry_atr_pct": 0.0084,
+      "entry_time": "2026-10-15T19:12:41Z",
+      "trail_stop": 124.51,
+      "take_profit": 139.30,
+      "strategy": "normal",
+      "sell_date": null
+    },
+    {
+      "ticker": "WM",
+      "quantity": 0.100940,
+      "avg_cost": 223.30,
+      "current_price": 223.33,
+      "pnl_pct": 0.0001,
+      "value": 22.54,
+      "entry_atr_pct": 0.0066,
+      "entry_time": "2026-10-15T19:12:46Z",
+      "trail_stop": 220.35,
+      "take_profit": 245.63,
+      "strategy": "intraday_surge",
+      "sell_date": "2026-10-15"
+    }
+  ],
   "last_actions": [
+    "2026-10-15T19:12Z Market open, in_window=true. 3 BUYs: WMB $90.17 (RSI=23.3 oversold, BB reversal), PLD $45.08 (RSI=30.2 oversold, BB reversal), WM $22.54 (net-buy 4d streak + intraday surge 133.4% count=2). BP=$72.54. 3 positions. Regime=normal (shifted from bearish_ema). SPY RSI=44.63 (HOLD). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.32. Universe=503.",
     "2026-10-15T18:10Z Market open, in_window=true. No trades. BP=$230.33. 0 positions. 0 RSI BUYs (conf>=2), 127 RSI SELLs. 1 net-buy BUY (WM - skip: bearish_ema, conf<3). 3 surges (WM 128.1%, APA 383.7%, TPR 26.0% - count=1, no intraday candidates). SPY RSI=40.76 (HOLD). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.",
     "2026-10-15T17:10Z Market open, in_window=true. No trades. BP=$230.33. 0 positions. 0 RSI BUYs (conf>=2), 71 RSI SELLs. 0 net-buy BUYs. 0 surges. SPY RSI=37.61 (HOLD, low-vol). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.",
-    "2026-10-15T16:12Z Market open, in_window=true. No trades. BP=$230.33. 0 positions. 0 RSI BUYs (conf>=2), 125 RSI SELLs. 0 net-buy BUYs. 1 surge (APA, count=1, bearish_ema+conf=0 skip). SPY RSI=37.89 (HOLD). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.",
-    "2026-10-15T15:15Z Market open, in_window=true. No trades. BP=$230.33. 0 positions. 0 RSI BUYs (conf>=2), 170 RSI SELLs. 0 net-buy BUYs. 0 surges. SPY RSI=37.81 (HOLD). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503."
+    "2026-10-15T16:12Z Market open, in_window=true. No trades. BP=$230.33. 0 positions. 0 RSI BUYs (conf>=2), 125 RSI SELLs. 0 net-buy BUYs. 1 surge (APA, count=1, bearish_ema+conf=0 skip). SPY RSI=37.89 (HOLD). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503."
   ]
 }

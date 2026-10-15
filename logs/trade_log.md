@@ -1,5 +1,38 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-15T19:12:46Z
+- Action   : BUY WM
+- Price    : $223.30
+- Amount   : $22.54 | Shares: 0.100940
+- RSI      : 84.51 (HOLD — low volume skip) | EMA: BULLISH | BB: ABOVE_BAND
+- RL       : null conf=null | null
+- Stop     : $220.35 | Target: $245.63
+- Strategy : intraday_surge | Sell date: 2026-10-15
+- Regime   : normal
+- Reason   : Net-buy 4d streak (0.12M→0.53M→0.92M) | Intraday surge 133.4% (count=2)
+
+## 2026-10-15T19:12:41Z
+- Action   : BUY PLD
+- Price    : $126.64
+- Amount   : $45.08 | Shares: 0.355969
+- RSI      : 30.19 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : null conf=null | null
+- Stop     : $124.51 | Target: $139.30
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal
+- Reason   : RSI oversold+stabilizing (30.4≈30.2) | BB reversal: 0.02→0.07 (returning from band)
+
+## 2026-10-15T19:12:36Z
+- Action   : BUY WMB
+- Price    : $69.29
+- Amount   : $90.17 | Shares: 1.301344
+- RSI      : 23.28 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : HOLD conf=0.93 | null
+- Stop     : $67.75 | Target: $76.22
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal
+- Reason   : RSI oversold+stabilizing (24.3≈23.3) | BB reversal: 0.02→0.08 (returning from band)
+
 ## 2026-10-15T17:10:06Z
 - SUMMARY: Market open, in_trade_window=true. No trades. BP=$230.33. 0 equity positions. No SELLs (no positions). No BUYs: 0 RSI BUYs (conf>=2), 0 net-buy BUYs, 0 surges. Bearish_ema regime (SPY $769.90 < EMA200 $770.47). SPY RSI=37.61 (HOLD, low-vol skip). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.
 
