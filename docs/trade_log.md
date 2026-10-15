@@ -1,11 +1,19 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-15T18:10:06Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$230.33. 0 equity positions. No SELLs (no positions). No BUYs: 0 RSI BUYs (conf≥2), 127 RSI SELLs. 1 net-buy BUY (WM — skipped: bearish_ema regime, no RSI conf≥3 confirmation). 3 surge signals (WM 128.1%, APA 383.7%, TPR 26.0% — all count=1 first-seen, no intraday buy candidates yet). SPY RSI=40.76 (HOLD). Regime=bearish_ema. CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.
+
+## 2026-10-15T15:15:00Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$230.33. 0 equity positions. No SELLs (no positions). No BUYs: 0 RSI BUYs (conf≥2), 0 net-buy BUYs, 0 surges. SPY RSI=37.81 (HOLD — not in panic). Regime=bearish_ema. CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.
+## 2026-10-12T20:15:04Z
+- SUMMARY: Market closed. Buying power: $50.00 ($188.83 unsettled T+2). Equity positions: 0. Regime: normal. Account: $238.83. Universe fetched: 503. No trades (market closed). 11 RSI BUYs (MU/SOUN/IONQ/NVTS/INFQ/RGTI/QBTS/OKLO/UUUU/AEHR/SNDK all conf≥2) + 2 net-buy BUYs (ZTS/EL) — market closed, no orders placed. 2 surge signals (ZTS 16.3%/EL 123.3%). CB: daily 0.0%/weekly 0.0% (OK). Kill switch: trading_enabled=true.
+## 2026-10-12T19:12:37Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0, $188.83 unsettled T+2). 8 RSI BUYs (AMD/IONQ/INFQ/NBIS/NVTS/BMY/GLW/WDC, all MODERATE conf=2, RL=HOLD) + EL net-buy — all SKIPPED investable=$0. Surge: EL 84.0% count=2 (INTRADAY BUY CANDIDATE, but investable=$0), FIS 66.3% count=1 (need 2). 30 RSI SELLs + 10 net-buy SELLs (none held). CB: daily 0.0%/weekly 0.0% (OK). Regime=normal. Acct=$238.83. Universe=503.
 ## 2026-10-15T17:10:06Z
 - SUMMARY: Market open, in_trade_window=true. No trades. BP=$230.33. 0 equity positions. No SELLs (no positions). No BUYs: 0 RSI BUYs (conf>=2), 0 net-buy BUYs, 0 surges. Bearish_ema regime (SPY $769.90 < EMA200 $770.47). SPY RSI=37.61 (HOLD, low-vol skip). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.
 
 ## 2026-10-15T16:12:00Z
 - SUMMARY: Market open, in_trade_window=true. No trades. BP=$230.33. 0 equity positions. No SELLs (no positions). No BUYs: 0 RSI BUYs (conf>=2), 0 net-buy BUYs. Bearish_ema regime (3/3 conf required — APA surge count=1, RSI=57 conf=0 → skip). SPY RSI=37.89 (HOLD). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.
-
 ## 2026-10-14T19:10:33Z
 - SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0 — unsettled $180.33 T+1 from CAT sale at 14:15ET). 0 equity positions. No SELLs (no open positions). No BUYs: investable=$0 (< $15 min). Regime=bearish_ema. SPY RSI=27.88 (PANIC filter A active). 0 RSI BUY signals, 1 net buy (LIN, investable=$0). Surges: LIN 162% (count=1 new), DOW 12% (count=1 new), GILD 266% (count=1 new). HD/CME/COST removed (no longer surging). CB: daily 1.93%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.
 
