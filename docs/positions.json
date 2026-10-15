@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T15:15:00Z",
+  "updated_at": "2026-10-15T16:12:00Z",
   "buying_power": 230.33,
   "market_regime": "bearish_ema",
   "account_value": 230.33,
@@ -14,9 +14,9 @@
   "disabled_reason": null,
   "positions": [],
   "last_actions": [
+    "2026-10-15T16:12Z Market open, in_window=true. No trades. BP=$230.33. 0 positions. 0 RSI BUYs (conf>=2), 125 RSI SELLs. 0 net-buy BUYs. 1 surge (APA, count=1, bearish_ema+conf=0 skip). SPY RSI=37.89 (HOLD). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.",
     "2026-10-15T15:15Z Market open, in_window=true. No trades. BP=$230.33. 0 positions. 0 RSI BUYs (conf>=2), 170 RSI SELLs. 0 net-buy BUYs. 0 surges. SPY RSI=37.81 (HOLD). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.",
     "2026-10-15T14:15Z Market open, in_window=true. No trades. BP=$230.33. 0 positions. 0 RSI BUYs (conf>=2), 174 RSI SELLs. 0 net-buy BUYs. 0 surges. SPY RSI=31.29 (HOLD). CB: daily 0.00% (new day)/weekly 3.56% (OK <5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.",
-    "2026-10-14T20:11Z Market closed. No trades. BP=$50.00. 0 positions. Regime=bearish_ema. 0 RSI BUYs (conf>=2), 71 RSI SELLs. Net-buy BUYs: LIN, STLD. Surges: LIN, STLD, LVS, DE. CB: daily 1.93%/weekly 3.56% (OK). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.",
-    "2026-10-14T19:10Z Market open, in_window=true. No trades. BP=$50.00 (investable=$0, unsettled $180.33 T+1). 0 positions. No SELLs (no positions). No BUYs: investable=$0. SPY RSI=27.88 (PANIC). Regime=bearish_ema. Surges: LIN 162%(new), DOW 12%(new), GILD 266%(new). CB: daily 1.93%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503."
+    "2026-10-14T20:11Z Market closed. No trades. BP=$50.00. 0 positions. Regime=bearish_ema. 0 RSI BUYs (conf>=2), 71 RSI SELLs. Net-buy BUYs: LIN, STLD. Surges: LIN, STLD, LVS, DE. CB: daily 1.93%/weekly 3.56% (OK). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503."
   ]
 }
