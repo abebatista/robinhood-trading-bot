@@ -65,38 +65,6 @@
 ## 2026-10-14T14:12:00Z
 - SUMMARY: Market open, in_trade_window=True. No trades placed. Buying power: $50.00 (investable=$0.00 — $50 buffer = $50 remaining). Equity positions: 1 (CAT). Regime: normal. Account: $234.87. Universe fetched: 503. CAT: 0.242195sh @ $779.66, price=$763.30 (PnL=-2.10%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. Signal=HOLD (RSI=29.73, EMA=BEARISH, BB=IN_BAND). RL=BUY conf=0.928. No exit (price $763.30 > stop $748.47; price < TP $857.63; HOLD signal). No new BUYs: investable=$0 (buying_power=$50, buffer=$50). 58 RSI BUYs noted (top: QQQ RSI=26.75 RL_BUY, BAC RSI=15.3, C RSI=22.34, RIVN RSI=18.64 — all skipped investable=$0). 1 Net BUY: GOOG (skipped). 0 Surge. CB: daily 0.00%/weekly 1.66% (OK). Kill switch: trading_enabled=true.
 
-## 2026-10-13T20:15:13Z
-- SUMMARY: Market closed (16:05 ET). No trades. BP=$50.00. Equity positions: 1 (CAT). Regime: normal. Account: $237.14. Universe fetched: 503. CAT: 0.242195sh @ $779.66, price=$772.70 (PnL=-0.89%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. Signal=HOLD (RSI=34.01, EMA=BEARISH, BB=IN_BAND). No exit (market closed). Kill switch: trading_enabled=true. CB: daily 0.71%/weekly 0.71% (OK). 5 RSI BUYs, 59 RSI SELLs noted (no action, market closed).
-
-## 2026-10-13T19:13:44Z
-- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$771.33 (PnL=-1.07%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. No exit (hours_held~4.97h≥3h; signal=HOLD; price $771.33>stop $748.47; price<TP). No new BUYs (investable=$0). 0 RSI BUYs. 1 Net BUY: LIN (conf=None, skipped). 0 Surge. CB: daily -0.85%/weekly -0.85% (OK). Kill switch: trading_enabled=true. Regime=normal. Acct=$236.81. Universe=503.
-
-## 2026-10-13T18:14:00Z
-- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$765.12 (PnL=-1.86%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. No exit (hours_held=4.0h; signal=BUY; price $765.12>stop $748.47; price<TP). No new BUYs (investable=$0). 14 RSI BUYs (MU conf=2 RSI=20.9, JNJ/AMAT/LRCX/KLAC/ASML/PL/CRWV/BEN/HWM/INCY/IVZ/TTWO/CAT — all conf=2, RL BOOST→conf3: BEN/HWM/INCY/IVZ — all skipped investable=$0). 1 Net BUY: LIN (skipped). Surge: CI 68.3% count=1, FTV 720.1% count=1 (need 2). CB: daily -1.47%/weekly -1.47% (OK). Kill switch: trading_enabled=true. Regime=normal. Acct=$235.31. Universe=503.
-
-## 2026-10-13T17:13:00Z
-- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ $779.66, price=$760.23 (PnL=-2.49%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. No exit (hours_held≈2.97h<3h min; signal=HOLD; price>stop). 7 RSI BUYs (TER/LAZR/QBTS/INFQ/AVAV/AEHR/STX) — all skipped (investable=$0). CB: daily -1.96%/weekly -1.96% (OK). Kill switch: trading_enabled=true. Regime=normal. Acct=$234.14. Universe=503.
-
-## 2026-10-13T16:10:00Z
-- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ avg $779.66, price=$759.25 (PnL=-2.62%). ATR trail_stop=$748.47 (no ratchet, profit<0), TP=$857.63. No exit conditions (hours_held=1.9h<3h min for rules b/c; signal=BUY; price $759.25>stop $748.47; price<TP). No new BUYs (investable=$0). 30 RSI BUY signals (all conf=2, bearish-ema — JNJ/VRT/ANET/CDNS/AVAV/IREN + 24 more, all skipped investable=$0). 1 Net BUY: LIN (also skipped, investable=$0). JNJ/VRT/ANET/CDNS/AVAV/IREN have rl_action=BUY conf=0.928 (would RL BOOST to conf=3 if investable). Surge: 0 signals ≥10%. CB: daily -1.98%/weekly -1.98% (OK). Kill switch: trading_enabled=true. Regime=normal. Acct=$234.10. Universe=503.
-
-## 2026-10-13T15:13:12Z
-- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT: 0.242195sh @ avg $779.66, price=$765.99 (PnL=-1.75%). ATR trail_stop=$748.47 (no ratchet, profit<2.5%), TP=$857.63. No exit conditions (hours_held=1h<3h min for rules b/c; signal=BUY; price>stop; price<TP). No new BUYs (investable=$0). 37 RSI BUY signals (QQQ/JNJ/VRT/AVAV/CRDO/ALAB+31 more — all skipped, investable=$0). Surge tracker: no 10%+ signals. CB: daily -1.16%/weekly -1.16% (OK). Kill switch: trading_enabled=true. Regime=normal. Acct=$235.52. Universe=503.
-
-## 2026-10-13T14:19:00Z
-- SUMMARY: Market open, in_trade_window=true. No trades. BP=$50.00 (investable=$0). CAT fill confirmed: 0.242195 sh @ $779.66 (est. $779.50 in prior entry). Current price=$778.30 (PnL=-0.17%). ATR trail stop=$748.47, TP=$857.63. No exit conditions triggered. RSI ~oversold at entry — no SELL signal. CB: daily -0.12%/weekly -0.12% (OK). Regime=normal. Acct=$238.54.
-
-## 2026-10-13T14:14:58Z
-- Action   : BUY CAT
-- Price    : $779.50 (estimated market fill)
-- Amount   : $188.83 | Shares: 0.242240
-- RSI      : 25.5 | EMA: BEARISH | BB: BELOW_BAND
-- RL       : BUY conf=0.928 | 🤖 RL BOOST (conf 2→3 STRONG BUY)
-- Stop     : $748.32 (ATR trail, initial) | Target: $857.45 (+10%)
-- Strategy : normal | Sell date: ATR/signal
-- Regime   : normal
-- Reason   : RSI 25.5 oversold+stabilizing | BB below band | RL BOOST to STRONG BUY
-
 ## 2026-10-07T19:15:46Z [BACKFILL — prior cycle, not previously logged]
 - Action   : SELL VTR
 - Price    : $80.44

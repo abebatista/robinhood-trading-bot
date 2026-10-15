@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-14",
+  "updated_at": "2026-10-15",
   "backtest_days": 14,
   "strategy_return": null,
   "spy_return": null,
-  "win_rate": 0.0,
-  "avg_win_pnl": null,
-  "avg_loss_pnl": -2.49,
+  "win_rate": 0.167,
+  "avg_win_pnl": 0.34,
+  "avg_loss_pnl": -1.96,
   "risk_reward": null,
-  "total_trades": 4,
-  "wins": 0,
-  "losses": 4,
+  "total_trades": 6,
+  "wins": 1,
+  "losses": 5,
   "circuit_breaker_halts": 0,
   "rl_training_samples": 629,
   "rl_states_learned": 19,
   "rl_target_samples": 200,
-  "note": "Updated by daily learning CCR. Backtest skipped — yfinance/PyPI blocked in cloud sandbox (403, known per CLAUDE.md). 4 closed trades in trimmed log: CAT -4.49%, AMKR -2.44%, VTR -1.87%, GE -1.14% — all ATR trailing-stop losses. NO_CHANGE on all thresholds: normal n=4 < 5 minimum for RSI_OVERSOLD; no momentum trades (n<3); avg_hold=38.25h not fast-stopped. RSI_OVERSOLD=32 retained from 2026-10-12 tightening."
+  "note": "Updated by daily learning CCR. Backtest skipped — yfinance blocked by cloud network policy (403, known per CLAUDE.md). 6 closed trades total (1W/5L), all ATR trailing-stop exits. NO_CHANGE on all thresholds: normal n=4 < 5 minimum; no momentum trades; avg_hold ~27h. RSI_OVERSOLD=32 retained from 2026-10-12 tightening. 629 RL samples (READY, >200 target). Q-table has 19 states (stale per CLAUDE.md)."
 }
