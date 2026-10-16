@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-16T15:13:00Z",
+  "updated_at": "2026-10-16T16:11:00Z",
   "buying_power": 72.54,
-  "market_regime": "normal",
-  "account_value": 231.57,
+  "market_regime": "bearish_ema",
+  "account_value": 231.32,
   "peak_value": 249.0,
   "day_start_value": 231.20,
   "day_start_date": "2026-10-16",
@@ -17,9 +17,9 @@
       "ticker": "WMB",
       "quantity": 1.301344,
       "avg_cost": 69.29,
-      "current_price": 69.84,
-      "pnl_pct": 0.0079,
-      "value": 90.91,
+      "current_price": 69.935,
+      "pnl_pct": 0.0093,
+      "value": 91.01,
       "entry_atr_pct": 0.0111,
       "entry_time": "2026-10-15T19:12:36Z",
       "trail_stop": 67.75,
@@ -31,9 +31,9 @@
       "ticker": "PLD",
       "quantity": 0.355969,
       "avg_cost": 126.64,
-      "current_price": 127.91,
-      "pnl_pct": 0.0100,
-      "value": 45.54,
+      "current_price": 126.86,
+      "pnl_pct": 0.0017,
+      "value": 45.16,
       "entry_atr_pct": 0.0084,
       "entry_time": "2026-10-15T19:12:41Z",
       "trail_stop": 124.51,
@@ -43,10 +43,10 @@
     }
   ],
   "last_actions": [
+    "2026-10-16T16:11Z Market open, in_window=true. 0 SELLs, 0 BUYs. No RSI BUY signals (conf>=2), no net-buy BUYs. Surge: AIG 14.5% count=1 (needs 2). WMB HOLD (rsi=31.6). PLD HOLD (rsi=34.4). BP=$72.54. 2 positions. Regime=bearish_ema. SPY=$767.51 < EMA200 $770.47. CB: daily +0.1%/weekly 3.1% (OK). Kill switch: trading_enabled=true. Acct=$231.32. Universe=503.",
     "2026-10-16T15:13Z Market open, in_window=true. 0 SELLs 0 BUYs: WMB conf=2 RSI BUY already held; BIIB surge count=1 needs 2. BP=$72.54. 2 positions. Regime=normal. SPY=$769.98. CB: daily +0.2%/weekly 3.0% (OK). Kill switch: trading_enabled=true. Acct=$231.57. Universe=503.",
     "2026-10-16T14:18Z Market open, in_window=true. SELL WM $22.61 (intraday_surge surge-date-exit, +0.31%). 0 BUYs: MU RSI conf=2 RL-BOOST(0.928) investable=$11.27 <$15 min skipped. BP=$72.54 (WM proceeds unsettled). 2 positions. Regime=normal. SPY RSI=43.1 HOLD. CB: daily 0.0%/weekly 3.2% (OK). Kill switch: trading_enabled=true. Acct=$231.20. Universe=503.",
     "2026-10-15T20:12Z Market closed (post-RTH). No trades. WM intraday_surge sell_date triggered (price $224.27 > avg $223.30) but market closed — will execute at tomorrow open. BP=$72.54. 3 positions. RSI BUYs conf>=2: NVDA/HPE/NTAP (PLD+WMB already held). SPY RSI=45.6 HOLD. CB: daily -0.4%/weekly 3.2% (OK). Kill switch: trading_enabled=true. Acct=$231.26. Universe=503.",
-    "2026-10-15T19:12Z Market open, in_window=true. 3 BUYs: WMB $90.17 (RSI=23.3 oversold, BB reversal), PLD $45.08 (RSI=30.2 oversold, BB reversal), WM $22.54 (net-buy 4d streak + intraday surge 133.4% count=2). BP=$72.54. 3 positions. Regime=normal (shifted from bearish_ema). SPY RSI=44.63 (HOLD). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.32. Universe=503.",
-    "2026-10-15T18:10Z Market open, in_window=true. No trades. BP=$230.33. 0 positions. 0 RSI BUYs (conf>=2), 127 RSI SELLs. 1 net-buy BUY (WM - skip: bearish_ema, conf<3). 3 surges (WM 128.1%, APA 383.7%, TPR 26.0% - count=1, no intraday candidates). SPY RSI=40.76 (HOLD). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503."
+    "2026-10-15T19:12Z Market open, in_window=true. 3 BUYs: WMB $90.17 (RSI=23.3 oversold, BB reversal), PLD $45.08 (RSI=30.2 oversold, BB reversal), WM $22.54 (net-buy 4d streak + intraday surge 133.4% count=2). BP=$72.54. 3 positions. Regime=normal (shifted from bearish_ema). SPY RSI=44.63 (HOLD). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.32. Universe=503."
   ]
 }
