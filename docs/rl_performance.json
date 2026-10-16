@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-12",
+  "updated_at": "2026-10-16",
   "backtest_days": 14,
   "strategy_return": null,
   "spy_return": null,
-  "win_rate": 0.167,
-  "avg_win_pnl": 0.34,
-  "avg_loss_pnl": -1.96,
+  "win_rate": null,
+  "avg_win_pnl": null,
+  "avg_loss_pnl": null,
   "risk_reward": null,
-  "total_trades": 6,
-  "wins": 1,
-  "losses": 5,
-  "circuit_breaker_halts": 0,
-  "rl_training_samples": 627,
+  "total_trades": null,
+  "wins": null,
+  "losses": null,
+  "circuit_breaker_halts": null,
+  "rl_training_samples": 629,
   "rl_states_learned": 19,
   "rl_target_samples": 200,
-  "note": "Updated by daily learning CCR. Backtest skipped — yfinance blocked by cloud network policy (403). Config change kept: RSI_OVERSOLD 30→32 based on 6-trade live win_rate=16.7% < 40% threshold. RL samples=627 well past 200 target but q_table not retrained (old buggy rows still mixed in per CLAUDE.md)."
+  "note": "Backtest skipped — yfinance blocked in cloud CCR sandbox (403, known issue). No rh_historicals_cache.json pre-fetched. Live trade metrics (last 4 closed): normal win_rate=0% (n=3, <5 threshold), intraday_surge win_rate=100% (n=1). No config changes made. Updated by daily learning CCR."
 }

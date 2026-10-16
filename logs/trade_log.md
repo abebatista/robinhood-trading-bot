@@ -24,7 +24,49 @@
 - Stop     : $48.38 (ATR trail) | Target was: $54.27
 - Strategy : normal | Sell: ATR trailing stop
 - Regime   : normal
-- Reason   : ATR trailing stop hit: $48.135 ≤ $48.38 trail stop. ~72h held (entry 2026-10-09T14:15Z). PnL: -2.44% ($49.34→$48.135). Proceeds unsettled (T+2, available 2026-10-14). No BUYs: investable=$0.
+- Reason   : Surge date exit — sell_date 2026-10-15 reached, price $224.00 > avg $223.30 (+0.31%)
+
+## 2026-10-15T20:11:52Z
+- SUMMARY: Market closed (post-RTH, 20:11 UTC = 4:11 PM ET). No trades. WM intraday_surge sell_date=2026-10-15 triggered (price $224.27 > avg $223.30) but market closed — will execute at tomorrow's open. Buying power: $72.54. Equity positions: 3 (WMB/PLD/WM). Regime: normal (SPY EMA BEARISH, RSI=45.6). Account: $231.26. Universe fetched: 503. CB: daily -0.4%/weekly 3.2% (OK <3%/<5%). Kill switch: trading_enabled=true.
+
+## 2026-10-15T19:12:46Z
+- Action   : BUY WM
+- Price    : $223.30
+- Amount   : $22.54 | Shares: 0.100940
+- RSI      : 84.51 (HOLD — low volume skip) | EMA: BULLISH | BB: ABOVE_BAND
+- RL       : null conf=null | null
+- Stop     : $220.35 | Target: $245.63
+- Strategy : intraday_surge | Sell date: 2026-10-15
+- Regime   : normal
+- Reason   : Net-buy 4d streak (0.12M→0.53M→0.92M) | Intraday surge 133.4% (count=2)
+
+## 2026-10-15T19:12:41Z
+- Action   : BUY PLD
+- Price    : $126.64
+- Amount   : $45.08 | Shares: 0.355969
+- RSI      : 30.19 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : null conf=null | null
+- Stop     : $124.51 | Target: $139.30
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal
+- Reason   : RSI oversold+stabilizing (30.4≈30.2) | BB reversal: 0.02→0.07 (returning from band)
+
+## 2026-10-15T19:12:36Z
+- Action   : BUY WMB
+- Price    : $69.29
+- Amount   : $90.17 | Shares: 1.301344
+- RSI      : 23.28 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : HOLD conf=0.93 | null
+- Stop     : $67.75 | Target: $76.22
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal
+- Reason   : RSI oversold+stabilizing (24.3≈23.3) | BB reversal: 0.02→0.08 (returning from band)
+
+## 2026-10-15T17:10:06Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$230.33. 0 equity positions. No SELLs (no positions). No BUYs: 0 RSI BUYs (conf>=2), 0 net-buy BUYs, 0 surges. Bearish_ema regime (SPY $769.90 < EMA200 $770.47). SPY RSI=37.61 (HOLD, low-vol skip). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.
+
+## 2026-10-15T16:12:00Z
+- SUMMARY: Market open, in_trade_window=true. No trades. BP=$230.33. 0 equity positions. No SELLs (no positions). No BUYs: 0 RSI BUYs (conf>=2), 0 net-buy BUYs. Bearish_ema regime (3/3 conf required — APA surge count=1, RSI=57 conf=0 → skip). SPY RSI=37.89 (HOLD). CB: daily 0.00%/weekly 3.56% (OK <3%/<5%). Kill switch: trading_enabled=true. Acct=$230.33. Universe=503.
 
 ## 2026-10-07T19:15:46Z [BACKFILL — prior cycle, not previously logged]
 - Action   : SELL VTR
