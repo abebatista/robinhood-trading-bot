@@ -1,5 +1,19 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-16T14:18:45Z
+- SUMMARY: Market open, in_window=true. 1 SELL: WM (surge date exit). 0 BUYs: MU RSI conf=2 🤖 RL BOOST (rl_conf=0.928) → eff conf=3 but investable=$11.27 < $15 min — skipped. BP=$72.54 (WM proceeds unsettled). Positions: 2 (WMB/PLD). Regime: normal (SPY RSI=43.1, above 200-EMA). CB: daily 0.0%/weekly 3.2% (OK). Kill switch: trading_enabled=true. Acct=$231.20. Universe=503.
+
+## 2026-10-16T14:18:17Z
+- Action   : SELL WM
+- Price    : $224.00
+- Amount   : $22.61 | Shares: 0.100940
+- RSI      : 86.8 | EMA: BULLISH | BB: IN_BAND
+- RL       : null conf=null | null
+- Stop     : $220.35 | Target: $245.63
+- Strategy : intraday_surge | Sell date: surge-date-exit (sell_date=2026-10-15 reached)
+- Regime   : normal
+- Reason   : Surge date exit — sell_date 2026-10-15 reached, price $224.00 > avg $223.30 (+0.31%)
+
 ## 2026-10-15T20:11:52Z
 - SUMMARY: Market closed (post-RTH, 20:11 UTC = 4:11 PM ET). No trades. WM intraday_surge sell_date=2026-10-15 triggered (price $224.27 > avg $223.30) but market closed — will execute at tomorrow's open. Buying power: $72.54. Equity positions: 3 (WMB/PLD/WM). Regime: normal (SPY EMA BEARISH, RSI=45.6). Account: $231.26. Universe fetched: 503. CB: daily -0.4%/weekly 3.2% (OK <3%/<5%). Kill switch: trading_enabled=true.
 
