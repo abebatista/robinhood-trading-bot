@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T15:30:00Z",
+  "updated_at": "2026-10-19T16:21:33Z",
   "buying_power": 95.35,
   "market_regime": "bearish_ema",
   "account_value": 231.99,
@@ -14,10 +14,10 @@
   "disabled_reason": null,
   "positions": [],
   "last_actions": [
-    "2026-10-19T15:30Z Market open, in_window=true. SELL WMB (net_buy_sell_signal, +2.45%, ~92h held). 0 BUYs: bearish_ema, no conf=3 signals. No positions. CB: daily -0.24%/weekly -0.24% (OK). Kill switch: trading_enabled=true. BP=$95.35 (unsettled T+1: ~$136.64). Acct=$231.99. Universe=503.",
+    "2026-10-19T16:21Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime, 0 RSI BUY/net-buy/surge signals. CB: daily -0.24%/weekly -0.24% (OK). Kill switch: trading_enabled=true. BP=$95.35. Acct=$231.99. Universe=503.",
+    "2026-10-19T15:30Z Market open, in_window=true. SELL WMB (net_buy_sell_signal, +2.45%, ~92h held). 0 BUYs: bearish_ema, no conf=3 signals. No positions. CB: daily -0.24%/weekly -0.24% (OK <3%/<5%). Kill switch: trading_enabled=true. BP=$95.35 (unsettled T+1: ~$136.64). Acct=$231.99. Universe=503.",
     "2026-10-19T14:16Z Market open, in_window=true. SELL PLD (ATR trail stop $124.04 <= $124.51, P&L -2.1%). 0 BUYs: bearish_ema, no conf=3/3 signals. WMB HOLD (rsi=49.2, +3.1%, trail=$69.64). CB: new day/week reset. Kill switch: trading_enabled=true. BP≈$139.50. Acct≈$232.47. Universe=503.",
     "2026-10-16T20:17Z Market closed (after hours). 0 SELLs, 0 BUYs. WMB HOLD (rsi=49.22, +2.87%, trail ratcheted to $69.64). PLD HOLD (rsi=30.36, -0.73%, trail=$124.51). Regime=bearish_ema. SPY rsi=30.77 BUY conf=2 (market closed, no action). CB: daily +0.5%/weekly 2.7% (OK). Kill switch: trading_enabled=true. BP=$72.54. Acct=$232.30. Universe=503.",
-    "2026-10-16T18:18Z Market open, in_window=true. 0 SELLs, 0 BUYs. No RSI BUY (0 signals), no net-buy BUYs. Surge: XOM 29.0% count=1 (needs 2). WMB HOLD (rsi=36.0, +1.31%). PLD HOLD (rsi=26.1, -0.96%). Regime=bearish_ema. SPY=$763.15 < EMA200. CB: daily -0.04%/weekly 3.2% (OK). Kill switch: trading_enabled=true. BP=$72.54. Acct=$231.12. Universe=503.",
-    "2026-10-16T17:10Z Market open, in_window=true. 0 SELLs, 0 BUYs. No RSI BUY (0 signals), no net-buy BUYs, no surges. WMB HOLD (rsi=32.2, +0.91%). PLD HOLD (rsi=30.6, -0.09%). Regime=bearish_ema. SPY=$763.96 < EMA200. CB: daily -0.0%/weekly 3.2% (OK). Kill switch: trading_enabled=true. BP=$72.54. Acct=$231.21. Universe=503."
+    "2026-10-16T18:18Z Market open, in_window=true. 0 SELLs, 0 BUYs. No RSI BUY (0 signals), no net-buy BUYs. Surge: XOM 29.0% count=1 (needs 2). WMB HOLD (rsi=36.0, +1.31%). PLD HOLD (rsi=26.1, -0.96%). Regime=bearish_ema. SPY=$763.15 < EMA200. CB: daily -0.04%/weekly 3.2% (OK). Kill switch: trading_enabled=true. BP=$72.54. Acct=$231.12. Universe=503."
   ]
 }
