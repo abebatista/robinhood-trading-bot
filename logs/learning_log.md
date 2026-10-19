@@ -544,3 +544,12 @@
 - Backtest: skipped — yfinance blocked in cloud CCR sandbox (no rh_historicals_cache.json)
 - RL samples: 629/200 (READY — above target, run python -m strategy.rl_agent --train)
 - Notes: RL READY threshold crossed. 629 samples vs target 200. Q-table has 19 states. Current open positions: WMB (+2.87%), PLD (-0.73%). Bearish EMA regime. Account=$232.30. Backfill duplicate entries for GE/VTR noted in trade log (from prior cycle). Trade log trimmed to 16 entries.
+
+## 2026-10-19
+- Trades analysed: 5 closed (WMB +2.45%, WM +0.31%, CAT -4.49%, GE -1.14%, VTR -1.87%; deduped 2 BACKFILL entries)
+- Win rate: 40% overall (normal: 25% [1/4]; intraday_surge: 100% [1/1] — n<3 skip; momentum: n=0)
+- EMA-trend win rate: BEARISH entry 1/3=33%; BULLISH entry 1/2=50%
+- Config changes: none (RSI_OVERSOLD: normal win_rate=25% < 40% but n=4 < 5 minimum; momentum n=0; ATR avg_hold=43h > 2h threshold)
+- Backtest: SKIPPED — yfinance blocked by sandbox network policy (CCR egress restricted)
+- RL samples: 630/200 (READY — exceeded target)
+- Notes: +1 new RL row from rl_collector (2 closed trades found). Trade log trimmed (10/27 entries kept, last 2 days). Backtest cannot run from CCR sandbox — yfinance 403 on all tickers. Strategy return/drawdown unknown until next local run.
