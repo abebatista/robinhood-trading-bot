@@ -1,5 +1,19 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-19T14:16:30Z
+- SUMMARY: Market open, in_window=true. 1 SELL (PLD ATR trail stop hit). 0 BUYs: bearish_ema regime requires conf=3/3, only SPY RSI BUY conf=2 (blocked by regime gate). WMB HOLD (rsi=49.2, price=$71.45 > trail=$69.64, +3.1%). CB: new day+week reset to $232.54. Kill switch: trading_enabled=true. BP≈$139.50 (post-sell est). Acct≈$232.47. Universe=503. Regime=bearish_ema.
+
+## 2026-10-19T14:16:15Z
+- Action   : SELL PLD
+- Price    : $124.04
+- Amount   : $44.15 | Shares: 0.355969
+- RSI      : 30.4 | EMA: BEARISH | BB: IN_BAND
+- RL       : null conf=null | null
+- Stop     : $124.51 | Target: $139.30
+- Strategy : normal | Sell date: ATR trail stop
+- Regime   : bearish_ema
+- Reason   : ATR trail stop hit ($124.04 ≤ $124.51, bought at $126.64), P&L: -2.1%
+
 ## 2026-10-16T20:17:00Z
 - SUMMARY: Market closed (after hours). 0 SELLs, 0 BUYs. WMB HOLD (rsi=49.22, price=$71.28 > trail=$69.64 [ratcheted +1.005x], +2.87%). PLD HOLD (rsi=30.36, price=$125.72 > trail=$124.51, -0.73%). Regime=bearish_ema (SPY rsi=30.77, 1 RSI BUY signal but market closed). CB: daily +0.5%/weekly 2.7% (OK). Kill switch: trading_enabled=true. BP=$72.54. Acct=$232.30. Universe=503.
 
