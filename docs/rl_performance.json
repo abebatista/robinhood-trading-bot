@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16",
+  "updated_at": "2026-10-19",
   "backtest_days": 14,
   "strategy_return": null,
   "spy_return": null,
@@ -11,8 +11,8 @@
   "wins": null,
   "losses": null,
   "circuit_breaker_halts": null,
-  "rl_training_samples": 629,
+  "rl_training_samples": 630,
   "rl_states_learned": 19,
   "rl_target_samples": 200,
-  "note": "Backtest skipped — yfinance blocked in cloud CCR sandbox (403, known issue). No rh_historicals_cache.json pre-fetched. Live trade metrics (last 4 closed): normal win_rate=0% (n=3, <5 threshold), intraday_surge win_rate=100% (n=1). No config changes made. Updated by daily learning CCR."
+  "note": "Backtest skipped — yfinance blocked by sandbox network policy (expected in CCR). NO_CHANGE to thresholds: normal n_trades=4 < 5 minimum. Updated by daily learning CCR"
 }

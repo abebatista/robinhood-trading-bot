@@ -627,3 +627,4 @@
 {"trade_id": "SOUN|2026-10-08T14:13:42Z|LIVE|HOLD", "timestamp": "2026-10-08T14:13:42Z", "ticker": "SOUN", "action": "HOLD", "price": 5.58, "obs": {"rsi": 29.92, "ema_trend": "BEARISH", "atr_pct": 0.0099, "regime": "normal"}, "reward": 0.0}
 {"trade_id": "CAT|2026-10-13T14:14:58Z|LIVE", "timestamp": "2026-10-13T14:14:58Z", "ticker": "CAT", "action": "BUY", "price": 779.5, "obs": {"rsi": 25.5, "ema_trend": "BEARISH", "atr_pct": 0.02, "regime": "normal"}, "reward": -4.4708}
 {"trade_id": "CAT|2026-10-13T14:14:58Z|LIVE|HOLD", "timestamp": "2026-10-13T14:14:58Z", "ticker": "CAT", "action": "HOLD", "price": 779.5, "obs": {"rsi": 25.5, "ema_trend": "BEARISH", "atr_pct": 0.02, "regime": "normal"}, "reward": 0.0}
+{"trade_id": "WMB|2026-10-15T19:12:36Z|LIVE", "timestamp": "2026-10-15T19:12:36Z", "ticker": "WMB", "action": "BUY", "price": 69.29, "obs": {"rsi": 23.28, "ema_trend": "BEARISH", "atr_pct": 0.0111, "regime": "normal"}, "reward": 2.4535}
