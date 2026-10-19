@@ -1,18 +1,27 @@
 # Trade Log — Robinhood Agentic Account
 
-## 2026-10-19T14:16:30Z
-- SUMMARY: Market open, in_window=true. 1 SELL (PLD ATR trail stop hit). 0 BUYs: bearish_ema regime requires conf=3/3, only SPY RSI BUY conf=2 (blocked by regime gate). WMB HOLD (rsi=49.2, price=$71.45 > trail=$69.64, +3.1%). CB: new day+week reset to $232.54. Kill switch: trading_enabled=true. BP≈$139.50 (post-sell est). Acct≈$232.47. Universe=503. Regime=bearish_ema.
+## 2026-10-19T19:17:00Z
+- SUMMARY: Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime (SPY $767.75 < EMA200 $769.49), 0 RSI BUY signals, net-buy: FDS only (RSI=HOLD conf=0, needs conf=3/3 in bearish_ema), surge: BDX 74.7% count=1 (needs count>=2 for intraday; plain surge ~$11 < $15 min). CB: daily -0.24%/weekly -0.24% (OK <3%/<5%). Kill switch: trading_enabled=true. BP=$95.35. Acct=$231.99. Universe=503.
 
-## 2026-10-19T14:16:15Z
-- Action   : SELL PLD
-- Price    : $124.04
-- Amount   : $44.15 | Shares: 0.355969
-- RSI      : 30.4 | EMA: BEARISH | BB: IN_BAND
+## 2026-10-19T17:16:52Z
+- SUMMARY: Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime, 0 RSI BUY signals, 0 net-buy BUYs, 0 surge signals. CB: daily -0.24%/weekly -0.24% (OK <3%/<5%). Kill switch: trading_enabled=true. BP=$95.35. Acct=$231.99. Universe=503.
+
+## 2026-10-19T16:21:33Z
+- SUMMARY: Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime, 0 RSI BUY signals, 0 net-buy BUYs, 0 surge signals. CB: daily -0.24%/weekly -0.24% (OK <3%/<5%). Kill switch: trading_enabled=true. BP=$95.35. Acct=$231.99. Universe=503.
+
+## 2026-10-19T15:30:00Z
+- SUMMARY: Market open, in_window=true. 1 SELL: WMB (net_buy_sell_signal, P&L +2.45%, ~92h held). 0 BUYs: bearish_ema regime, no conf=3 signals. No positions held. CB: daily -0.24%/weekly -0.24% (OK <3%/<5%). Kill switch: trading_enabled=true. BP=$95.35 (unsettled T+1: ~$136.64). Acct=$231.99. Universe=503.
+
+## 2026-10-19T15:29:12Z
+- Action   : SELL WMB
+- Price    : $70.99
+- Amount   : $92.38 | Shares: 1.301344
+- RSI      : 49.2 | EMA: BULLISH | BB: N/A
 - RL       : null conf=null | null
-- Stop     : $124.51 | Target: $139.30
-- Strategy : normal | Sell date: ATR trail stop
+- Stop     : $69.64 | Target: $76.22
+- Strategy : normal | Sell date: ATR/signal
 - Regime   : bearish_ema
-- Reason   : ATR trail stop hit ($124.04 ≤ $124.51, bought at $126.64), P&L: -2.1%
+- Reason   : Net-buy reversed 2.65M→-0.30M (OBV -1.0M/day), net_buy_sell_signal; hours_held ~92h; P&L +2.45% ($69.29→$70.99)
 
 ## 2026-10-16T20:17:00Z
 - SUMMARY: Market closed (after hours). 0 SELLs, 0 BUYs. WMB HOLD (rsi=49.22, price=$71.28 > trail=$69.64 [ratcheted +1.005x], +2.87%). PLD HOLD (rsi=30.36, price=$125.72 > trail=$124.51, -0.73%). Regime=bearish_ema (SPY rsi=30.77, 1 RSI BUY signal but market closed). CB: daily +0.5%/weekly 2.7% (OK). Kill switch: trading_enabled=true. BP=$72.54. Acct=$232.30. Universe=503.
