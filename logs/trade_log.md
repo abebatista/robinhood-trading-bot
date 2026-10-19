@@ -1,5 +1,19 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-19T15:30:00Z
+- SUMMARY: Market open, in_window=true. 1 SELL: WMB (net_buy_sell_signal, P&L +2.45%, ~92h held). 0 BUYs: bearish_ema regime, no conf=3 signals. No positions held. CB: daily -0.24%/weekly -0.24% (OK <3%/<5%). Kill switch: trading_enabled=true. BP=$95.35 (unsettled T+1: ~$136.64). Acct=$231.99. Universe=503.
+
+## 2026-10-19T15:29:12Z
+- Action   : SELL WMB
+- Price    : $70.99
+- Amount   : $92.38 | Shares: 1.301344
+- RSI      : 49.2 | EMA: BULLISH | BB: N/A
+- RL       : null conf=null | null
+- Stop     : $69.64 | Target: $76.22
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : bearish_ema
+- Reason   : Net-buy reversed 2.65M→-0.30M (OBV -1.0M/day), net_buy_sell_signal; hours_held ~92h; P&L +2.45% ($69.29→$70.99)
+
 ## 2026-10-16T20:17:00Z
 - SUMMARY: Market closed (after hours). 0 SELLs, 0 BUYs. WMB HOLD (rsi=49.22, price=$71.28 > trail=$69.64 [ratcheted +1.005x], +2.87%). PLD HOLD (rsi=30.36, price=$125.72 > trail=$124.51, -0.73%). Regime=bearish_ema (SPY rsi=30.77, 1 RSI BUY signal but market closed). CB: daily +0.5%/weekly 2.7% (OK). Kill switch: trading_enabled=true. BP=$72.54. Acct=$232.30. Universe=503.
 
