@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T20:50:22.454206+00:00",
+  "timestamp": "2026-10-19T21:18:05.833859+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -7816,8 +7816,8 @@
       "ticker": "EQIX",
       "price": 975.7100219726562,
       "net_buy_d2": 904,
-      "net_buy_d3": -240877,
-      "obv_slope": -230752,
+      "net_buy_d3": -240883,
+      "obv_slope": -230754,
       "score": 0.0,
       "reason": "Net buy reversed: 0.00M \u2192 -0.24M | OBV -0.2M/day"
     },
@@ -7825,8 +7825,8 @@
       "ticker": "ETR",
       "price": 103.80000305175781,
       "net_buy_d2": 63955,
-      "net_buy_d3": -1006355,
-      "obv_slope": -1409542,
+      "net_buy_d3": -1006387,
+      "obv_slope": -1409557,
       "score": 0.0,
       "reason": "Net buy reversed: 0.06M \u2192 -1.01M | OBV -1.4M/day"
     },
@@ -7834,8 +7834,8 @@
       "ticker": "MOS",
       "price": 17.920000076293945,
       "net_buy_d2": -1049144,
-      "net_buy_d3": -10706430,
-      "obv_slope": -10093775,
+      "net_buy_d3": -10714445,
+      "obv_slope": -10095649,
       "score": 0.0,
       "reason": "Net buy reversed: -1.05M \u2192 -10.71M | OBV -10.1M/day"
     },
@@ -7843,8 +7843,8 @@
       "ticker": "IRM",
       "price": 111.55000305175781,
       "net_buy_d2": -79868,
-      "net_buy_d3": -505096,
-      "obv_slope": -433621,
+      "net_buy_d3": -505158,
+      "obv_slope": -433642,
       "score": 0.0,
       "reason": "Net buy reversed: -0.08M \u2192 -0.51M | OBV -0.4M/day"
     },
@@ -7852,8 +7852,8 @@
       "ticker": "EMR",
       "price": 160.5399932861328,
       "net_buy_d2": -321800,
-      "net_buy_d3": -1921565,
-      "obv_slope": -1338646,
+      "net_buy_d3": -1921591,
+      "obv_slope": -1338654,
       "score": 0.0,
       "reason": "Net buy reversed: -0.32M \u2192 -1.92M | OBV -1.3M/day"
     },
@@ -7861,19 +7861,19 @@
       "ticker": "VLO",
       "price": 433.30999755859375,
       "net_buy_d2": -326301,
-      "net_buy_d3": -1909893,
-      "obv_slope": -160279,
+      "net_buy_d3": -1927736,
+      "obv_slope": -164557,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.33M \u2192 -1.91M | OBV -0.2M/day"
+      "reason": "Net buy reversed: -0.33M \u2192 -1.93M | OBV -0.2M/day"
     },
     {
       "ticker": "TEL",
       "price": 212.3300018310547,
       "net_buy_d2": 441617,
-      "net_buy_d3": -1557990,
-      "obv_slope": -374958,
+      "net_buy_d3": -1573118,
+      "obv_slope": -378699,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.44M \u2192 -1.56M | OBV -0.4M/day"
+      "reason": "Net buy reversed: 0.44M \u2192 -1.57M | OBV -0.4M/day"
     },
     {
       "ticker": "PNW",
@@ -7888,8 +7888,8 @@
       "ticker": "ESS",
       "price": 266.6499938964844,
       "net_buy_d2": -140917,
-      "net_buy_d3": -476836,
-      "obv_slope": -167457,
+      "net_buy_d3": -476839,
+      "obv_slope": -167458,
       "score": 0.0,
       "reason": "Net buy reversed: -0.14M \u2192 -0.48M | OBV -0.2M/day"
     },
@@ -7897,20 +7897,20 @@
       "ticker": "NI",
       "price": 41.95000076293945,
       "net_buy_d2": 6218698,
-      "net_buy_d3": -5626627,
-      "obv_slope": -1600672,
+      "net_buy_d3": -6083678,
+      "obv_slope": -1714785,
       "score": 0.0,
-      "reason": "Net buy reversed: 6.22M \u2192 -5.63M | OBV -1.6M/day"
+      "reason": "Net buy reversed: 6.22M \u2192 -6.08M | OBV -1.7M/day"
     }
   ],
   "surge_signals": [
     {
       "ticker": "AOS",
       "price": 58.68000030517578,
-      "buy_surge_pct": 1.162,
+      "buy_surge_pct": 1.1622,
       "buy_vol_d2": 359268,
-      "buy_vol_d3": 776724,
-      "net_buy_d3": 274140,
+      "buy_vol_d3": 776796,
+      "net_buy_d3": 274165,
       "reason": "Buy vol \u2191116.2% vs prior day | 0d streak | latest 0.27M | OBV -0.6M/day"
     }
   ]
