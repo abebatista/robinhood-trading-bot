@@ -1,23 +1,38 @@
 {
-  "updated_at": "2026-10-19T20:16:49Z",
-  "buying_power": 95.35,
-  "market_regime": "bearish_ema",
+  "updated_at": "2026-10-20T14:25:30Z",
+  "buying_power": 140.99,
+  "market_regime": "normal",
   "account_value": 231.99,
   "peak_value": 249.0,
-  "day_start_value": 232.54,
-  "day_start_date": "2026-10-19",
+  "day_start_value": 231.99,
+  "day_start_date": "2026-10-20",
   "week_start_value": 232.54,
   "week_start_date": "2026-10-19",
   "trading_enabled": true,
   "kill_switch_pct": 0.20,
   "kill_switch_floor": 200.0,
   "disabled_reason": null,
-  "positions": [],
+  "positions": [
+    {
+      "ticker": "CEG",
+      "quantity": 0.348949,
+      "avg_cost": 260.7826,
+      "current_price": 260.7826,
+      "pnl_pct": 0.0,
+      "value": 91.0,
+      "entry_atr_pct": 0.0124,
+      "entry_time": "2026-10-20T14:25:09Z",
+      "trail_stop": 254.32,
+      "take_profit": 286.86,
+      "strategy": "normal",
+      "sell_date": null
+    }
+  ],
   "last_actions": [
+    "2026-10-20T14:25Z BUY CEG $91.00 @ $260.78 (RSI 29.1 oversold+stab, BB BELOW_BAND, conf=2, regime=normal). trail_stop=$254.32 target=$286.86.",
     "2026-10-19T20:16Z Market closed. 0 positions. Regime: bearish_ema. BP=$95.35. Acct=$231.99. Universe=503.",
     "2026-10-19T19:17Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime, 0 RSI BUY signals, net-buy: FDS (RSI=HOLD conf=0), surge: BDX 74.7% count=1 (needs 2). CB: daily -0.24%/weekly -0.24% (OK). Kill switch: trading_enabled=true. BP=$95.35. Acct=$231.99. Universe=503.",
     "2026-10-19T17:16Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime, 0 RSI BUY signals, 0 net-buy BUYs, 0 surge signals. CB: daily -0.24%/weekly -0.24% (OK <3%/<5%). Kill switch: trading_enabled=true. BP=$95.35. Acct=$231.99. Universe=503.",
-    "2026-10-19T16:21Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime, 0 RSI BUY signals, 0 net-buy BUYs, 0 surge signals. CB: daily -0.24%/weekly -0.24% (OK <3%/<5%). Kill switch: trading_enabled=true. BP=$95.35. Acct=$231.99. Universe=503.",
-    "2026-10-19T15:30Z Market open, in_window=true. SELL WMB (net_buy_sell_signal, +2.45%, ~92h held). 0 BUYs: bearish_ema, no conf=3 signals. No positions. CB: daily -0.24%/weekly -0.24% (OK <3%/<5%). Kill switch: trading_enabled=true. BP=$95.35 (unsettled T+1: ~$136.64). Acct=$231.99. Universe=503."
+    "2026-10-19T16:21Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime, 0 RSI BUY signals, 0 net-buy BUYs, 0 surge signals. CB: daily -0.24%/weekly -0.24% (OK <3%/<5%). Kill switch: trading_enabled=true. BP=$95.35. Acct=$231.99. Universe=503."
   ]
 }

@@ -1,5 +1,19 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-20T14:25:30Z
+- SUMMARY: Market open, in_window=true. REGIME CHANGED: bearish_ema → normal (SPY above 200-EMA). 0 SELLs (no positions). 1 BUY: CEG $91.00 @ $260.78 (RSI oversold conf=2). Skipped ACN (net-buy only, RSI SELL 82.0 overbought), FDS (net-buy only, RL=HOLD). CB: daily 0.0%/weekly -0.24% (OK). Kill switch: trading_enabled=true. BP=$140.99. Acct=$231.99. Universe=503.
+
+## 2026-10-20T14:25:09Z
+- Action   : BUY CEG
+- Price    : $260.78
+- Amount   : $91.00 | Shares: 0.348949
+- RSI      : 29.1 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : HOLD conf=0.906 | null
+- Stop     : $254.32 | Target: $286.86
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal
+- Reason   : RSI oversold+stabilizing (30.7≈29.1) | BB reversal: 0.08→0.13 (returning from band) | regime changed from bearish_ema to normal this cycle
+
 ## 2026-10-19T20:16:49Z
 - SUMMARY: Market closed. Buying power: $95.35. Equity positions: 0. Regime: bearish_ema. Account: $231.99. Universe fetched: 503. CB: daily -0.24%/weekly -0.24% (OK). Kill switch: trading_enabled=true.
 
