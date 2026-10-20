@@ -1,5 +1,16 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-20T18:23:00Z
+- SUMMARY: Market open, in_window=true. 0 SELLs: CEG held 3h58m (entry 14:25Z), $258.97 vs stop $254.32/target $286.86 (no trigger, <3h rule applies but no exit signal); CPRT held 2h05m (entry 16:18Z), $27.695 vs stop $26.70/target $30.11 (no trigger, <3h rule). 1 BUY: ETN RL BOOST conf=2->3. CB: daily -0.04%/weekly -0.28% (OK). BP=$50.00. Acct=$231.87. Universe=503. Regime=normal.
+- Action : BUY ETN
+- Price  : $381.46
+- Amount : $45.49 (STRONG BUY — RL BOOST conf 2→3, 100% investable)
+- RSI    : 26.4 (oversold+stabilizing) | EMA: BEARISH (ticker) | BB: BELOW_BAND
+- RL     : BUY/0.928 (BOOST applied: conf 2→3)
+- Stop   : $374.36 (-1.9% ATR×2) | Target: $419.61 (+10%)
+- Regime : normal (SPY above 200-EMA)
+- Reason : RSI oversold | BB reversal returning from band | RL BOOST
+
 ## 2026-10-20T17:20:00Z
 - SUMMARY: Market open, in_window=true. 0 SELLs: CEG held 2h55m (entry 14:25Z), price $259.38 vs stop $254.32/target $286.86 (no trigger, <3h rule); CPRT held 1h02m (entry 16:18Z), price $27.535 vs stop $26.70/target $30.11 (no trigger, <3h rule). 0 BUYs: bearish_ema regime (SPY $768.73 RSI=48.1 below EMA200), 0 RSI BUY signals. CB: daily -0.09%/weekly -0.33% (OK). Kill switch: trading_enabled=true. BP=$95.49. Acct=$231.77. Universe=503.
 
