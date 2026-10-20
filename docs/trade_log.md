@@ -1,5 +1,16 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-20T16:18:42Z
+- Action   : BUY CPRT
+- Price    : $27.37
+- Amount   : $45.50 | Shares: 1.6624
+- RSI      : 51.16 | EMA: BULLISH | BB: BELOW_BAND
+- RL       : BUY conf=0.974 | BOOST (conf 2→3)
+- Stop     : $26.70 | Target: $30.11
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal
+- Reason   : BB reversal: 0.16→0.19 (returning from band) | EMA bullish crossover | RL BOOST
+
 ## 2026-10-19T20:16:49Z
 - SUMMARY: Market closed. Buying power: $95.35. Equity positions: 0. Regime: bearish_ema. Account: $231.99. Universe fetched: 503. CB: daily -0.24%/weekly -0.24% (OK). Kill switch: trading_enabled=true.
 

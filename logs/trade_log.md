@@ -1,5 +1,19 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-20T16:18:42Z
+- Action   : BUY CPRT
+- Price    : $27.37
+- Amount   : $45.50 | Shares: 1.6624
+- RSI      : 51.16 | EMA: BULLISH | BB: BELOW_BAND
+- RL       : BUY conf=0.974 | BOOST (conf 2→3)
+- Stop     : $26.70 | Target: $30.11
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal
+- Reason   : BB reversal: 0.16→0.19 (returning from band) | EMA bullish crossover | RL BOOST
+
+## 2026-10-20T16:18Z SUMMARY
+- SUMMARY: Market open, in_window=true. 0 SELLs: CEG held <2h (entry 14:25Z, price $260.87 vs stop $254.32/target $286.86, no trigger). 1 BUY: CPRT $45.50 @ $27.37 (RSI BUY conf=2 + RL BOOST conf=0.974). CEG HOLD (low vol, RSI=27.3 oversold but signal skipped). Kill switch: trading_enabled=true. CB: daily -0.01%/weekly +0.22% (OK). BP=$95.49 post-order. Acct=$232.02. Universe=503.
+
 ## 2026-10-20T15:26Z
 - SUMMARY: Market open, in_window=true. 0 SELLs: CEG held <3h (entry 14:25Z, now 15:26Z=61min), price $261.22 vs stop $254.32/target $286.86 (no trigger). 0 BUYs: 0 RSI BUY signals market-wide (75 SELL signals, broadly overbought); CNP surge 88% count=1 (needs count≥2 for INTRADAY_SURGE); FDS net-buy RSI=SELL conflict; BLK surge RSI=SELL conflict. CB: daily +0.08%/weekly -0.16% (OK <3%/<5%). Kill switch: trading_enabled=true. BP=$140.99. Acct=$232.17. Universe=503.
 
