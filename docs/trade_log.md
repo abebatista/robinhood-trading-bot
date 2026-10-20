@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-20T19:22:00Z
+- SUMMARY: Market open, in_window=true. 0 SELLs: CEG held 4h57m (entry 14:25Z, $259.44 vs stop $254.32/target $286.86, no trigger); CPRT held 3h04m (entry 16:18Z, $27.595 vs stop $26.70/target $30.11, no trigger); ETN held 0h59m (entry 18:23Z, $383.51 vs stop $374.36/target $419.61, <3h). 0 BUYs: bearish_ema regime (SPY $768.60 below EMA200), 0 RSI BUY signals across 503 tickers. GILD surge=9.6% count=1 (needs≥2). IT/EVRG removed from surge tracker (not in today's signals). CB: daily -0.06%/weekly +0.18% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$232.14. Universe=503. Regime=bearish_ema.
+
 ## 2026-10-20T18:23:00Z
 - SUMMARY: Market open, in_window=true. 0 SELLs: CEG held 3h58m (entry 14:25Z), $258.97 vs stop $254.32/target $286.86 (no trigger, <3h rule applies but no exit signal); CPRT held 2h05m (entry 16:18Z), $27.695 vs stop $26.70/target $30.11 (no trigger, <3h rule). 1 BUY: ETN RL BOOST conf=2->3. CB: daily -0.04%/weekly -0.28% (OK). BP=$50.00. Acct=$231.87. Universe=503. Regime=normal.
 - Action : BUY ETN
