@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-20T20:16:13Z
+- SUMMARY: Market CLOSED (16:16 ET). 0 SELLs: CEG $259.06 AH (pnl -0.66%, trail_stop $254.32, target $286.86 — no trigger); CPRT $27.95 AH (pnl +2.12%, trail_stop $26.70, target $30.11 — no trigger); ETN $381.98 AH (pnl +0.14%, trail_stop $374.36, target $419.61 — no trigger). 0 BUYs: market closed. Trail stops: no ratchet (none at ≥2.5% profit). CB: daily +0.18%/weekly -0.06% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$232.41. Regime=bearish_ema.
+
 ## 2026-10-20T19:22:00Z
 - SUMMARY: Market open, in_window=true. 0 SELLs: CEG held 4h57m (entry 14:25Z, $259.44 vs stop $254.32/target $286.86, no trigger); CPRT held 3h04m (entry 16:18Z, $27.595 vs stop $26.70/target $30.11, no trigger); ETN held 0h59m (entry 18:23Z, $383.51 vs stop $374.36/target $419.61, <3h). 0 BUYs: bearish_ema regime (SPY $768.60 below EMA200), 0 RSI BUY signals across 503 tickers. GILD surge=9.6% count=1 (needs≥2). IT/EVRG removed from surge tracker (not in today's signals). CB: daily -0.06%/weekly +0.18% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$232.14. Universe=503. Regime=bearish_ema.
 
