@@ -1,1 +1,5 @@
-{}
+{
+  "FDS": {"count": 1, "date": "2026-10-20", "first_seen": "2026-10-20T15:26:00Z", "buy_surge_pct": 0.1319},
+  "BLK": {"count": 1, "date": "2026-10-20", "first_seen": "2026-10-20T15:26:00Z", "buy_surge_pct": 0.3942},
+  "CNP": {"count": 1, "date": "2026-10-20", "first_seen": "2026-10-20T15:26:00Z", "buy_surge_pct": 0.8796}
+}
