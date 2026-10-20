@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-20",
   "backtest_days": 14,
   "strategy_return": null,
   "spy_return": null,
@@ -14,5 +14,5 @@
   "rl_training_samples": 630,
   "rl_states_learned": 19,
   "rl_target_samples": 200,
-  "note": "Backtest skipped — yfinance blocked by sandbox network policy (expected in CCR). NO_CHANGE to thresholds: normal n_trades=4 < 5 minimum. Updated by daily learning CCR"
+  "note": "Backtest skipped — yfinance blocked by sandbox network policy (expected in CCR). NO_CHANGE to thresholds: normal n_trades=3 < 5 minimum. Updated by daily learning CCR"
 }

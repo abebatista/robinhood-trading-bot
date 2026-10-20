@@ -553,3 +553,11 @@
 - Backtest: SKIPPED — yfinance blocked by sandbox network policy (CCR egress restricted)
 - RL samples: 630/200 (READY — exceeded target)
 - Notes: +1 new RL row from rl_collector (2 closed trades found). Trade log trimmed (10/27 entries kept, last 2 days). Backtest cannot run from CCR sandbox — yfinance 403 on all tickers. Strategy return/drawdown unknown until next local run.
+
+## 2026-10-20
+- Trades analysed: 3 closed (WMB +2.45%, VTR -1.87%, GE -1.14%)
+- Win rate: 33.3% overall (normal: 33.3% [1/3], momentum: n/a [0 trades], surge: n/a [0 trades])
+- Config changes: none (normal n_trades=3 < 5 required for RSI_OVERSOLD; no momentum entries; avg_hold=48h not < 2h for ATR change)
+- Backtest: skipped (yfinance blocked in CCR sandbox — expected behavior)
+- RL samples: 630/200 — RL READY (run: python -m strategy.rl_agent --train)
+- Notes: 0 new RL rows today (rl_collector found 0 new closed trades). 3 open positions: CEG ($91, -0.7%), CPRT ($45.50, +2.1%), ETN ($45.49, +0.1%). Account $232.41. Kill switch OK.
