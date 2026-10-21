@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T22:07:54.187785+00:00",
+  "timestamp": "2026-10-21T22:58:22.360189+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -7939,15 +7939,6 @@
       "buy_vol_d3": 4617133,
       "net_buy_d3": 2977127,
       "reason": "Buy vol \u2191210.7% vs prior day | 0d streak | latest 2.98M | OBV 6.8M/day"
-    },
-    {
-      "ticker": "AMD",
-      "price": 552.719970703125,
-      "buy_surge_pct": 1.1448,
-      "buy_vol_d2": 6550248,
-      "buy_vol_d3": 14048759,
-      "net_buy_d3": 10340678,
-      "reason": "Buy vol \u2191114.5% vs prior day | 0d streak | latest 10.34M | OBV 0.5M/day"
     }
   ]
 }
