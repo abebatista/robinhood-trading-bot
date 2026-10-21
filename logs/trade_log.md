@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-21T16:12:00Z
+- SUMMARY: Market open, in_window=true. 0 SELLs: CEG ($267.17 > stop $254.32 < target $286.86, HOLD; pnl=+2.45%); CPRT ($28.29 > stop $27.51↑ < target $30.11, HOLD; pnl=+3.36%); ETN ($392.36 > stop $383.37 < target $419.61, HOLD; pnl=+2.86%). No RSI/NetBuy SELL signals for held tickers. 0 BUYs: investable=$0 (BP=$50.00=cash buffer). ATR ratchet: CPRT trail_stop $27.50→$27.51 (profit +3.36%). Regime: NORMAL (SPY $772.65; RSI 58.07; market_regime=normal). CB: daily -0.81%/weekly -1.94% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$237.05. Universe=503.
+
 ## 2026-10-21T15:20:00Z
 - SUMMARY: Market open, in_window=true. 0 SELLs: CEG ($265.875 > stop $254.32 < target $286.86, HOLD); CPRT ($28.13 > stop $27.50 < target $30.11, HOLD); ETN ($389.785 > stop $383.37 < target $419.61, HOLD). 0 BUYs: investable=$0 (BP=$50=cash buffer). ATR ratchet: CPRT trail_stop $26.70→$27.50. Regime: bearish_ema→NORMAL (SPY $770.90 > EMA200 $769.22). CB: daily +0.40%/weekly +1.52% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$236.07. Universe=503.
 
