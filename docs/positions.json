@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T16:12:00Z",
+  "updated_at": "2026-10-21T17:18:00Z",
   "buying_power": 50.00,
   "market_regime": "normal",
-  "account_value": 237.05,
+  "account_value": 237.91,
   "peak_value": 249.0,
   "day_start_value": 235.14,
   "day_start_date": "2026-10-21",
@@ -17,12 +17,12 @@
       "ticker": "CEG",
       "quantity": 0.348949,
       "avg_cost": 260.78,
-      "current_price": 267.17,
-      "pnl_pct": 0.0245,
-      "value": 93.23,
+      "current_price": 270.47,
+      "pnl_pct": 0.0372,
+      "value": 94.38,
       "entry_atr_pct": 0.0124,
       "entry_time": "2026-10-20T14:25:09Z",
-      "trail_stop": 254.32,
+      "trail_stop": 262.08,
       "take_profit": 286.86,
       "strategy": "normal",
       "sell_date": null
@@ -31,9 +31,9 @@
       "ticker": "CPRT",
       "quantity": 1.662410,
       "avg_cost": 27.37,
-      "current_price": 28.29,
-      "pnl_pct": 0.0336,
-      "value": 47.03,
+      "current_price": 27.985,
+      "pnl_pct": 0.0225,
+      "value": 46.52,
       "entry_atr_pct": 0.0121,
       "entry_time": "2026-10-20T16:18:42Z",
       "trail_stop": 27.51,
@@ -45,9 +45,9 @@
       "ticker": "ETN",
       "quantity": 0.119252,
       "avg_cost": 381.46,
-      "current_price": 392.36,
-      "pnl_pct": 0.0286,
-      "value": 46.79,
+      "current_price": 394.21,
+      "pnl_pct": 0.0334,
+      "value": 47.01,
       "entry_atr_pct": 0.0093,
       "entry_time": "2026-10-20T18:22:59Z",
       "trail_stop": 383.37,
@@ -57,10 +57,10 @@
     }
   ],
   "last_actions": [
-    "2026-10-21T16:12Z Market open, in_window=true. 0 SELLs: CEG/CPRT/ETN no exit trigger (all above stops, below targets). 0 BUYs: investable=$0 (BP=$50=cash buffer). ATR ratchet: CPRT $27.50→$27.51 (profit +3.36%). Regime: NORMAL (SPY $772.65). CB: daily -0.81%/weekly -1.94% (OK). BP=$50.00. Acct=$237.05. Universe=503.",
+    "2026-10-21T17:18Z Market open, in_window=true. 0 SELLs: CEG/CPRT/ETN no exit trigger (all above stops, below targets). 0 BUYs: investable=$0 (BP=$50=cash buffer). ATR ratchet: CEG trail_stop $254.32→$262.08 (+3.72%). 12 RSI BUY signals (GOOGL/GOOG/T/ABT RL BOOST conf→3). Regime: NORMAL. CB: daily +1.18%/weekly +2.31% (OK). BP=$50.00. Acct=$237.91. Universe=503.",
+    "2026-10-21T16:12Z Market open, in_window=true. 0 SELLs: CEG/CPRT/ETN no exit trigger (all above stops, below targets). 0 BUYs: investable=$0 (BP=$50.00=cash buffer). ATR ratchet: CPRT $27.50→$27.51 (profit +3.36%). Regime: NORMAL (SPY $772.65). CB: daily -0.81%/weekly -1.94% (OK). BP=$50.00. Acct=$237.05. Universe=503.",
     "2026-10-21T15:20Z Market open, in_window=true. 0 SELLs: CEG/CPRT/ETN no exit trigger (all above stops, below targets). 0 BUYs: investable=$0 (BP=$50=cash buffer). ATR ratchet: CPRT trail_stop $26.70→$27.50. Regime: bearish_ema→NORMAL (SPY $770.90 > EMA200 $769.22). CB: daily +0.40%/weekly +1.52% (OK). BP=$50.00. Acct=$236.07. Universe=503.",
     "2026-10-21T14:20Z Market open, in_window=true. 0 SELLs: CEG/CPRT/ETN no exit trigger (all above stops, below targets). 0 BUYs: bearish_ema, investable=$0 (BP=$50.00=cash buffer). ATR ratchet: ETN $374.36→$383.37. Surge: FDS/YUM/ESS/ED/FITB/CRL count=1 (need≥2). CB: daily 0.0%/weekly -1.11% (OK). BP=$50.00. Acct=$235.14. Universe=503.",
-    "2026-10-20T20:16Z Market CLOSED (16:16 ET). 0 SELLs: no stop-loss/take-profit triggers. 0 BUYs: market closed. Trail stops unchanged. CB: daily +0.18%/weekly -0.06% (OK). BP=$50.00. Acct=$232.41. Universe=503.",
-    "2026-10-20T19:22Z Market open, in_window=true. 0 SELLs: CEG/CPRT/ETN no exit trigger. 0 BUYs: bearish_ema, 0 RSI BUY signals (503 universe). GILD surge count=1. CB: daily -0.06%/weekly +0.18% (OK). BP=$50.00. Acct=$232.14. Universe=503."
+    "2026-10-20T20:16Z Market CLOSED (16:16 ET). 0 SELLs: no stop-loss/take-profit triggers. 0 BUYs: market closed. Trail stops unchanged. CB: daily +0.18%/weekly -0.06% (OK). BP=$50.00. Acct=$232.41. Universe=503."
   ]
 }
