@@ -561,3 +561,12 @@
 - Backtest: skipped (yfinance blocked in CCR sandbox — expected behavior)
 - RL samples: 630/200 — RL READY (run: python -m strategy.rl_agent --train)
 - Notes: 0 new RL rows today (rl_collector found 0 new closed trades). 3 open positions: CEG ($91, -0.7%), CPRT ($45.50, +2.1%), ETN ($45.49, +0.1%). Account $232.41. Kill switch OK.
+
+## 2026-10-21
+- Trades analysed: 3 (WMB +2.45% win, VTR -1.87% loss, GE -1.14% loss)
+- Win rate: 33.3% overall (normal: 33.3% — 1W/2L; momentum: N/A — not wired; surge: N/A — no exits)
+- EMA trend at entry: BULLISH=50% (1W/1L, n=2), BEARISH=0% (0W/1L, n=1)
+- Config changes: none (NO_CHANGE — normal n_trades=3 < 5 minimum for RSI_OVERSOLD; ATR avg_hold 48h >> 2h threshold; momentum not wired)
+- Backtest: skipped — yfinance blocked by CCR sandbox (expected, known issue per CLAUDE.md)
+- RL samples: 630/200 (target exceeded — ready for retraining)
+- Notes: 3 open positions (CEG +3.78%, CPRT +0.79%, ETN +3.23%). All above ATR trailing stops. Buying power at cash buffer ($50). RL READY — 630 samples collected, exceeds 200 target.
