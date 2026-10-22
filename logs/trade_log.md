@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-22T15:22:26Z
+- SUMMARY: Market open, in_window=true. 0 SELLs: CPRT $28.755 > stop $28.05 < target $30.11 (HOLD, RSI=66.9, RL=null). ATR ratchet: CPRT trail_stop $27.51→$28.05 (profit +5.06% ≥ 5% threshold, new_stop=avg_cost×1.025=$28.05). 0 BUYs: bearish_ema regime requires conf 3/3 — 0 RSI BUYs, 3 net-buy-only BUYs (BAC/SW/DDOG conf=2, blocked). Surge: GRMN/VST/GWW count=1 (need≥2, no new surges this cycle). Regime: BEARISH_EMA (SPY below 200-EMA). CB: daily -0.19%/weekly -0.22% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$233.05. Universe=503.
+
 ## 2026-10-21T18:17:37Z
 - SUMMARY: Market open, in_window=true. 0 SELLs: CEG ($272.715 > stop $262.08 < target $286.86, HOLD; pnl=+4.58%); CPRT ($27.936 > stop $27.51 < target $30.11, HOLD; pnl=+2.07%); ETN ($394.90 > stop $383.37 < target $419.61, HOLD; pnl=+3.52%). No RSI/NetBuy SELL signals for held tickers. 0 BUYs: investable=$0 (BP=$50.00=cash buffer). ATR ratchet: no changes (CEG/CPRT/ETN stops unchanged). 7 RSI BUY signals (NFLX/UBER/ABT/ADM/T/CMG/TJX conf=2). 1 Net-buy BUY: GRMN. Surge: GRMN +22.4% (count=1, need≥2). Regime: NORMAL. CB: daily -1.51%/weekly -2.65% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$238.70. Universe=503.
 
