@@ -628,3 +628,4 @@
 {"trade_id": "CAT|2026-10-13T14:14:58Z|LIVE", "timestamp": "2026-10-13T14:14:58Z", "ticker": "CAT", "action": "BUY", "price": 779.5, "obs": {"rsi": 25.5, "ema_trend": "BEARISH", "atr_pct": 0.02, "regime": "normal"}, "reward": -4.4708}
 {"trade_id": "CAT|2026-10-13T14:14:58Z|LIVE|HOLD", "timestamp": "2026-10-13T14:14:58Z", "ticker": "CAT", "action": "HOLD", "price": 779.5, "obs": {"rsi": 25.5, "ema_trend": "BEARISH", "atr_pct": 0.02, "regime": "normal"}, "reward": 0.0}
 {"trade_id": "WMB|2026-10-15T19:12:36Z|LIVE", "timestamp": "2026-10-15T19:12:36Z", "ticker": "WMB", "action": "BUY", "price": 69.29, "obs": {"rsi": 23.28, "ema_trend": "BEARISH", "atr_pct": 0.0111, "regime": "normal"}, "reward": 2.4535}
+{"trade_id": "CPRT|2026-10-20T16:18:42Z|LIVE", "timestamp": "2026-10-20T16:18:42Z", "ticker": "CPRT", "action": "BUY", "price": 27.37, "obs": {"rsi": 51.16, "ema_trend": "BULLISH", "atr_pct": 0.0122, "regime": "normal"}, "reward": 5.5353}

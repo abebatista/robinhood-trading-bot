@@ -570,3 +570,12 @@
 - Backtest: skipped — yfinance blocked by CCR sandbox (expected, known issue per CLAUDE.md)
 - RL samples: 630/200 (target exceeded — ready for retraining)
 - Notes: 3 open positions (CEG +3.78%, CPRT +0.79%, ETN +3.23%). All above ATR trailing stops. Buying power at cash buffer ($50). RL READY — 630 samples collected, exceeds 200 target.
+
+## 2026-10-22
+- Trades analysed: 5 (all normal strategy; no momentum/surge entries)
+- Win rate: 40% overall (normal: 40%, momentum: n/a, surge: n/a)
+- EMA-trend split: BULLISH 50% (1W/1L: CPRT+5.54%, GE-1.14%), BEARISH 33% (1W/2L: CEG+0.20%, ETN-3.13%, VTR-1.87%)
+- Config changes: none — normal win_rate=40% exactly at 40% boundary, no RSI_OVERSOLD change triggered; momentum n<3; avg_hold=38.6h (not <2h), no ATR threshold change
+- Backtest: skipped — yfinance blocked by CCR sandbox network policy (known expected limitation)
+- RL samples: 631/200 (READY — exceeds 200 target; run: python -m strategy.rl_agent --train)
+- Notes: RL training samples exceed 200-sample threshold. Q-table has 19 states (stale — trained 2026-07-09 on old data). Account value $233.26. No positions held at end of cycle. T+2 unsettled cash keeping buying_power at cash buffer. bearish_ema regime active at end of cycle.
