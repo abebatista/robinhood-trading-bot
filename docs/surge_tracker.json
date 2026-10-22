@@ -1,20 +1,26 @@
 {
-  "GRMN": {
+  "AEP": {
     "count": 1,
     "date": "2026-10-22",
-    "first_seen": "2026-10-22T14:22:34Z",
-    "price": 291.19
+    "first_seen": "2026-10-22T17:16:12Z",
+    "price": null
   },
-  "VST": {
+  "DUK": {
     "count": 1,
     "date": "2026-10-22",
-    "first_seen": "2026-10-22T14:22:34Z",
-    "price": 156.1894
+    "first_seen": "2026-10-22T17:16:12Z",
+    "price": null
   },
-  "GWW": {
+  "CNP": {
     "count": 1,
     "date": "2026-10-22",
-    "first_seen": "2026-10-22T14:22:34Z",
-    "price": 1351.86
+    "first_seen": "2026-10-22T17:16:12Z",
+    "price": null
+  },
+  "DG": {
+    "count": 1,
+    "date": "2026-10-22",
+    "first_seen": "2026-10-22T17:16:12Z",
+    "price": null
   }
 }
