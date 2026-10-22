@@ -1,5 +1,16 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-22T16:21:35Z
+- SUMMARY: Market open, in_window=true. 1 SELL: CPRT RSI overbought $28.885 (+5.54%, +$2.52). 0 BUYs: investable=$0 (BP=$50.00=cash buffer, T+2 unsettled). bearish_ema regime: 0 RSI BUYs. Surge: GRMN/VST/GWW count=1 (no change). CB: daily +0.28%/weekly +0.31% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$233.26. Universe=503.
+- Action : SELL CPRT
+- Price  : $28.885
+- Amount : $48.00 (1.66241 shares)
+- RSI    : 70.6 | EMA: BULLISH | BB: ABOVE_BAND
+- Entry  : $27.37 | Held: ~48h (since 2026-10-20T16:18Z)
+- PnL    : +$2.52 (+5.54%)
+- Stop   : $28.054 | Target: $30.107
+- Reason : RSI overbought (70.6) | price above BB upper band
+
 ## 2026-10-22T15:22:26Z
 - SUMMARY: Market open, in_window=true. 0 SELLs: CPRT $28.755 > stop $28.05 < target $30.11 (HOLD, RSI=66.9, RL=null). ATR ratchet: CPRT trail_stop $27.51→$28.05 (profit +5.06% ≥ 5% threshold, new_stop=avg_cost×1.025=$28.05). 0 BUYs: bearish_ema regime requires conf 3/3 — 0 RSI BUYs, 3 net-buy-only BUYs (BAC/SW/DDOG conf=2, blocked). Surge: GRMN/VST/GWW count=1 (need≥2, no new surges this cycle). Regime: BEARISH_EMA (SPY below 200-EMA). CB: daily -0.19%/weekly -0.22% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$233.05. Universe=503.
 
