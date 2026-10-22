@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T17:21:00Z",
+  "updated_at": "2026-10-22T19:19:43Z",
   "buying_power": 50.0,
   "market_regime": "bearish_ema",
   "account_value": 233.26,
@@ -14,10 +14,10 @@
   "disabled_reason": null,
   "positions": [],
   "last_actions": [
+    "2026-10-22T19:19Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: investable=$0 (BP=$50.00=cash buffer, T+2 unsettled). bearish_ema regime: 0 RSI BUYs. 8 net-buy signals (BAC/SW/LDOS/URI/AVY/MAA/ULTA/PRU). Surge: LDOS/URI/AVY/ULTA/PRU/GDDY count=1 (need>=2). CB: daily +0.28%/weekly +0.31% (OK). BP=$50.00. Acct=$233.26. Universe=503.",
     "2026-10-22T17:21Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: investable=$0 (BP=$50.00=cash buffer, T+2 unsettled). bearish_ema regime: 0 RSI BUYs. 5 net-buy signals (BAC/SW/DECK/URI/ULTA, investable=$0). Surge: AEP/DUK/CNP/DG count=1 (need>=2). CB: daily -0.28%/weekly -0.31% (OK). BP=$50.00. Acct=$233.26. Universe=503.",
     "2026-10-22T16:22Z Market open, in_window=true. 1 SELL: CPRT RSI overbought $28.885 (+5.54%, +$2.52). 0 BUYs: investable=$0 (BP=$50.00=cash buffer, T+2 unsettled). bearish_ema regime: 0 RSI BUYs. Surge: GRMN/VST/GWW count=1. CB: daily +0.28%/weekly +0.31% (OK). BP=$50.00. Acct=$233.26. Universe=503.",
     "2026-10-22T15:22Z Market open, in_window=true. 0 SELLs, 0 BUYs. CPRT +5.06% held ($28.755). ATR ratchet: trail_stop $27.51→$28.05 (profit crossed 5%). bearish_ema regime: 0 RSI BUYs, 3 net-buy-only (conf=2, blocked). Surge: GRMN/VST/GWW count=1. CB: daily -0.19%/weekly -0.22% (OK). BP=$50.00. Acct=$233.05. Universe=503.",
-    "2026-10-22T14:22Z Market open, in_window=true. 2 SELLs: CEG ATR trail stop $261.31 (+0.20%, +$0.18); ETN ATR trail stop $369.53 (-3.13%, -$1.43). 0 BUYs: investable=$0 (BP=$50.00=cash buffer, T+2 unsettled from today's sells). CPRT +4.41% held (HOLD, RSI=49.74, RL=HOLD). 4 RSI BUY signals (NFLX/T/CMG/FLEX conf=2, all RL=HOLD, no VETO/BOOST). Surge: GRMN 46.7%/VST 14.6%/GWW 16.4% count=1 (need>=2). Regime: NORMAL (SPY $765.42, RSI=57.5). CB: daily 0.0%/weekly -0.08% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$232.75. Universe=503.",
-    "2026-10-21T20:18Z Market closed (post-market). No SELLs/BUYs. CEG +3.78%/CPRT +0.79%/ETN +3.23% — all above stops, below targets. ATR ratchet: no changes. 4 RSI BUYs (NFLX/CMG/T/FLEX conf=2). Surge: GRMN 46.73% count=1 (need>=2). Regime: NORMAL. CB: daily -0.78%/weekly -1.91% (OK). BP=$50.00. Acct=$236.98. Universe=503."
+    "2026-10-22T14:22Z Market open, in_window=true. 2 SELLs: CEG ATR trail stop $261.31 (+0.20%, +$0.18); ETN ATR trail stop $369.53 (-3.13%, -$1.43). 0 BUYs: investable=$0 (BP=$50.00=cash buffer, T+2 unsettled from today's sells). CPRT +4.41% held (HOLD, RSI=49.74, RL=HOLD). 4 RSI BUY signals (NFLX/T/CMG/FLEX conf=2, all RL=HOLD, no VETO/BOOST). Surge: GRMN 46.7%/VST 14.6%/GWW 16.4% count=1 (need>=2). Regime: NORMAL (SPY $765.42, RSI=57.5). CB: daily 0.0%/weekly -0.08% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$232.75. Universe=503."
   ]
 }
