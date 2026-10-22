@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-22T21:18:00.890195+00:00",
+  "timestamp": "2026-10-22T22:07:52.149701+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -7808,7 +7808,7 @@
   "rl_stats": {
     "live": true,
     "states": 19,
-    "training_samples": 630
+    "training_samples": 631
   },
   "net_buy_buy_signals": [
     {
@@ -8055,15 +8055,6 @@
       "buy_vol_d3": 1822022,
       "net_buy_d3": 1743172,
       "reason": "Buy vol \u2191115.4% vs prior day | 2d streak | latest 1.74M | OBV 0.8M/day"
-    },
-    {
-      "ticker": "ACN",
-      "price": 258.739990234375,
-      "buy_surge_pct": 0.7375,
-      "buy_vol_d2": 4618137,
-      "buy_vol_d3": 8023920,
-      "net_buy_d3": 7755205,
-      "reason": "Buy vol \u219173.7% vs prior day | 1d streak | latest 7.76M | OBV 6.9M/day"
     }
   ]
 }
