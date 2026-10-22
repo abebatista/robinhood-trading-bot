@@ -1,5 +1,26 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-22T14:18:14Z
+- SUMMARY: Market open, in_window=true. 2 SELLs: CEG ATR trail stop (+0.20%), ETN ATR trail stop (-3.12%). 0 BUYs: investable=$0 (BP=$50.00=cash buffer, T+2 unsettled from today's sells). CPRT held +4.09% (no exit trigger, trail_stop=$27.51 unchanged). Regime: NORMAL (SPY $765.42). CB: daily 0.0% (new day) / weekly +0.03% (OK). Kill switch: trading_enabled=true. Universe: 549 (snapshot). BP=$50.00. Acct=$232.61.
+- Action   : SELL CEG
+- Price    : $261.31
+- Amount   : $91.19 | Shares: 0.348949
+- RSI      : N/A | EMA: N/A | BB: N/A
+- RL       : null | trail stop exit (not signal-driven)
+- Stop     : trail_stop=$262.08 (triggered) | Target was: $286.86
+- Strategy : normal | exit: ATR trailing stop
+- Regime   : normal
+- Reason   : ATR trailing stop triggered: $261.31 ≤ trail_stop $262.08 (locked-in from +3.72% peak). Entry $260.78 → exit $261.31 (+0.20%, +$0.18)
+- Action   : SELL ETN
+- Price    : $369.53
+- Amount   : $44.06 | Shares: 0.119252
+- RSI      : N/A | EMA: N/A | BB: N/A
+- RL       : null | trail stop exit (not signal-driven)
+- Stop     : trail_stop=$383.37 (triggered) | Target was: $419.61
+- Strategy : normal | exit: ATR trailing stop
+- Regime   : normal
+- Reason   : ATR trailing stop triggered: $369.53 ≤ trail_stop $383.37 (ratcheted from +3.23% peak). Entry $381.46 → exit $369.53 (-3.13%, -$1.43)
+
 ## 2026-10-21T18:17:37Z
 - SUMMARY: Market open, in_window=true. 0 SELLs: CEG ($272.715 > stop $262.08 < target $286.86, HOLD; pnl=+4.58%); CPRT ($27.936 > stop $27.51 < target $30.11, HOLD; pnl=+2.07%); ETN ($394.90 > stop $383.37 < target $419.61, HOLD; pnl=+3.52%). No RSI/NetBuy SELL signals for held tickers. 0 BUYs: investable=$0 (BP=$50.00=cash buffer). ATR ratchet: no changes (CEG/CPRT/ETN stops unchanged). 7 RSI BUY signals (NFLX/UBER/ABT/ADM/T/CMG/TJX conf=2). 1 Net-buy BUY: GRMN. Surge: GRMN +22.4% (count=1, need≥2). Regime: NORMAL. CB: daily -1.51%/weekly -2.65% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$238.70. Universe=503.
 
