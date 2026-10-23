@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T14:21:00Z",
+  "updated_at": "2026-10-23T15:23:00Z",
   "buying_power": 233.26,
   "market_regime": "bearish_ema",
   "account_value": 233.26,
@@ -14,10 +14,10 @@
   "disabled_reason": null,
   "positions": [],
   "last_actions": [
+    "2026-10-23T15:23Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf>=3 required), 0 net-buy BUYs, 0 surge. HOLD=480/SELL=62 across 542 symbols. SPY RSI=38.78 EMA=BEARISH. CB: daily 0.0%/weekly -0.31% (OK). BP=$233.26. Acct=$233.26. Universe=503.",
     "2026-10-23T14:21Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime (SPY RSI=40.19): 0 RSI BUYs, 5 net-buy-only (BAC/IBM/SWKS/SW/HSIC conf=2, blocked). Surge: 13 tickers count=1 (need>=2). CB: daily 0.0%/weekly -0.31% (OK). BP=$233.26. Acct=$233.26. Universe=503.",
     "2026-10-22T19:19Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: investable=$0 (BP=$50.00=cash buffer, T+2 unsettled). bearish_ema regime: 0 RSI BUYs. 8 net-buy signals (BAC/SW/LDOS/URI/AVY/MAA/ULTA/PRU). Surge: LDOS/URI/AVY/ULTA/PRU/GDDY count=1 (need>=2). CB: daily +0.28%/weekly +0.31% (OK). BP=$50.00. Acct=$233.26. Universe=503.",
     "2026-10-22T17:21Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: investable=$0 (BP=$50.00=cash buffer, T+2 unsettled from CPRT sell). bearish_ema regime: 0 RSI BUYs. 5 net-buy signals (BAC/SW/DECK/URI/ULTA, investable=$0). Surge: AEP/DUK/CNP/DG count=1 (need>=2). CB: daily -0.28%/weekly -0.31% (OK). BP=$50.00. Acct=$233.26. Universe=503.",
-    "2026-10-22T16:22Z Market open, in_window=true. 1 SELL: CPRT RSI overbought $28.885 (+5.54%, +$2.52). 0 BUYs: investable=$0 (BP=$50.00=cash buffer, T+2 unsettled). bearish_ema regime: 0 RSI BUYs. Surge: GRMN/VST/GWW count=1. CB: daily +0.28%/weekly +0.31% (OK). BP=$50.00. Acct=$233.26. Universe=503.",
-    "2026-10-22T15:22Z Market open, in_window=true. 0 SELLs, 0 BUYs. CPRT +5.06% held ($28.755). ATR ratchet: trail_stop $27.51->$28.05 (profit crossed 5%). bearish_ema regime: 0 RSI BUYs, 3 net-buy-only (conf=2, blocked). Surge: GRMN/VST/GWW count=1. CB: daily -0.19%/weekly -0.22% (OK). BP=$50.00. Acct=$233.05. Universe=503."
+    "2026-10-22T16:22Z Market open, in_window=true. 1 SELL: CPRT RSI overbought $28.885 (+5.54%, +$2.52). 0 BUYs: investable=$0 (BP=$50.00=cash buffer, T+2 unsettled). bearish_ema regime: 0 RSI BUYs. Surge: GRMN/VST/GWW count=1. CB: daily +0.28%/weekly +0.31% (OK). BP=$50.00. Acct=$233.26. Universe=503."
   ]
 }
