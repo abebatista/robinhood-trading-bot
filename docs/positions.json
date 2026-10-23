@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23T18:20:30Z",
-  "buying_power": 233.26,
+  "updated_at": "2026-10-23T19:20:30Z",
+  "buying_power": 187.44,
   "market_regime": "bearish_ema",
   "account_value": 233.26,
   "peak_value": 249.0,
@@ -12,12 +12,27 @@
   "kill_switch_pct": 0.20,
   "kill_switch_floor": 200.0,
   "disabled_reason": null,
-  "positions": [],
+  "positions": [
+    {
+      "ticker": "VZ",
+      "quantity": 1.030350,
+      "avg_cost": 44.47,
+      "current_price": 44.47,
+      "pnl_pct": 0.0,
+      "value": 45.82,
+      "entry_atr_pct": 0.0104,
+      "entry_time": "2026-10-23T19:20:10Z",
+      "trail_stop": 43.55,
+      "take_profit": 48.92,
+      "strategy": "intraday_surge",
+      "sell_date": null
+    }
+  ],
   "last_actions": [
+    "2026-10-23T19:20Z BUY VZ $45.82 (1.0304 shares @ ~$44.47). Intraday_surge count=2 (+46.8% buy vol). bearish_ema: amount=investable×0.25. Stop=$43.55 Target=$48.92. BP=$233.26→$187.44. Acct~$233.26. Universe=503.",
     "2026-10-23T18:20Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf>=3 required), 0 net-buy BUYs, 0 surge (VZ count=1 need>=2). CB: daily 0.0%/weekly -0.31% (OK). BP=$233.26. Acct=$233.26. Universe=503.",
     "2026-10-23T17:21Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf>=3 required), 1 net-buy (HONA blocked: bearish_ema requires conf>=3, net-buy only). SPY RSI=36.20 EMA=BEARISH. CB: daily 0.0%/weekly -0.31% (OK). BP=$233.26. Acct=$233.26. Universe=503.",
     "2026-10-23T16:20Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf>=3 required), 1 net-buy (IP blocked: bearish_ema requires conf>=3, net-buy only). SPY RSI=39.25 EMA=BEARISH. CB: daily 0.0%/weekly +0.31% (OK). BP=$233.26. Acct=$233.26. Universe=503.",
-    "2026-10-23T15:23Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf>=3 required), 0 net-buy BUYs, 0 surge. HOLD=480/SELL=62 across 542 symbols. SPY RSI=38.78 EMA=BEARISH. CB: daily 0.0%/weekly -0.31% (OK). BP=$233.26. Acct=$233.26. Universe=503.",
-    "2026-10-23T14:21Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime (SPY RSI=40.19): 0 RSI BUYs, 5 net-buy-only (BAC/IBM/SWKS/SW/HSIC conf=2, blocked). Surge: 13 tickers count=1 (need>=2). CB: daily 0.0%/weekly -0.31% (OK). BP=$233.26. Acct=$233.26. Universe=503."
+    "2026-10-23T15:23Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf>=3 required), 0 net-buy BUYs, 0 surge. HOLD=480/SELL=62 across 542 symbols. SPY RSI=38.78 EMA=BEARISH. CB: daily 0.0%/weekly -0.31% (OK). BP=$233.26. Acct=$233.26. Universe=503."
   ]
 }

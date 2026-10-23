@@ -1,5 +1,16 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-23T19:20:10Z
+- Action   : BUY VZ
+- Price    : $44.47
+- Amount   : $45.82 | Shares: 1.0304
+- RSI      : 51.28 | EMA: BULLISH | BB: IN_BAND
+- RL       : HOLD conf=0.928 | null (not SELL veto, proceed normally)
+- Stop     : $43.55 | Target: $48.92
+- Strategy : intraday_surge | Sell date: ATR/signal
+- Regime   : bearish_ema (position halved ×0.5×0.5=×0.25)
+- Reason   : Intraday surge count=2 (buy vol +46.8% over 2 cycles) | buy vol 7.18M vs 4.89M prior day | Net buy reversed positive 1.94M | SPY RSI=34.84 EMA=BEARISH
+
 ## 2026-10-23T18:20:30Z
 - SUMMARY: Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf>=3 required), 0 net-buy BUYs, 0 surge (VZ count=1 need>=2, CNC 6.9%<10%). SPY EMA=BEARISH. CB: daily 0.0%/weekly -0.31% (OK). Kill switch: trading_enabled=true. BP=$233.26. Acct=$233.26. Universe=503.
 
