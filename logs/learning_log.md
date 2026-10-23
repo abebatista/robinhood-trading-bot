@@ -579,3 +579,12 @@
 - Backtest: skipped — yfinance blocked by CCR sandbox network policy (known expected limitation)
 - RL samples: 631/200 (READY — exceeds 200 target; run: python -m strategy.rl_agent --train)
 - Notes: RL training samples exceed 200-sample threshold. Q-table has 19 states (stale — trained 2026-07-09 on old data). Account value $233.26. No positions held at end of cycle. T+2 unsettled cash keeping buying_power at cash buffer. bearish_ema regime active at end of cycle.
+
+## 2026-10-23
+- Trades analysed: 3 closed (CPRT +5.54%, VTR -1.87%, GE -1.14%); VZ open (intraday_surge)
+- Win rate: 33.3% overall (normal: 33.3% [n=3]; momentum: n/a [n=0]; surge: n/a [n=0 closed])
+- EMA-trend win rate: BULLISH 1/2=50% (CPRT win, GE loss); BEARISH 0/1=0% (VTR loss)
+- Config changes: none (n_trades < threshold for all strategy types: normal n=3<5, momentum n=0<3)
+- Backtest: skipped — yfinance blocked in CCR sandbox (known issue, see CLAUDE.md)
+- RL samples: 631/200 (READY — exceeds 200 threshold)
+- Notes: RL training data at 631 rows, well past the 200-sample readiness threshold. Q-table has 19 states (trained on pre-fix data — retrain recommended). Bearish EMA regime active (SPY below 200-EMA). Account at $233.33, kill switch floor $200.

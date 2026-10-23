@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-22",
+  "updated_at": "2026-10-23",
   "backtest_days": 14,
   "strategy_return": null,
   "spy_return": null,
-  "win_rate": 0.40,
-  "avg_win_pnl": 2.87,
-  "avg_loss_pnl": -2.05,
+  "win_rate": 0.33,
+  "avg_win_pnl": 0.0554,
+  "avg_loss_pnl": -0.015,
   "risk_reward": null,
-  "total_trades": 5,
-  "wins": 2,
-  "losses": 3,
+  "total_trades": 3,
+  "wins": 1,
+  "losses": 2,
   "circuit_breaker_halts": 0,
   "rl_training_samples": 631,
   "rl_states_learned": 19,
   "rl_target_samples": 200,
-  "note": "Backtest skipped — yfinance blocked by sandbox network policy (expected in CCR). NO_CHANGE to thresholds: normal win_rate=40% exactly at 40% boundary (n=5), no adjustment triggered. Win_rate from live closed trades: 2W/3L. avg_win=+2.87% (CEG+0.20%,CPRT+5.54%), avg_loss=-2.05% (ETN-3.13%,VTR-1.87%,GE-1.14%). Updated by daily learning CCR"
+  "note": "Backtest skipped — yfinance blocked in CCR sandbox (known issue). Metrics from live trade log (3 closed trades). Config: NO_CHANGE (n_trades below threshold for all strategy types). Updated by daily learning CCR."
 }

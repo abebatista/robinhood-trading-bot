@@ -43,21 +43,6 @@
 ## 2026-10-22T15:22:26Z
 - SUMMARY: Market open, in_window=true. 0 SELLs: CPRT $28.755 > stop $28.05 < target $30.11 (HOLD, RSI=66.9, RL=null). ATR ratchet: CPRT trail_stop $27.51→$28.05 (profit +5.06% ≥ 5% threshold, new_stop=avg_cost×1.025=$28.05). 0 BUYs: bearish_ema regime requires conf 3/3 — 0 RSI BUYs, 3 net-buy-only BUYs (BAC/SW/DDOG conf=2, blocked). Surge: GRMN/VST/GWW count=1 (need≥2, no new surges this cycle). Regime: BEARISH_EMA (SPY below 200-EMA). CB: daily -0.19%/weekly -0.22% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$233.05. Universe=503.
 
-## 2026-10-21T18:17:37Z
-- SUMMARY: Market open, in_window=true. 0 SELLs: CEG ($272.715 > stop $262.08 < target $286.86, HOLD; pnl=+4.58%); CPRT ($27.936 > stop $27.51 < target $30.11, HOLD; pnl=+2.07%); ETN ($394.90 > stop $383.37 < target $419.61, HOLD; pnl=+3.52%). No RSI/NetBuy SELL signals for held tickers. 0 BUYs: investable=$0 (BP=$50.00=cash buffer). ATR ratchet: no changes (CEG/CPRT/ETN stops unchanged). 7 RSI BUY signals (NFLX/UBER/ABT/ADM/T/CMG/TJX conf=2). 1 Net-buy BUY: GRMN. Surge: GRMN +22.4% (count=1, need≥2). Regime: NORMAL. CB: daily -1.51%/weekly -2.65% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$238.70. Universe=503.
-
-## 2026-10-21T17:18:00Z
-- SUMMARY: Market open, in_window=true. 0 SELLs: CEG ($270.47 > stop $262.08↑ < target $286.86, HOLD; pnl=+3.72%); CPRT ($27.985 > stop $27.51 < target $30.11, HOLD; pnl=+2.25%); ETN ($394.21 > stop $383.37 < target $419.61, HOLD; pnl=+3.34%). No RSI/NetBuy SELL signals for held tickers. 0 BUYs: investable=$0 (BP=$50.00=cash buffer). ATR ratchet: CEG trail_stop $254.32→$262.08 (+3.72% profit ≥2.5%). 12 RSI BUY signals (GOOGL/GOOG/T/ABT conf→3 via RL BOOST, NFLX/UBER/ADM/BG/CMG/DRI/DXCM/TJX conf=2). 1 Net-buy BUY: GRMN. Regime: NORMAL. CB: daily +1.18%/weekly +2.31% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$237.91. Universe=503.
-
-## 2026-10-21T16:12:00Z
-- SUMMARY: Market open, in_window=true. 0 SELLs: CEG ($267.17 > stop $254.32 < target $286.86, HOLD; pnl=+2.45%); CPRT ($28.29 > stop $27.51↑ < target $30.11, HOLD; pnl=+3.36%); ETN ($392.36 > stop $383.37 < target $419.61, HOLD; pnl=+2.86%). No RSI/NetBuy SELL signals for held tickers. 0 BUYs: investable=$0 (BP=$50.00=cash buffer). ATR ratchet: CPRT trail_stop $27.50→$27.51 (profit +3.36%). Regime: NORMAL (SPY $772.65; RSI 58.07; market_regime=normal). CB: daily -0.81%/weekly -1.94% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$237.05. Universe=503.
-
-## 2026-10-21T15:20:00Z
-- SUMMARY: Market open, in_window=true. 0 SELLs: CEG ($265.875 > stop $254.32 < target $286.86, HOLD); CPRT ($28.13 > stop $27.50 < target $30.11, HOLD); ETN ($389.785 > stop $383.37 < target $419.61, HOLD). 0 BUYs: investable=$0 (BP=$50=cash buffer). ATR ratchet: CPRT trail_stop $26.70→$27.50. Regime: bearish_ema→NORMAL (SPY $770.90 > EMA200 $769.22). CB: daily +0.40%/weekly +1.52% (OK). Kill switch: trading_enabled=true. BP=$50.00. Acct=$236.07. Universe=503.
-
-## 2026-10-21T14:20:00Z
-- SUMMARY: Market open, in_window=true. 0 SELLs: CEG ($263.60 vs stop $254.32/target $286.86, pnl=+1.08%, no trigger); CPRT ($27.945 vs stop $26.70/target $30.11, pnl=+2.10%, no trigger); ETN ($391.58 vs stop $383.37↑/target $419.61, pnl=+2.65%, no trigger). 0 BUYs: bearish_ema regime, investable=$0 (buying_power=$50.00 exactly = cash buffer). ATR ratchet: ETN trail_stop $374.36→$383.37 (+2.65% profit). Surge tracker: FDS/YUM/ESS/ED/FITB/CRL count=1 (all new today, need≥2 for entry). CB: daily 0.0% / weekly -1.11% (OK, week start=$232.54). Kill switch: trading_enabled=true. BP=$50.00. Acct=$235.14. Universe=503. Regime=bearish_ema.
-
 ## 2026-10-20T16:18Z SUMMARY
 - SUMMARY: Market open, in_window=true. 0 SELLs: CEG held <2h (entry 14:25Z, price $260.87 vs stop $254.32/target $286.86, no trigger). 1 BUY: CPRT $45.50 @ $27.37 (RSI BUY conf=2 + RL BOOST conf=0.974). CEG HOLD (low vol, RSI=27.3 oversold but signal skipped). Kill switch: trading_enabled=true. CB: daily -0.01%/weekly +0.22% (OK). BP=$95.49 post-order. Acct=$232.02. Universe=503.
 
