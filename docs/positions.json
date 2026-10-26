@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T17:18:27Z",
+  "updated_at": "2026-10-26T18:22:22Z",
   "buying_power": 187.44,
   "market_regime": "bearish_ema",
   "account_value": 231.91,
@@ -9,15 +9,15 @@
   "week_start_value": 232.37,
   "week_start_date": "2026-10-26",
   "trading_enabled": true,
-  "kill_switch_pct": 0.20,
+  "kill_switch_pct": 0.2,
   "kill_switch_floor": 200.0,
   "disabled_reason": null,
   "positions": [],
   "last_actions": [
+    "2026-10-26T18:22Z Market open, in_window=true. 0 positions. 0 SELLs. 0 BUYs: bearish_ema — 0 RSI BUYs (conf>=3 req), 1 net-buy (AKAM conf<3 blocked), 0 surge. CB: daily -0.20%/weekly -0.20% (OK). BP=$187.44. Acct=$231.91. Universe=503.",
     "2026-10-26T17:18Z Market open, in_window=true. 0 positions. 0 SELLs. 0 BUYs: bearish_ema — 0 RSI BUYs (conf>=3 req), 0 net-buy, 0 surge. CB: daily -0.2%/weekly -0.2% (OK). BP=$187.44. Acct=$231.91. Universe=503.",
     "2026-10-26T16:20Z SELL VZ $43.18 — ATR trail stop hit ($43.18 ≤ $43.55). EMA=BEARISH. pnl≈-2.9%. bearish_ema regime. 0 BUYs (no signals, bearish_ema). BP≈$231.92. Acct≈$231.92. Universe=503.",
-    "2026-10-26T15:24Z Market open, in_window=true. 0 SELLs (VZ $43.79 > trail_stop $43.55, RSI=39.1 HOLD, pnl=-1.6%). 0 BUYs: bearish_ema — 0 RSI BUYs (conf>=3 req), 0 net-buy, 0 surge. CB: daily +0.1%/weekly +0.1% (OK). BP=$187.44. Acct=$232.55. Universe=503.",
-    "2026-10-26T14:34Z Market open, in_window=true. 0 SELLs (VZ $43.61 > trail_stop $43.55, pnl=-2.0%). 0 BUYs: bearish_ema — 0 RSI BUYs (conf>=3 req), AKAM+SNA net-buy blocked (1 strategy only). CB: daily 0.0%/weekly 0.0% (new week reset). BP=$187.44. Acct=$232.37. Universe=503.",
-    "2026-10-23T20:20Z Market closed. VZ HOLD (RSI=53.5 EMA=BULLISH price=$44.55 trail=$43.55 +0.2%). bearish_ema regime. BP=$187.44. Acct=$233.33. Universe=503."
+    "2026-10-26T15:24Z Market open, in_window=true. 0 SELLs (VZ $43.79 > trail_stop $43.55, RSI=39.1 HOLD, pnl=-1.6%). 0 BUYs: bearish_ema — 0 RSI BUYs (conf>=3 req), 0 net-buy. CB: daily +0.1%/weekly +0.1% (OK). BP=$187.44. Acct=$232.55. Universe=503.",
+    "2026-10-26T14:34Z Market open, in_window=true. 0 SELLs (VZ $43.61 > trail_stop $43.55, pnl=-2.0%). 0 BUYs: bearish_ema — 0 RSI BUYs (conf>=3 req), AKAM+SNA net-buy blocked (1 strategy only). CB: daily 0.0%/weekly 0.0% (new week reset). BP=$187.44. Acct=$232.37. Universe=503."
   ]
 }
