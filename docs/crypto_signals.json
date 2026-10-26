@@ -1,9 +1,8 @@
 {
-  "timestamp": "2026-10-25T01:15:36Z",
+  "timestamp": "2026-10-26T01:15:20.854778+00:00",
   "trading_halted": false,
   "halt_reason": null,
-  "market_regime": "unknown",
-  "signal_error": "yfinance unavailable in sandbox (403 blocked); no crypto historicals MCP endpoint available. Signals skipped; no new entries this cycle.",
+  "market_regime": "normal",
   "tickers": [
     "BTC-USD",
     "ETH-USD",
