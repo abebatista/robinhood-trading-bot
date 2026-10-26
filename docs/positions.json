@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T15:24:04Z",
-  "buying_power": 187.44,
+  "updated_at": "2026-10-26T16:20:30Z",
+  "buying_power": 231.92,
   "market_regime": "bearish_ema",
-  "account_value": 232.55,
+  "account_value": 231.92,
   "peak_value": 249.0,
   "day_start_value": 232.37,
   "day_start_date": "2026-10-26",
@@ -12,27 +12,12 @@
   "kill_switch_pct": 0.20,
   "kill_switch_floor": 200.0,
   "disabled_reason": null,
-  "positions": [
-    {
-      "ticker": "VZ",
-      "quantity": 1.030160,
-      "avg_cost": 44.48,
-      "current_price": 43.79,
-      "pnl_pct": -0.0155,
-      "value": 45.11,
-      "entry_atr_pct": 0.0104,
-      "entry_time": "2026-10-23T19:20:10Z",
-      "trail_stop": 43.55,
-      "take_profit": 48.93,
-      "strategy": "intraday_surge",
-      "sell_date": null
-    }
-  ],
+  "positions": [],
   "last_actions": [
+    "2026-10-26T16:20Z SELL VZ $43.18 — ATR trail stop hit ($43.18 ≤ $43.55). EMA=BEARISH. pnl≈-2.9%. bearish_ema regime. 0 BUYs (no signals, bearish_ema). BP≈$231.92. Acct≈$231.92. Universe=503.",
     "2026-10-26T15:24Z Market open, in_window=true. 0 SELLs (VZ $43.79 > trail_stop $43.55, RSI=39.1 HOLD, pnl=-1.6%). 0 BUYs: bearish_ema — 0 RSI BUYs (conf>=3 req), 0 net-buy, 0 surge. CB: daily +0.1%/weekly +0.1% (OK). BP=$187.44. Acct=$232.55. Universe=503.",
     "2026-10-26T14:34Z Market open, in_window=true. 0 SELLs (VZ $43.61 > trail_stop $43.55, pnl=-2.0%). 0 BUYs: bearish_ema — 0 RSI BUYs (conf>=3 req), AKAM+SNA net-buy blocked (1 strategy only). CB: daily 0.0%/weekly 0.0% (new week reset). BP=$187.44. Acct=$232.37. Universe=503.",
     "2026-10-23T20:20Z Market closed. VZ HOLD (RSI=53.5 EMA=BULLISH price=$44.55 trail=$43.55 +0.2%). bearish_ema regime. BP=$187.44. Acct=$233.33. Universe=503.",
-    "2026-10-23T19:20Z BUY VZ $45.82 (1.0304 shares @ ~$44.47). Intraday_surge count=2 (+46.8% buy vol). bearish_ema: amount=investable×0.25. Stop=$43.55 Target=$48.92. BP=$233.26→$187.44. Acct~$233.26. Universe=503.",
-    "2026-10-23T18:20Z Market open, in_window=true. 0 SELLs (no positions). 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf>=3 required), 0 net-buy BUYs, 0 surge (VZ count=1 need>=2). CB: daily 0.0%/weekly -0.31% (OK). BP=$233.26. Acct=$233.26. Universe=503."
+    "2026-10-23T19:20Z BUY VZ $45.82 (1.0304 shares @ ~$44.47). Intraday_surge count=2 (+46.8% buy vol). bearish_ema: amount=investable×0.25. Stop=$43.55 Target=$48.92. BP=$233.26→$187.44. Acct~$233.26. Universe=503."
   ]
 }
