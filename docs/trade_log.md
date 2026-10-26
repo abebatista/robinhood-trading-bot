@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-26T14:34:39Z
+- SUMMARY: Market open, in_window=true. 0 SELLs: VZ at $43.61 (trail_stop $43.55 not hit, pnl=-2.0%, hours_held=67h, RSI=HOLD, no SELL signal). 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf>=3 required), 2 net-buy BUYs blocked (AKAM, SNA — one strategy only, bearish_ema requires conf>=3). 18 RSI SELL signals on non-held tickers (XOM, CVX, SLB, HON, NOW, CRWD et al). CB: daily 0.0%/weekly 0.0% (OK, new week reset). Kill switch: trading_enabled=true. BP=$187.44. Acct=$232.37. Universe=503. VZ: RSI=53.5 EMA=BULLISH BB=IN_BAND HOLD. Trail_stop=$43.55 (0.1% above stop — watch closely next cycle).
+
 ## 2026-10-23T20:20:00Z
 - SUMMARY: Market closed (closed at 20:00 UTC / 16:00 ET). 0 SELLs (VZ held: price $44.55 > trail_stop $43.55, pnl=+0.2%, hours_held<3). 0 BUYs: market closed. Regime=bearish_ema. Kill switch: trading_enabled=true. CB: daily +0.03%/weekly +0.34% (OK). BP=$187.44. Acct=$233.33. Universe=503. VZ: RSI=53.5 EMA=BULLISH HOLD.
 
