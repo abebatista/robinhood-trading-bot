@@ -1,21 +1,16 @@
 # Trade Log — Robinhood Agentic Account
 
-## 2026-10-26T16:20:06Z
-- Action   : SELL VZ
-- Price    : $43.18
-- Amount   : $44.48 | Shares: 1.030160
-- RSI      : 40.37 | EMA: BEARISH | BB: IN_BAND
-- RL       : null conf=null | null
-- Stop     : $43.55 (trail, triggered) | Target: $48.93
-- Strategy : intraday_surge | Sell date: ATR/signal
-- Regime   : bearish_ema
-- Reason   : ATR trailing stop hit — price $43.18 ≤ trail_stop $43.55 (−2.9% from avg_cost $44.48). EMA=BEARISH. Market sell order placed (ID: 6adf7db6).
+## 2026-10-26T19:23:19Z
+- SUMMARY: Market open, in_window=true. 0 positions held. 0 SELLs. 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf≥3 required), 2 net-buy (AKAM $98.31 + NOC $564.48 — both conf<3, blocked by bearish_ema gate), 0 surge. CB: daily -0.20%/weekly -0.20% (OK). BP=$187.44. Acct=$231.91. Universe=503.
 
-## 2026-10-26T16:20:30Z
-- SUMMARY: Market open, in_window=true. 1 SELL: VZ $43.18 (ATR trail stop $43.55 triggered, pnl≈-2.9%). 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf>=3 required), 0 net-buy, 0 surge. CB: daily 0.19%/weekly 0.19% (OK). Kill switch: trading_enabled=true. BP≈$231.92 (post-sell). Acct≈$231.92. Universe=503.
+## 2026-10-26T18:22:22Z
+- SUMMARY: Market open, in_window=true. 0 positions held. 0 SELLs. 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf≥3 required in bearish_ema), 1 net-buy (AKAM $98.60 — conf<3 blocked by bearish_ema gate), 0 surge. CB: daily -0.20%/weekly -0.20% (OK). BP=$187.44. Acct=$231.91. Universe=503.
 
-## 2026-10-26T14:34:39Z
-- SUMMARY: Market open, in_window=true. 0 SELLs: VZ at $43.61 (trail_stop $43.55 not hit, pnl=-2.0%, hours_held=67h, RSI=HOLD, no SELL signal). 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf>=3 required), 2 net-buy BUYs blocked (AKAM, SNA — one strategy only, bearish_ema requires conf>=3). 18 RSI SELL signals on non-held tickers (XOM, CVX, SLB, HON, NOW, CRWD et al). CB: daily 0.0%/weekly 0.0% (OK, new week reset). Kill switch: trading_enabled=true. BP=$187.44. Acct=$232.37. Universe=503. VZ: RSI=53.5 EMA=BULLISH BB=IN_BAND HOLD. Trail_stop=$43.55 (0.1% above stop — watch closely next cycle).
+## 2026-10-26T17:18:27Z
+- SUMMARY: Market open, in_window=true. 0 positions held. 0 SELLs. 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf≥3 required in bearish_ema), 0 net-buy, 0 surge. CB: daily -0.2%/weekly -0.2% (OK). BP=$187.44 (acct_value=$231.91). Universe=503.
+
+## 2026-10-26T15:24:04Z
+- SUMMARY: Market open, in_window=true. 0 SELLs (VZ $43.79 > trail_stop $43.55, RSI=39.1 HOLD, pnl=-1.6%). 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf>=3 required), 0 net-buy BUYs, 0 surge. CB: daily +0.1%/weekly +0.1% (OK). BP=$187.44. Acct=$232.55. Universe=503.
 
 ## 2026-10-23T20:20:00Z
 - SUMMARY: Market closed (closed at 20:00 UTC / 16:00 ET). 0 SELLs (VZ held: price $44.55 > trail_stop $43.55, pnl=+0.2%, hours_held<3). 0 BUYs: market closed. Regime=bearish_ema. Kill switch: trading_enabled=true. CB: daily +0.03%/weekly +0.34% (OK). BP=$187.44. Acct=$233.33. Universe=503. VZ: RSI=53.5 EMA=BULLISH HOLD.
