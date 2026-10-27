@@ -597,3 +597,12 @@
 - Backtest: skipped — yfinance blocked in CCR sandbox (known issue, see CLAUDE.md)
 - RL samples: 631/200 (READY — exceeds 200 threshold)
 - Notes: +0 new RL rows (no new closed trades since last cycle). VZ stopped out -2.9% (ATR trail, bearish_ema regime). Account $231.91 (down from peak $249). Kill switch floor $200, still safe. bearish_ema regime active. Trade log trimmed to last 2 days (10 entries kept).
+
+## 2026-10-27
+- Trades analysed: 4 closed (CPRT +5.54%, GE -1.14%, VTR -1.87%, VZ -2.9%)
+- Win rate: 25% overall (normal: 25%, momentum: N/A, surge: N/A)
+- EMA entry: BULLISH=50% win (2 trades), BEARISH=0% win (2 trades)
+- Config changes: none — normal n=4 < 5 required threshold; no momentum/surge entries
+- Backtest: skipped — yfinance proxy blocked in CCR sandbox (known issue)
+- RL samples: 631/200 (READY — 631 >= 200; note: ~610 pre-fix rows, retrain needed before trusting RL in live)
+- Notes: 4 new equity positions opened today (BRO/HIG/AIG/GDDY, all ~RSI 27-29 normal strategy, regime shifted bearish_ema→normal). No new RL training rows (no closed trades today). Trim log: kept 20/20 entries (last 2 days).
