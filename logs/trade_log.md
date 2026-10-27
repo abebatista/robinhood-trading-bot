@@ -1,5 +1,38 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-27T16:23:37Z
+- Action   : BUY BRO
+- Price    : $67.48
+- Amount   : $90.96 | Shares: 1.347956
+- RSI      : 27.6 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : BUY conf=0.928 | BOOST (conf 2→3)
+- Stop     : $66.35 (ATR) | Target: $74.23
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal (regime shifted from bearish_ema this cycle)
+- Reason   : RSI oversold+stabilizing (27.6↑) | BB reversal returning from band | RL BOOST
+
+## 2026-10-27T16:23:41Z
+- Action   : BUY HIG
+- Price    : $132.87
+- Amount   : $45.48 | Shares: 0.342289
+- RSI      : 28.0 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : BUY conf=0.928 | BOOST (conf 2→3)
+- Stop     : $131.65 (ATR) | Target: $146.16
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal
+- Reason   : RSI oversold+stabilizing (28.0↑) | BB reversal returning from band | RL BOOST
+
+## 2026-10-27T16:23:44Z
+- Action   : BUY AIG
+- Price    : $79.41
+- Amount   : $22.74 | Shares: 0.286362
+- RSI      : 28.5 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : BUY conf=0.928 | BOOST (conf 2→3)
+- Stop     : $78.81 (ATR) | Target: $87.35
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal
+- Reason   : RSI oversold+stabilizing (28.5↑) | BB reversal returning from band | RL BOOST
+
 ## 2026-10-27T15:26Z
 - SUMMARY: Market open, in_window=true. 0 positions held. 0 SELLs. 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf≥3 required), 0 net-buy BUYs, 0 surge. CB: daily 0.0%/weekly -0.2% (OK). BP=$231.91. Acct=$231.91. Universe=503.
 

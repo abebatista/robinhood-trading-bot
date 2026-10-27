@@ -1,24 +1,67 @@
 {
-  "updated_at": "2026-10-27T15:26Z",
-  "buying_power": 231.91,
-  "market_regime": "bearish_ema",
-  "account_value": 231.91,
+  "updated_at": "2026-10-27T16:24:00Z",
+  "buying_power": 72.73,
+  "market_regime": "normal",
+  "account_value": 231.92,
   "peak_value": 249.0,
   "day_start_value": 231.91,
   "day_start_date": "2026-10-27",
   "week_start_value": 232.37,
   "week_start_date": "2026-10-26",
   "trading_enabled": true,
-  "kill_switch_pct": 0.2,
+  "kill_switch_pct": 0.20,
   "kill_switch_floor": 200.0,
   "disabled_reason": null,
-  "positions": [],
+  "positions": [
+    {
+      "ticker": "BRO",
+      "quantity": 1.347956,
+      "avg_cost": 67.48,
+      "current_price": 67.48,
+      "pnl_pct": 0.0,
+      "value": 90.98,
+      "entry_atr_pct": 0.0084,
+      "entry_time": "2026-10-27T16:23:37Z",
+      "trail_stop": 66.35,
+      "take_profit": 74.23,
+      "strategy": "normal",
+      "sell_date": null
+    },
+    {
+      "ticker": "HIG",
+      "quantity": 0.342289,
+      "avg_cost": 132.87,
+      "current_price": 132.87,
+      "pnl_pct": 0.0,
+      "value": 45.48,
+      "entry_atr_pct": 0.0046,
+      "entry_time": "2026-10-27T16:23:41Z",
+      "trail_stop": 131.65,
+      "take_profit": 146.16,
+      "strategy": "normal",
+      "sell_date": null
+    },
+    {
+      "ticker": "AIG",
+      "quantity": 0.286362,
+      "avg_cost": 79.41,
+      "current_price": 79.41,
+      "pnl_pct": 0.0,
+      "value": 22.74,
+      "entry_atr_pct": 0.0038,
+      "entry_time": "2026-10-27T16:23:44Z",
+      "trail_stop": 78.81,
+      "take_profit": 87.35,
+      "strategy": "normal",
+      "sell_date": null
+    }
+  ],
   "last_actions": [
+    "2026-10-27T16:24Z REGIME CHANGE: bearish_ema→normal. 3 BUYs: BRO $90.96 (RSI 27.6↑ BB-reversal RL-BOOST), HIG $45.48 (RSI 28.0↑ BB-reversal RL-BOOST), AIG $22.74 (RSI 28.5↑ BB-reversal RL-BOOST). 0 SELLs. CB: daily 0.0%/weekly 0.2% (OK). BP=$72.73. Acct=$231.92. Universe=503.",
     "2026-10-27T15:26Z Market open, in_window=true. 0 positions held. 0 SELLs. 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf≥3 required), 0 net-buy BUYs, 0 surge. CB: daily 0.0%/weekly -0.2% (OK). BP=$231.91. Acct=$231.91. Universe=503.",
     "2026-10-27T14:33Z Market open, in_window=true. 0 positions held. 0 SELLs. 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf≥3 required), 0 net-buy BUYs, 0 surge. CB: daily 0.0%/weekly -0.2% (OK). BP=$231.91. Acct=$231.91. Universe=503.",
     "2026-10-26T20:19Z Market closed. 0 positions. 0 SELLs. 0 BUYs (market closed). Regime: bearish_ema. CB: daily -0.20%/weekly -0.20% (OK). BP=$187.44. Acct=$231.91. Universe=503.",
     "2026-10-26T19:23Z Market open, in_window=true. 0 positions held. 0 SELLs. 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf≥3 required), 2 net-buy (AKAM+NOC conf<3 blocked), 0 surge. CB: daily -0.20%/weekly -0.20% (OK). BP=$187.44. Acct=$231.91. Universe=503.",
-    "2026-10-26T18:22Z Market open, in_window=true. 0 positions. 0 SELLs. 0 BUYs: bearish_ema — 0 RSI BUYs (conf>=3 req), 1 net-buy (AKAM conf<3 blocked), 0 surge. CB: daily -0.20%/weekly -0.20% (OK). BP=$187.44. Acct=$231.91. Universe=503.",
-    "2026-10-26T17:18Z Market open, in_window=true. 0 positions. 0 SELLs. 0 BUYs: bearish_ema — 0 RSI BUYs (conf>=3 req), 0 net-buy, 0 surge. CB: daily -0.2%/weekly -0.2% (OK). BP=$187.44. Acct=$231.91. Universe=503."
+    "2026-10-26T18:22Z Market open, in_window=true. 0 positions. 0 SELLs. 0 BUYs: bearish_ema — 0 RSI BUYs (conf>=3 req), 1 net-buy (AKAM conf<3 blocked), 0 surge. CB: daily -0.20%/weekly -0.20% (OK). BP=$187.44. Acct=$231.91. Universe=503."
   ]
 }
