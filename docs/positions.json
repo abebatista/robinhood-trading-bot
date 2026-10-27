@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-26T20:19:31Z",
-  "buying_power": 187.44,
+  "updated_at": "2026-10-27T14:33Z",
+  "buying_power": 231.91,
   "market_regime": "bearish_ema",
   "account_value": 231.91,
   "peak_value": 249.0,
-  "day_start_value": 232.37,
-  "day_start_date": "2026-10-26",
+  "day_start_value": 231.91,
+  "day_start_date": "2026-10-27",
   "week_start_value": 232.37,
   "week_start_date": "2026-10-26",
   "trading_enabled": true,
@@ -14,10 +14,10 @@
   "disabled_reason": null,
   "positions": [],
   "last_actions": [
+    "2026-10-27T14:33Z Market open, in_window=true. 0 positions held. 0 SELLs. 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf≥3 required), 0 net-buy BUYs, 0 surge. CB: daily 0.0%/weekly -0.2% (OK). BP=$231.91. Acct=$231.91. Universe=503.",
     "2026-10-26T20:19Z Market closed. 0 positions. 0 SELLs. 0 BUYs (market closed). Regime: bearish_ema. CB: daily -0.20%/weekly -0.20% (OK). BP=$187.44. Acct=$231.91. Universe=503.",
     "2026-10-26T19:23Z Market open, in_window=true. 0 positions held. 0 SELLs. 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf≥3 required), 2 net-buy (AKAM+NOC conf<3 blocked), 0 surge. CB: daily -0.20%/weekly -0.20% (OK). BP=$187.44. Acct=$231.91. Universe=503.",
     "2026-10-26T18:22Z Market open, in_window=true. 0 positions. 0 SELLs. 0 BUYs: bearish_ema — 0 RSI BUYs (conf>=3 req), 1 net-buy (AKAM conf<3 blocked), 0 surge. CB: daily -0.20%/weekly -0.20% (OK). BP=$187.44. Acct=$231.91. Universe=503.",
-    "2026-10-26T17:18Z Market open, in_window=true. 0 positions. 0 SELLs. 0 BUYs: bearish_ema — 0 RSI BUYs (conf>=3 req), 0 net-buy, 0 surge. CB: daily -0.2%/weekly -0.2% (OK). BP=$187.44. Acct=$231.91. Universe=503.",
-    "2026-10-26T16:20Z SELL VZ $43.18 — ATR trail stop hit ($43.18 ≤ $43.55). EMA=BEARISH. pnl≈-2.9%. bearish_ema regime. 0 BUYs (no signals, bearish_ema). BP≈$231.92. Acct≈$231.92. Universe=503."
+    "2026-10-26T17:18Z Market open, in_window=true. 0 positions. 0 SELLs. 0 BUYs: bearish_ema — 0 RSI BUYs (conf>=3 req), 0 net-buy, 0 surge. CB: daily -0.2%/weekly -0.2% (OK). BP=$187.44. Acct=$231.91. Universe=503."
   ]
 }
