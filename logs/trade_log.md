@@ -105,3 +105,12 @@
 - Regime   : normal
 - Reason   : ATR trail stop triggered; hours_held ~29h; PnL -1.14% from avg_cost $307.63. Exit per rule.
 
+
+## 2026-10-27T17:22:00Z
+- Action  : HOLD (no trades)
+- Regime  : normal (SPY above 200-EMA)
+- Signals : 3 RSI BUY conf=2 (JKHY $158.80, MSCI $605.00, WM $234.66) — all blocked: investable $22.73×50%=$11.37 < $15 min order
+- Holdings: BRO +0.01% ($90.97), HIG +0.65% ($45.77), AIG +0.55% ($22.86) — ~1h held, no exit triggers
+- TrailUp : BRO 66.35→66.64 | HIG 131.65→132.81 | AIG 78.81→79.39
+- CB      : daily +0.18% / weekly -0.01% (OK, floor=$200.00)
+- BP      : $72.73 | Acct=$232.34 | Universe=503

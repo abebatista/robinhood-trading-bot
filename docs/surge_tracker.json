@@ -1,1 +1,17 @@
-{}
+{
+  "GILD": {
+    "count": 1,
+    "last_seen": "2026-10-27T17:12Z",
+    "price": 157.86
+  },
+  "EMR": {
+    "count": 1,
+    "last_seen": "2026-10-27T17:12Z",
+    "price": 164.57
+  },
+  "FDX": {
+    "count": 1,
+    "last_seen": "2026-10-27T17:12Z",
+    "price": 305.64
+  }
+}
