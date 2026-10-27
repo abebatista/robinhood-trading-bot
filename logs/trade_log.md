@@ -1,5 +1,19 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-27T19:21:34Z (SUMMARY)
+- SUMMARY: Market open, in_window=true. Regime: normal. 3 positions held (BRO/HIG/AIG, ~2h 58min). 0 SELLs: no triggers (hrs_held<3 for sell rules b/c; no stops/TP hit). 1 BUY: GDDY $22.73 (RSI 28.2↑ BB-reversal RL-BOOST conf=2→3 STRONG-BUY, full investable). CB: daily +0.2%/weekly +0.0% (OK). BP=$50.00. Acct=$232.37. Universe=503.
+
+## 2026-10-27T19:21:34Z
+- Action   : BUY GDDY
+- Price    : $105.47 (avg fill)
+- Amount   : $22.73 | Shares: 0.215511
+- RSI      : 28.2 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : BUY conf=0.928 | BOOST (conf 2→3)
+- Stop     : $103.53 (ATR) | Target: $116.02
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal
+- Reason   : RSI oversold+stabilizing (30.1→28.2) | BB reversal returning from band | RL BOOST
+
 ## 2026-10-27T18:22:00Z
 - SUMMARY: Market open, in_window=true. Regime: normal. 3 positions held (BRO/HIG/AIG, ~2h). 0 SELLs: no triggers (hrs_held<3, no sell signals for held tickers, no stops/TP hit). 0 BUYs: 8 RSI conf=2 candidates (META/BA/AMCR/CTVA/PSX/UHS/WM + HIG[held]) — investable $22.73×50%=$11.37 < $15 min. Surge: AME/DOV first sighted (count=1, need 2). CB: daily -0.0%/weekly +0.2% (OK). BP=$72.73. Acct=$232.02. Universe=503.
 
