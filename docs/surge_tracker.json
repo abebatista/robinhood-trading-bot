@@ -1,17 +1,16 @@
 {
-  "GILD": {
+  "AME": {
     "count": 1,
-    "last_seen": "2026-10-27T17:12Z",
-    "price": 157.86
+    "date": "2026-10-27",
+    "first_seen": "2026-10-27T18:22Z",
+    "last_seen": "2026-10-27T18:22Z",
+    "price": 245.525
   },
-  "EMR": {
+  "DOV": {
     "count": 1,
-    "last_seen": "2026-10-27T17:12Z",
-    "price": 164.57
-  },
-  "FDX": {
-    "count": 1,
-    "last_seen": "2026-10-27T17:12Z",
-    "price": 305.64
+    "date": "2026-10-27",
+    "first_seen": "2026-10-27T18:22Z",
+    "last_seen": "2026-10-27T18:22Z",
+    "price": 206.14
   }
 }
