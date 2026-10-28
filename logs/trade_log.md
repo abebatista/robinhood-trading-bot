@@ -1,5 +1,30 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-28T15:22:45Z (SUMMARY)
+- SUMMARY: Market OPEN, in_window=true. Regime: normal. 2 SELLs: BRO ATR-trail-stop ($66.51≤$66.64), HIG ATR-trail-stop ($131.98≤$132.81). 0 BUYs: investable=$0 (BP=$50 − $50 buffer; sell proceeds unsettled on cash acct). 2 positions remain: AIG(+0.55%)/GDDY(+0.02%). CB: daily 0.2%/weekly 0.8% (OK). MPC/PSX had MODERATE BUY (conf=2, rl=HOLD) but $0 investable. Universe=503.
+
+## 2026-10-28T15:22:00Z
+- Action   : SELL BRO
+- Price    : $66.51
+- Amount   : $89.64 | Shares: 1.347956
+- RSI      : 26.84 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : HOLD conf=0.0 | null
+- Stop     : trail_stop=$66.64 HIT | Entry: $67.48
+- Strategy : normal | Exit: ATR trailing stop triggered
+- Regime   : normal
+- Reason   : ATR trailing stop — price $66.51 ≤ trail $66.64 (hrs_held ~23h). PnL: -1.44%
+
+## 2026-10-28T15:22:00Z
+- Action   : SELL HIG
+- Price    : $131.98
+- Amount   : $45.17 | Shares: 0.342289
+- RSI      : 30.72 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : null conf=null | null
+- Stop     : trail_stop=$132.81 HIT | Entry: $132.87
+- Strategy : normal | Exit: ATR trailing stop triggered
+- Regime   : normal
+- Reason   : ATR trailing stop — price $131.98 ≤ trail $132.81 (hrs_held ~23h). PnL: -0.67%
+
 ## 2026-10-28T14:46:00Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal. 4 positions held (BRO/-1.17%/trail $66.64, HIG/-0.02%/trail $132.81, AIG/+0.40%/trail $79.39, GDDY/+1.22%/trail $103.53). 0 SELLs: no triggers (trail stops not hit, no SELL signals on held positions, no TP). 0 BUYs: investable=$0.00 (BP=$50.00 − $50.00 buffer). CB: daily 0.0%/weekly 0.6% (OK). Trail stops: unchanged (no position ≥2.5% profit). Surge tracker: VRT/AEP count=1 (no confirmed intraday surge yet). BP=$50.00. Acct=$230.99. Universe=503.
 

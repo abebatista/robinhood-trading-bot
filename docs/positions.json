@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T14:46:00Z",
+  "updated_at": "2026-10-28T15:22:45Z",
   "buying_power": 50.0,
   "market_regime": "normal",
-  "account_value": 230.99,
+  "account_value": 230.46,
   "peak_value": 249.0,
   "day_start_value": 230.99,
   "day_start_date": "2026-10-28",
@@ -14,40 +14,12 @@
   "disabled_reason": null,
   "positions": [
     {
-      "ticker": "BRO",
-      "quantity": 1.347956,
-      "avg_cost": 67.48,
-      "current_price": 66.69,
-      "pnl_pct": -1.17,
-      "value": 89.90,
-      "entry_atr_pct": 0.0084,
-      "entry_time": "2026-10-27T16:23:37Z",
-      "trail_stop": 66.64,
-      "take_profit": 74.23,
-      "strategy": "normal",
-      "sell_date": null
-    },
-    {
-      "ticker": "HIG",
-      "quantity": 0.342289,
-      "avg_cost": 132.87,
-      "current_price": 132.85,
-      "pnl_pct": -0.02,
-      "value": 45.47,
-      "entry_atr_pct": 0.0046,
-      "entry_time": "2026-10-27T16:23:41Z",
-      "trail_stop": 132.81,
-      "take_profit": 146.16,
-      "strategy": "normal",
-      "sell_date": null
-    },
-    {
       "ticker": "AIG",
       "quantity": 0.286362,
       "avg_cost": 79.41,
-      "current_price": 79.73,
-      "pnl_pct": 0.40,
-      "value": 22.83,
+      "current_price": 79.85,
+      "pnl_pct": 0.55,
+      "value": 22.86,
       "entry_atr_pct": 0.0038,
       "entry_time": "2026-10-27T16:23:44Z",
       "trail_stop": 79.39,
@@ -59,9 +31,9 @@
       "ticker": "GDDY",
       "quantity": 0.215511,
       "avg_cost": 105.47,
-      "current_price": 106.76,
-      "pnl_pct": 1.22,
-      "value": 23.01,
+      "current_price": 105.495,
+      "pnl_pct": 0.02,
+      "value": 22.73,
       "entry_atr_pct": 0.0092,
       "entry_time": "2026-10-27T19:21:34Z",
       "trail_stop": 103.53,
@@ -71,10 +43,10 @@
     }
   ],
   "last_actions": [
+    "2026-10-28T15:22Z Market OPEN, in_window=true. Regime: normal. 2 SELLs: BRO ATR-trail ($66.51≤$66.64,-1.44%), HIG ATR-trail ($131.98≤$132.81,-0.67%). 0 BUYs: investable=$0 (BP=$50, sell proceeds unsettled). 2 positions: AIG(+0.55%)/GDDY(+0.02%). CB: daily 0.2%/weekly 0.8% (OK). BP=$50.00. Acct=$230.46. Universe=503.",
     "2026-10-28T14:46Z Market OPEN, in_window=true. Regime: normal. 0 SELLs: no triggers. 0 BUYs: investable=$0 (BP=$50 - $50 buffer). 4 positions: BRO(-1.17%)/HIG(-0.02%)/AIG(+0.40%)/GDDY(+1.22%). CB: daily 0.0%/weekly 0.6% (OK). Trail stops: unchanged. BP=$50.00. Acct=$230.99. Universe=503.",
     "2026-10-27T20:30Z Market CLOSED (16:12 EDT). 0 SELLs: no triggers. 0 BUYs: market closed. 4 positions: BRO(+0.06%)/HIG(+0.47%)/AIG(+0.21%)/GDDY(+0.69%). CB: daily -0.3%/weekly -0.1% (OK). Trail stops unchanged. BP=$50.00. Acct=$232.55. Universe=503.",
     "2026-10-27T19:21Z Market open, in_window=true. Regime: normal. 3 positions held (BRO/HIG/AIG, ~2h 58min). 0 SELLs: no triggers (hrs_held<3; no stops/TP hit). 1 BUY: GDDY $22.73 (RSI 28.2↑ BB-reversal RL-BOOST conf=2→3 STRONG-BUY). CB: daily +0.2%/weekly +0.0% (OK). BP=$50.00. Acct=$232.37. Universe=503.",
-    "2026-10-27T18:22Z Market open, in_window=true. Regime: normal. 3 positions held (BRO/HIG/AIG, ~2h). 0 SELLs (hrs_held<3, no signals). 0 BUYs: 8 RSI conf=2 (META/BA/AMCR/CTVA/PSX/UHS/WM + HIG[held]) — investable $22.73×50%=$11.37 < $15 min. Surge: AME/DOV count=1. CB: daily -0.0%/weekly +0.2% (OK). BP=$72.73. Acct=$232.02. Universe=503.",
     "2026-10-27T16:24Z REGIME CHANGE: bearish_ema→normal. 3 BUYs: BRO $90.96 (RSI 27.6↑ BB-reversal RL-BOOST), HIG $45.48 (RSI 28.0↑ BB-reversal RL-BOOST), AIG $22.74 (RSI 28.5↑ BB-reversal RL-BOOST). 0 SELLs. CB: daily 0.0%/weekly 0.2% (OK). BP=$72.73. Acct=$231.92. Universe=503."
   ]
 }
