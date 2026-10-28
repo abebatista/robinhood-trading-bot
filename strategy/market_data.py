@@ -1,7 +1,10 @@
 """Fetch OHLCV market data — yfinance (local) or Robinhood historicals cache (cloud)."""
 
 import json
-import yfinance as yf
+try:
+    import yfinance as yf
+except ImportError:
+    yf = None  # cloud sandbox — use --from-cache path instead
 import pandas as pd
 from datetime import datetime, timezone, timedelta
 from .config import (
@@ -13,6 +16,8 @@ from .config import (
 
 def fetch_ohlcv(ticker: str, period: str = DATA_PERIOD, interval: str = DATA_INTERVAL) -> pd.DataFrame:
     """Return OHLCV DataFrame for *ticker*. Raises on empty data."""
+    if yf is None:
+        raise ImportError("yfinance not available; use --from-cache instead")
     df = yf.download(ticker, period=period, interval=interval,
                      auto_adjust=True, progress=False)
     if df.empty:
