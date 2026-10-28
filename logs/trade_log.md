@@ -1,5 +1,19 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-28T19:20:00Z (SUMMARY)
+- SUMMARY: Market OPEN, in_window=true. Regime: normal. 1 SELL: AIG (ATR trail stop $79.645≤$79.66, +0.30%, order 6ae24ad1). 0 BUYs: investable=$0 (BP=$50−$50 buffer; sell proceeds unsettled). AMAT surge count=2 (buy candidate, but $0 investable). 0 positions. CB: daily 0.22%/weekly 0.81% (OK). BP=$50.00. Acct=$230.48. Universe=503.
+
+## 2026-10-28T19:19:45Z
+- Action   : SELL AIG
+- Price    : $79.645
+- Amount   : $22.82 | Shares: 0.286362
+- RSI      : 35.7 | EMA: BEARISH | BB: IN_BAND
+- RL       : null conf=null | null
+- Stop     : $79.66 | Target: $87.35
+- Strategy : normal | Sell date: ATR trail stop
+- Regime   : normal
+- Reason   : ATR trailing stop triggered ($79.645 ≤ $79.66). Entry 2026-10-27T16:23Z, held ~27h. PnL: +0.30% (+$0.07). Net-buy regime neutral (AIG=HOLD, low volume 0.28x avg). Order id: 6ae24ad1.
+
 ## 2026-10-28T18:27:00Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal. 0 SELLs: AIG above trail stop ($79.97>$79.66, no signal). 0 BUYs: investable=$0 (BP=$50.00−$50 buffer). Trail stop ratcheted: AIG $79.39→$79.66 (ATR 0.38%). Surge: no candidates (AMAT/EME/BXP count=1, need 2). 1 position: AIG(+0.70%). CB: daily 0.20%/weekly 0.79% (OK). BP=$50.00. Acct=$230.53. Universe=503.
 
