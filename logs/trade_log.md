@@ -1,5 +1,19 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-28T17:27:00Z (SUMMARY)
+- SUMMARY: Market OPEN, in_window=true. Regime: normal. 1 SELL: GDDY (net_buy_sell_signal — net buy reversed 0.04M→0.01M, OBV -0.2M/day, held ~21h, +0.57%). 0 BUYs: buying_power=$50.00 after SELL, investable=$0 ($50−$50 buffer; GDDY proceeds unsettled). 1 position: AIG(+0.89%, trail=$79.39). CB: daily 0.18%/weekly 0.77% (OK). Surge: GEV removed (no longer 10%+ surge). BP=$50.00. Acct=$230.57. Universe=503 (41 tickers in RH cache, Strategy 2 ran 503).
+
+## 2026-10-28T17:26:00Z
+- Action   : SELL GDDY
+- Price    : $106.07
+- Amount   : $22.86 | Shares: 0.215511
+- RSI      : 37.5 | EMA: BEARISH | BB: IN_BAND
+- RL       : null conf=null | null
+- Stop     : $103.53 | Target: $116.02
+- Strategy : normal | Sell: net_buy_sell_signal
+- Regime   : normal
+- Reason   : Net buy trend reversed (0.04M → 0.01M, OBV -0.2M/day). Held ~21h since 2026-10-27T19:21Z. PnL: ~+0.57% (+$0.13). Order id: 6ae23027.
+
 ## 2026-10-28T16:26:00Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal. 0 SELLs: AIG(stop=$79.39<price=$80.12,no signal), GDDY(stop=$103.53<price=$106.24,no signal). 0 BUYs: investable=$0 (BP=$50.00 − $50 buffer; sell proceeds unsettled). Surge: GEV count=1 (needs 2). RSI BUY queue: META/BA/ICE/MPC/MNST/VLO/XYL (conf=2) — no investable capital. 2 positions: AIG(+0.89%)/GDDY(+0.73%). CB: daily 0.16%/weekly 0.75% (OK). Trail stops: AIG=$79.39, GDDY=$103.53. BP=$50.00. Acct=$230.62. Universe=503.
 
