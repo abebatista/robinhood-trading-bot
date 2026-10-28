@@ -1,8 +1,5 @@
 # Trade Log — Robinhood Agentic Account
 
-## 2026-10-28T20:21:00Z (SUMMARY)
-- SUMMARY: Market CLOSED (after-hours). No positions held. Buying power: $50.00. Equity positions: 0. Regime: normal. Account: $230.48. Universe fetched: 503. RSI BUYs: 15 (top: META conf=2 RSI=22.4 BEARISH-EMA, ABNB conf=2 RSI=29.9, CHRW conf=2 RSI=28.0, CAH conf=2 RSI=31.4). RSI SELLs: 31 (AMD RSI=78.2, DLR RSI=71.2). net_buy_buys: 6, net_buy_sells: 10. Surge: AMAT 96.6%, AMD 79.0%, SNDK 86.1%, EME 31.3%, COHR 12.5%. investable=$0 (BP=$50−$50 buffer; all proceeds unsettled). CB: daily 0.22%/weekly 0.81% (OK). Kill switch: OK.
-
 ## 2026-10-28T19:20:00Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal. 1 SELL: AIG (ATR trail stop $79.645≤$79.66, +0.30%, order 6ae24ad1). 0 BUYs: investable=$0 (BP=$50−$50 buffer; sell proceeds unsettled). AMAT surge count=2 (buy candidate, but $0 investable). 0 positions. CB: daily 0.22%/weekly 0.81% (OK). BP=$50.00. Acct=$230.48. Universe=503.
 
