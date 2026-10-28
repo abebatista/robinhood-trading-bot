@@ -606,3 +606,11 @@
 - Backtest: skipped — yfinance proxy blocked in CCR sandbox (known issue)
 - RL samples: 631/200 (READY — 631 >= 200; note: ~610 pre-fix rows, retrain needed before trusting RL in live)
 - Notes: 4 new equity positions opened today (BRO/HIG/AIG/GDDY, all ~RSI 27-29 normal strategy, regime shifted bearish_ema→normal). No new RL training rows (no closed trades today). Trim log: kept 20/20 entries (last 2 days).
+
+## 2026-10-28
+- Trades analysed: 6 (closed: BRO -1.44%, HIG -0.67%, AIG +0.30%, GDDY +0.57%, VTR -1.87%, GE -1.14%)
+- Win rate: 33.3% overall (normal: 33.3% [2/6]; momentum: n/a — no trades; surge: n/a — no trades)
+- Config changes: RSI_OVERSOLD 32→34 (normal win_rate 33.3% < 40%, n=6 ≥ 5; tightened entry)
+- Backtest: SKIPPED — yfinance blocked in CCR sandbox (known network restriction); change kept (can't evaluate)
+- RL samples: 637/200 (READY — exceeds threshold)
+- Notes: EMA-BEARISH entries 40% win rate (2/5), EMA-BULLISH only 1 trade (insufficient). MOMENTUM_VOL_MIN unchanged (0 momentum trades). ATR_VOLATILITY_THRESHOLD unchanged (avg hold 24.5h, not fast-stopped). Trade log trimmed: 25 entries remain.

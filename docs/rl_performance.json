@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "backtest_days": 14,
   "strategy_return": null,
   "spy_return": null,
-  "win_rate": 0.25,
-  "avg_win_pnl": 0.0554,
-  "avg_loss_pnl": -0.0197,
-  "risk_reward": null,
-  "total_trades": 4,
-  "wins": 1,
-  "losses": 3,
+  "win_rate": 0.333,
+  "avg_win_pnl": 0.435,
+  "avg_loss_pnl": -1.28,
+  "risk_reward": 0.34,
+  "total_trades": 6,
+  "wins": 2,
+  "losses": 4,
   "circuit_breaker_halts": 0,
-  "rl_training_samples": 631,
+  "rl_training_samples": 637,
   "rl_states_learned": 19,
   "rl_target_samples": 200,
-  "note": "Backtest skipped — yfinance blocked in CCR sandbox (known issue). Metrics from live trade log (4 closed trades: CPRT +5.54%, GE -1.14%, VTR -1.87%, VZ -2.9%). Config: NO_CHANGE (normal n=4 < 5 required; no momentum/surge entries). Updated by daily learning CCR."
+  "note": "Updated by daily learning CCR. Backtest skipped — yfinance blocked in CCR sandbox (known network restriction). Win/loss metrics from live closed trades (last 30 log entries). RSI_OVERSOLD tuned 32→34."
 }
