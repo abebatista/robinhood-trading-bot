@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T19:20:00Z",
+  "updated_at": "2026-10-28T20:21:00Z",
   "buying_power": 50.0,
   "market_regime": "normal",
   "account_value": 230.48,
@@ -14,10 +14,10 @@
   "disabled_reason": null,
   "positions": [],
   "last_actions": [
+    "2026-10-28T20:21Z Market CLOSED. No positions. BP=$50.00. Acct=$230.48. Regime: normal. Universe=503. RSI BUYs=15 (top: META/ABNB/CHRW conf=2 BEARISH-EMA). RSI SELLs=31. Surge: AMAT 96.6%/SNDK 86.1%/AMD 79.0%/EME 31.3%/COHR 12.5%. investable=$0 (BP=$50-$50 buffer). CB: daily 0.22%/weekly 0.81% (OK).",
     "2026-10-28T19:20Z Market OPEN, in_window=true. Regime: normal. 1 SELL: AIG (ATR trail stop $79.645≤$79.66, +0.30%, order 6ae24ad1). 0 BUYs: investable=$0 (BP=$50−$50 buffer; sell proceeds unsettled). AMAT surge count=2 (buy candidate, $0 investable). 0 positions. CB: daily 0.22%/weekly 0.81% (OK). BP=$50.00. Acct=$230.48. Universe=503.",
     "2026-10-28T18:27Z Market OPEN, in_window=true. Regime: normal. 0 SELLs: AIG above trail stop ($79.97>$79.66, no signal). 0 BUYs: investable=$0 (BP=$50.00−$50 buffer). Trail stop ratcheted: AIG $79.39→$79.66 (ATR 0.38%). Surge: no candidates (AMAT/EME/BXP count=1, need 2). 1 position: AIG(+0.70%). CB: daily 0.20%/weekly 0.79% (OK). BP=$50.00. Acct=$230.53. Universe=503.",
     "2026-10-28T17:27Z Market OPEN, in_window=true. Regime: normal. 1 SELL: GDDY net_buy_sell_signal (+0.57%, ~$0.13 gain). 0 BUYs: investable=$0 (BP=$50−$50 buffer; sell proceeds unsettled). 1 position: AIG(+0.89%). CB: daily 0.18%/weekly 0.77% (OK). Trail stops: AIG=$79.39. BP=$50.00. Acct=$230.57. Universe=503.",
-    "2026-10-28T16:26Z Market OPEN, in_window=true. Regime: normal. 0 SELLs: no triggers (AIG/GDDY both above trail stops, no signal). 0 BUYs: investable=$0 (BP=$50 - $50 buffer). Surge: GEV count=1 (needs 2). 2 positions: AIG(+0.89%)/GDDY(+0.73%). CB: daily 0.16%/weekly 0.75% (OK). BP=$50.00. Acct=$230.62. Universe=503.",
-    "2026-10-28T15:22Z Market OPEN, in_window=true. Regime: normal. 2 SELLs: BRO ATR-trail ($66.51≤$66.64,-1.44%), HIG ATR-trail ($131.98≤$132.81,-0.67%). 0 BUYs: investable=$0 (BP=$50, sell proceeds unsettled). 2 positions: AIG(+0.55%)/GDDY(+0.02%). CB: daily 0.2%/weekly 0.8% (OK). BP=$50.00. Acct=$230.46. Universe=503."
+    "2026-10-28T16:26Z Market OPEN, in_window=true. Regime: normal. 0 SELLs: no triggers (AIG/GDDY both above trail stops, no signal). 0 BUYs: investable=$0 (BP=$50 - $50 buffer). Surge: GEV count=1 (needs 2). 2 positions: AIG(+0.89%)/GDDY(+0.73%). CB: daily 0.16%/weekly 0.75% (OK). BP=$50.00. Acct=$230.62. Universe=503."
   ]
 }
