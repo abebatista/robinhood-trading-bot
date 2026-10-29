@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-29T15:21:46Z (SUMMARY)
+- SUMMARY: Market OPEN, in_window=true. Regime: bearish_ema (SPY RSI 50.45, below 200-EMA). 0 SELLs: ABNB ($167.81, trail_stop $166.37, +0.07%, <3h hold) and ELV ($418.15, trail_stop $414.29, +0.002%, <3h hold) — no exit conditions met. 0 BUYs: bearish_ema regime requires 3/3 confidence (both RSI+net_buy agree), but RSI BUYs=0; PM net-buy only (conf=2), does not qualify. Surge tracker cleared (0 surge signals). CB: daily 0.00%/weekly 0.81% (OK). BP=$95.12. Equity positions: 2. Account: $230.48. Universe=503.
+
 ## 2026-10-28T19:20:00Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal. 1 SELL: AIG (ATR trail stop $79.645≤$79.66, +0.30%, order 6ae24ad1). 0 BUYs: investable=$0 (BP=$50−$50 buffer; sell proceeds unsettled). AMAT surge count=2 (buy candidate, but $0 investable). 0 positions. CB: daily 0.22%/weekly 0.81% (OK). BP=$50.00. Acct=$230.48. Universe=503.
 
