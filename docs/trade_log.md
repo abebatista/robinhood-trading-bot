@@ -1,8 +1,5 @@
 # Trade Log — Robinhood Agentic Account
 
-## 2026-10-29T20:25:00Z (SUMMARY)
-- SUMMARY: Market CLOSED (4:13 PM ET). No trades placed. Regime: normal. 0 SELLs: ABNB ($166.51, trail $166.37, -0.71%, 5.78h held) — above stop; ELV ($422.02, trail $414.29, +0.93%, 5.77h held) — above stop; TTWO ($193.55, trail $192.26, -0.86%, 3.68h held) — above stop. No RSI/net-sell signals on held positions. 0 BUYs: market closed. CB: daily 0.14%/weekly 0.95% (OK). BP=$50.00. Equity: 3 positions ($180.16). Account: $230.16. Universe=503.
-
 ## 2026-10-29T19:27:44Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=True (3:27 PM ET, just before avoid window). Regime: bearish_ema. 0 SELLs: ABNB ($167.17, trail $166.37, -0.32%, 4.82h held), ELV ($418.03, trail $414.29, -0.03%, 4.81h held), TTWO ($192.63, trail $192.26, -1.33%, 2.73h held) — all above trail stops, no RSI/net-sell signals. 0 BUYs: investable=$0 (BP=$50−$50 buffer). Regime bearish_ema, 0 RSI BUYs. Net-buy: 3 signals (conf=2 only), blocked by bearish_ema+investable=$0. Surge: PM count=2 (INTRADAY CANDIDATE), DVA/BDX/EVRG count=1. PM blocked by investable=$0. CB: daily 0.39%/weekly 1.20% (OK). BP=$50.00. Equity: 3 positions ($179.58). Account: $229.58. Universe=503.
 
