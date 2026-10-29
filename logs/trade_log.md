@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-29T17:24:27Z (SUMMARY)
+- SUMMARY: Market OPEN, in_window=true. Regime: normal (SPY above 200-EMA). 0 SELLs: ABNB ($166.97, trail_stop $166.37, -0.44%, <3h hold), ELV ($420.27, trail_stop $414.29, +0.51%, <3h hold), TTWO ($192.70, trail_stop $192.26, -1.29%, <3h hold) — no exit triggers. 0 BUYs: investable=$0 (BP=$50−$50 buffer). RSI BUYs=4 (SNOW/CRWD/BSX conf=2; TTWO conf=2 already held). Surge: none. CB: daily 0.32%/weekly 1.13% (OK). BP=$50.00. Equity positions: 3. Account: $229.74. Universe=503 (297 tickers fetched from RH historicals this cycle).
+
 ## 2026-10-29T16:43:58Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal (SPY above 200-EMA). 0 SELLs: ABNB+ELV <3h hold, no exit triggers. 1 BUY: TTWO (RSI 26.7 oversold+stabilizing, BB reversal, RL BOOST conf=0.928, $45.12, order 6ae377ce). CB: daily 0.01%/weekly 0.82% (OK). BP=$50.00 post-trade. Acct≈$230.51. Universe=503.
 
