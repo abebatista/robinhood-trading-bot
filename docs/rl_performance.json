@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-29",
   "backtest_days": 14,
   "strategy_return": null,
   "spy_return": null,
@@ -14,5 +14,5 @@
   "rl_training_samples": 637,
   "rl_states_learned": 19,
   "rl_target_samples": 200,
-  "note": "Updated by daily learning CCR. Backtest skipped — yfinance blocked in CCR sandbox (known network restriction). Win/loss metrics from live closed trades (last 30 log entries). RSI_OVERSOLD tuned 32→34."
+  "note": "Updated by daily learning CCR. Backtest skipped — yfinance blocked in CCR sandbox (known network restriction). Win/loss metrics from live closed trades (last 30 log entries). RSI_OVERSOLD tuned 34→36."
 }

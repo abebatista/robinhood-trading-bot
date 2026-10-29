@@ -614,3 +614,12 @@
 - Backtest: SKIPPED — yfinance blocked in CCR sandbox (known network restriction); change kept (can't evaluate)
 - RL samples: 637/200 (READY — exceeds threshold)
 - Notes: EMA-BEARISH entries 40% win rate (2/5), EMA-BULLISH only 1 trade (insufficient). MOMENTUM_VOL_MIN unchanged (0 momentum trades). ATR_VOLATILITY_THRESHOLD unchanged (avg hold 24.5h, not fast-stopped). Trade log trimmed: 25 entries remain.
+
+## 2026-10-29
+- Trades analysed: 6 (closed: BRO -1.44%, HIG -0.67%, AIG +0.30%, GDDY +0.57%, VTR -1.87%, GE -1.14%)
+- Win rate: 33.3% overall (normal: 33.3% [2/6]; momentum: n/a — 0 trades; surge: n/a — 0 trades)
+- EMA entry: BEARISH=40% win (2/5 trades), BULLISH=0% win (1 trade — insufficient)
+- Config changes: RSI_OVERSOLD 34→36 (normal win_rate 33.3% < 40%, n=6 ≥ 5; tightened entry)
+- Backtest: SKIPPED — yfinance blocked in CCR sandbox (known network restriction); change kept
+- RL samples: 637/200 (READY — exceeds threshold; run python -m strategy.rl_agent --train)
+- Notes: +0 new RL rows this cycle (4 closed trades found, all already recorded). ATR_VOLATILITY_THRESHOLD unchanged (avg hold 24.7h >> 2h). MOMENTUM_VOL_MIN unchanged (0 momentum trades, n < 3). Trade log trimmed: 24 entries remain. Account $230.16, positions: ABNB -0.71%, ELV +0.93%, TTWO -0.86%.

@@ -91,59 +91,6 @@
 ## 2026-10-27T19:21:34Z (SUMMARY)
 - SUMMARY: Market open, in_window=true. Regime: normal. 3 positions held (BRO/HIG/AIG, ~2h 58min). 0 SELLs: no triggers (hrs_held<3 for sell rules b/c; no stops/TP hit). 1 BUY: GDDY $22.73 (RSI 28.2↑ BB-reversal RL-BOOST conf=2→3 STRONG-BUY, full investable). CB: daily +0.2%/weekly +0.0% (OK). BP=$50.00. Acct=$232.37. Universe=503.
 
-## 2026-10-27T19:21:34Z
-- Action   : BUY GDDY
-- Price    : $105.47 (avg fill)
-- Amount   : $22.73 | Shares: 0.215511
-- RSI      : 28.2 | EMA: BEARISH | BB: BELOW_BAND
-- RL       : BUY conf=0.928 | BOOST (conf 2→3)
-- Stop     : $103.53 (ATR) | Target: $116.02
-- Strategy : normal | Sell date: ATR/signal
-- Regime   : normal
-- Reason   : RSI oversold+stabilizing (30.1→28.2) | BB reversal returning from band | RL BOOST
-
-## 2026-10-27T18:22:00Z
-- SUMMARY: Market open, in_window=true. Regime: normal. 3 positions held (BRO/HIG/AIG, ~2h). 0 SELLs: no triggers (hrs_held<3, no sell signals for held tickers, no stops/TP hit). 0 BUYs: 8 RSI conf=2 candidates (META/BA/AMCR/CTVA/PSX/UHS/WM + HIG[held]) — investable $22.73×50%=$11.37 < $15 min. Surge: AME/DOV first sighted (count=1, need 2). CB: daily -0.0%/weekly +0.2% (OK). BP=$72.73. Acct=$232.02. Universe=503.
-
-## 2026-10-27T16:23:37Z
-- Action   : BUY BRO
-- Price    : $67.48
-- Amount   : $90.96 | Shares: 1.347956
-- RSI      : 27.6 | EMA: BEARISH | BB: BELOW_BAND
-- RL       : BUY conf=0.928 | BOOST (conf 2→3)
-- Stop     : $66.35 (ATR) | Target: $74.23
-- Strategy : normal | Sell date: ATR/signal
-- Regime   : normal (regime shifted from bearish_ema this cycle)
-- Reason   : RSI oversold+stabilizing (27.6↑) | BB reversal returning from band | RL BOOST
-
-## 2026-10-27T16:23:41Z
-- Action   : BUY HIG
-- Price    : $132.87
-- Amount   : $45.48 | Shares: 0.342289
-- RSI      : 28.0 | EMA: BEARISH | BB: BELOW_BAND
-- RL       : BUY conf=0.928 | BOOST (conf 2→3)
-- Stop     : $131.65 (ATR) | Target: $146.16
-- Strategy : normal | Sell date: ATR/signal
-- Regime   : normal
-- Reason   : RSI oversold+stabilizing (28.0↑) | BB reversal returning from band | RL BOOST
-
-## 2026-10-27T16:23:44Z
-- Action   : BUY AIG
-- Price    : $79.41
-- Amount   : $22.74 | Shares: 0.286362
-- RSI      : 28.5 | EMA: BEARISH | BB: BELOW_BAND
-- RL       : BUY conf=0.928 | BOOST (conf 2→3)
-- Stop     : $78.81 (ATR) | Target: $87.35
-- Strategy : normal | Sell date: ATR/signal
-- Regime   : normal
-- Reason   : RSI oversold+stabilizing (28.5↑) | BB reversal returning from band | RL BOOST
-
-## 2026-10-27T15:26Z
-- SUMMARY: Market open, in_window=true. 0 positions held. 0 SELLs. 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf≥3 required), 0 net-buy BUYs, 0 surge. CB: daily 0.0%/weekly -0.2% (OK). BP=$231.91. Acct=$231.91. Universe=503.
-
-## 2026-10-27T14:33Z
-- SUMMARY: Market open, in_window=true. 0 positions held. 0 SELLs. 0 BUYs: bearish_ema regime — 0 RSI BUYs (conf≥3 required), 0 net-buy BUYs, 0 surge. CB: daily 0.0%/weekly -0.2% (OK). BP=$231.91. Acct=$231.91. Universe=503.
-
 ## 2026-10-20T16:18Z SUMMARY
 - SUMMARY: Market open, in_window=true. 0 SELLs: CEG held <2h (entry 14:25Z, price $260.87 vs stop $254.32/target $286.86, no trigger). 1 BUY: CPRT $45.50 @ $27.37 (RSI BUY conf=2 + RL BOOST conf=0.974). CEG HOLD (low vol, RSI=27.3 oversold but signal skipped). Kill switch: trading_enabled=true. CB: daily -0.01%/weekly +0.22% (OK). BP=$95.49 post-order. Acct=$232.02. Universe=503.
 
@@ -195,15 +142,6 @@
 - Regime   : normal
 - Reason   : ATR trail stop triggered; hours_held ~29h; PnL -1.14% from avg_cost $307.63. Exit per rule.
 
-
-## 2026-10-27T17:22:00Z
-- Action  : HOLD (no trades)
-- Regime  : normal (SPY above 200-EMA)
-- Signals : 3 RSI BUY conf=2 (JKHY $158.80, MSCI $605.00, WM $234.66) — all blocked: investable $22.73×50%=$11.37 < $15 min order
-- Holdings: BRO +0.01% ($90.97), HIG +0.65% ($45.77), AIG +0.55% ($22.86) — ~1h held, no exit triggers
-- TrailUp : BRO 66.35→66.64 | HIG 131.65→132.81 | AIG 78.81→79.39
-- CB      : daily +0.18% / weekly -0.01% (OK, floor=$200.00)
-- BP      : $72.73 | Acct=$232.34 | Universe=503
 
 ## 2026-10-29T14:38:32Z
 - Action  : BUY ABNB
