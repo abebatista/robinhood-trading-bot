@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T23:06:27.865038+00:00",
+  "timestamp": "2026-10-29T23:45:21.944289+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -8048,13 +8048,13 @@
       "reason": "Buy vol \u219180.5% vs prior day | Net buy \u2191 4d streak: 0.13M \u2192 0.17M \u2192 0.49M | OBV +0.2M/day"
     },
     {
-      "ticker": "AOS",
-      "price": 63.4900016784668,
-      "buy_surge_pct": 5.7374,
-      "buy_vol_d2": 466755,
-      "buy_vol_d3": 3144719,
-      "net_buy_d3": 3126115,
-      "reason": "Buy vol \u2191573.7% vs prior day | 0d streak | latest 3.13M | OBV 0.6M/day"
+      "ticker": "ABT",
+      "price": 104.56999969482422,
+      "buy_surge_pct": 1.7763,
+      "buy_vol_d2": 2521483,
+      "buy_vol_d3": 7000471,
+      "net_buy_d3": 6778220,
+      "reason": "Buy vol \u2191177.6% vs prior day | 0d streak | latest 6.78M | OBV -0.6M/day"
     },
     {
       "ticker": "ABBV",
@@ -8066,22 +8066,13 @@
       "reason": "Buy vol \u219133.3% vs prior day | 0d streak | latest 0.91M | OBV -0.1M/day"
     },
     {
-      "ticker": "ABT",
-      "price": 104.56999969482422,
-      "buy_surge_pct": 1.7763,
-      "buy_vol_d2": 2521483,
-      "buy_vol_d3": 7000471,
-      "net_buy_d3": 6778220,
-      "reason": "Buy vol \u2191177.6% vs prior day | 0d streak | latest 6.78M | OBV -0.6M/day"
-    },
-    {
-      "ticker": "AMP",
-      "price": 497.8999938964844,
-      "buy_surge_pct": 0.1541,
-      "buy_vol_d2": 677828,
-      "buy_vol_d3": 782310,
-      "net_buy_d3": 743798,
-      "reason": "Buy vol \u219115.4% vs prior day | 0d streak | latest 0.74M | OBV -0.2M/day"
+      "ticker": "AOS",
+      "price": 63.4900016784668,
+      "buy_surge_pct": 5.7374,
+      "buy_vol_d2": 466755,
+      "buy_vol_d3": 3144719,
+      "net_buy_d3": 3126115,
+      "reason": "Buy vol \u2191573.7% vs prior day | 0d streak | latest 3.13M | OBV 0.6M/day"
     }
   ]
 }
