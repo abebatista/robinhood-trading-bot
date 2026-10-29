@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T17:24:27Z",
+  "updated_at": "2026-10-29T18:20:38Z",
   "buying_power": 50.00,
-  "market_regime": "normal",
-  "account_value": 229.74,
+  "market_regime": "bearish_ema",
+  "account_value": 229.71,
   "peak_value": 249.0,
   "day_start_value": 230.48,
   "day_start_date": "2026-10-29",
@@ -17,9 +17,9 @@
       "ticker": "ABNB",
       "quantity": 0.538093,
       "avg_cost": 167.70,
-      "current_price": 166.97,
-      "pnl_pct": -0.0044,
-      "value": 89.87,
+      "current_price": 167.315,
+      "pnl_pct": -0.0023,
+      "value": 90.04,
       "entry_atr_pct": 0.02,
       "entry_time": "2026-10-29T14:38:32Z",
       "trail_stop": 166.37,
@@ -31,9 +31,9 @@
       "ticker": "ELV",
       "quantity": 0.107906,
       "avg_cost": 418.14,
-      "current_price": 420.27,
-      "pnl_pct": 0.0051,
-      "value": 45.35,
+      "current_price": 418.22,
+      "pnl_pct": 0.0002,
+      "value": 45.13,
       "entry_atr_pct": 0.02,
       "entry_time": "2026-10-29T14:39:01Z",
       "trail_stop": 414.29,
@@ -45,8 +45,8 @@
       "ticker": "TTWO",
       "quantity": 0.231123,
       "avg_cost": 195.22,
-      "current_price": 192.70,
-      "pnl_pct": -0.0129,
+      "current_price": 192.69,
+      "pnl_pct": -0.013,
       "value": 44.54,
       "entry_atr_pct": 0.0074,
       "entry_time": "2026-10-29T16:43:58Z",
@@ -57,10 +57,10 @@
     }
   ],
   "last_actions": [
+    "2026-10-29T18:20Z Market OPEN, in_window=true. Regime: bearish_ema. 0 SELLs: all 3 positions <3h hold or no exit triggers (ABNB -0.23%, ELV +0.02%, TTWO -1.29%, all above trail stops). 0 BUYs: investable=$0 (BP=$50−$50 buffer). Regime bearish_ema+0 RSI BUYs. Net-buy PM/DVA 1-strategy skipped. Surge: PM 95.2% count=1. CB: daily 0.33%/weekly 1.14% (OK). BP=$50.00. Acct=$229.71. Universe=503.",
     "2026-10-29T17:24Z Market OPEN, in_window=true. Regime: normal. 0 SELLs: all 3 positions <3h hold, no exit triggers (ABNB -0.44%, ELV +0.51%, TTWO -1.29%, all above trail stops). 0 BUYs: investable=$0 (BP=$50−$50 buffer). RSI BUYs=4 (SNOW/CRWD/BSX/TTWO conf=2). Surge: none. CB: daily 0.32%/weekly 1.13% (OK). BP=$50.00. Acct=$229.74. Universe=503.",
     "2026-10-29T16:43Z Market OPEN, in_window=true. Regime: normal (SPY above 200-EMA). 0 SELLs: ABNB+ELV <3h hold, no exit triggers. 1 BUY: TTWO (RSI 26.7 oversold+stabilizing, BB reversal, RL BOOST conf=0.928, $45.12, order 6ae377ce). CB: daily 0.01%/weekly 0.82% (OK). BP=$50.00 post-trade. Acct≈$230.51. Universe=503.",
     "2026-10-29T15:21Z Market OPEN, in_window=true. Regime: bearish_ema. 0 SELLs: ABNB+ELV <3h hold, no exit triggers. 0 BUYs: bearish_ema needs 3/3 conf, 0 RSI BUYs. PM net-buy only (conf=2) rejected. Surge tracker cleared. CB: daily 0.00%/weekly 0.81% (OK). BP=$95.12. Acct=$230.48. Universe=503.",
-    "2026-10-29T14:39Z Market OPEN, in_window=true. Regime: normal. 0 SELLs: no positions. 2 BUYs: ABNB (RSI 29.9 oversold+stabilizing, BB reversal, RL BUY, $90.24, order 6ae35a68), ELV (RSI 28.6 oversold+stabilizing, BB BELOW_BAND, RL BUY, $45.12, order 6ae35a85). CB: daily 0.00%/weekly 0.81% (OK). BP≈$95.12. Acct≈$230.48. Universe=503.",
-    "2026-10-28T20:21Z Market CLOSED. No positions. BP=$50.00. Acct=$230.48. Regime: normal. Universe=503. RSI BUYs=15 (top: META/ABNB/CHRW conf=2 BEARISH-EMA). RSI SELLs=31. Surge: AMAT 96.6%/SNDK 86.1%/AMD 79.0%/EME 31.3%/COHR 12.5%. investable=$0 (BP=$50-$50 buffer). CB: daily 0.22%/weekly 0.81% (OK)."
+    "2026-10-29T14:39Z Market OPEN, in_window=true. Regime: normal. 0 SELLs: no positions. 2 BUYs: ABNB (RSI 29.9 oversold+stabilizing, BB reversal, RL BUY, $90.24, order 6ae35a68), ELV (RSI 28.6 oversold+stabilizing, BB BELOW_BAND, RL BUY, $45.12, order 6ae35a85). CB: daily 0.00%/weekly 0.81% (OK). BP≈$95.12. Acct≈$230.48. Universe=503."
   ]
 }
