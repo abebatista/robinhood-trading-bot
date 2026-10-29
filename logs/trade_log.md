@@ -1,5 +1,19 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-29T16:43:58Z (SUMMARY)
+- SUMMARY: Market OPEN, in_window=true. Regime: normal (SPY above 200-EMA). 0 SELLs: ABNB+ELV <3h hold, no exit triggers. 1 BUY: TTWO (RSI 26.7 oversold+stabilizing, BB reversal, RL BOOST conf=0.928, $45.12, order 6ae377ce). CB: daily 0.01%/weekly 0.82% (OK). BP=$50.00 post-trade. Acct≈$230.51. Universe=503.
+
+## 2026-10-29T16:43:58Z
+- Action   : BUY TTWO
+- Price    : $195.15
+- Amount   : $45.12 | Shares: 0.2312
+- RSI      : 26.74 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : BUY conf=0.928 | BOOST
+- Stop     : $192.26 | Target: $214.67
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal
+- Reason   : RSI oversold+stabilizing (28.0→26.7) | BB reversal returning from band | RL BOOST (0.928)
+
 ## 2026-10-28T19:20:00Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal. 1 SELL: AIG (ATR trail stop $79.645≤$79.66, +0.30%, order 6ae24ad1). 0 BUYs: investable=$0 (BP=$50−$50 buffer; sell proceeds unsettled). AMAT surge count=2 (buy candidate, but $0 investable). 0 positions. CB: daily 0.22%/weekly 0.81% (OK). BP=$50.00. Acct=$230.48. Universe=503.
 
