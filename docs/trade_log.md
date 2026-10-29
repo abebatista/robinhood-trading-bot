@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-29T19:27:44Z (SUMMARY)
+- SUMMARY: Market OPEN, in_window=True (3:27 PM ET, just before avoid window). Regime: bearish_ema. 0 SELLs: ABNB ($167.17, trail $166.37, -0.32%, 4.82h held), ELV ($418.03, trail $414.29, -0.03%, 4.81h held), TTWO ($192.63, trail $192.26, -1.33%, 2.73h held) — all above trail stops, no RSI/net-sell signals. 0 BUYs: investable=$0 (BP=$50−$50 buffer). Regime bearish_ema, 0 RSI BUYs. Net-buy: 3 signals (conf=2 only), blocked by bearish_ema+investable=$0. Surge: PM count=2 (INTRADAY CANDIDATE), DVA/BDX/EVRG count=1. PM blocked by investable=$0. CB: daily 0.39%/weekly 1.20% (OK). BP=$50.00. Equity: 3 positions ($179.58). Account: $229.58. Universe=503.
+
 ## 2026-10-29T17:24:27Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal (SPY above 200-EMA). 0 SELLs: ABNB ($166.97, trail_stop $166.37, -0.44%, <3h hold), ELV ($420.27, trail_stop $414.29, +0.51%, <3h hold), TTWO ($192.70, trail_stop $192.26, -1.29%, <3h hold) — no exit triggers. 0 BUYs: investable=$0 (BP=$50−$50 buffer). RSI BUYs=4 (SNOW/CRWD/BSX conf=2; TTWO conf=2 already held). Surge: none. CB: daily 0.32%/weekly 1.13% (OK). BP=$50.00. Equity positions: 3. Account: $229.74. Universe=503 (297 tickers fetched from RH historicals this cycle).
 
