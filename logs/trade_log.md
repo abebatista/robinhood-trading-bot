@@ -181,3 +181,23 @@
 - TrailUp : BRO 66.35→66.64 | HIG 131.65→132.81 | AIG 78.81→79.39
 - CB      : daily +0.18% / weekly -0.01% (OK, floor=$200.00)
 - BP      : $72.73 | Acct=$232.34 | Universe=503
+
+## 2026-10-29T14:38:32Z
+- Action  : BUY ABNB
+- Price   : $167.66 (est.)
+- Amount  : $90.24 (~0.538 shares)
+- RSI     : 29.9 (oversold+stabilizing 27.3→29.9) | EMA: BEARISH | BB: BELOW_BAND (reversal 0.09→0.16)
+- RL      : BUY (conf=0.928)
+- Stop    : $166.37 (ATR 0.77%) | Target: $184.43 (+10%)
+- Reason  : RSI deeply oversold+stabilizing | BB reversal returning from lower band | RL BUY confirmation
+- Order ID: 6ae35a68-ecd5-4ce1-b5ee-e83d3c4e70b5
+
+## 2026-10-29T14:39:01Z
+- Action  : BUY ELV
+- Price   : $417.88 (est.)
+- Amount  : $45.12 (~0.108 shares)
+- RSI     : 28.6 (oversold+stabilizing) | EMA: BEARISH | BB: BELOW_BAND
+- RL      : BUY (conf=0.928)
+- Stop    : $414.29 (ATR 0.86%) | Target: $459.67 (+10%)
+- Reason  : RSI deeply oversold | BB below band | RL BUY confirmation | second MODERATE position
+- Order ID: 6ae35a85-23d6-4707-b309-bc30190fd9a3
