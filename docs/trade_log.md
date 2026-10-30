@@ -67,61 +67,17 @@
 ## 2026-10-28T19:20:00Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal. 1 SELL: AIG (ATR trail stop $79.645≤$79.66, +0.30%, order 6ae24ad1). 0 BUYs: investable=$0 (BP=$50−$50 buffer; sell proceeds unsettled). AMAT surge count=2 (buy candidate, but $0 investable). 0 positions. CB: daily 0.22%/weekly 0.81% (OK). BP=$50.00. Acct=$230.48. Universe=503.
 
-## 2026-10-28T19:19:45Z
-- Action   : SELL AIG
-- Price    : $79.645
-- Amount   : $22.82 | Shares: 0.286362
-- RSI      : 35.7 | EMA: BEARISH | BB: IN_BAND
-- RL       : null conf=null | null
-- Stop     : $79.66 | Target: $87.35
-- Strategy : normal | Sell date: ATR trail stop
-- Regime   : normal
-- Reason   : ATR trailing stop triggered ($79.645 ≤ $79.66). Entry 2026-10-27T16:23Z, held ~27h. PnL: +0.30% (+$0.07). Net-buy regime neutral (AIG=HOLD, low volume 0.28x avg). Order id: 6ae24ad1.
-
 ## 2026-10-28T18:27:00Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal. 0 SELLs: AIG above trail stop ($79.97>$79.66, no signal). 0 BUYs: investable=$0 (BP=$50.00−$50 buffer). Trail stop ratcheted: AIG $79.39→$79.66 (ATR 0.38%). Surge: no candidates (AMAT/EME/BXP count=1, need 2). 1 position: AIG(+0.70%). CB: daily 0.20%/weekly 0.79% (OK). BP=$50.00. Acct=$230.53. Universe=503.
 
 ## 2026-10-28T17:27:00Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal. 1 SELL: GDDY (net_buy_sell_signal — net buy reversed 0.04M→0.01M, OBV -0.2M/day, held ~21h, +0.57%). 0 BUYs: buying_power=$50.00 after SELL, investable=$0 ($50−$50 buffer; GDDY proceeds unsettled). 1 position: AIG(+0.89%, trail=$79.39). CB: daily 0.18%/weekly 0.77% (OK). Surge: GEV removed (no longer 10%+ surge). BP=$50.00. Acct=$230.57. Universe=503 (41 tickers in RH cache, Strategy 2 ran 503).
 
-## 2026-10-28T17:26:00Z
-- Action   : SELL GDDY
-- Price    : $106.07
-- Amount   : $22.86 | Shares: 0.215511
-- RSI      : 37.5 | EMA: BEARISH | BB: IN_BAND
-- RL       : null conf=null | null
-- Stop     : $103.53 | Target: $116.02
-- Strategy : normal | Sell: net_buy_sell_signal
-- Regime   : normal
-- Reason   : Net buy trend reversed (0.04M → 0.01M, OBV -0.2M/day). Held ~21h since 2026-10-27T19:21Z. PnL: ~+0.57% (+$0.13). Order id: 6ae23027.
-
 ## 2026-10-28T16:26:00Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal. 0 SELLs: AIG(stop=$79.39<price=$80.12,no signal), GDDY(stop=$103.53<price=$106.24,no signal). 0 BUYs: investable=$0 (BP=$50.00 − $50 buffer; sell proceeds unsettled). Surge: GEV count=1 (needs 2). RSI BUY queue: META/BA/ICE/MPC/MNST/VLO/XYL (conf=2) — no investable capital. 2 positions: AIG(+0.89%)/GDDY(+0.73%). CB: daily 0.16%/weekly 0.75% (OK). Trail stops: AIG=$79.39, GDDY=$103.53. BP=$50.00. Acct=$230.62. Universe=503.
 
 ## 2026-10-28T15:22:45Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal. 2 SELLs: BRO ATR-trail-stop ($66.51≤$66.64), HIG ATR-trail-stop ($131.98≤$132.81). 0 BUYs: investable=$0 (BP=$50 − $50 buffer; sell proceeds unsettled on cash acct). 2 positions remain: AIG(+0.55%)/GDDY(+0.02%). CB: daily 0.2%/weekly 0.8% (OK). MPC/PSX had MODERATE BUY (conf=2, rl=HOLD) but $0 investable. Universe=503.
-
-## 2026-10-28T15:22:00Z
-- Action   : SELL BRO
-- Price    : $66.51
-- Amount   : $89.64 | Shares: 1.347956
-- RSI      : 26.84 | EMA: BEARISH | BB: BELOW_BAND
-- RL       : HOLD conf=0.0 | null
-- Stop     : trail_stop=$66.64 HIT | Entry: $67.48
-- Strategy : normal | Exit: ATR trailing stop triggered
-- Regime   : normal
-- Reason   : ATR trailing stop — price $66.51 ≤ trail $66.64 (hrs_held ~23h). PnL: -1.44%
-
-## 2026-10-28T15:22:00Z
-- Action   : SELL HIG
-- Price    : $131.98
-- Amount   : $45.17 | Shares: 0.342289
-- RSI      : 30.72 | EMA: BEARISH | BB: BELOW_BAND
-- RL       : null conf=null | null
-- Stop     : trail_stop=$132.81 HIT | Entry: $132.87
-- Strategy : normal | Exit: ATR trailing stop triggered
-- Regime   : normal
-- Reason   : ATR trailing stop — price $131.98 ≤ trail $132.81 (hrs_held ~23h). PnL: -0.67%
 
 ## 2026-10-28T14:46:00Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal. 4 positions held (BRO/-1.17%/trail $66.64, HIG/-0.02%/trail $132.81, AIG/+0.40%/trail $79.39, GDDY/+1.22%/trail $103.53). 0 SELLs: no triggers (trail stops not hit, no SELL signals on held positions, no TP). 0 BUYs: investable=$0.00 (BP=$50.00 − $50.00 buffer). CB: daily 0.0%/weekly 0.6% (OK). Trail stops: unchanged (no position ≥2.5% profit). Surge tracker: VRT/AEP count=1 (no confirmed intraday surge yet). BP=$50.00. Acct=$230.99. Universe=503.
