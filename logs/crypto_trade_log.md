@@ -1,5 +1,8 @@
 # Crypto Trade Log — Robinhood Agentic Account
 
+## 2026-10-30T01:17:00Z
+- SUMMARY: Crypto cycle — no trades. Positions: 0. Total crypto value: $0.00. Regime: unknown (yfinance blocked). NOTE: yfinance proxy-blocked (403 on all 10 tickers); signal engine produced 0 signals. Kill switches clear (trading_halted=false, trading_enabled=true). No open positions to exit. Current spot (mark): BTC $76,993.99 | ETH $2,212.48 | SOL $94.09 | XRP $1.2124 | LTC $54.25 | ADA $0.1875 | LINK $10.56 | AVAX $8.23 | DOGE $0.07411 | BCH $269.69. PERSISTENT OUTAGE: day 45 (since ≥2026-09-16) — crypto engine non-functional in CCR sandbox; fix requires a static OHLCV snapshot fallback or a crypto_engine --from-cache path, but no get_crypto_historicals MCP endpoint exists.
+
 ## 2026-10-29T01:17:57Z
 - SUMMARY: Crypto cycle — no trades. Positions: 0. Total crypto value: $0.00. Regime: unknown (yfinance blocked). NOTE: yfinance proxy-blocked (403 on all 10 tickers); signal engine produced 0 signals. Kill switches clear (trading_halted=false, trading_enabled=true). No open positions to exit. Current spot (mark): BTC $80,906.19 | ETH $2,345.47 | SOL $101.56 | XRP $1.3177 | LTC $59.35 | ADA $0.2046 | LINK $11.75 | AVAX $8.93 | DOGE $0.07944 | BCH $286.98. PERSISTENT OUTAGE: day 44 (since ≥2026-09-16) — crypto engine non-functional in CCR sandbox; fix requires a static OHLCV snapshot fallback or a crypto_engine --from-cache path, but no get_crypto_historicals MCP endpoint exists.
 
