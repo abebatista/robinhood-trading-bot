@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-30T22:00:55.469064+00:00",
+  "timestamp": "2026-10-30T22:47:54.613966+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -7968,13 +7968,13 @@
       "reason": "Buy vol \u219174.6% vs prior day | Net buy \u2191 4d streak: 0.91M \u2192 1.66M \u2192 3.11M | OBV +0.1M/day"
     },
     {
-      "ticker": "ACN",
-      "price": 258.239990234375,
-      "buy_surge_pct": 0.8735,
-      "buy_vol_d2": 4266696,
-      "buy_vol_d3": 7993520,
-      "net_buy_d3": 5635456,
-      "reason": "Buy vol \u219187.3% vs prior day | 0d streak | latest 5.64M | OBV 3.9M/day"
+      "ticker": "ABBV",
+      "price": 294.8900146484375,
+      "buy_surge_pct": 0.3481,
+      "buy_vol_d2": 2567832,
+      "buy_vol_d3": 3461669,
+      "net_buy_d3": 26792,
+      "reason": "Buy vol \u219134.8% vs prior day | 1d streak | latest 0.03M | OBV 1.1M/day"
     }
   ]
 }
