@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-30T19:19:12Z (SUMMARY)
+- SUMMARY: Market OPEN, in_window=true. Regime: bearish_ema (SPY below 200-EMA). 0 SELLs: ELV $420.28 > trail_stop $414.29, RSI=46.23 HOLD (low vol 0.48x avg, IN_BAND), no RSI/net-sell signal. 0 BUYs: RSI BUYs=0, Net-buy BUY=1 (DVA moderate, bearish_ema no conf=3), Surge=0 (ADP 10.8% count=1/CL 128.3% count=1, needs ≥2; investable=$0 BP=$50−$50). CB: daily -0.73%/weekly -1.67% (OK). BP=$50.00. Equity: 1 pos ELV +0.51% ($45.34). Acct=$228.49. Universe=503.
+
 ## 2026-10-30T18:19:00Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: bearish_ema (SPY below 200-EMA). 0 SELLs: ELV $420.54 > trail_stop $414.29, no RSI/net-sell signal, no take-profit (+0.57%, 27.7h held). 0 BUYs: RSI BUYs=0 (bearish_ema), Net-buy=3 (FICO/CHD/DVA, conf=None), Surge=0 (CHD 18.7% count=1 needs ≥2; CBOE 719.6% likely data artifact; investable=$0 BP=$50−$50). CB: daily -0.68%/weekly -1.63% (OK). BP=$50.00. Equity: 1 pos ELV +0.57% ($45.38). Acct=$228.59. Universe=503 (544 fetched via RH historicals).
 
