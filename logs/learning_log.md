@@ -623,3 +623,12 @@
 - Backtest: SKIPPED — yfinance blocked in CCR sandbox (known network restriction); change kept
 - RL samples: 637/200 (READY — exceeds threshold; run python -m strategy.rl_agent --train)
 - Notes: +0 new RL rows this cycle (4 closed trades found, all already recorded). ATR_VOLATILITY_THRESHOLD unchanged (avg hold 24.7h >> 2h). MOMENTUM_VOL_MIN unchanged (0 momentum trades, n < 3). Trade log trimmed: 24 entries remain. Account $230.16, positions: ABNB -0.71%, ELV +0.93%, TTWO -0.86%.
+
+## 2026-10-30
+- Trades analysed: 8 closed trades (all normal strategy; no momentum/surge trades)
+- Win rate: 25.0% overall (normal: 25.0% [n=8]; momentum: N/A [n=0]; surge: N/A [n=0])
+- EMA-trend win rate: BEARISH 0.0% (n=3), BULLISH 0.0% (n=1), N/A 50.0% (n=4)
+- Config changes: RSI_OVERSOLD 36→38 (win_rate 25% < 40% threshold, n=8 ≥ 5)
+- Backtest: SKIPPED — yfinance blocked in CCR sandbox (known constraint since 2026-09-21)
+- RL samples: 637/200 (already past target — Q-table has 19 states, stale retrain needed)
+- Notes: avg_pnl=-0.91%, avg_hold=24.1h, all exits via ATR trail stop or signal. Bearish EMA regime since ~10-29. ELV still open (+0.44%). Account $228.55 (bearish-EMA regime limiting new entries).
