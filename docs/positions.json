@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T17:18:00Z",
+  "updated_at": "2026-10-30T18:19:00Z",
   "buying_power": 50.0,
   "market_regime": "bearish_ema",
-  "account_value": 228.29,
+  "account_value": 228.59,
   "peak_value": 249.0,
   "day_start_value": 230.16,
   "day_start_date": "2026-10-30",
@@ -17,9 +17,9 @@
       "ticker": "ELV",
       "quantity": 0.107906,
       "avg_cost": 418.14,
-      "current_price": 418.22,
-      "pnl_pct": 0.0002,
-      "value": 45.10,
+      "current_price": 420.535,
+      "pnl_pct": 0.0057,
+      "value": 45.38,
       "entry_atr_pct": 0.02,
       "entry_time": "2026-10-29T14:39:01Z",
       "trail_stop": 414.29,
@@ -29,6 +29,7 @@
     }
   ],
   "last_actions": [
+    "2026-10-30T18:19Z Market OPEN, in_window=true. Regime: bearish_ema. 0 SELLs: ELV $420.54 > trail $414.29, no signal. 0 BUYs: RSI BUYs=0, Net-buy=3 (conf=None), Surge=0 (CHD count=1/CBOE 719.6% data artifact; investable=$0). CB: daily -0.68%/weekly -1.63% (OK). BP=$50.00. Acct=$228.59. Universe=503.",
     "2026-10-30T17:18Z Market OPEN, in_window=true. Regime: bearish_ema. 0 SELLs: ELV $418.22 > trail $414.29, no signal. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=0 (investable=$0). CB: daily -0.81%/weekly -1.76% (OK). BP=$50.00. Acct=$228.29. Universe=503.",
     "2026-10-30T16:20Z Market OPEN, in_window=true. Regime: bearish_ema. 0 SELLs: ELV $417.78 > trail $414.29, no signal. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=0 (CVNA count=1, needs ≥2; investable=$0). CB: daily -0.81%/weekly -1.75% (OK). BP=$50.00. Acct=$228.30. Universe=503.",
     "2026-10-30T15:27Z Market OPEN, in_window=true. Regime: bearish_ema. 0 SELLs: ELV $418.105 > trail $414.29, no signal. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=0 (bearish_ema no conf=3 signals). CB: daily -0.79%/weekly -1.74% (OK). BP=$50.00. Acct=$228.34. Universe=503.",
