@@ -1,5 +1,28 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-10-30T14:33:00Z (SUMMARY)
+- SUMMARY: Market OPEN, in_window=true. Regime: normal (SPY above 200-EMA). 2 SELLs: ABNB -1.41% (trail $166.37, price ~$165.33 < stop, order 6ae4a91b), TTWO -1.61% (trail $192.26, price $192.07 < stop, order 6ae4a9ad). 0 BUYs: investable=$0 (BP=$50−$50 buffer; ABNB/TTWO sell proceeds unsettled T+1). RSI BUYs=8 (GOOGL conf=2/rl=HOLD, SNAP/MRVL conf=2, ADM conf=2+RL BOOST→3, CAT/CTSH conf=2/rl=HOLD, CBOE conf=2+RL BOOST→3, TTWO conf=2 already held). Net-buy: PM/ARES/DVA/ULTA/CHD. Surge: PM count=1, DVA count=1, ULTA count=1 (none ≥2 intraday). CB: daily -0.69%/weekly -1.63% (OK). BP=$50.00. Equity: 1 position ELV +0.46% ($45.33). Acct=$228.58. Universe=503.
+
+## 2026-10-30T14:25:00Z
+- Action   : SELL ABNB
+- Price    : ~$165.33 (market order, trail stop triggered)
+- Amount   : ~$88.99 | Shares: 0.538093
+- Entry    : $167.70 | Hold: ~23.8h
+- Trail    : $166.37 | Stop-loss: $159.32 (−5%)
+- PnL      : −1.41% (−$2.37/share, −$1.28 total)
+- Reason   : ATR trailing stop triggered ($165.33 < $166.37)
+- Order    : 6ae4a91b-0bdf-4c4b-8cfb-9efa5dfbe69b
+
+## 2026-10-30T14:29:01Z
+- Action   : SELL TTWO
+- Price    : ~$192.07 (market order, trail stop triggered)
+- Amount   : ~$44.38 | Shares: 0.231123
+- Entry    : $195.22 | Hold: ~21.8h
+- Trail    : $192.26 | Stop-loss: $185.46 (−5%)
+- PnL      : −1.61% (−$3.15/share, −$0.73 total)
+- Reason   : ATR trailing stop triggered ($192.07 < $192.26)
+- Order    : 6ae4a9ad-6519-4c41-bc9f-5f7451361c99
+
 ## 2026-10-29T19:27:44Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=True (3:27 PM ET, just before avoid window). Regime: bearish_ema. 0 SELLs: ABNB ($167.17, trail $166.37, -0.32%, 4.82h held), ELV ($418.03, trail $414.29, -0.03%, 4.81h held), TTWO ($192.63, trail $192.26, -1.33%, 2.73h held) — all above trail stops, no RSI/net-sell signals. 0 BUYs: investable=$0 (BP=$50−$50 buffer). Regime bearish_ema, 0 RSI BUYs. Net-buy: 3 signals (conf=2 only), blocked by bearish_ema+investable=$0. Surge: PM count=2 (INTRADAY CANDIDATE), DVA/BDX/EVRG count=1. PM blocked by investable=$0. CB: daily 0.39%/weekly 1.20% (OK). BP=$50.00. Equity: 3 positions ($179.58). Account: $229.58. Universe=503.
 
