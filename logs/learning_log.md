@@ -632,3 +632,11 @@
 - Backtest: SKIPPED — yfinance blocked in CCR sandbox (known constraint since 2026-09-21)
 - RL samples: 637/200 (already past target — Q-table has 19 states, stale retrain needed)
 - Notes: avg_pnl=-0.91%, avg_hold=24.1h, all exits via ATR trail stop or signal. Bearish EMA regime since ~10-29. ELV still open (+0.44%). Account $228.55 (bearish-EMA regime limiting new entries).
+
+## 2026-11-02
+- Trades analysed: 8 (all normal-strategy RSI mean-reversion)
+- Win rate: 25% overall (normal: 25%, momentum: 0 trades, surge: 0 trades)
+- Config changes: RSI_OVERSOLD 38→40 (win_rate 25% < 40% with 8 trades; now at clamp max 40)
+- Backtest: SKIPPED — yfinance blocked in CCR sandbox (known limitation)
+- RL samples: 637/200 (READY — 437 above threshold; Q-table has 19 states, needs retrain)
+- Notes: ATR trail stops caused 75% of exits (avg hold ~24h). No momentum trades to tune. Backtest can't run in CCR sandbox; config change applied based on live trade analysis only.
