@@ -1,24 +1,16 @@
 # Trade Log — Robinhood Agentic Account
 
-## 2026-11-02T18:29Z (SUMMARY)
-- SUMMARY: Market OPEN (1:29 PM ET), in_window=true. Regime: bearish_ema (SPY EMA=BEARISH). 0 SELLs: no positions held. 0 BUYs: 0 RSI BUYs, 1 net-buy BUY (ACN conf=2 → bearish_ema requires 3/3 → SKIP), 1 surge (CINF 45.1% surge count=1, need ≥2 → SKIP). CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22 (ELV proceeds unsettled). Positions: 0. Acct=$227.50. Universe=503 (543 fetched via RH historicals).
+## 2026-11-02T20:18:33Z (SUMMARY)
+- SUMMARY: Market CLOSED (3:18 PM ET / signals show market_open=false). Regime: bearish_ema (SPY EMA=BEARISH). 0 SELLs: no positions held. 0 BUYs: market closed. CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22 (ELV proceeds unsettled). Acct=$227.50. Universe=503 (543 fetched via RH historicals).
 
-## 2026-11-02T15:43Z (SUMMARY)
-- SUMMARY: Market OPEN (10:43 AM ET), in_window=true. Regime: bearish_ema (SPY below 200-EMA). 1 SELL: ELV $410.80 ≤ trail_stop $414.29 (ATR trailing stop, entry $418.14, -1.75%, held 97h). 0 BUYs: REGIME FILTER A ACTIVE (SPY RSI=25.38 < 30) — skip all buys except surge/intraday_surge; 7 surge tickers (ECL/DOC/INTU/OTIS/EOG/ABT/CMCSA) all count=1 (need ≥2 for intraday candidate). CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22 (sell proceeds pending T+1 settlement). Positions: 0. Acct=$227.50. Universe=503 (543 fetched via RH historicals).
+## 2026-11-02T19:12:34Z (SUMMARY)
+- SUMMARY: Market OPEN (2:12 PM ET), in_window=true. Regime: bearish_ema (SPY RSI=38.34, EMA=BEARISH, price below 200-EMA). 0 SELLs: no positions held. 0 BUYs: RSI BUYs=0, Net-buy BUYs=1 (ACN conf=2 → bearish_ema requires 3/3 → SKIP), Surge=0 (COR 7.88% < 10% threshold). CB: daily -0.88%/weekly -0.88% (OK). Regime filter A inactive (SPY RSI=38.34 >= 30). BP=$183.22. Acct=$227.50. Universe=503 (543 fetched via RH historicals).
 
-## 2026-11-02T15:42:34Z
-- Action   : SELL ELV
-- Price    : $410.80
-- Amount   : $44.30 | Shares: 0.107906
-- RSI      : 45.76 | EMA: BEARISH | BB: IN_BAND
-- RL       : null conf=null | null
-- Stop     : $414.29 | Target: $459.95
-- Strategy : normal | Sell date: ATR trail stop
-- Regime   : bearish_ema
-- Reason   : ATR trailing stop triggered (price $410.80 ≤ trail_stop $414.29, entry $418.14, -1.75% loss)
+## 2026-11-02T17:44:00Z (SUMMARY)
+- SUMMARY: Market OPEN (12:44 PM ET), in_window=true. Regime: bearish_ema (SPY RSI=43.65, EMA=BEARISH, price below 200-EMA). 0 SELLs: no equity positions held. 0 BUYs: RSI BUYs=0, Net-buy BUYs=0, Surge=0. CB: daily -0.88%/weekly -0.88% (OK). Regime filter A inactive (SPY RSI=43.65 >= 30). BP=$183.22. Acct=$227.50. Universe=503 (542 fetched via RH historicals).
 
-## 2026-11-02T14:22Z (SUMMARY)
-- SUMMARY: Market OPEN (pre-open 9:22 AM ET), in_window=true. Regime: bearish_ema (SPY below 200-EMA). 0 SELLs: ELV $420.00 > trail_stop $414.29, RSI=45.76 HOLD (IN_BAND, EMA=BEARISH, no net-sell). 0 BUYs: RSI BUYs=0, Net-buy BUYs=0, Surge=0. New day+week reset: day/week start=$229.51. CB: daily 0.00%/weekly 0.00% (OK). BP=$183.22. Equity: 1 pos ELV +0.45% ($45.32). Acct=$229.51. Universe=503 (562 fetched via RH historicals).
+## 2026-11-02T16:34:00Z (SUMMARY)
+- SUMMARY: Market OPEN (11:34 AM ET), in_window=true. Regime: bearish_ema (SPY RSI=45.24, EMA=BEARISH, price below 200-EMA). 0 SELLs: no equity positions held. 0 BUYs: RSI BUYs=0 (bearish_ema regime), Net-buy BUYs=0, Surge=0 (surge_tracker cleared — 7 tickers at count=1 no longer in surge_signals). CB: daily -0.88%/weekly -0.88% (OK, below 3%/5% thresholds). BP=$183.22 (ELV sell proceeds still unsettled). Acct=$227.50. Universe=503 (463 fetched via RH historicals).
 
 ## 2026-10-30T20:22:07Z (SUMMARY)
 - SUMMARY: Market CLOSED (after-hours 20:22 UTC). Buying power: $50.00. Equity positions: 1 (ELV $420.00, trail $414.29, +0.44%, no SELL signal — RSI=45.76 HOLD, not in net-sell). Regime: bearish_ema. CB: daily -0.70%/weekly -1.64% (OK). Account: $228.55. Universe fetched: 503 (554 via RH historicals). RSI BUYs=1, Net-buy BUYs=4, Surges=6, Net-SELLs=10 (not held). No trades — market closed.
@@ -41,26 +33,6 @@
 ## 2026-10-30T14:33:00Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal (SPY above 200-EMA). 2 SELLs: ABNB -1.41% (trail $166.37, price ~$165.33 < stop, order 6ae4a91b), TTWO -1.61% (trail $192.26, price $192.07 < stop, order 6ae4a9ad). 0 BUYs: investable=$0 (BP=$50−$50 buffer; ABNB/TTWO sell proceeds unsettled T+1). RSI BUYs=8 (GOOGL conf=2/rl=HOLD, SNAP/MRVL conf=2, ADM conf=2+RL BOOST→3, CAT/CTSH conf=2/rl=HOLD, CBOE conf=2+RL BOOST→3, TTWO conf=2 already held). Net-buy: PM/ARES/DVA/ULTA/CHD. Surge: PM count=1, DVA count=1, ULTA count=1 (none ≥2 intraday). CB: daily -0.69%/weekly -1.63% (OK). BP=$50.00. Equity: 1 position ELV +0.46% ($45.33). Acct=$228.58. Universe=503.
 
-## 2026-10-30T14:25:00Z
-- Action   : SELL ABNB
-- Price    : ~$165.33 (market order, trail stop triggered)
-- Amount   : ~$88.99 | Shares: 0.538093
-- Entry    : $167.70 | Hold: ~23.8h
-- Trail    : $166.37 | Stop-loss: $159.32 (−5%)
-- PnL      : −1.41% (−$2.37/share, −$1.28 total)
-- Reason   : ATR trailing stop triggered ($165.33 < $166.37)
-- Order    : 6ae4a91b-0bdf-4c4b-8cfb-9efa5dfbe69b
-
-## 2026-10-30T14:29:01Z
-- Action   : SELL TTWO
-- Price    : ~$192.07 (market order, trail stop triggered)
-- Amount   : ~$44.38 | Shares: 0.231123
-- Entry    : $195.22 | Hold: ~21.8h
-- Trail    : $192.26 | Stop-loss: $185.46 (−5%)
-- PnL      : −1.61% (−$3.15/share, −$0.73 total)
-- Reason   : ATR trailing stop triggered ($192.07 < $192.26)
-- Order    : 6ae4a9ad-6519-4c41-bc9f-5f7451361c99
-
 ## 2026-10-29T19:27:44Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=True (3:27 PM ET, just before avoid window). Regime: bearish_ema. 0 SELLs: ABNB ($167.17, trail $166.37, -0.32%, 4.82h held), ELV ($418.03, trail $414.29, -0.03%, 4.81h held), TTWO ($192.63, trail $192.26, -1.33%, 2.73h held) — all above trail stops, no RSI/net-sell signals. 0 BUYs: investable=$0 (BP=$50−$50 buffer). Regime bearish_ema, 0 RSI BUYs. Net-buy: 3 signals (conf=2 only), blocked by bearish_ema+investable=$0. Surge: PM count=2 (INTRADAY CANDIDATE), DVA/BDX/EVRG count=1. PM blocked by investable=$0. CB: daily 0.39%/weekly 1.20% (OK). BP=$50.00. Equity: 3 positions ($179.58). Account: $229.58. Universe=503.
 
@@ -72,17 +44,6 @@
 
 ## 2026-10-29T16:43:58Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal (SPY above 200-EMA). 0 SELLs: ABNB+ELV <3h hold, no exit triggers. 1 BUY: TTWO (RSI 26.7 oversold+stabilizing, BB reversal, RL BOOST conf=0.928, $45.12, order 6ae377ce). CB: daily 0.01%/weekly 0.82% (OK). BP=$50.00 post-trade. Acct≈$230.51. Universe=503.
-
-## 2026-10-29T16:43:58Z
-- Action   : BUY TTWO
-- Price    : $195.15
-- Amount   : $45.12 | Shares: 0.2312
-- RSI      : 26.74 | EMA: BEARISH | BB: BELOW_BAND
-- RL       : BUY conf=0.928 | BOOST
-- Stop     : $192.26 | Target: $214.67
-- Strategy : normal | Sell date: ATR/signal
-- Regime   : normal
-- Reason   : RSI oversold+stabilizing (28.0→26.7) | BB reversal returning from band | RL BOOST (0.928)
 
 ## 2026-10-28T19:20:00Z (SUMMARY)
 - SUMMARY: Market OPEN, in_window=true. Regime: normal. 1 SELL: AIG (ATR trail stop $79.645≤$79.66, +0.30%, order 6ae24ad1). 0 BUYs: investable=$0 (BP=$50−$50 buffer; sell proceeds unsettled). AMAT surge count=2 (buy candidate, but $0 investable). 0 positions. CB: daily 0.22%/weekly 0.81% (OK). BP=$50.00. Acct=$230.48. Universe=503.
@@ -159,23 +120,3 @@
 - Regime   : normal
 - Reason   : ATR trail stop triggered; hours_held ~29h; PnL -1.14% from avg_cost $307.63. Exit per rule.
 
-
-## 2026-10-29T14:38:32Z
-- Action  : BUY ABNB
-- Price   : $167.66 (est.)
-- Amount  : $90.24 (~0.538 shares)
-- RSI     : 29.9 (oversold+stabilizing 27.3→29.9) | EMA: BEARISH | BB: BELOW_BAND (reversal 0.09→0.16)
-- RL      : BUY (conf=0.928)
-- Stop    : $166.37 (ATR 0.77%) | Target: $184.43 (+10%)
-- Reason  : RSI deeply oversold+stabilizing | BB reversal returning from lower band | RL BUY confirmation
-- Order ID: 6ae35a68-ecd5-4ce1-b5ee-e83d3c4e70b5
-
-## 2026-10-29T14:39:01Z
-- Action  : BUY ELV
-- Price   : $417.88 (est.)
-- Amount  : $45.12 (~0.108 shares)
-- RSI     : 28.6 (oversold+stabilizing) | EMA: BEARISH | BB: BELOW_BAND
-- RL      : BUY (conf=0.928)
-- Stop    : $414.29 (ATR 0.86%) | Target: $459.67 (+10%)
-- Reason  : RSI deeply oversold | BB below band | RL BUY confirmation | second MODERATE position
-- Order ID: 6ae35a85-23d6-4707-b309-bc30190fd9a3
