@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T19:12:34Z",
+  "updated_at": "2026-11-02T20:18:33Z",
   "buying_power": 183.22,
   "market_regime": "bearish_ema",
   "account_value": 227.50,
@@ -14,11 +14,10 @@
   "disabled_reason": null,
   "positions": [],
   "last_actions": [
+    "2026-11-02T20:18Z Market CLOSED (signals: market_open=false, ~3:18 PM ET). Regime: bearish_ema. 0 SELLs: no positions held. 0 BUYs: market closed. CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22. Acct=$227.50. Universe=503.",
     "2026-11-02T19:12Z Market OPEN (2:12 PM ET), in_window=true. Regime: bearish_ema (SPY RSI=38.34, EMA=BEARISH). 0 SELLs: no positions held. 0 BUYs: RSI BUYs=0, Net-buy=1 (ACN conf=2 → bearish_ema requires 3/3 → SKIP), Surge=0. CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22. Acct=$227.50. Universe=503.",
     "2026-11-02T18:29Z Market OPEN (1:29 PM ET), in_window=true. Regime: bearish_ema (SPY EMA=BEARISH). 0 SELLs: no positions held. 0 BUYs: 0 RSI BUYs, 1 net-buy BUY (ACN conf=2 → bearish_ema requires 3/3 → SKIP), 1 surge (CINF 45.1% count=1, need ≥2 → SKIP). CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22 (ELV proceeds unsettled). Acct=$227.50. Universe=503.",
     "2026-11-02T17:44Z Market OPEN (12:44 PM ET), in_window=true. Regime: bearish_ema (SPY RSI=43.65, EMA=BEARISH). 0 SELLs: no positions held. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=0. CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22 (ELV proceeds unsettled). Acct=$227.50. Universe=503.",
-    "2026-11-02T16:34Z Market OPEN (11:34 AM ET), in_window=true. Regime: bearish_ema (SPY RSI=45.24, EMA=BEARISH). 0 SELLs: no positions held. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=0. CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22 (ELV proceeds unsettled). Acct=$227.50. Universe=503.",
-    "2026-11-02T15:43Z Market OPEN (10:43 AM ET), in_window=true. Regime: bearish_ema. SOLD ELV $410.80 <= trail $414.29 (ATR stop, -1.75%, 97h held). 0 BUYs: REGIME FILTER A (SPY RSI=25.38 < 30), 7 surge tickers all count=1 (need >=2). CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22 (sell proceeds unsettled). Acct=$227.50. Universe=503.",
-    "2026-11-02T14:22Z Market OPEN (pre-open 9:22 AM ET), in_window=true. Regime: bearish_ema. 0 trades. ELV $420.00 > trail $414.29, RSI=45.76 HOLD, no sell signal. Day/week reset (Mon): start=$229.51. CB: daily 0.00%/weekly 0.00% (OK). BP=$183.22. Acct=$229.51. Universe=503."
+    "2026-11-02T16:34Z Market OPEN (11:34 AM ET), in_window=true. Regime: bearish_ema (SPY RSI=45.24, EMA=BEARISH). 0 SELLs: no positions held. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=0. CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22 (ELV proceeds unsettled). Acct=$227.50. Universe=503."
   ]
 }

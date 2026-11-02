@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-11-02T20:18:33Z (SUMMARY)
+- SUMMARY: Market CLOSED (3:18 PM ET / signals show market_open=false). Regime: bearish_ema (SPY EMA=BEARISH). 0 SELLs: no positions held. 0 BUYs: market closed. CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22 (ELV proceeds unsettled). Acct=$227.50. Universe=503 (543 fetched via RH historicals).
+
 ## 2026-11-02T19:12:34Z (SUMMARY)
 - SUMMARY: Market OPEN (2:12 PM ET), in_window=true. Regime: bearish_ema (SPY RSI=38.34, EMA=BEARISH, price below 200-EMA). 0 SELLs: no positions held. 0 BUYs: RSI BUYs=0, Net-buy BUYs=1 (ACN conf=2 → bearish_ema requires 3/3 → SKIP), Surge=0 (COR 7.88% < 10% threshold). CB: daily -0.88%/weekly -0.88% (OK). Regime filter A inactive (SPY RSI=38.34 >= 30). BP=$183.22. Acct=$227.50. Universe=503 (543 fetched via RH historicals).
 
