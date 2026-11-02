@@ -1,5 +1,19 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-11-02T15:43Z (SUMMARY)
+- SUMMARY: Market OPEN (10:43 AM ET), in_window=true. Regime: bearish_ema (SPY below 200-EMA). 1 SELL: ELV $410.80 ≤ trail_stop $414.29 (ATR trailing stop, entry $418.14, -1.75%, held 97h). 0 BUYs: REGIME FILTER A ACTIVE (SPY RSI=25.38 < 30) — skip all buys except surge/intraday_surge; 7 surge tickers (ECL/DOC/INTU/OTIS/EOG/ABT/CMCSA) all count=1 (need ≥2 for intraday candidate). CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22 (sell proceeds pending T+1 settlement). Positions: 0. Acct=$227.50. Universe=503 (543 fetched via RH historicals).
+
+## 2026-11-02T15:42:34Z
+- Action   : SELL ELV
+- Price    : $410.80
+- Amount   : $44.30 | Shares: 0.107906
+- RSI      : 45.76 | EMA: BEARISH | BB: IN_BAND
+- RL       : null conf=null | null
+- Stop     : $414.29 | Target: $459.95
+- Strategy : normal | Sell date: ATR trail stop
+- Regime   : bearish_ema
+- Reason   : ATR trailing stop triggered (price $410.80 ≤ trail_stop $414.29, entry $418.14, -1.75% loss)
+
 ## 2026-11-02T14:22Z (SUMMARY)
 - SUMMARY: Market OPEN (pre-open 9:22 AM ET), in_window=true. Regime: bearish_ema (SPY below 200-EMA). 0 SELLs: ELV $420.00 > trail_stop $414.29, RSI=45.76 HOLD (IN_BAND, EMA=BEARISH, no net-sell). 0 BUYs: RSI BUYs=0, Net-buy BUYs=0, Surge=0. New day+week reset: day/week start=$229.51. CB: daily 0.00%/weekly 0.00% (OK). BP=$183.22. Equity: 1 pos ELV +0.45% ($45.32). Acct=$229.51. Universe=503 (562 fetched via RH historicals).
 
