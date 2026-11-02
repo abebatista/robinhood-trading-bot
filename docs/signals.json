@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-02T22:39:31.990949+00:00",
+  "timestamp": "2026-11-02T22:57:13.506964+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -7937,15 +7937,6 @@
       "reason": "Buy vol \u219135.5% vs prior day | 0d streak | latest 7.44M | OBV 5.4M/day"
     },
     {
-      "ticker": "AOS",
-      "price": 65.41999816894531,
-      "buy_surge_pct": 1.1768,
-      "buy_vol_d2": 726274,
-      "buy_vol_d3": 1580961,
-      "net_buy_d3": 1380616,
-      "reason": "Buy vol \u2191117.7% vs prior day | 0d streak | latest 1.38M | OBV 0.0M/day"
-    },
-    {
       "ticker": "MMM",
       "price": 178.36000061035156,
       "buy_surge_pct": 2.2767,
@@ -7953,6 +7944,15 @@
       "buy_vol_d3": 1897389,
       "net_buy_d3": 516752,
       "reason": "Buy vol \u2191227.7% vs prior day | 2d streak | latest 0.52M | OBV 1.2M/day"
+    },
+    {
+      "ticker": "AOS",
+      "price": 65.41999816894531,
+      "buy_surge_pct": 1.1768,
+      "buy_vol_d2": 726274,
+      "buy_vol_d3": 1580961,
+      "net_buy_d3": 1380616,
+      "reason": "Buy vol \u2191117.7% vs prior day | 0d streak | latest 1.38M | OBV 0.0M/day"
     }
   ]
 }
