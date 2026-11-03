@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T14:25:45Z",
+  "updated_at": "2026-11-03T15:21:40Z",
   "buying_power": 227.50,
   "market_regime": "bearish_ema",
   "account_value": 227.50,
@@ -14,10 +14,10 @@
   "disabled_reason": null,
   "positions": [],
   "last_actions": [
-    "2026-11-03T14:25Z Market OPEN (9:25 AM ET), in_window=true. Regime: bearish_ema (SPY $751.96 vs EMA200 $767.68, SPY RSI=32.45). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0 (none conf≥3), Net-buy=1 (STZ RSI-SELL skip), Surge=2 (STZ/AON RSI-SELL skip). CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503.",
+    "2026-11-03T15:21Z Market OPEN (~10:21 AM ET), in_window=true. Regime: bearish_ema (SPY $751.96 RSI=32.45 EMA=BEARISH). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0, Net-buy=1 (STZ RSI-SELL skip — RSI=78.33 overbought), Surge=2 (STZ count→2 RSI-SELL skip; CBRE count→1 need≥2). CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503.",
+    "2026-11-03T14:25Z Market OPEN (9:25 AM ET), in_window=true. Regime: bearish_ema (SPY $751.96 vs EMA200 $767.68, SPY RSI=32.45). 0 SELLs: no positions held. 0 BUYs: RSI BUYs=0 (none conf≥3), Net-buy=1 (STZ RSI-SELL skip), Surge=2 (STZ/AON RSI-SELL skip). CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503.",
     "2026-11-02T20:18Z Market CLOSED (signals: market_open=false, ~3:18 PM ET). Regime: bearish_ema. 0 SELLs: no positions held. 0 BUYs: market closed. CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22. Acct=$227.50. Universe=503.",
     "2026-11-02T19:12Z Market OPEN (2:12 PM ET), in_window=true. Regime: bearish_ema (SPY RSI=38.34, EMA=BEARISH). 0 SELLs: no positions held. 0 BUYs: RSI BUYs=0, Net-buy=1 (ACN conf=2 → bearish_ema requires 3/3 → SKIP), Surge=0. CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22. Acct=$227.50. Universe=503.",
-    "2026-11-02T18:29Z Market OPEN (1:29 PM ET), in_window=true. Regime: bearish_ema (SPY EMA=BEARISH). 0 SELLs: no positions held. 0 BUYs: 0 RSI BUYs, 1 net-buy BUY (ACN conf=2 → bearish_ema requires 3/3 → SKIP), 1 surge (CINF 45.1% count=1, need ≥2 → SKIP). CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22 (ELV proceeds unsettled). Acct=$227.50. Universe=503.",
-    "2026-11-02T17:44Z Market OPEN (12:44 PM ET), in_window=true. Regime: bearish_ema (SPY RSI=43.65, EMA=BEARISH). 0 SELLs: no positions held. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=0. CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22 (ELV proceeds unsettled). Acct=$227.50. Universe=503."
+    "2026-11-02T18:29Z Market OPEN (1:29 PM ET), in_window=true. Regime: bearish_ema (SPY EMA=BEARISH). 0 SELLs: no positions held. 0 BUYs: 0 RSI BUYs, 1 net-buy BUY (ACN conf=2 → bearish_ema requires 3/3 → SKIP), 1 surge (CINF 45.1% count=1, need ≥2 → SKIP). CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22 (ELV proceeds unsettled). Acct=$227.50. Universe=503."
   ]
 }
