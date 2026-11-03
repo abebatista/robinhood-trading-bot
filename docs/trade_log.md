@@ -1,7 +1,22 @@
 # Trade Log — Robinhood Agentic Account
 
-## 2026-11-03T20:15:50Z (SUMMARY)
-- SUMMARY: Market CLOSED (~3:15 PM ET; strategy market_open=false, likely DST offset after Nov 1). Regime: bearish_ema (SPY $754.09 vs EMA200 $766.96, BEARISH). 0 SELLs: no positions. 0 BUYs: market closed — RSI BUYs=0, Net-buy BUYs=0, Surge=0. CB: daily 0%/weekly -0.88% (OK, below 3%/5%). BP=$227.50. Acct=$227.50. Universe=503 (543 fetched via RH historicals).
+## 2026-11-03T19:19:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~2:19 PM ET), in_window=true. Regime: bearish_ema (SPY $755.43 RSI=41.2 EMA=BEARISH). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=1 (ALL 38.3% — count=1 not confirmed, 1d streak → HOLD). CB: daily 0%/weekly -0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503 (562 fetched via RH historicals).
+
+## 2026-11-03T18:19:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~1:19 PM ET), in_window=true. Regime: bearish_ema (SPY $755.68 EMA=BEARISH). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=1 (GDDY 25.2% — count=1 not confirmed, low-vol RSI skip, 0d streak → HOLD). CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503 (543 fetched via RH historicals).
+
+## 2026-11-03T17:17:15Z (SUMMARY)
+- SUMMARY: Market OPEN (~12:17 PM ET), in_window=true. Regime: bearish_ema (SPY $755.36 RSI=40.5 EMA=BEARISH). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=0 — bearish_ema requires 3/3 conf, none qualified. CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503 (525 fetched via RH historicals).
+
+## 2026-11-03T16:19:06Z (SUMMARY)
+- SUMMARY: Market OPEN (~11:19 AM ET), in_window=true. Regime: bearish_ema (SPY $756.20 RSI=41.7 EMA=BEARISH). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=0 — bearish_ema requires 3/3 conf, none qualified. CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503 (535 fetched via RH historicals).
+
+## 2026-11-03T15:21:40Z (SUMMARY)
+- SUMMARY: Market OPEN (~10:21 AM ET), in_window=true. Regime: bearish_ema (SPY $751.96, RSI=32.45, EMA=BEARISH). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0, Net-buy=1 (STZ RSI-SELL skip — RSI=78.33 overbought), Surge=2 (STZ count→2 RSI-SELL skip; CBRE count→1 need≥2). CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503 (543 fetched via RH historicals).
+
+## 2026-11-03T14:25:45Z (SUMMARY)
+- SUMMARY: Market OPEN (9:25 AM ET), in_window=true. Regime: bearish_ema (SPY $751.96 vs EMA200 $767.68, SPY RSI=32.45). 0 SELLs: no positions held. 0 BUYs: RSI BUYs=0 (none with conf≥3 in bearish_ema), Net-buy=1 (STZ: RSI=SELL overbought 78.3, skip — contradictory signal), Surge=2 (STZ 23.7% RSI-SELL skip; AON 6108% RSI-SELL+data artifact skip). Surge tracker updated: STZ count=1, AON count=1. CB: daily 0%/weekly 0.88% (OK, new day). BP=$227.50. Acct=$227.50. Universe=503 (529 fetched via RH historicals).
 
 ## 2026-11-02T20:18:33Z (SUMMARY)
 - SUMMARY: Market CLOSED (3:18 PM ET / signals show market_open=false). Regime: bearish_ema (SPY EMA=BEARISH). 0 SELLs: no positions held. 0 BUYs: market closed. CB: daily -0.88%/weekly -0.88% (OK). BP=$183.22 (ELV proceeds unsettled). Acct=$227.50. Universe=503 (543 fetched via RH historicals).
