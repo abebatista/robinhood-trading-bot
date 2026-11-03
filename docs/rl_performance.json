@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-11-02",
+  "updated_at": "2026-11-03",
   "backtest_days": 14,
   "strategy_return": null,
   "spy_return": null,
-  "win_rate": 0.25,
-  "avg_win_pnl": 0.435,
-  "avg_loss_pnl": -1.43,
+  "win_rate": 0.333,
+  "avg_win_pnl": 0.437,
+  "avg_loss_pnl": -1.367,
   "risk_reward": null,
-  "total_trades": 8,
-  "wins": 2,
+  "total_trades": 9,
+  "wins": 3,
   "losses": 6,
   "circuit_breaker_halts": 0,
   "rl_training_samples": 637,
   "rl_states_learned": 19,
   "rl_target_samples": 200,
-  "note": "Backtest skipped — yfinance blocked in CCR sandbox. Metrics from trade log analysis (8 normal-strategy trades). RSI_OVERSOLD tuned 38→40. Updated by daily learning CCR"
+  "note": "Backtest skipped — yfinance blocked in CCR sandbox. Metrics from trade log analysis (9 trades: AIG+0.30%/GDDY+0.57%/ELV+0.44% wins; VTR-1.87%/GE-1.14%/ABNB-1.41%/TTWO-1.61%/BRO-1.17%/HIG-1.0% losses). RSI_OVERSOLD already at clamp max 40, NO_CHANGE. Updated by daily learning CCR"
 }
