@@ -1,5 +1,30 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-11-04T19:20:43Z
+- Action   : SELL KIM
+- Price    : $25.805
+- Amount   : $33.78 | Shares: 1.308947
+- RSI      : 83.89 | EMA: BULLISH | BB: ABOVE_BAND
+- RL       : null conf=null | null
+- Stop     : $25.14 | Target: $27.97
+- Strategy : intraday_surge | Sell date: RSI signal (overbought)
+- Regime   : normal
+- Reason   : RSI overbought (83.9) | price above BB upper band | hours_held≈3.9h ≥ 3 | signal conf=2 | PnL≈+1.47%
+
+## 2026-11-04T19:20:46Z
+- Action   : SELL PSA
+- Price    : $342.89
+- Amount   : $25.27 | Shares: 0.073702
+- RSI      : 82.65 | EMA: BULLISH | BB: ABOVE_BAND
+- RL       : null conf=null | null
+- Stop     : $334.50 | Target: $372.53
+- Strategy : intraday_surge | Sell date: RSI signal (overbought)
+- Regime   : normal
+- Reason   : RSI overbought (82.7) | price above BB upper band | hours_held≈3.9h ≥ 3 | signal conf=2 | PnL≈+1.25%
+
+## 2026-11-04T19:21:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~2:21 PM ET), in_window=true. Regime: normal (SPY $767.37 RSI=60.05 EMA=BULLISH). 2 SELLs: KIM (RSI 83.9, overbought +1.47%), PSA (RSI 82.7, overbought +1.25%). 0 BUYs: BP=$50.00 (unsettled proceeds not yet spendable), investable=$0 < $15 min. 30 RSI BUY candidates (all conf=2), 0 surge (5 new: PSA/MSFT/CB/KMB/FITB all count=1 need≥2). CB: daily≈0% (gained)/weekly 0.40% (OK). Acct=$228.59 (equity $119.54 VZ+GD, cash $109.05). Universe=503.
+
 ## 2026-11-04T17:26:40Z
 - Action : BUY GD
 - Price  : $364.41

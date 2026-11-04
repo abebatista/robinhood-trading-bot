@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T18:19:50Z",
+  "updated_at": "2026-11-04T19:22:00Z",
   "buying_power": 50.0,
   "market_regime": "normal",
-  "account_value": 228.71,
+  "account_value": 228.59,
   "peak_value": 249.0,
   "day_start_value": 227.5,
   "day_start_date": "2026-11-04",
@@ -17,9 +17,9 @@
       "ticker": "VZ",
       "quantity": 0.964405,
       "avg_cost": 46.02,
-      "current_price": 46.165,
-      "pnl_pct": 0.0032,
-      "value": 44.52,
+      "current_price": 46.06,
+      "pnl_pct": 0.0009,
+      "value": 44.42,
       "entry_atr_pct": 0.0052,
       "entry_time": "2026-11-04T15:24:28Z",
       "trail_stop": 45.54,
@@ -28,40 +28,12 @@
       "sell_date": "2026-11-05"
     },
     {
-      "ticker": "KIM",
-      "quantity": 1.308947,
-      "avg_cost": 25.43,
-      "current_price": 25.785,
-      "pnl_pct": 0.014,
-      "value": 33.75,
-      "entry_atr_pct": 0.0057,
-      "entry_time": "2026-11-04T15:24:37Z",
-      "trail_stop": 25.14,
-      "take_profit": 27.97,
-      "strategy": "intraday_surge",
-      "sell_date": "2026-11-05"
-    },
-    {
-      "ticker": "PSA",
-      "quantity": 0.073702,
-      "avg_cost": 338.66,
-      "current_price": 342.83,
-      "pnl_pct": 0.0123,
-      "value": 25.27,
-      "entry_atr_pct": 0.0059,
-      "entry_time": "2026-11-04T15:24:45Z",
-      "trail_stop": 334.5,
-      "take_profit": 372.53,
-      "strategy": "intraday_surge",
-      "sell_date": "2026-11-05"
-    },
-    {
       "ticker": "GD",
       "quantity": 0.205492,
       "avg_cost": 364.39,
-      "current_price": 365.79,
-      "pnl_pct": 0.0038,
-      "value": 75.17,
+      "current_price": 365.71,
+      "pnl_pct": 0.0036,
+      "value": 75.15,
       "entry_atr_pct": 0.0107,
       "entry_time": "2026-11-04T17:26:40Z",
       "trail_stop": 346.19,
@@ -71,10 +43,10 @@
     }
   ],
   "last_actions": [
+    "2026-11-04T19:21Z Market OPEN (~2:21 PM ET), in_window=true. Regime: normal (SPY $767.37 RSI=60.05 EMA=BULLISH). 2 SELLs: KIM (RSI 83.9+1.47%) PSA (RSI 82.7+1.25%). 0 BUYs: BP=$50 unsettled, investable=$0. CB: daily≈0%/weekly+0.4% (OK). Acct=$228.59. Universe=503.",
     "2026-11-04T18:19Z Market OPEN (~1:20 PM ET), in_window=true. Regime: normal. 0 SELLs: VZ(+0.32%)/KIM(+1.40%)/PSA(+1.23%)/GD(+0.38%) all within bounds. 0 BUYs: BP=$50=cash buffer, investable=$0. RSI BUYs=3 (SNOW/LEU/LDOS conf=2). CB: daily -0.53%/weekly +0.35% (OK). Acct=$228.71. Universe=503.",
-    "2026-11-04T17:26Z Market OPEN (~12:26 PM ET), in_window=true. Regime: normal (SPY $768.60 RSI=62.58 EMA=NEUTRAL). 0 SELLs: VZ/KIM/PSA held ~2h (no TP/SL hit). 1 BUY: GD $74.88 (rsi_momentum, BB-reversal+EMA-BULLISH, RL BOOST conf=2\u21923 STRONG BUY). CB: daily +0.52%/weekly -0.36% (OK). BP=$50.00. Acct=$228.69. Universe=503.",
-    "2026-11-04T16:23Z Market OPEN (~11:23 AM ET), in_window=true. Regime: bearish_ema (SPY $766.05 RSI=59.7 EMA=BEARISH). 0 SELLs: VZ/KIM/PSA held <1hr (hours_held<3, no TP/stop triggered). 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=2 (KR+83.2% count=1, LII+35.7% count=1 \u2014 both need count\u22652). CB: daily -0.52%/weekly 0.37% (OK). BP=$124.88. Acct=$228.67. Universe=503.",
-    "2026-11-04T15:25Z Market OPEN (~10:25 AM ET), in_window=true. Regime: bearish_ema (SPY $754.40 RSI=40.07 EMA=BEARISH). 0 SELLs: no prior positions. 3 BUYs: VZ $44.38 (intraday_surge count=2, +35.1% vol, bearish_ema x0.25), KIM $33.28 (intraday_surge count=2, +103.5% vol, bearish_ema x0.25), PSA $24.96 (intraday_surge count=2, +41.5% vol, bearish_ema x0.25). CB: daily 0%/weekly 0.88% (OK). BP=$124.88. Acct=$227.46. Universe=503.",
-    "2026-11-04T14:24Z Market OPEN (~9:24 AM ET; pre-market per clock, strategy market_open=true). Regime: bearish_ema (SPY $763.72 pre-mkt, EMA~$766.96 BEARISH). 0 SELLs: no positions. 0 BUYs: Net-buy=3 (VZ/KIM/PSA conf=2 \u2014 BLOCKED: bearish_ema requires conf>=3), Surge=3 (VZ 35.1%/KIM 103.5%/PSA 41.5% count=1 not confirmed). CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503."
+    "2026-11-04T17:26Z Market OPEN (~12:26 PM ET), in_window=true. Regime: normal (SPY $768.60 RSI=62.58 EMA=NEUTRAL). 0 SELLs: VZ/KIM/PSA held ~2h (no TP/SL hit). 1 BUY: GD $74.88 (rsi_momentum, BB-reversal+EMA-BULLISH, RL BOOST conf=2→3 STRONG BUY). CB: daily +0.52%/weekly -0.36% (OK). BP=$50.00. Acct=$228.69. Universe=503.",
+    "2026-11-04T16:23Z Market OPEN (~11:23 AM ET), in_window=true. Regime: bearish_ema (SPY $766.05 RSI=59.7 EMA=BEARISH). 0 SELLs: VZ/KIM/PSA held <1hr (hours_held<3, no TP/stop triggered). 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=2 (KR+83.2% count=1, LII+35.7% count=1 — both need count≥2). CB: daily -0.52%/weekly 0.37% (OK). BP=$124.88. Acct=$228.67. Universe=503.",
+    "2026-11-04T15:25Z Market OPEN (~10:25 AM ET), in_window=true. Regime: bearish_ema (SPY $754.40 RSI=40.07 EMA=BEARISH). 0 SELLs: no prior positions. 3 BUYs: VZ $44.38 (intraday_surge count=2, +35.1% vol, bearish_ema x0.25), KIM $33.28 (intraday_surge count=2, +103.5% vol, bearish_ema x0.25), PSA $24.96 (intraday_surge count=2, +41.5% vol, bearish_ema x0.25). CB: daily 0%/weekly 0.88% (OK). BP=$124.88. Acct=$227.46. Universe=503."
   ]
 }
