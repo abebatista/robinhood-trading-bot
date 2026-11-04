@@ -648,3 +648,12 @@
 - Backtest: SKIPPED — yfinance/RH historicals cache unavailable in CCR sandbox (known constraint)
 - RL samples: 637/200 (READY — RL READY: run python -m strategy.rl_agent --train)
 - Notes: Account $227.50, bearish_ema regime persists (SPY below 200-EMA). No open positions. Week -0.88% from $229.51. All recent exits via ATR trail stops at ~-1.4% avg loss vs ~+0.44% avg win — unfavorable R:R in current regime. rl_training_data.jsonl +0 new rows (no new closed trades this cycle).
+
+## 2026-11-04
+- Trades analysed: 11 closed (5 wins, 6 losses)
+- Win rate: 45.5% overall (normal: 33.3% [9 trades], intraday_surge: 100% [2 trades], rsi_momentum: n/a [0 closed])
+- Per-EMA-trend: BULLISH entry 62.5% (5/8), BEARISH entry 0% (0/3)
+- Config changes: none (RSI_OVERSOLD already at clamp max 40; MOMENTUM never wired; ATR avg_hold ~24h not < 2h)
+- Backtest: skipped — yfinance blocked in CCR sandbox
+- RL samples: 637/200 (target met, READY)
+- Notes: 0 new RL rows collected (no new closed trades since last run). KIM +1.47% and PSA +1.25% intraday_surge wins closed today — surge strategy outperforming normal RSI mean-reversion. Bearish-EMA entries (VTR, BRO, HIG) 0/3 wins — regime filter working correctly by blocking new buys. RL READY: 637 ≥ 200 target.
