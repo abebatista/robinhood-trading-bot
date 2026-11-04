@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-03T20:15:50Z",
+  "updated_at": "2026-11-04T14:24:00Z",
   "buying_power": 227.50,
   "market_regime": "bearish_ema",
   "account_value": 227.50,
   "peak_value": 249.0,
   "day_start_value": 227.50,
-  "day_start_date": "2026-11-03",
+  "day_start_date": "2026-11-04",
   "week_start_value": 229.51,
   "week_start_date": "2026-11-02",
   "trading_enabled": true,
@@ -14,10 +14,10 @@
   "disabled_reason": null,
   "positions": [],
   "last_actions": [
+    "2026-11-04T14:24Z Market OPEN (~9:24 AM ET; pre-market per clock, strategy market_open=true). Regime: bearish_ema (SPY $763.72 pre-mkt, EMA~$766.96 BEARISH). 0 SELLs: no positions. 0 BUYs: Net-buy=3 (VZ/KIM/PSA conf=2 — BLOCKED: bearish_ema requires conf≥3), Surge=3 (VZ 35.1%/KIM 103.5%/PSA 41.5% count=1 not confirmed). CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503.",
     "2026-11-03T20:15Z Market CLOSED (~3:15 PM ET; strategy market_open=false). Regime: bearish_ema (SPY $754.09 EMA=$766.96 BEARISH). 0 SELLs: no positions. 0 BUYs: market closed. CB: daily 0%/weekly -0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503.",
     "2026-11-03T19:19Z Market OPEN (~2:19 PM ET), in_window=true. Regime: bearish_ema (SPY $755.43 RSI=41.2 EMA=BEARISH). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=1 (ALL 38.3% count=1 not confirmed, 1d-streak → HOLD). CB: daily 0%/weekly -0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503.",
     "2026-11-03T18:19Z Market OPEN (~1:19 PM ET), in_window=true. Regime: bearish_ema (SPY $755.68 EMA=BEARISH). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=1 (GDDY 25.2% count=1 not confirmed, low-vol/0d-streak → HOLD). CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503.",
-    "2026-11-03T17:17Z Market OPEN (~12:17 PM ET), in_window=true. Regime: bearish_ema (SPY $755.36 RSI=40.5 EMA=BEARISH). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=0 — bearish_ema requires 3/3 conf, none qualified. CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503.",
-    "2026-11-03T16:19Z Market OPEN (~11:19 AM ET), in_window=true. Regime: bearish_ema (SPY $756.20 RSI=41.7 EMA=BEARISH). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=0 — bearish_ema requires 3/3 conf, none qualified. CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503."
+    "2026-11-03T17:17Z Market OPEN (~12:17 PM ET), in_window=true. Regime: bearish_ema (SPY $755.36 RSI=40.5 EMA=BEARISH). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=0 — bearish_ema requires 3/3 conf, none qualified. CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503."
   ]
 }
