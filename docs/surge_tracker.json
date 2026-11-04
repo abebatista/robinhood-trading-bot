@@ -1,16 +1,9 @@
 {
-  "KR": {
+  "LLY": {
     "count": 1,
     "date": "2026-11-04",
-    "first_seen": "2026-11-04T16:21:28Z",
-    "price": 69.164,
-    "surge_pct": 0.8324
-  },
-  "LII": {
-    "count": 1,
-    "date": "2026-11-04",
-    "first_seen": "2026-11-04T16:21:28Z",
-    "price": 362.69,
-    "surge_pct": 0.357
+    "first_seen": "2026-11-04T17:21:00Z",
+    "price": 1429.0,
+    "surge_pct": null
   }
 }

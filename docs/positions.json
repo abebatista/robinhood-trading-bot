@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T16:23:00Z",
-  "buying_power": 124.88,
-  "market_regime": "bearish_ema",
-  "account_value": 228.67,
+  "updated_at": "2026-11-04T17:26:40Z",
+  "buying_power": 50.00,
+  "market_regime": "normal",
+  "account_value": 228.69,
   "peak_value": 249.0,
   "day_start_value": 227.50,
   "day_start_date": "2026-11-04",
@@ -54,13 +54,27 @@
       "take_profit": 372.53,
       "strategy": "intraday_surge",
       "sell_date": "2026-11-05"
+    },
+    {
+      "ticker": "GD",
+      "quantity": 0.205480,
+      "avg_cost": 364.41,
+      "current_price": 364.41,
+      "pnl_pct": 0.0,
+      "value": 74.88,
+      "entry_atr_pct": 0.0107,
+      "entry_time": "2026-11-04T17:26:40Z",
+      "trail_stop": 346.19,
+      "take_profit": 400.85,
+      "strategy": "rsi_momentum",
+      "sell_date": "2026-11-05"
     }
   ],
   "last_actions": [
+    "2026-11-04T17:26Z Market OPEN (~12:26 PM ET), in_window=true. Regime: normal (SPY $768.60 RSI=62.58 EMA=NEUTRAL). 0 SELLs: VZ/KIM/PSA held ~2h (no TP/SL hit). 1 BUY: GD $74.88 (rsi_momentum, BB-reversal+EMA-BULLISH, RL BOOST conf=2→3 STRONG BUY). CB: daily +0.52%/weekly -0.36% (OK). BP=$50.00. Acct=$228.69. Universe=503.",
     "2026-11-04T16:23Z Market OPEN (~11:23 AM ET), in_window=true. Regime: bearish_ema (SPY $766.05 RSI=59.7 EMA=BEARISH). 0 SELLs: VZ/KIM/PSA held <1hr (hours_held<3, no TP/stop triggered). 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=2 (KR+83.2% count=1, LII+35.7% count=1 — both need count≥2). CB: daily -0.52%/weekly 0.37% (OK). BP=$124.88. Acct=$228.67. Universe=503.",
     "2026-11-04T15:25Z Market OPEN (~10:25 AM ET), in_window=true. Regime: bearish_ema (SPY $754.40 RSI=40.07 EMA=BEARISH). 0 SELLs: no prior positions. 3 BUYs: VZ $44.38 (intraday_surge count=2, +35.1% vol, bearish_ema x0.25), KIM $33.28 (intraday_surge count=2, +103.5% vol, bearish_ema x0.25), PSA $24.96 (intraday_surge count=2, +41.5% vol, bearish_ema x0.25). CB: daily 0%/weekly 0.88% (OK). BP=$124.88. Acct=$227.46. Universe=503.",
     "2026-11-04T14:24Z Market OPEN (~9:24 AM ET; pre-market per clock, strategy market_open=true). Regime: bearish_ema (SPY $763.72 pre-mkt, EMA~$766.96 BEARISH). 0 SELLs: no positions. 0 BUYs: Net-buy=3 (VZ/KIM/PSA conf=2 — BLOCKED: bearish_ema requires conf>=3), Surge=3 (VZ 35.1%/KIM 103.5%/PSA 41.5% count=1 not confirmed). CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503.",
-    "2026-11-03T20:15Z Market CLOSED (~3:15 PM ET; strategy market_open=false). Regime: bearish_ema (SPY $754.09 EMA=$766.96 BEARISH). 0 SELLs: no positions. 0 BUYs: market closed. CB: daily 0%/weekly -0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503.",
-    "2026-11-03T19:19Z Market OPEN (~2:19 PM ET), in_window=true. Regime: bearish_ema (SPY $755.43 RSI=41.2 EMA=BEARISH). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=1 (ALL 38.3% count=1 not confirmed, 1d-streak -> HOLD). CB: daily 0%/weekly -0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503."
+    "2026-11-03T20:15Z Market CLOSED (~3:15 PM ET; strategy market_open=false). Regime: bearish_ema (SPY $754.09 EMA=$766.96 BEARISH). 0 SELLs: no positions. 0 BUYs: market closed. CB: daily 0%/weekly -0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503."
   ]
 }
