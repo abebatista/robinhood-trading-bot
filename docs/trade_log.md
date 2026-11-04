@@ -1,5 +1,38 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-11-04T15:24:45Z
+- Action   : BUY PSA
+- Price    : $338.50
+- Amount   : $24.96 | Shares: 0.073730
+- RSI      : 76.47 | EMA: BULLISH | BB: IN_BAND
+- RL       : null conf=null | null
+- Stop     : $334.50 | Target: $372.35
+- Strategy : intraday_surge | Sell date: 2026-11-05
+- Regime   : bearish_ema
+- Reason   : Intraday surge count=2 (buy vol +41.5% vs prior day, 4d net-buy streak) | bearish_ema halves size (x0.25 of investable)
+
+## 2026-11-04T15:24:37Z
+- Action   : BUY KIM
+- Price    : $25.43
+- Amount   : $33.28 | Shares: 1.308690
+- RSI      : 72.42 | EMA: BULLISH | BB: IN_BAND
+- RL       : null conf=null | null
+- Stop     : $25.14 | Target: $27.97
+- Strategy : intraday_surge | Sell date: 2026-11-05
+- Regime   : bearish_ema
+- Reason   : Intraday surge count=2 (buy vol +103.5% vs prior day, 4d net-buy streak) | bearish_ema halves size (x0.25 of investable)
+
+## 2026-11-04T15:24:28Z
+- Action   : BUY VZ
+- Price    : $46.02
+- Amount   : $44.38 | Shares: 0.964360
+- RSI      : 65.41 | EMA: BULLISH | BB: IN_BAND
+- RL       : null conf=null | null
+- Stop     : $45.54 | Target: $50.62
+- Strategy : intraday_surge | Sell date: 2026-11-05
+- Regime   : bearish_ema
+- Reason   : Intraday surge count=2 (buy vol +35.1% vs prior day, 4d net-buy streak) | bearish_ema halves size (x0.25 of investable)
+
 ## 2026-11-04T14:24:00Z (SUMMARY)
 - SUMMARY: Market OPEN (~9:24 AM ET; pre-market per clock, strategy market_open=true). Regime: bearish_ema (SPY $763.72 pre-mkt vs EMA~$766.96 BEARISH). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0, Net-buy=3 (VZ conf=2, KIM conf=2, PSA conf=2 — ALL BLOCKED: bearish_ema requires conf≥3), Surge=3 (VZ 35.1% count=1, KIM 103.5% count=1, PSA 41.5% count=1 — not confirmed → HOLD). CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503 (538 fetched via RH historicals).
 
