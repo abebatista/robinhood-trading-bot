@@ -1,40 +1,46 @@
 # Trade Log — Robinhood Agentic Account
 
-## 2026-11-04T18:19:36Z
-- SUMMARY: Market OPEN (~1:20 PM ET), in_window=true. Regime: normal (SPY RSI OK). 0 SELLs: VZ(+0.32%)/KIM(+1.40%)/PSA(+1.23%)/GD(+0.38%) all within bounds, hours_held<3 for VZ/KIM/PSA (<3h), GD<1h. 0 BUYs: investable=$0 (buying_power=$50=cash buffer). RSI BUYs=3 (SNOW/LEU/LDOS conf=2) — no capital available. CB: daily -0.53% (OK)/weekly +0.35% (OK). BP=$50.00. Equity=$178.71. Acct=$228.71. Universe=503.
+## 2026-11-04T20:30:00Z
+- SUMMARY: Market CLOSED (after 4 PM ET). Buying power: $50.00 (unsettled $59.05). Equity positions: 2 (VZ +0.18%, GD +0.37%). Regime: normal (SPY RSI neutral, EMA bullish). Account: $228.67. Universe fetched: 503. CB: daily -0.51%/weekly +0.37% (OK). No sells triggered (no TP/SL hit, surge dates not reached). No buys (market closed).
 
-## 2026-11-04T15:24:45Z
-- Action   : BUY PSA
-- Price    : $338.50
-- Amount   : $24.96 | Shares: 0.073730
-- RSI      : 76.47 | EMA: BULLISH | BB: IN_BAND
-- RL       : null conf=null | null
-- Stop     : $334.50 | Target: $372.35
-- Strategy : intraday_surge | Sell date: 2026-11-05
-- Regime   : bearish_ema
-- Reason   : Intraday surge count=2 (buy vol +41.5% vs prior day, 4d net-buy streak) | bearish_ema halves size (x0.25 of investable)
-
-## 2026-11-04T15:24:37Z
-- Action   : BUY KIM
-- Price    : $25.43
-- Amount   : $33.28 | Shares: 1.308690
-- RSI      : 72.42 | EMA: BULLISH | BB: IN_BAND
+## 2026-11-04T19:20:43Z
+- Action   : SELL KIM
+- Price    : $25.805
+- Amount   : $33.78 | Shares: 1.308947
+- RSI      : 83.89 | EMA: BULLISH | BB: ABOVE_BAND
 - RL       : null conf=null | null
 - Stop     : $25.14 | Target: $27.97
-- Strategy : intraday_surge | Sell date: 2026-11-05
-- Regime   : bearish_ema
-- Reason   : Intraday surge count=2 (buy vol +103.5% vs prior day, 4d net-buy streak) | bearish_ema halves size (x0.25 of investable)
+- Strategy : intraday_surge | Sell date: RSI signal (overbought)
+- Regime   : normal
+- Reason   : RSI overbought (83.9) | price above BB upper band | hours_held≈3.9h ≥ 3 | signal conf=2 | PnL≈+1.47%
 
-## 2026-11-04T15:24:28Z
-- Action   : BUY VZ
-- Price    : $46.02
-- Amount   : $44.38 | Shares: 0.964360
-- RSI      : 65.41 | EMA: BULLISH | BB: IN_BAND
+## 2026-11-04T19:20:46Z
+- Action   : SELL PSA
+- Price    : $342.89
+- Amount   : $25.27 | Shares: 0.073702
+- RSI      : 82.65 | EMA: BULLISH | BB: ABOVE_BAND
 - RL       : null conf=null | null
-- Stop     : $45.54 | Target: $50.62
-- Strategy : intraday_surge | Sell date: 2026-11-05
-- Regime   : bearish_ema
-- Reason   : Intraday surge count=2 (buy vol +35.1% vs prior day, 4d net-buy streak) | bearish_ema halves size (x0.25 of investable)
+- Stop     : $334.50 | Target: $372.53
+- Strategy : intraday_surge | Sell date: RSI signal (overbought)
+- Regime   : normal
+- Reason   : RSI overbought (82.7) | price above BB upper band | hours_held≈3.9h ≥ 3 | signal conf=2 | PnL≈+1.25%
+
+## 2026-11-04T19:21:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~2:21 PM ET), in_window=true. Regime: normal (SPY $767.37 RSI=60.05 EMA=BULLISH). 2 SELLs: KIM (RSI 83.9, overbought +1.47%), PSA (RSI 82.7, overbought +1.25%). 0 BUYs: BP=$50.00 (unsettled proceeds not yet spendable), investable=$0 < $15 min. 30 RSI BUY candidates (all conf=2), 0 surge (5 new: PSA/MSFT/CB/KMB/FITB all count=1 need≥2). CB: daily≈0% (gained)/weekly 0.40% (OK). Acct=$228.59 (equity $119.54 VZ+GD, cash $109.05). Universe=503.
+
+## 2026-11-04T17:26:40Z
+- Action : BUY GD
+- Price  : $364.41
+- Amount : $74.88
+- RSI    : 44.08 | EMA: BULLISH | BB: BELOW_BAND
+- Stop   : $346.19 (-5%) | Target: $400.85 (+10%)
+- Reason : BB reversal (returning from band) | EMA bullish crossover | 🤖 RL BOOST (rl_conf=0.974 → conf 2→3 STRONG BUY)
+
+## 2026-11-04T17:26:40Z (SUMMARY)
+- SUMMARY: Market OPEN (~12:26 PM ET), in_window=true. Regime: normal (SPY $768.60 RSI=62.58 EMA=NEUTRAL). 0 SELLs: VZ/KIM/PSA held ~2h (hours_held<3, no TP/SL hit). 1 BUY: GD $74.88 (rsi_momentum, BB-reversal+EMA-BULLISH, RL BOOST conf=2→3 STRONG BUY). CB: daily +0.52%/weekly -0.36% (OK). BP=$50.00 (after trade). Acct≈$228.69. Universe=503 (552 fetched via RH historicals). Positions: VZ +0.9%, KIM +1.2%, PSA +1.4%, GD 0.0% (just entered).
+
+## 2026-11-04T16:23:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~11:23 AM ET), in_window=true. Regime: bearish_ema (SPY $766.05 RSI=59.7 EMA=BEARISH). 0 SELLs: VZ/KIM/PSA held <1hr (hours_held<3, no TP hit). 0 BUYs: RSI BUYs=0, Net-buy BUYs=0, Surge=2 (KR+83.2% count=1, LII+35.7% count=1 — both need count≥2). CB: daily -0.52% (acct grew)/weekly 0.37% (OK). BP=$124.88. Acct=$228.67. Universe=503 (570 fetched via RH historicals). Positions: VZ +0.90%, KIM +1.22%, PSA +1.43%.
 
 ## 2026-11-04T14:24:00Z (SUMMARY)
 - SUMMARY: Market OPEN (~9:24 AM ET; pre-market per clock, strategy market_open=true). Regime: bearish_ema (SPY $763.72 pre-mkt vs EMA~$766.96 BEARISH). 0 SELLs: no positions. 0 BUYs: RSI BUYs=0, Net-buy=3 (VZ conf=2, KIM conf=2, PSA conf=2 — ALL BLOCKED: bearish_ema requires conf≥3), Surge=3 (VZ 35.1% count=1, KIM 103.5% count=1, PSA 41.5% count=1 — not confirmed → HOLD). CB: daily 0%/weekly 0.88% (OK). BP=$227.50. Acct=$227.50. Universe=503 (538 fetched via RH historicals).
