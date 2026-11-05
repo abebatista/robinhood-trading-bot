@@ -1,5 +1,20 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-11-05T15:25:34Z
+- Action   : BUY FANG
+- Price    : $185.92
+- Amount   : $29.53 | Shares: 0.158830
+- RSI      : 16.2 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : HOLD conf=0.93 | null
+- Stop     : $180.64 | Target: $204.51
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal
+- Reason   : RSI deeply oversold (16.2) + BB below band; mean-reversion bounce setup. rl_action=HOLD (no veto/boost). Moderate BUY = 50% investable ($59.05 × 0.5 = $29.53).
+- Order ID : 6aec9fee-28fd-412e-a1ff-d8ced34855fd
+
+## 2026-11-05T15:25:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~10:25 AM ET), in_window=true. Regime: normal. 0 SELLs: GD(+1.80%) held — no RSI SELL, above trail_stop. 1 BUY: FANG $29.53 (RSI 16.2 oversold, MODERATE BUY). PSA skipped (surge count=3 but RSI overbought). CB: daily +0.83%/weekly +0.46% (OK). Acct≈$230.42. BP≈$79.52 (post-fill). Universe=503.
+
 ## 2026-11-05T14:30:00Z (SUMMARY)
 - SUMMARY: Market OPEN (9:30 AM ET), in_window=false (30-min open exclusion 9:30–10:00 ET). Regime: normal. 1 SELL: VZ (surge_exit sell_date=2026-11-05 + RSI SELL 70.2 conf=2, order placed market GFD). 0 BUYs: exclusion window; also PSA surge count=2 but RSI=83.17 overbought — skipped. CCL surge count=1 (needs≥2). CB: daily -0.07%/weekly +0.37% (OK). Acct=$228.84. BP=$109.05 (pre-fill; will increase ~$44.5 when VZ fills). Universe=503.
 
