@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-04T23:20:14.413687+00:00",
+  "timestamp": "2026-11-05T00:10:49.237405+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -7975,13 +7975,31 @@
       "reason": "Buy vol \u21911582.8% vs prior day | 0d streak | latest 1.13M | OBV 0.2M/day"
     },
     {
-      "ticker": "LNT",
-      "price": 73.7699966430664,
-      "buy_surge_pct": 18.8868,
-      "buy_vol_d2": 216109,
-      "buy_vol_d3": 4297709,
-      "net_buy_d3": 3668063,
-      "reason": "Buy vol \u21911888.7% vs prior day | 0d streak | latest 3.67M | OBV 2.6M/day"
+      "ticker": "ALL",
+      "price": 269.05999755859375,
+      "buy_surge_pct": 0.8424,
+      "buy_vol_d2": 868719,
+      "buy_vol_d3": 1600537,
+      "net_buy_d3": 1200094,
+      "reason": "Buy vol \u219184.2% vs prior day | 0d streak | latest 1.20M | OBV 0.6M/day"
+    },
+    {
+      "ticker": "ALB",
+      "price": 94.97000122070312,
+      "buy_surge_pct": 10.4085,
+      "buy_vol_d2": 408940,
+      "buy_vol_d3": 4665386,
+      "net_buy_d3": 3284300,
+      "reason": "Buy vol \u21911040.8% vs prior day | 1d streak | latest 3.28M | OBV -0.6M/day"
+    },
+    {
+      "ticker": "AFL",
+      "price": 125.30000305175781,
+      "buy_surge_pct": 1.2378,
+      "buy_vol_d2": 741668,
+      "buy_vol_d3": 1659685,
+      "net_buy_d3": 803077,
+      "reason": "Buy vol \u2191123.8% vs prior day | 0d streak | latest 0.80M | OBV 1.0M/day"
     }
   ]
 }
