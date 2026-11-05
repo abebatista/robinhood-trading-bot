@@ -1,5 +1,50 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-11-05T20:17:44Z (SUMMARY)
+- SUMMARY: Market CLOSED (~3:17 PM ET). Regime: BEARISH_EMA (SPY $739.84, RSI=32.0, EMA BEARISH — below 200-EMA $765.42). 0 SELLs: GD(-1.60% $358.55, trail=$346.19 OK) FANG(-2.07% $182.13, trail=$180.64 OK) — no triggers (market closed). 0 BUYs: market closed. CB: daily -0.63%/weekly -1.0% (OK). Acct=$227.22. BP=$79.52. Universe=503.
+
+## 2026-11-05T19:19:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~2:19 PM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=27.32, EMA=BEARISH, BB=BELOW_BAND; SPY $738.23 -3.72% today). 0 SELLs: GD(-1.54% $358.76, trail=$346.19 OK) FANG(-1.68% $182.85, trail=$180.64 OK) — no trail/TP/signal triggers. 0 BUYs: REGIME FILTER A active (SPY RSI=27.3 < 30) → all individual stock BUYs blocked; only SPY BUY conf=2 (RL BOOST conf=3) but bearish_ema halves size → $14.76 < $15 min order. CB: daily -0.62%/weekly -0.98% (OK). Acct=$227.25. BP=$79.52. Universe=503.
+
+## 2026-11-05T18:20:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~1:20 PM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=28.31, EMA=BEARISH, BB=BELOW_BAND; SPY $736.54 -3.95% today). 0 SELLs: GD(-0.83% $361.35, trail=$346.19 OK) FANG(-0.90% $184.29, trail=$180.64 OK, hours_held≈2.9h<3h blocks rule-b/c) — no trail/TP/signal triggers. 0 BUYs: SPY RSI BUY conf=2, 🤖 RL BOOST to conf=3 (rl_conf=0.952), but bearish_ema requires conf=3 AND halves size → $7.38 < $15 min order. CB: daily -0.23%/weekly -0.59% (OK). Acct=$228.15. BP=$79.52. Universe=503.
+
+## 2026-11-05T17:19:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~12:19 PM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=30.7, EMA=BEARISH, BB=BELOW_BAND; SPY $742.21). 0 SELLs: GD(+0.37% $365.75, trail=$346.19 OK) FANG(-1.33% $183.49, trail=$180.64 OK, hours_held<3 blocks rule-b) — no trail/TP/signal triggers. 0 BUYs: bearish_ema requires conf=3; no RSI BUYs; TTWO only net_buy (conf=1, blocked). CB: daily -0.1%/weekly +0.3% (OK). Acct=$228.92. BP=$79.52. Universe=503.
+
+## 2026-11-05T16:22:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~11:22 AM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=32.1, EMA=BEARISH — SPY -2.8% today $766.81→$745.16, regime flip from normal). 0 SELLs: GD(+1.60% $370.22, trail=$346.19 OK) FANG(+0.26% $186.46, trail=$180.64 OK) — no trail/TP/signal triggers. 0 BUYs: bearish_ema requires conf=3; no conf=3 signals; RL boost (QQQ rl_conf=0.952) would yield $7.38 < $15 min order. CB: daily +0.77%/weekly +0.40% (OK). Acct=$230.43. BP=$79.52. Universe=503.
+
+## 2026-11-05T15:25:34Z
+- Action   : BUY FANG
+- Price    : $185.92
+- Amount   : $29.53 | Shares: 0.158830
+- RSI      : 16.2 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : HOLD conf=0.93 | null
+- Stop     : $180.64 | Target: $204.51
+- Strategy : normal | Sell date: ATR/signal
+- Regime   : normal
+- Reason   : RSI deeply oversold (16.2) + BB below band; mean-reversion bounce setup. rl_action=HOLD (no veto/boost). Moderate BUY = 50% investable ($59.05 × 0.5 = $29.53).
+- Order ID : 6aec9fee-28fd-412e-a1ff-d8ced34855fd
+
+## 2026-11-05T15:25:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~10:25 AM ET), in_window=true. Regime: normal. 0 SELLs: GD(+1.80%) held — no RSI SELL, above trail_stop. 1 BUY: FANG $29.53 (RSI 16.2 oversold, MODERATE BUY). PSA skipped (surge count=3 but RSI overbought). CB: daily +0.83%/weekly +0.46% (OK). Acct≈$230.42. BP≈$79.52 (post-fill). Universe=503.
+
+## 2026-11-05T14:30:00Z (SUMMARY)
+- SUMMARY: Market OPEN (9:30 AM ET), in_window=false (30-min open exclusion 9:30–10:00 ET). Regime: normal. 1 SELL: VZ (surge_exit sell_date=2026-11-05 + RSI SELL 70.2 conf=2, order placed market GFD). 0 BUYs: exclusion window; also PSA surge count=2 but RSI=83.17 overbought — skipped. CCL surge count=1 (needs≥2). CB: daily -0.07%/weekly +0.37% (OK). Acct=$228.84. BP=$109.05 (pre-fill; will increase ~$44.5 when VZ fills). Universe=503.
+
+## 2026-11-05T14:25:43Z
+- Action   : SELL VZ
+- Price    : ~$46.17 (market GFD — pending fill at open; prev close $46.17)
+- Amount   : ~$44.52 | Shares: 0.964405
+- RSI      : 70.2 | EMA: BULLISH | BB: N/A
+- RL       : HOLD conf=null
+- Stop     : $45.54 | Target: $50.62
+- Strategy : intraday_surge | sell_date=2026-11-05 (Day 2 exit)
+- Regime   : normal
+- Reason   : sell_date reached (intraday_surge hold max 1 day) + RSI overbought (70.2) conf=2 | entry $46.02 → ~$46.17 ≈ +0.33%
+- Order ID : 6aec91e7-5f84-4261-8670-8c0b8b47b632
+
 ## 2026-11-04T20:30:00Z
 - SUMMARY: Market CLOSED (after 4 PM ET). Buying power: $50.00 (unsettled $59.05). Equity positions: 2 (VZ +0.18%, GD +0.37%). Regime: normal (SPY RSI neutral, EMA bullish). Account: $228.67. Universe fetched: 503. CB: daily -0.51%/weekly +0.37% (OK). No sells triggered (no TP/SL hit, surge dates not reached). No buys (market closed).
 
