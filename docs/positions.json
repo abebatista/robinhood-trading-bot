@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T16:22:00Z",
+  "updated_at": "2026-11-05T17:19:00Z",
   "buying_power": 79.52,
   "market_regime": "bearish_ema",
-  "account_value": 230.43,
+  "account_value": 228.92,
   "peak_value": 249.0,
   "day_start_value": 228.67,
   "day_start_date": "2026-11-05",
@@ -17,9 +17,9 @@
       "ticker": "GD",
       "quantity": 0.205492,
       "avg_cost": 364.39,
-      "current_price": 370.22,
-      "pnl_pct": 0.016,
-      "value": 76.08,
+      "current_price": 365.75,
+      "pnl_pct": 0.004,
+      "value": 75.16,
       "entry_atr_pct": 0.0107,
       "entry_time": "2026-11-04T17:26:40Z",
       "trail_stop": 346.19,
@@ -31,9 +31,9 @@
       "ticker": "FANG",
       "quantity": 0.158789,
       "avg_cost": 185.97,
-      "current_price": 186.46,
-      "pnl_pct": 0.0026,
-      "value": 29.61,
+      "current_price": 183.49,
+      "pnl_pct": -0.013,
+      "value": 29.14,
       "entry_atr_pct": 0.0142,
       "entry_time": "2026-11-05T15:25:34Z",
       "trail_stop": 180.64,
@@ -43,10 +43,10 @@
     }
   ],
   "last_actions": [
+    "2026-11-05T17:19Z Market OPEN (~12:19 PM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=30.7, EMA BEARISH, BB BELOW_BAND). 0 SELLs: GD(+0.37%) FANG(-1.33%) all within bounds. 0 BUYs: bearish_ema requires conf=3; no RSI BUYs; TTWO only net_buy (conf=1, blocked). CB: daily -0.1%/weekly +0.3% (OK). Acct=$228.92. BP=$79.52. Universe=503.",
     "2026-11-05T16:22Z Market OPEN (~11:22 AM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=32.1, EMA BEARISH — SPY -2.8% today). 0 SELLs: GD(+1.60%) FANG(+0.26%) all within bounds. 0 BUYs: bearish_ema requires conf=3; no conf=3 signals; RL boost (QQQ rl_conf=0.952) would yield $7.38 < $15 min. CB: daily +0.77%/weekly +0.40% (OK). Acct=$230.43. BP=$79.52. Universe=503.",
     "2026-11-05T15:25Z Market OPEN (~10:25 AM ET), in_window=true. Regime: normal. 0 SELLs: GD(+1.80%) held — no RSI SELL, above trail_stop. 1 BUY: FANG $29.53 (RSI 16.2 oversold, MODERATE BUY). PSA skipped (surge count=3 but RSI overbought). CB: daily +0.83%/weekly +0.46% (OK). Acct≈$230.42. BP≈$79.52 (post-fill). Universe=503.",
     "2026-11-05T14:30Z Market OPEN (9:30 AM ET), in_window=false (30-min open exclusion). Regime: normal. 1 SELL: VZ (surge_exit day2 + RSI 70.2 SELL conf=2, order confirmed pending fill). 0 BUYs: exclusion window; PSA surge=2 skipped (RSI=83.2 overbought). CB: daily -0.07%/weekly +0.37% (OK). Acct=$228.84. BP=$109.05 (pre-fill). Universe=503.",
-    "2026-11-04T20:30Z Market CLOSED (after 4 PM ET). BP=$50.00 (unsettled=$59.05). 2 positions: VZ(+0.18%) GD(+0.37%). Regime: normal. No sells triggered. No buys (market closed). CB: daily -0.51%/weekly +0.37% (OK). Acct=$228.67. Universe=503.",
-    "2026-11-04T19:22Z Market OPEN (~2:21 PM ET), in_window=true. Regime: normal (SPY $767.37 RSI=60.05 EMA=BULLISH). 2 SELLs: KIM (RSI 83.9+1.47%) PSA (RSI 82.7+1.25%). 0 BUYs: BP=$50 unsettled, investable=$0. CB: daily≈0%/weekly+0.4% (OK). Acct=$228.59. Universe=503."
+    "2026-11-04T20:30Z Market CLOSED (after 4 PM ET). BP=$50.00 (unsettled=$59.05). 2 positions: VZ(+0.18%) GD(+0.37%). Regime: normal. No sells triggered. No buys (market closed). CB: daily -0.51%/weekly +0.37% (OK). Acct=$228.67. Universe=503."
   ]
 }
