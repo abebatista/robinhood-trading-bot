@@ -632,3 +632,28 @@
 - Backtest: SKIPPED — yfinance blocked in CCR sandbox (known constraint since 2026-09-21)
 - RL samples: 637/200 (already past target — Q-table has 19 states, stale retrain needed)
 - Notes: avg_pnl=-0.91%, avg_hold=24.1h, all exits via ATR trail stop or signal. Bearish EMA regime since ~10-29. ELV still open (+0.44%). Account $228.55 (bearish-EMA regime limiting new entries).
+
+## 2026-11-02
+- Trades analysed: 8 (all normal-strategy RSI mean-reversion)
+- Win rate: 25% overall (normal: 25%, momentum: 0 trades, surge: 0 trades)
+- Config changes: RSI_OVERSOLD 38→40 (win_rate 25% < 40% with 8 trades; now at clamp max 40)
+- Backtest: SKIPPED — yfinance blocked in CCR sandbox (known limitation)
+- RL samples: 637/200 (READY — 437 above threshold; Q-table has 19 states, needs retrain)
+- Notes: ATR trail stops caused 75% of exits (avg hold ~24h). No momentum trades to tune. Backtest can't run in CCR sandbox; config change applied based on live trade analysis only.
+## 2026-11-03
+- Trades analysed: 9 closed trades (all normal strategy; no momentum/surge trades in log)
+- Win rate: 33.3% overall (normal: 33.3% [3/9 — AIG+0.30%, GDDY+0.57%, ELV+0.44%]; momentum: N/A [n<3]; surge: N/A [n=0])
+- EMA-trend win rate: BULLISH=33.3% (GE loss, ELV win, TTWO loss), BEARISH=20% (VTR loss, 1 unknown win)
+- Config changes: none — RSI_OVERSOLD already at clamp max 40 (tightened over prior cycles); MOMENTUM_VOL_MIN unchanged (n<3 momentum trades); ATR_VOLATILITY_THRESHOLD unchanged (avg hold ~24h, not fast-stopped)
+- Backtest: SKIPPED — yfinance/RH historicals cache unavailable in CCR sandbox (known constraint)
+- RL samples: 637/200 (READY — RL READY: run python -m strategy.rl_agent --train)
+- Notes: Account $227.50, bearish_ema regime persists (SPY below 200-EMA). No open positions. Week -0.88% from $229.51. All recent exits via ATR trail stops at ~-1.4% avg loss vs ~+0.44% avg win — unfavorable R:R in current regime. rl_training_data.jsonl +0 new rows (no new closed trades this cycle).
+
+## 2026-11-04
+- Trades analysed: 11 closed (5 wins, 6 losses)
+- Win rate: 45.5% overall (normal: 33.3% [9 trades], intraday_surge: 100% [2 trades], rsi_momentum: n/a [0 closed])
+- Per-EMA-trend: BULLISH entry 62.5% (5/8), BEARISH entry 0% (0/3)
+- Config changes: none (RSI_OVERSOLD already at clamp max 40; MOMENTUM never wired; ATR avg_hold ~24h not < 2h)
+- Backtest: skipped — yfinance blocked in CCR sandbox
+- RL samples: 637/200 (target met, READY)
+- Notes: 0 new RL rows collected (no new closed trades since last run). KIM +1.47% and PSA +1.25% intraday_surge wins closed today — surge strategy outperforming normal RSI mean-reversion. Bearish-EMA entries (VTR, BRO, HIG) 0/3 wins — regime filter working correctly by blocking new buys. RL READY: 637 ≥ 200 target.
