@@ -23,7 +23,7 @@ import os
 import sys
 from datetime import datetime, timezone
 
-from .market_data import fetch_ohlcv
+from .market_data import fetch_ohlcv, fetch_all_from_cache
 from .indicators import compute_all
 from .signals import generate_signal
 from .circuit_breaker import check as check_kill_switch
@@ -38,6 +38,14 @@ try:
     _HAS_TABULATE = True
 except ImportError:
     _HAS_TABULATE = False
+
+
+# --from-cache <path>: use pre-fetched Robinhood historicals instead of yfinance
+_CACHE_FILE = None
+for _i, _arg in enumerate(sys.argv):
+    if _arg == "--from-cache" and _i + 1 < len(sys.argv):
+        _CACHE_FILE = sys.argv[_i + 1]
+        break
 
 
 def run_analysis() -> dict:
@@ -60,8 +68,22 @@ def run_analysis() -> dict:
     market_bearish_ema = False
     market_bearish = False
 
+    if _CACHE_FILE:
+        print(f"  Loading data from cache: {_CACHE_FILE}")
+        data_map = fetch_all_from_cache(_CACHE_FILE)
+    else:
+        data_map = None
+
+    def _get_df(ticker):
+        if data_map is not None:
+            df = data_map.get(ticker)
+            if df is None or df.empty:
+                raise ValueError(f"No cached data for {ticker}")
+            return compute_all(df)
+        return compute_all(fetch_ohlcv(ticker, period=DATA_PERIOD, interval=DATA_INTERVAL))
+
     try:
-        btc_df = compute_all(fetch_ohlcv("BTC-USD", period=DATA_PERIOD, interval=DATA_INTERVAL))
+        btc_df = _get_df("BTC-USD")
         btc_close = float(btc_df["close"].iloc[-1])
         btc_ema200 = float(btc_df["ema200"].iloc[-1])
         market_bearish_ema = btc_close < btc_ema200
@@ -85,7 +107,7 @@ def run_analysis() -> dict:
         if ticker == "BTC-USD":
             continue
         try:
-            df = compute_all(fetch_ohlcv(ticker, period=DATA_PERIOD, interval=DATA_INTERVAL))
+            df = _get_df(ticker)
             signals[ticker] = generate_signal(ticker, df, market_bearish=market_bearish,
                                               market_bearish_ema=market_bearish_ema,
                                               atr_threshold=ATR_VOLATILITY_THRESHOLD,
