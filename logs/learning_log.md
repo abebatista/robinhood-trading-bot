@@ -657,3 +657,11 @@
 - Backtest: skipped — yfinance blocked in CCR sandbox
 - RL samples: 637/200 (target met, READY)
 - Notes: 0 new RL rows collected (no new closed trades since last run). KIM +1.47% and PSA +1.25% intraday_surge wins closed today — surge strategy outperforming normal RSI mean-reversion. Bearish-EMA entries (VTR, BRO, HIG) 0/3 wins — regime filter working correctly by blocking new buys. RL READY: 637 ≥ 200 target.
+
+## 2026-11-05
+- Trades analysed: 12 closed (last 30 log entries)
+- Win rate: 50% overall (intraday_surge: 100% n=3; normal/rsi_momentum: 33% n=9)
+- Config changes: none (RSI_OVERSOLD already at clamp max 40; momentum not wired in; ATR condition not met)
+- Backtest: skipped — yfinance blocked in CCR sandbox (same as prior runs); metrics from live trade log
+- RL samples: 637/200 (READY — exceeds 200 target)
+- Notes: Account at $227.22 (down from $249 peak, -8.9%). 2 open positions (GD -1.6%, FANG -2.1%). Bearish EMA regime active — SPY RSI ~27-32, below 200-EMA. All recent cycles 0 BUYs due to regime filter+SPY RSI<30 halting + investable <$15 min after halving. VZ closed today +0.33% via intraday_surge. Win rate improved to 50% (was 45% last run) with addition of VZ/KIM/PSA wins. Surge strategy continues to outperform (100% win rate). Normal strategy weak (33%). Consider reviewing normal-strategy RSI thresholds once more data available; already at clamp max.
