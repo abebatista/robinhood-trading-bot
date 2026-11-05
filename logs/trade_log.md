@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-11-05T19:19:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~2:19 PM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=27.32, EMA=BEARISH, BB=BELOW_BAND; SPY $738.23 -3.72% today). 0 SELLs: GD(-1.54% $358.76, trail=$346.19 OK) FANG(-1.68% $182.85, trail=$180.64 OK) — no trail/TP/signal triggers. 0 BUYs: REGIME FILTER A active (SPY RSI=27.3 < 30) → all individual stock BUYs blocked; only SPY BUY conf=2 (RL BOOST conf=3) but bearish_ema halves size → $14.76 < $15 min order. CB: daily -0.62%/weekly -0.98% (OK). Acct=$227.25. BP=$79.52. Universe=503.
+
 ## 2026-11-05T18:20:00Z (SUMMARY)
 - SUMMARY: Market OPEN (~1:20 PM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=28.31, EMA=BEARISH, BB=BELOW_BAND; SPY $736.54 -3.95% today). 0 SELLs: GD(-0.83% $361.35, trail=$346.19 OK) FANG(-0.90% $184.29, trail=$180.64 OK, hours_held≈2.9h<3h blocks rule-b/c) — no trail/TP/signal triggers. 0 BUYs: SPY RSI BUY conf=2, 🤖 RL BOOST to conf=3 (rl_conf=0.952), but bearish_ema requires conf=3 AND halves size → $7.38 < $15 min order. CB: daily -0.23%/weekly -0.59% (OK). Acct=$228.15. BP=$79.52. Universe=503.
 
