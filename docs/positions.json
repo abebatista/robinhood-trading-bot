@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-10-30T20:22:07Z",
-  "buying_power": 50.0,
-  "market_regime": "bearish_ema",
-  "account_value": 228.55,
+  "updated_at": "2026-11-05T14:30:00Z",
+  "buying_power": 109.05,
+  "market_regime": "normal",
+  "account_value": 228.84,
   "peak_value": 249.0,
-  "day_start_value": 230.16,
-  "day_start_date": "2026-10-30",
-  "week_start_value": 232.37,
-  "week_start_date": "2026-10-27",
+  "day_start_value": 228.67,
+  "day_start_date": "2026-11-05",
+  "week_start_value": 229.51,
+  "week_start_date": "2026-11-02",
   "trading_enabled": true,
   "kill_switch_pct": 0.20,
   "kill_switch_floor": 200.0,
   "disabled_reason": null,
   "positions": [
     {
-      "ticker": "ELV",
-      "quantity": 0.107906,
-      "avg_cost": 418.14,
-      "current_price": 420.0,
-      "pnl_pct": 0.0044,
-      "value": 45.32,
-      "entry_atr_pct": 0.02,
-      "entry_time": "2026-10-29T14:39:01Z",
-      "trail_stop": 414.29,
-      "take_profit": 459.95,
-      "strategy": "normal",
-      "sell_date": null
+      "ticker": "GD",
+      "quantity": 0.205492,
+      "avg_cost": 364.39,
+      "current_price": 364.87,
+      "pnl_pct": 0.0013,
+      "value": 74.99,
+      "entry_atr_pct": 0.0107,
+      "entry_time": "2026-11-04T17:26:40Z",
+      "trail_stop": 346.19,
+      "take_profit": 400.83,
+      "strategy": "rsi_momentum",
+      "sell_date": "2026-11-05"
     }
   ],
   "last_actions": [
-    "2026-10-30T20:22Z Market CLOSED (after-hours). Regime: bearish_ema. 0 trades. ELV $420.00 > trail $414.29, RSI=45.76 HOLD, no sell signal. CB: daily -0.70%/weekly -1.64% (OK). BP=$50.00. Acct=$228.55. Universe=503 (554 fetched via RH historicals).",
-    "2026-10-30T19:19Z Market OPEN, in_window=true. Regime: bearish_ema. 0 SELLs: ELV $420.28 > trail $414.29, RSI=46.23 HOLD (low vol). 0 BUYs: RSI BUYs=0, Net-buy=1 (DVA, no conf=3), Surge=0 (ADP count=1/CL count=1; investable=$0). CB: daily -0.73%/weekly -1.67% (OK). BP=$50.00. Acct=$228.49. Universe=503.",
-    "2026-10-30T18:19Z Market OPEN, in_window=true. Regime: bearish_ema. 0 SELLs: ELV $420.54 > trail $414.29, no RSI/net-sell signal, no take-profit (+0.57%, 27.7h held). 0 BUYs: RSI BUYs=0 (bearish_ema), Net-buy=3 (FICO/CHD/DVA, conf=None), Surge=0 (CHD 18.7% count=1 needs ≥2; CBOE 719.6% likely data artifact; investable=$0 BP=$50−$50). CB: daily -0.68%/weekly -1.63% (OK). BP=$50.00. Acct=$228.59. Universe=503 (544 fetched via RH historicals).",
-    "2026-10-30T17:18Z Market OPEN, in_window=true. Regime: bearish_ema. 0 SELLs: ELV $418.22 > trail $414.29, no signal. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=0 (investable=$0). CB: daily -0.81%/weekly -1.76% (OK). BP=$50.00. Acct=$228.29. Universe=503.",
-    "2026-10-30T16:20Z Market OPEN, in_window=true. Regime: bearish_ema. 0 SELLs: ELV $417.78 > trail $414.29, no signal. 0 BUYs: RSI BUYs=0, Net-buy=0, Surge=0 (CVNA count=1, needs ≥2; investable=$0). CB: daily -0.81%/weekly -1.75% (OK). BP=$50.00. Acct=$228.30. Universe=503."
+    "2026-11-05T14:30Z Market OPEN (9:30 AM ET), in_window=false (30-min open exclusion). Regime: normal. 1 SELL: VZ (surge_exit day2 + RSI 70.2 SELL conf=2, order confirmed pending fill). 0 BUYs: exclusion window; PSA surge=2 skipped (RSI=83.2 overbought). CB: daily -0.07%/weekly +0.37% (OK). Acct=$228.84. BP=$109.05 (pre-fill). Universe=503.",
+    "2026-11-04T20:30Z Market CLOSED (after 4 PM ET). BP=$50.00 (unsettled=$59.05). 2 positions: VZ(+0.18%) GD(+0.37%). Regime: normal. No sells triggered. No buys (market closed). CB: daily -0.51%/weekly +0.37% (OK). Acct=$228.67. Universe=503.",
+    "2026-11-04T19:22Z Market OPEN (~2:21 PM ET), in_window=true. Regime: normal (SPY $767.37 RSI=60.05 EMA=BULLISH). 2 SELLs: KIM (RSI 83.9+1.47%) PSA (RSI 82.7+1.25%). 0 BUYs: BP=$50 unsettled, investable=$0. CB: daily≈0%/weekly+0.4% (OK). Acct=$228.59. Universe=503.",
+    "2026-11-04T18:19Z Market OPEN (~1:20 PM ET), in_window=true. Regime: normal. 0 SELLs: VZ(+0.32%)/KIM(+1.40%)/PSA(+1.23%)/GD(+0.38%) all within bounds. 0 BUYs: BP=$50=cash buffer, investable=$0. RSI BUYs=3 (SNOW/LEU/LDOS conf=2). CB: daily -0.53%/weekly +0.35% (OK). Acct=$228.71. Universe=503.",
+    "2026-11-04T17:26Z Market OPEN (~12:26 PM ET), in_window=true. Regime: normal (SPY $768.60 RSI=62.58 EMA=NEUTRAL). 0 SELLs: VZ/KIM/PSA held ~2h (no TP/SL hit). 1 BUY: GD $74.88 (rsi_momentum, BB-reversal+EMA-BULLISH, RL BOOST conf=2→3 STRONG BUY). CB: daily +0.52%/weekly -0.36% (OK). BP=$50.00. Acct=$228.69. Universe=503."
   ]
 }
