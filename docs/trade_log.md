@@ -1,5 +1,11 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-11-06T18:19:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~1:19 PM ET), in_window=true. Regime: BEARISH_EMA (SPY EMA BEARISH). 0 SELLs: GD(−2.66% $354.71, trail=$346.19 OK); TTWO(+2.68% $215.80, trail ratcheted $209.12→$211.22); DPZ(+1.41% $334.41, trail=$323.17 OK). 0 BUYs: no RSI/net-buy/surge signals (RSI BUYs=0, Net BUYs=0, Surge=0). CB: daily −0.24%/weekly −1.24% (OK). Acct=$226.67. BP=$87.31. Universe=503.
+
+## 2026-11-06T17:18:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~12:18 PM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=38.42, EMA BEARISH). 0 SELLs: GD(−2.79% $354.24 above trail $346.19); TTWO(+2.33% $215.06) SELL signal conf=2 but <3h held; DPZ(+1.71% $335.40) no signal. 0 BUYs: no RSI/net-buy signals; surge EG/CDW at count=1 (need 2). CB: daily −0.29%/weekly −1.28% (OK). Acct=$226.57. BP=$87.31. Universe=503.
+
 ## 2026-11-06T15:25:00Z (SUMMARY)
 - SUMMARY: Market OPEN (~10:25 AM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=38.96, EMA BEARISH). 0 SELLs: GD(−2.57% $355.02, trail=$346.19 OK) TTWO(+1.71% $213.76, trail=$209.12 OK, <3h) DPZ(+1.60% $335.02, trail=$323.17 OK, <3h). 0 BUYs: no RSI/net-buy/surge signals (RSI BUYs=0, Net BUYs=0, Surge=0). CB: daily −0.26%/weekly −1.26% (OK). Acct=$226.62. BP=$87.31. Universe=503.
 
