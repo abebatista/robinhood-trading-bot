@@ -60,41 +60,8 @@
 - Reason   : sell_date reached (intraday_surge hold max 1 day) + RSI overbought (70.2) conf=2 | entry $46.02 → ~$46.17 ≈ +0.33%
 - Order ID : 6aec91e7-5f84-4261-8670-8c0b8b47b632
 
-## 2026-11-04T20:30:00Z
-- SUMMARY: Market CLOSED (after 4 PM ET). Buying power: $50.00 (unsettled $59.05). Equity positions: 2 (VZ +0.18%, GD +0.37%). Regime: normal (SPY RSI neutral, EMA bullish). Account: $228.67. Universe fetched: 503. CB: daily -0.51%/weekly +0.37% (OK). No sells triggered (no TP/SL hit, surge dates not reached). No buys (market closed).
-
-## 2026-11-04T19:20:43Z
-- Action   : SELL KIM
-- Price    : $25.805
-- Amount   : $33.78 | Shares: 1.308947
-- RSI      : 83.89 | EMA: BULLISH | BB: ABOVE_BAND
-- RL       : null conf=null | null
-- Stop     : $25.14 | Target: $27.97
-- Strategy : intraday_surge | Sell date: RSI signal (overbought)
-- Regime   : normal
-- Reason   : RSI overbought (83.9) | price above BB upper band | hours_held≈3.9h ≥ 3 | signal conf=2 | PnL≈+1.47%
-
-## 2026-11-04T19:20:46Z
-- Action   : SELL PSA
-- Price    : $342.89
-- Amount   : $25.27 | Shares: 0.073702
-- RSI      : 82.65 | EMA: BULLISH | BB: ABOVE_BAND
-- RL       : null conf=null | null
-- Stop     : $334.50 | Target: $372.53
-- Strategy : intraday_surge | Sell date: RSI signal (overbought)
-- Regime   : normal
-- Reason   : RSI overbought (82.7) | price above BB upper band | hours_held≈3.9h ≥ 3 | signal conf=2 | PnL≈+1.25%
-
 ## 2026-11-04T19:21:00Z (SUMMARY)
 - SUMMARY: Market OPEN (~2:21 PM ET), in_window=true. Regime: normal (SPY $767.37 RSI=60.05 EMA=BULLISH). 2 SELLs: KIM (RSI 83.9, overbought +1.47%), PSA (RSI 82.7, overbought +1.25%). 0 BUYs: BP=$50.00 (unsettled proceeds not yet spendable), investable=$0 < $15 min. 30 RSI BUY candidates (all conf=2), 0 surge (5 new: PSA/MSFT/CB/KMB/FITB all count=1 need≥2). CB: daily≈0% (gained)/weekly 0.40% (OK). Acct=$228.59 (equity $119.54 VZ+GD, cash $109.05). Universe=503.
-
-## 2026-11-04T17:26:40Z
-- Action : BUY GD
-- Price  : $364.41
-- Amount : $74.88
-- RSI    : 44.08 | EMA: BULLISH | BB: BELOW_BAND
-- Stop   : $346.19 (-5%) | Target: $400.85 (+10%)
-- Reason : BB reversal (returning from band) | EMA bullish crossover | 🤖 RL BOOST (rl_conf=0.974 → conf 2→3 STRONG BUY)
 
 ## 2026-11-04T17:26:40Z (SUMMARY)
 - SUMMARY: Market OPEN (~12:26 PM ET), in_window=true. Regime: normal (SPY $768.60 RSI=62.58 EMA=NEUTRAL). 0 SELLs: VZ/KIM/PSA held ~2h (hours_held<3, no TP/SL hit). 1 BUY: GD $74.88 (rsi_momentum, BB-reversal+EMA-BULLISH, RL BOOST conf=2→3 STRONG BUY). CB: daily +0.52%/weekly -0.36% (OK). BP=$50.00 (after trade). Acct≈$228.69. Universe=503 (552 fetched via RH historicals). Positions: VZ +0.9%, KIM +1.2%, PSA +1.4%, GD 0.0% (just entered).
