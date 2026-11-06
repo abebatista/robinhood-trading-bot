@@ -1,5 +1,45 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-11-06T14:30:04Z (SUMMARY)
+- SUMMARY: Market OPEN (~9:30 AM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI≈29.1, EMA BEARISH). 1 SELL: FANG(ATR trail triggered, fill=$178.80 ≤ trail_stop $180.64, −3.9%, −$1.14). 2 BUYs: TTWO(surge +35.8%, $18.66, fill=$210.17) DPZ(surge +42.2%, $18.66, fill=$329.76). REGIME FILTER A active (SPY RSI<30), surge exceptions applied. CB: daily −0.82%/weekly −1.81% (OK). Acct=$225.36. BP=$87.31. Universe=503.
+
+## 2026-11-06T14:30:04Z
+- Action   : BUY TTWO
+- Price    : $210.17 (filled)
+- Amount   : $18.66 | Shares: 0.088785
+- RSI      : 73.11 | EMA: BULLISH | BB: IN_BAND
+- RL       : null conf=null | null
+- Stop     : $209.12 (ATR trail, entry_atr_pct≈0.25%) | Target: $231.19 (+10%)
+- Strategy : surge | Sell date: ATR/signal
+- Regime   : bearish_ema
+- Reason   : Buy vol surge +35.8% | Net buy 4d streak | REGIME FILTER A active (SPY RSI 29.1<30), surge exception applied
+- Order ID : 6aede401-46ce-45d4-ab40-7449979779b1
+
+## 2026-11-06T14:30:02Z
+- Action   : SELL FANG
+- Price    : $178.80 (filled)
+- Amount   : $28.39 | Shares: 0.158789
+- PnL      : −$1.14 (−3.9%) | Held: ~23h
+- RSI      : exit rule | EMA: N/A | BB: N/A
+- RL       : null conf=null | null
+- Stop     : triggered $178.80 ≤ trail_stop $180.64 | Target was: $204.57
+- Strategy : rsi_momentum | Exit: ATR trail triggered
+- Regime   : bearish_ema
+- Reason   : ATR trailing stop triggered: price $178.80 ≤ trail_stop $180.64 | entry_avg=$185.97, hours_held≈23h ≥ 3h minimum
+- Order ID : 6aede3a1-3770-4a3d-b628-b766d33112a5
+
+## 2026-11-06T14:30:00Z
+- Action   : BUY DPZ
+- Price    : $329.76 (filled)
+- Amount   : $18.66 | Shares: 0.056586
+- RSI      : 71.44 | EMA: BULLISH | BB: IN_BAND
+- RL       : null conf=null | null
+- Stop     : $323.17 (ATR trail, entry_atr_pct≈1.0%) | Target: $362.74 (+10%)
+- Strategy : surge | Sell date: ATR/signal
+- Regime   : bearish_ema
+- Reason   : Buy vol surge +42.2% | REGIME FILTER A active (SPY RSI 29.1<30), surge exception applied
+- Order ID : 6aede403-f9b9-4933-b5c8-e9da3cba59c6
+
 ## 2026-11-05T20:17:44Z (SUMMARY)
 - SUMMARY: Market CLOSED (~3:17 PM ET). Regime: BEARISH_EMA (SPY $739.84, RSI=32.0, EMA BEARISH — below 200-EMA $765.42). 0 SELLs: GD(-1.60% $358.55, trail=$346.19 OK) FANG(-2.07% $182.13, trail=$180.64 OK) — no triggers (market closed). 0 BUYs: market closed. CB: daily -0.63%/weekly -1.0% (OK). Acct=$227.22. BP=$79.52. Universe=503.
 
