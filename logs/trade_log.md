@@ -1,3 +1,6 @@
+## 2026-11-06T20:17:00Z
+- SUMMARY: Market CLOSED (~3:17 PM ET, after market hours). Buying power: $87.31. Equity positions: 3 (GD/TTWO/DPZ). Regime: BEARISH_EMA (SPY RSI=37.52, EMA BEARISH). 0 SELLs: GD(−2.31% $355.96, trail=$346.19 OK); TTWO(+2.74% $215.93, trail=$211.22 OK); DPZ(+1.73% $335.48, trail=$323.17 OK). ATR trail stops: no ratchets (GD in loss; TTWO ratchet $211.22 unchanged at ≥2.5%; DPZ <2.5% threshold). 0 BUYs: market closed. RSI BUY signals=0, net-buy BUY=0, surge=0. Circuit breaker: daily −0.09%/weekly −1.09% (OK). Account: $227.02. Universe fetched: 503.
+
 ## 2026-11-06T19:16:00Z
 - SUMMARY: Market OPEN (~2:16 PM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=38.2, EMA BEARISH). 0 SELLs: GD(−2.31% $355.96, trail=$346.19 OK); TTWO(+3.27% $217.04, trail=$211.22 OK, no RSI/net-buy sell); DPZ(+1.49% $334.68, trail=$323.17 OK, no signal). ATR trail stops: no ratchets triggered (GD pnl<0, TTWO ratchet=$211.22 unchanged, DPZ pnl<2.5%). 0 BUYs: RSI BUY=0, net-buy BUY=0; DOC surge 80.7% first-seen (count=1, need 2). Circuit breaker: daily −0.07%/weekly −1.07% (OK). Buying power: $87.31. Equity positions: 3 (GD/TTWO/DPZ). Account: $227.05. Universe fetched: 503.
 
