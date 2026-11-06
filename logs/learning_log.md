@@ -665,3 +665,11 @@
 - Backtest: skipped — yfinance blocked in CCR sandbox (same as prior runs); metrics from live trade log
 - RL samples: 637/200 (READY — exceeds 200 target)
 - Notes: Account at $227.22 (down from $249 peak, -8.9%). 2 open positions (GD -1.6%, FANG -2.1%). Bearish EMA regime active — SPY RSI ~27-32, below 200-EMA. All recent cycles 0 BUYs due to regime filter+SPY RSI<30 halting + investable <$15 min after halving. VZ closed today +0.33% via intraday_surge. Win rate improved to 50% (was 45% last run) with addition of VZ/KIM/PSA wins. Surge strategy continues to outperform (100% win rate). Normal strategy weak (33%). Consider reviewing normal-strategy RSI thresholds once more data available; already at clamp max.
+
+## 2026-11-06
+- Trades analysed: 12 closed (9 normal, 3 intraday_surge, 0 momentum)
+- Win rate: 42% overall (normal: 33% [3W/6L], surge: 100% [3W/0L], momentum: 0 trades)
+- Config changes: none — RSI_OVERSOLD already at clamp max 40; momentum n_trades<3; ATR avg_hold ~25h (not <2h condition)
+- Backtest: skipped — yfinance 403 (blocked in cloud CCR sandbox, known constraint per CLAUDE.md)
+- RL samples: 637/200 (RL READY — 200+ target met)
+- Notes: 3 open positions (GD -2.31%, TTWO +2.74%, DPZ +1.73%) in bearish_ema regime. No new closed trades today. RL collector +0 rows. trim_log kept 51/55 entries.
