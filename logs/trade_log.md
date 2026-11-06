@@ -1,5 +1,8 @@
 # Trade Log — Robinhood Agentic Account
 
+## 2026-11-06T15:25:00Z (SUMMARY)
+- SUMMARY: Market OPEN (~10:25 AM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=38.96, EMA BEARISH). 0 SELLs: GD(−2.57% $355.02, trail=$346.19 OK) TTWO(+1.71% $213.76, trail=$209.12 OK, <3h) DPZ(+1.60% $335.02, trail=$323.17 OK, <3h). 0 BUYs: no RSI/net-buy/surge signals (RSI BUYs=0, Net BUYs=0, Surge=0). CB: daily −0.26%/weekly −1.26% (OK). Acct=$226.62. BP=$87.31. Universe=503.
+
 ## 2026-11-05T20:17:44Z (SUMMARY)
 - SUMMARY: Market CLOSED (~3:17 PM ET). Regime: BEARISH_EMA (SPY $739.84, RSI=32.0, EMA BEARISH — below 200-EMA $765.42). 0 SELLs: GD(-1.60% $358.55, trail=$346.19 OK) FANG(-2.07% $182.13, trail=$180.64 OK) — no triggers (market closed). 0 BUYs: market closed. CB: daily -0.63%/weekly -1.0% (OK). Acct=$227.22. BP=$79.52. Universe=503.
 
