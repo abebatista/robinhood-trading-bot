@@ -1,3 +1,17 @@
+## 2026-11-09T18:25:00Z
+- SUMMARY: Market OPEN (1:25 PM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=54.02, EMA BEARISH, BB IN_BAND, low-vol day). 1 SELL: TTWO ATR trailing stop ($210.12 ≤ trail $211.22, 75.8h held ≥ 3h). 0 BUYs: no RSI/net-buy BUY conf≥3 for bearish_ema; TMUS net-buy only (RSI=SELL conf=2 overbought RSI=72.0, MODERATE sized $12.32 < $15 min). Surge: 0 (COST removed). CB: daily +0.07%/weekly +0.07% (OK — account gained). Acct=$227.81. BP=$99.27 (TTWO proceeds unsettled). Universe=503.
+
+## 2026-11-09T18:14:46Z
+- Action   : SELL TTWO
+- Price    : $210.28
+- Amount   : $18.67 | Shares: 0.088785
+- RSI      : 60.25 | EMA: BULLISH | BB: IN_BAND
+- RL       : None conf=None | null (RL DISABLED 2026-11-06)
+- Stop     : $211.22 | Target: $231.19
+- Strategy : surge | Sell date: ATR stop
+- Regime   : bearish_ema
+- Reason   : ATR trailing stop triggered: price $210.12 (last bar) ≤ trail_stop $211.22, 75.8h held ≥ 3h min; P&L +0.05% (+$0.01)
+
 ## 2026-11-06T20:17:00Z
 - SUMMARY: Market CLOSED (~3:17 PM ET, after market hours). Buying power: $87.31. Equity positions: 3 (GD/TTWO/DPZ). Regime: BEARISH_EMA (SPY RSI=37.52, EMA BEARISH). 0 SELLs: GD(−2.31% $355.96, trail=$346.19 OK); TTWO(+2.74% $215.93, trail=$211.22 OK); DPZ(+1.73% $335.48, trail=$323.17 OK). ATR trail stops: no ratchets (GD in loss; TTWO ratchet $211.22 unchanged at ≥2.5%; DPZ <2.5% threshold). 0 BUYs: market closed. RSI BUY signals=0, net-buy BUY=0, surge=0. Circuit breaker: daily −0.09%/weekly −1.09% (OK). Account: $227.02. Universe fetched: 503.
 

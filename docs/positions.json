@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-09T17:21:00Z",
+  "updated_at": "2026-11-09T18:25:00Z",
   "buying_power": 99.27,
   "market_regime": "bearish_ema",
-  "account_value": 227.65,
+  "account_value": 227.81,
   "peak_value": 249.0,
   "day_start_value": 227.65,
   "day_start_date": "2026-11-09",
@@ -17,9 +17,9 @@
       "ticker": "GD",
       "quantity": 0.205492,
       "avg_cost": 364.39,
-      "current_price": 361.77,
-      "pnl_pct": -0.0072,
-      "value": 74.33,
+      "current_price": 362.49,
+      "pnl_pct": -0.0052,
+      "value": 74.49,
       "entry_atr_pct": 0.0107,
       "entry_time": "2026-11-04T17:26:40Z",
       "trail_stop": 346.19,
@@ -28,26 +28,12 @@
       "sell_date": null
     },
     {
-      "ticker": "TTWO",
-      "quantity": 0.088785,
-      "avg_cost": 210.17,
-      "current_price": 212.54,
-      "pnl_pct": 0.0113,
-      "value": 18.87,
-      "entry_atr_pct": 0.0025,
-      "entry_time": "2026-11-06T14:28:17Z",
-      "trail_stop": 211.22,
-      "take_profit": 231.19,
-      "strategy": "surge",
-      "sell_date": null
-    },
-    {
       "ticker": "DPZ",
       "quantity": 0.056586,
       "avg_cost": 329.76,
-      "current_price": 333.11,
-      "pnl_pct": 0.0102,
-      "value": 18.85,
+      "current_price": 336.01,
+      "pnl_pct": 0.019,
+      "value": 19.02,
       "entry_atr_pct": 0.01,
       "entry_time": "2026-11-06T14:28:19Z",
       "trail_stop": 323.17,
@@ -59,9 +45,9 @@
       "ticker": "APP",
       "quantity": 0.040269,
       "avg_cost": 408.01,
-      "current_price": 405.70,
-      "pnl_pct": -0.0057,
-      "value": 16.33,
+      "current_price": 404.71,
+      "pnl_pct": -0.0081,
+      "value": 16.30,
       "entry_atr_pct": 0.0279,
       "entry_time": "2026-11-09T15:24:34Z",
       "trail_stop": 384.91,
@@ -71,9 +57,9 @@
     }
   ],
   "last_actions": [
+    "2026-11-09T18:25Z Market OPEN (1:25 PM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=54.02, EMA BEARISH, low-vol). 1 SELL: TTWO ATR stop ($210.12 ≤ trail $211.22, 75.8h held). 0 BUYs: no conf≥3 signals in bearish_ema; TMUS net-buy RSI=SELL overbought, MODERATE < $15 min. Surge: 0. CB: daily +0.07%/weekly +0.07% (OK). Acct=$227.81. BP=$99.27. Universe=503.",
     "2026-11-09T17:21Z Market OPEN (12:21 PM ET), in_window=true. Regime: BEARISH_EMA. 0 SELLs: GD(−0.72% $361.77 > trail $346.19); TTWO(+1.13% $212.54 > trail $211.22); DPZ(+1.02% $333.11 > trail $323.17); APP(−0.57% $405.70 > trail $384.91, <3hrs held). 0 BUYs: no RSI/net-buy BUY signals; bearish_ema requires conf=3. Surge: COST first seen today (count=1, need 2). ATR: no ratchets. CB: daily 0.00%/weekly 0.00% (new day+week). Acct=$227.65. BP=$99.27. Universe=503.",
     "2026-11-09T16:24Z Market OPEN (11:24 AM ET), in_window=true. Regime: BEARISH_EMA. 0 SELLs: GD(−0.83% $361.35 > trail $346.19); TTWO(+1.75% $213.85 > trail $211.22); DPZ(+1.04% $333.20 > trail $323.17); APP(−0.40% $406.37 > trail $384.91, RSI SELL conf=2 but <3hrs). 0 BUYs: no RSI/net-buy BUY signals; bearish_ema requires conf=3. ATR: no ratchets. CB: daily −0.57%/weekly −0.57% (OK). Acct=$227.73. BP=$99.27. Universe=503.",
-    "2026-11-09T15:24Z Market OPEN (10:24 AM ET), in_window=true. Regime: BEARISH_EMA. 1 BUY: APP $16.43 surge (51.1% vol surge, 2d streak, bearish_ema halved). 0 SELLs: GD(−1.32% $359.57 > trail $346.19); TTWO(+1.15% $212.59 > trail $211.22); DPZ(+0.82% $332.46 > trail $323.17). ATR stops: no ratchets. CB: daily +0.37%/weekly +0.37% (OK). Acct=$227.29. BP=$99.27. Universe=503.",
-    "2026-11-09T14:23Z Market OPEN (pre-market 9:23 AM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=34.96, EMA BEARISH). 0 SELLs: GD(−2.82% $354.12 above trail $346.19); TTWO(+2.19% $214.78 above trail $211.22); DPZ(+1.28% $333.99 above trail $323.17). 0 BUYs: no RSI/net-buy signals; bearish_ema regime. CB: daily 0.00%/weekly 0.00% (OK — new day+week). Acct=$226.44. BP=$115.70. Universe=503."
+    "2026-11-09T15:24Z Market OPEN (10:24 AM ET), in_window=true. Regime: BEARISH_EMA. 1 BUY: APP $16.43 surge (51.1% vol surge, 2d streak, bearish_ema halved). 0 SELLs: GD(−1.32% $359.57 > trail $346.19); TTWO(+1.15% $212.59 > trail $211.22); DPZ(+0.82% $332.46 > trail $323.17). ATR stops: no ratchets. CB: daily +0.37%/weekly +0.37% (OK). Acct=$227.29. BP=$99.27. Universe=503."
   ]
 }
