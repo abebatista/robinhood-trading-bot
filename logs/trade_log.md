@@ -1,3 +1,15 @@
+## 2026-11-09T15:24:34Z
+- SUMMARY: Market OPEN (10:24 AM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=34.96, EMA BEARISH). 1 BUY: APP $16.43 surge (51.1% vol surge, 2d streak, bearish_ema halved). 0 SELLs: GD(−1.32% $359.57 > trail $346.19); TTWO(+1.15% $212.59 > trail $211.22); DPZ(+0.82% $332.46 > trail $323.17). ATR stops: no ratchets. CB: daily +0.37%/weekly +0.37% (OK). Acct=$227.29. BP=$99.27. Universe=503.
+
+## 2026-11-09T15:24:34Z
+- Action   : BUY APP
+- Price    : $407.62
+- Amount   : $16.43 | Shares: 0.0403
+- RSI      : 84.4 | EMA: BULLISH | BB: IN_BAND
+- Stop     : $384.91 | Target: $448.38
+- Strategy : surge | Regime: bearish_ema
+- Reason   : Volume surge ↑51.1% vs prior day | 2d streak | net_buy 2.71M | OBV 3.7M/day. Bearish_ema regime active (halved size: investable $65.70 × 0.5 surge × 0.5 bearish = $16.43).
+
 ## 2026-11-09T14:23:34Z
 - SUMMARY: Market OPEN (~9:23 AM ET pre-market), in_window=true. Regime: BEARISH_EMA (SPY RSI=34.96, EMA BEARISH). 0 SELLs: GD(−2.82% $354.12 above trail $346.19); TTWO(+2.19% $214.78 above trail $211.22); DPZ(+1.28% $333.99 above trail $323.17). ATR trail stops: no ratchets (GD in loss; TTWO pnl=+2.19% < 2.5%; DPZ pnl=+1.28% < 2.5%). 0 BUYs: RSI BUY=0, net-buy BUY=0, surge=0 — bearish_ema regime active. CB: daily 0.00%/weekly 0.00% (OK — new day+week Monday). Acct=$226.44. BP=$115.70. Universe=503. No net-buy signals for held tickers.
 
