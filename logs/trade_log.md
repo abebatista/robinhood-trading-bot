@@ -231,3 +231,15 @@
 - Regime   : normal
 - Reason   : ATR trail stop triggered; hours_held ~29h; PnL -1.14% from avg_cost $307.63. Exit per rule.
 
+
+## 2026-11-09T19:22:00Z
+- Action  : SCAN (no trades)
+- Regime  : bearish_ema
+- Market  : OPEN (2:22 PM ET), in_window=true
+- Signals : 0 BUYs (bearish_ema requires conf=3; TMUS net-buy conf=2 insufficient; COST surge 1d streak, need 2)
+- Held    : GD(−0.67% $361.95 > trail $346.19 > stop $346.17); DPZ(+1.87% $335.94 > trail $329.41 > stop $313.27); APP(+0.37% $409.51 > trail $386.74 > stop $387.61)
+- ATR     : DPZ trail ratcheted $323.17→$329.41 (high $336.01); APP trail ratcheted $384.91→$386.74 (high $409.51)
+- CB      : daily +0.07% / weekly +0.07% (OK, thresholds −3%/−5%)
+- SPY     : RSI=54.41, EMA=BEARISH → bearish_ema regime confirmed
+- Acct    : $227.82 | BP=$99.27 | Equity=$109.88 | Positions=3
+- Universe: 503 tickers scanned (from rh_historicals_cache, sp500_snapshot fallback)
