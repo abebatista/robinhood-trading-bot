@@ -673,3 +673,12 @@
 - Backtest: skipped — yfinance 403 (blocked in cloud CCR sandbox, known constraint per CLAUDE.md)
 - RL samples: 637/200 (RL READY — 200+ target met)
 - Notes: 3 open positions (GD -2.31%, TTWO +2.74%, DPZ +1.73%) in bearish_ema regime. No new closed trades today. RL collector +0 rows. trim_log kept 51/55 entries.
+
+## 2026-11-09
+- Trades analysed: 9 confirmed closed round-trips (normal: 9, surge: 4; from trade log before trim; FANG/BRO/HIG included with estimated P&L)
+- Win rate: 22.2% normal [2W/9; AIG +0.30%, GDDY +0.57%]; 75% surge [3W/4; VZ +0.33%, KIM +1.47%, PSA +1.25%]; overall ~38% across 13 closed
+- EMA-trend win rate: BEARISH entry 0% (4 losses: VTR, TTWO-Oct, ABNB, FANG); BULLISH entry ~40% (2W/5 normal)
+- Config changes: none — RSI_OVERSOLD=40 already at clamp max (would tune +2 → 42 but clamped); MOMENTUM_VOL_MIN: not wired in (n<3); ATR_VOLATILITY_THRESHOLD: avg_hold≈24h not < 2h
+- Backtest: SKIPPED (NO_CHANGE → Steps 6-7 bypassed)
+- RL samples: 637/200 (READY — 0 new rows today; all current positions still open; 19 Q-states in table; RL boost/veto disabled 2026-11-06)
+- Notes: Account $228.11. Regime BEARISH_EMA entire period. 3 open positions (GD/DPZ/APP). Normal strategy win rate now 22% — BEARISH-EMA entries dominate losses (0/4 wins). RSI_OVERSOLD at hard clamp, no tunable threshold to adjust. Run: python3.13 -m strategy.rl_agent --train to retrain Q-table (637 samples available).
