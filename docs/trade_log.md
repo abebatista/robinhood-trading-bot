@@ -1,3 +1,6 @@
+## 2026-11-09T20:25:00Z
+- SUMMARY: Market CLOSED (3:25 PM ET after-hours). Buying power: $99.27. Equity positions: 3 (GD −0.35% $363.10 > trail $346.19; DPZ +1.84% $335.84 > trail $329.41; APP +0.82% $411.35 > trail $386.74). No stops triggered, no take-profits. 0 SELLs: market closed. 0 BUYs: market closed. Regime: BEARISH_EMA. RSI BUYs=0, net-buy BUYs=0, surge=[TMUS 10.1% (1st), COO 114.7% (1st)]. CB: daily −0.20%/weekly −0.20% (OK — account UP $0.46). Acct=$228.11. Universe fetched: 503.
+
 ## 2026-11-09T18:25:00Z
 - SUMMARY: Market OPEN (1:25 PM ET), in_window=true. Regime: BEARISH_EMA (SPY RSI=54.02, EMA BEARISH, BB IN_BAND, low-vol day). 1 SELL: TTWO ATR trailing stop ($210.12 ≤ trail $211.22, 75.8h held ≥ 3h). 0 BUYs: no RSI/net-buy BUY conf≥3 for bearish_ema; TMUS net-buy only (RSI=SELL conf=2 overbought RSI=72.0, MODERATE sized $12.32 < $15 min). Surge: 0 (COST removed). CB: daily +0.07%/weekly +0.07% (OK — account gained). Acct=$227.81. BP=$99.27 (TTWO proceeds unsettled). Universe=503.
 
