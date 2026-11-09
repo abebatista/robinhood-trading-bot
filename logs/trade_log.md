@@ -1,3 +1,6 @@
+## 2026-11-09T17:21:00Z
+- SUMMARY: Market OPEN (12:21 PM ET), in_window=true. Regime: BEARISH_EMA. 0 SELLs: GD(−0.72% $361.77 > trail $346.19); TTWO(+1.13% $212.54 > trail $211.22); DPZ(+1.02% $333.11 > trail $323.17); APP(−0.57% $405.70 > trail $384.91, 1h56m held). 0 BUYs: 0 RSI BUY, 0 net-buy BUY; bearish_ema requires conf=3. COST surge first seen today (count=1, need 2). ATR: no ratchets. CB: daily 0.00%/weekly 0.00% (new day+week Monday). Acct=$227.65. BP=$99.27. Universe=503.
+
 ## 2026-11-09T16:24:00Z
 - SUMMARY: Market OPEN (11:24 AM ET), in_window=true. Regime: BEARISH_EMA. 0 SELLs: GD(−0.83% $361.35 > trail $346.19); TTWO(+1.75% $213.85 > trail $211.22); DPZ(+1.04% $333.20 > trail $323.17); APP(−0.40% $406.37 > trail $384.91, RSI SELL conf=2 but only ~1hr held, need ≥3). 0 BUYs: no RSI/net-buy BUY signals; bearish_ema requires conf=3. ATR: no ratchets (no position ≥2.5% profit). CB: daily −0.57%/weekly −0.57% (OK). Acct=$227.73. BP=$99.27. Universe=503.
 
