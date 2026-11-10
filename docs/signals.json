@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10T21:36:56.500769+00:00",
+  "timestamp": "2026-11-10T22:03:39.297188+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -1971,13 +1971,13 @@
     {
       "ticker": "ADM",
       "action": "HOLD",
-      "price": 69.29000091552734,
-      "rsi": 35.61,
+      "price": 69.62000274658203,
+      "rsi": 38.52,
       "ema_trend": "BEARISH",
       "bb_signal": "BELOW_BAND",
       "confidence": 0,
-      "atr_pct": 0.0076,
-      "reason": "RSI=35.6 (falling), BB=BELOW_BAND, EMA=BEARISH",
+      "atr_pct": 0.0078,
+      "reason": "RSI=38.5 (falling), BB=BELOW_BAND, EMA=BEARISH",
       "fib_target": null,
       "rl_action": null,
       "rl_confidence": null
@@ -2083,16 +2083,16 @@
     {
       "ticker": "ADP",
       "action": "HOLD",
-      "price": 305.42999267578125,
-      "rsi": 57.56,
+      "price": 304.0044860839844,
+      "rsi": 53.97,
       "ema_trend": "BULLISH",
-      "bb_signal": "ABOVE_BAND",
+      "bb_signal": "IN_BAND",
       "confidence": 0,
-      "atr_pct": 0.0074,
-      "reason": "RSI=57.6 (stable), BB=ABOVE_BAND, EMA=BULLISH",
+      "atr_pct": 0.0076,
+      "reason": "low volume (0.37x avg) \u2014 skipping",
       "fib_target": null,
-      "rl_action": null,
-      "rl_confidence": null
+      "rl_action": "BUY",
+      "rl_confidence": 0.983
     },
     {
       "ticker": "AZO",
@@ -2629,16 +2629,16 @@
     {
       "ticker": "CNP",
       "action": "HOLD",
-      "price": 41.25,
-      "rsi": 58.53,
+      "price": 41.04499816894531,
+      "rsi": 53.7,
       "ema_trend": "BULLISH",
-      "bb_signal": "ABOVE_BAND",
+      "bb_signal": "IN_BAND",
       "confidence": 0,
       "atr_pct": 0.0054,
-      "reason": "RSI=58.5 (stable), BB=ABOVE_BAND, EMA=BULLISH",
+      "reason": "low volume (0.44x avg) \u2014 skipping",
       "fib_target": null,
-      "rl_action": null,
-      "rl_confidence": null
+      "rl_action": "BUY",
+      "rl_confidence": 0.983
     },
     {
       "ticker": "CF",
@@ -3595,13 +3595,13 @@
     {
       "ticker": "EOG",
       "action": "HOLD",
-      "price": 151.5,
-      "rsi": 56.97,
+      "price": 151.86000061035156,
+      "rsi": 59.06,
       "ema_trend": "BULLISH",
       "bb_signal": "ABOVE_BAND",
       "confidence": 0,
-      "atr_pct": 0.0095,
-      "reason": "RSI=57.0 (falling), BB=ABOVE_BAND, EMA=BULLISH",
+      "atr_pct": 0.0099,
+      "reason": "RSI=59.1 (stable), BB=ABOVE_BAND, EMA=BULLISH",
       "fib_target": null,
       "rl_action": null,
       "rl_confidence": null
@@ -6479,13 +6479,13 @@
     {
       "ticker": "STX",
       "action": "HOLD",
-      "price": 501.6099853515625,
-      "rsi": 48.44,
+      "price": 500.5400085449219,
+      "rsi": 47.88,
       "ema_trend": "BEARISH",
       "bb_signal": "IN_BAND",
       "confidence": 0,
-      "atr_pct": 0.0263,
-      "reason": "low volume (0.60x avg) \u2014 skipping",
+      "atr_pct": 0.0288,
+      "reason": "low volume (0.37x avg) \u2014 skipping",
       "fib_target": null,
       "rl_action": null,
       "rl_confidence": null
@@ -6661,13 +6661,13 @@
     {
       "ticker": "STT",
       "action": "HOLD",
-      "price": 171.66000366210938,
-      "rsi": 56.03,
+      "price": 171.6300048828125,
+      "rsi": 55.91,
       "ema_trend": "BULLISH",
       "bb_signal": "IN_BAND",
       "confidence": 0,
-      "atr_pct": 0.0065,
-      "reason": "RSI=56.0 (stable), BB=IN_BAND, EMA=BULLISH",
+      "atr_pct": 0.0068,
+      "reason": "RSI=55.9 (stable), BB=IN_BAND, EMA=BULLISH",
       "fib_target": null,
       "rl_action": null,
       "rl_confidence": null
@@ -6885,13 +6885,13 @@
     {
       "ticker": "TMO",
       "action": "HOLD",
-      "price": 718.510009765625,
-      "rsi": 64.5,
+      "price": 716.2550048828125,
+      "rsi": 62.41,
       "ema_trend": "BULLISH",
       "bb_signal": "IN_BAND",
       "confidence": 0,
-      "atr_pct": 0.0071,
-      "reason": "RSI=64.5 (stable), BB=IN_BAND, EMA=BULLISH",
+      "atr_pct": 0.0073,
+      "reason": "RSI=62.4 (falling), BB=IN_BAND, EMA=BULLISH",
       "fib_target": null,
       "rl_action": null,
       "rl_confidence": null
@@ -7529,16 +7529,16 @@
     {
       "ticker": "WSM",
       "action": "HOLD",
-      "price": 261.6700134277344,
-      "rsi": 54.79,
-      "ema_trend": "BULLISH",
+      "price": 259.6700134277344,
+      "rsi": 50.35,
+      "ema_trend": "NEUTRAL",
       "bb_signal": "IN_BAND",
       "confidence": 0,
       "atr_pct": 0.009,
-      "reason": "RSI=54.8 (stable), BB=IN_BAND, EMA=BULLISH",
+      "reason": "RSI=50.4 (stable), BB=IN_BAND, EMA=NEUTRAL",
       "fib_target": null,
-      "rl_action": "BUY",
-      "rl_confidence": 0.983
+      "rl_action": null,
+      "rl_confidence": null
     },
     {
       "ticker": "WMB",
@@ -7669,13 +7669,13 @@
     {
       "ticker": "ZTS",
       "action": "HOLD",
-      "price": 82.44999694824219,
-      "rsi": 52.87,
+      "price": 82.77249908447266,
+      "rsi": 54.88,
       "ema_trend": "BULLISH",
-      "bb_signal": "IN_BAND",
+      "bb_signal": "ABOVE_BAND",
       "confidence": 0,
       "atr_pct": 0.0109,
-      "reason": "RSI=52.9 (stable), BB=IN_BAND, EMA=BULLISH",
+      "reason": "RSI=54.9 (stable), BB=ABOVE_BAND, EMA=BULLISH",
       "fib_target": null,
       "rl_action": "HOLD",
       "rl_confidence": 0.928
@@ -7808,34 +7808,46 @@
   "rl_stats": {
     "live": true,
     "states": 19,
-    "training_samples": 637
+    "training_samples": 639
   },
-  "net_buy_buy_signals": [],
+  "net_buy_buy_signals": [
+    {
+      "ticker": "DD",
+      "price": 156.8800048828125,
+      "net_buy_d1": 323484,
+      "net_buy_d2": 1079282,
+      "net_buy_d3": 1169268,
+      "trend_days": 4,
+      "obv_slope": 505593,
+      "score": 40.51,
+      "reason": "Net buy \u2191 4d streak: 0.32M \u2192 1.08M \u2192 1.17M | OBV +0.5M/day"
+    }
+  ],
   "net_buy_sell_signals": [
     {
       "ticker": "PHM",
       "price": 130.60000610351562,
       "net_buy_d2": 67110,
-      "net_buy_d3": -1087180,
-      "obv_slope": -771156,
+      "net_buy_d3": -1095183,
+      "obv_slope": -773820,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.07M \u2192 -1.09M | OBV -0.8M/day"
+      "reason": "Net buy reversed: 0.07M \u2192 -1.10M | OBV -0.8M/day"
     },
     {
       "ticker": "LEN",
       "price": 86.66000366210938,
       "net_buy_d2": 223876,
-      "net_buy_d3": -3246591,
-      "obv_slope": -1405040,
+      "net_buy_d3": -3258506,
+      "obv_slope": -1407492,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.22M \u2192 -3.25M | OBV -1.4M/day"
+      "reason": "Net buy reversed: 0.22M \u2192 -3.26M | OBV -1.4M/day"
     },
     {
       "ticker": "RF",
       "price": 28.700000762939453,
       "net_buy_d2": 304783,
-      "net_buy_d3": -3435047,
-      "obv_slope": -3266142,
+      "net_buy_d3": -3436176,
+      "obv_slope": -3266706,
       "score": 0.0,
       "reason": "Net buy reversed: 0.30M \u2192 -3.44M | OBV -3.3M/day"
     },
@@ -7843,44 +7855,44 @@
       "ticker": "MTB",
       "price": 220.61000061035156,
       "net_buy_d2": 50876,
-      "net_buy_d3": -519704,
-      "obv_slope": -432783,
+      "net_buy_d3": -557853,
+      "obv_slope": -444171,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.05M \u2192 -0.52M | OBV -0.4M/day"
+      "reason": "Net buy reversed: 0.05M \u2192 -0.56M | OBV -0.4M/day"
     },
     {
       "ticker": "CBRE",
       "price": 134.7899932861328,
       "net_buy_d2": -214006,
-      "net_buy_d3": -2144108,
-      "obv_slope": -772901,
+      "net_buy_d3": -2146931,
+      "obv_slope": -773481,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.21M \u2192 -2.14M | OBV -0.8M/day"
+      "reason": "Net buy reversed: -0.21M \u2192 -2.15M | OBV -0.8M/day"
     },
     {
       "ticker": "DPZ",
       "price": 330.05999755859375,
       "net_buy_d2": 33648,
-      "net_buy_d3": -203383,
-      "obv_slope": -388289,
+      "net_buy_d3": -223139,
+      "obv_slope": -399975,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.03M \u2192 -0.20M | OBV -0.4M/day"
+      "reason": "Net buy reversed: 0.03M \u2192 -0.22M | OBV -0.4M/day"
     },
     {
       "ticker": "ADM",
       "price": 69.30000305175781,
       "net_buy_d2": 584195,
-      "net_buy_d3": -2631773,
-      "obv_slope": -4356119,
+      "net_buy_d3": -2843148,
+      "obv_slope": -4426578,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.58M \u2192 -2.63M | OBV -4.4M/day"
+      "reason": "Net buy reversed: 0.58M \u2192 -2.84M | OBV -4.4M/day"
     },
     {
       "ticker": "BXP",
       "price": 63.540000915527344,
       "net_buy_d2": -278611,
-      "net_buy_d3": -1669095,
-      "obv_slope": -817013,
+      "net_buy_d3": -1674466,
+      "obv_slope": -818293,
       "score": 0.0,
       "reason": "Net buy reversed: -0.28M \u2192 -1.67M | OBV -0.8M/day"
     },
@@ -7888,30 +7900,48 @@
       "ticker": "SCHW",
       "price": 93.02999877929688,
       "net_buy_d2": 1233600,
-      "net_buy_d3": -4068671,
-      "obv_slope": -1091002,
+      "net_buy_d3": -4079499,
+      "obv_slope": -1087550,
       "score": 0.0,
-      "reason": "Net buy reversed: 1.23M \u2192 -4.07M | OBV -1.1M/day"
+      "reason": "Net buy reversed: 1.23M \u2192 -4.08M | OBV -1.1M/day"
     },
     {
       "ticker": "COF",
       "price": 195.83999633789062,
       "net_buy_d2": 1267610,
-      "net_buy_d3": -3817052,
-      "obv_slope": -5482759,
+      "net_buy_d3": -3817674,
+      "obv_slope": -5482932,
       "score": 0.0,
       "reason": "Net buy reversed: 1.27M \u2192 -3.82M | OBV -5.5M/day"
     }
   ],
   "surge_signals": [
     {
-      "ticker": "AMZN",
-      "price": 270.8699951171875,
-      "buy_surge_pct": 217.6259,
-      "buy_vol_d2": 122171,
-      "buy_vol_d3": 26709681,
-      "net_buy_d3": 15358937,
-      "reason": "Buy vol \u219121762.6% vs prior day | 1d streak | latest 15.36M | OBV -6.9M/day"
+      "ticker": "DD",
+      "price": 156.8800048828125,
+      "buy_surge_pct": 0.1253,
+      "buy_vol_d2": 1090341,
+      "buy_vol_d3": 1226943,
+      "net_buy_d3": 1169268,
+      "reason": "Buy vol \u219112.5% vs prior day | Net buy \u2191 4d streak: 0.32M \u2192 1.08M \u2192 1.17M | OBV +0.5M/day"
+    },
+    {
+      "ticker": "RTX",
+      "price": 200.27000427246094,
+      "buy_surge_pct": 0.0924,
+      "buy_vol_d2": 3415830,
+      "buy_vol_d3": 3731545,
+      "net_buy_d3": 2870591,
+      "reason": "Buy vol \u21919.2% vs prior day | Net buy reversed: 2.93M \u2192 2.87M | OBV -0.8M/day"
+    },
+    {
+      "ticker": "AKAM",
+      "price": 83.70999908447266,
+      "buy_surge_pct": 2.7057,
+      "buy_vol_d2": 5644087,
+      "buy_vol_d3": 20915383,
+      "net_buy_d3": 18512670,
+      "reason": "Buy vol \u2191270.6% vs prior day | 0d streak | latest 18.51M | OBV 1.0M/day"
     }
   ]
 }
