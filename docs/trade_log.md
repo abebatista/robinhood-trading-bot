@@ -1,3 +1,17 @@
+## 2026-11-10T19:22:48Z
+- SUMMARY: Market OPEN (2:22 PM ET), in_window=true. Regime: BEARISH_EMA. 1 SELL: DPZ ATR trail stop ($329.30≤$329.41, −0.14% from entry $329.76, 100.9h held). GD(+1.05% $368.23>trail$346.19 OK — no ratchet, <2.5%). 0 BUYs: 0 RSI BUY signals; CVS net-buy-only conf=2 insufficient for bearish_ema (need conf=3); 0 surge signals. CB: daily +0.11%/weekly +0.08%(OK). Acct=$227.82. BP=$117.94 (settlement lag). Universe=503.
+
+## 2026-11-10T19:22:48Z
+- Action   : SELL DPZ
+- Price    : $329.30
+- Amount   : $18.63 | Shares: 0.056586
+- RSI      : 44.38 | EMA: BEARISH | BB: BELOW_BAND
+- RL       : null conf=null | null
+- Stop     : $329.41 (ATR trail stop hit) | Target: $362.74
+- Strategy : surge | Sell date: null
+- Regime   : bearish_ema
+- Reason   : ATR trailing stop triggered ($329.30 ≤ $329.41 trail stop). −0.14% from entry $329.76. 100.9h held.
+
 ## 2026-11-10T14:23:30Z
 - SUMMARY: Market OPEN (9:23 AM ET, pre-market), in_window=true. Regime: BEARISH_EMA (SPY signal bearish_ema). 0 SELLs: GD(−0.63% $362.09 > trail $346.19); DPZ(+1.34% $334.18 > trail $329.41); APP(+0.49% $410.00 > trail $386.74). No stops/TP triggered. 0 BUYs: 0 RSI BUY signals; net-buy: TMUS conf=2 insufficient (bearish_ema requires conf=3; also RSI overbought 71.7→SELL); surge: TMUS(50.1%, count=1 new), ALLE(145.6%, count=1 new) — both need count≥2. ATR ratchets: none (no position ≥2.5% profit). CB: daily 0.00% (new day)/weekly +0.04% (OK). Acct=$227.57. BP=$117.94. Universe=503.
 
