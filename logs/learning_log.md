@@ -682,3 +682,11 @@
 - Backtest: SKIPPED (NO_CHANGE → Steps 6-7 bypassed)
 - RL samples: 637/200 (READY — 0 new rows today; all current positions still open; 19 Q-states in table; RL boost/veto disabled 2026-11-06)
 - Notes: Account $228.11. Regime BEARISH_EMA entire period. 3 open positions (GD/DPZ/APP). Normal strategy win rate now 22% — BEARISH-EMA entries dominate losses (0/4 wins). RSI_OVERSOLD at hard clamp, no tunable threshold to adjust. Run: python3.13 -m strategy.rl_agent --train to retrain Q-table (637 samples available).
+
+## 2026-11-10
+- Trades analysed: 13 closed round-trips (12 prior + 1 new today)
+- Win rate: 38% overall (normal: 22% 2W/7L; net_buy: 100% 3W/0L; surge: 50% 1W/1L n=2)
+- Config changes: none (RSI_OVERSOLD=40 already at clamp max; momentum unwired; ATR no fast-stop issue)
+- Backtest: SKIPPED — yfinance/Yahoo Finance blocked from cloud sandbox (known constraint)
+- RL samples: 639/200 (target exceeded 3x)
+- Notes: APP −5.5% stop-loss (surge, 27h), DPZ −0.14% ATR trail (100.9h). Normal strategy win rate chronic underperformer at 22% — RSI_OVERSOLD threshold exhausted at ceiling (40). The CLAUDE.md finding that 81% of entries are BEARISH-EMA tickers remains the root cause; the threshold knob is out of room. Next lever: require individual-ticker EMA BULLISH/NEUTRAL before RSI-oversold entry (needs backtest from non-cloud environment). RL BOOST remains disabled (retrain + human approval needed first).
