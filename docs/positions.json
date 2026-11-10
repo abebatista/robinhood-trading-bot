@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T17:23:00Z",
-  "buying_power": 117.94,
+  "updated_at": "2026-11-10T18:30:22Z",
+  "buying_power": 133.46,
   "market_regime": "bearish_ema",
-  "account_value": 227.72,
+  "account_value": 227.61,
   "peak_value": 249.0,
   "day_start_value": 227.57,
   "day_start_date": "2026-11-10",
@@ -17,8 +17,8 @@
       "ticker": "GD",
       "quantity": 0.205492,
       "avg_cost": 364.39,
-      "current_price": 367.235,
-      "pnl_pct": 0.0078,
+      "current_price": 367.26,
+      "pnl_pct": 0.00788,
       "value": 75.47,
       "entry_atr_pct": 0.0107,
       "entry_time": "2026-11-04T17:26:40Z",
@@ -31,8 +31,8 @@
       "ticker": "DPZ",
       "quantity": 0.056586,
       "avg_cost": 329.76,
-      "current_price": 330.37,
-      "pnl_pct": 0.00185,
+      "current_price": 330.29,
+      "pnl_pct": 0.00161,
       "value": 18.69,
       "entry_atr_pct": 0.01,
       "entry_time": "2026-11-06T14:28:19Z",
@@ -40,26 +40,12 @@
       "take_profit": 362.74,
       "strategy": "surge",
       "sell_date": null
-    },
-    {
-      "ticker": "APP",
-      "quantity": 0.040269,
-      "avg_cost": 408.01,
-      "current_price": 387.835,
-      "pnl_pct": -0.0495,
-      "value": 15.62,
-      "entry_atr_pct": 0.0279,
-      "entry_time": "2026-11-09T15:24:34Z",
-      "trail_stop": 386.74,
-      "take_profit": 448.81,
-      "strategy": "surge",
-      "sell_date": null
     }
   ],
   "last_actions": [
-    "2026-11-10T17:23Z Market OPEN (12:23 PM ET), in_window=true. Regime: BEARISH_EMA. 0 SELLs: GD(+0.78% $367.24>trail$346.19); DPZ(+0.19% $330.37>trail$329.41 barely); APP(−4.95% $387.83>trail$386.74 barely, $408.01×0.95=$387.61 OK). 0 BUYs: 0 RSI/net-buy/surge signals. CB: daily −0.07%/weekly −0.08%(OK). Acct=$227.72. BP=$117.94. Universe=503.",
-    "2026-11-10T16:21Z Market OPEN (11:21 AM ET), in_window=true. Regime: BEARISH_EMA. 0 SELLs: GD(+0.07% $364.66>trail$346.19); DPZ(−0.10% $329.43 barely>trail$329.41); APP(−4.38% $390.13>trail$386.74). 0 BUYs: 0 RSI BUY signals; DDOG net_buy only (no RSI conf, skipped bearish_ema); 0 surges. CB: daily 0.14%/weekly 0.18%(OK). Acct=$227.24. BP=$117.94. Universe=503.",
-    "2026-11-10T15:35Z Market OPEN (10:35 AM ET), in_window=true. Regime: BEARISH_EMA. 0 SELLs: GD(+0.27% $365.39>trail$346.19); DPZ(+0.17% $330.31>trail$329.41); APP(−3.60% $393.34>trail$386.74). 0 BUYs: 0 RSI BUY signals; bearish_ema requires conf=3; TMUS surge count→2 (INTRADAY candidate) but RSI=SELL overbought (71.7, RSI conf=2→skip in bearish_ema); ALLE dropped from surge tracker (not at 10%+ this cycle). ATR: no ratchets (no position ≥2.5% profit). CB: daily 0.00%/weekly 0.04%(OK). Acct=$227.56. BP=$117.94. Universe=503.",
-    "2026-11-10T14:23Z Market OPEN (9:23 AM ET pre-mkt). Regime: BEARISH_EMA. 0 SELLs: GD(−0.63% $362.09>trail$346.19); DPZ(+1.34%$334.18>trail$329.41); APP(+0.49%$410.00>trail$386.74). 0 BUYs: no conf≥3 in bearish_ema; TMUS net-buy conf=2+RSI overbought; TMUS/ALLE surge count=1 (need 2). CB: daily 0.00%/weekly +0.04%(OK). Acct=$227.57. BP=$117.94. Universe=503."
+    "2026-11-10T18:30Z Market OPEN (1:30 PM ET), in_window=true. Regime: BEARISH_EMA. 1 SELL: APP ATR trail stop ($385.47≤$386.74, also -5.5% stop-loss). 0 BUYs: 0 RSI/net-buy/surge signals. CB: daily -0.07%/weekly +0.01%(OK). Acct≈$227.61. BP≈$133.46. Universe=503.",
+    "2026-11-10T17:23Z Market OPEN (12:23 PM ET), in_window=true. Regime: BEARISH_EMA. 0 SELLs: GD(+0.78% $367.24>trail$346.19); DPZ(+0.185% $330.37>trail$329.41 — barely above); APP(−4.95% $387.83>trail$386.74 — barely above, $408.01×0.95=$387.61 also OK). 0 BUYs: 0 RSI BUY signals; 0 net_buy BUY signals; 0 surge signals. Surge tracker cleared (no 10%+ surges this cycle). ATR: no ratchets (GD +0.78% < 2.5%; DPZ +0.19% < 2.5%; APP -4.95% negative). CB: daily −0.07%/weekly −0.08% (OK). Acct=$227.72. BP=$117.94. Universe=503.",
+    "2026-11-10T16:21Z Market OPEN (11:21 AM ET), in_window=true. Regime: BEARISH_EMA (SPY $746.84 < EMA200 $762.66). 0 SELLs: GD(+0.07% $364.66>trail$346.19); DPZ(−0.10% $329.43 barely>trail$329.41); APP(−4.38% $390.13>trail$386.74). No stop/TP triggers. 0 BUYs: 0 RSI BUY signals; net_buy BUY=DDOG (net-buy only, no RSI confirmation, insufficient for bearish_ema conf=3 requirement); 0 surge signals (TMUS removed from tracker — not at 10%+ this cycle). ATR: no ratchets (all positions flat or negative). CB: daily 0.14%/weekly 0.18% (OK). Acct=$227.24. BP=$117.94. Universe=503.",
+    "2026-11-10T15:35Z Market OPEN (10:35 AM ET), in_window=true. Regime: BEARISH_EMA. 0 SELLs: GD(+0.27% $365.39>trail$346.19); DPZ(+0.17% $330.31>trail$329.41); APP(−3.60% $393.34>trail$386.74). No stop/TP triggers. 0 BUYs: 0 RSI BUY signals; bearish_ema requires conf=3; TMUS surge count→2 (INTRADAY candidate) but RSI=SELL overbought (71.7, RSI conf=2→skip in bearish_ema); ALLE dropped from surge tracker (not at 10%+ this cycle). ATR: no ratchets (no position ≥2.5% profit). CB: daily 0.00%/weekly 0.04%(OK). Acct=$227.56. BP=$117.94. Universe=503."
   ]
 }

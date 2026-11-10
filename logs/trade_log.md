@@ -1,3 +1,17 @@
+## 2026-11-10T18:30:22Z
+- SUMMARY: Market OPEN (1:30 PM ET), in_window=true. Regime: BEARISH_EMA. 1 SELL: APP (ATR trailing stop $385.47≤$386.74, also -5.5% stop-loss $408.01×0.95=$387.61). GD(+0.79% $367.26>trail$346.19 OK); DPZ(+0.16% $330.29>trail$329.41 OK). 0 BUYs: 0 RSI BUY signals; 0 net_buy BUY; 0 surge signals. Surge tracker cleared. ATR: no ratchets. CB: daily -0.07%/weekly +0.01%(OK). Acct≈$227.61. BP≈$133.46 (after APP fill). Universe=503.
+
+## 2026-11-10T18:30:22Z
+- Action   : SELL APP
+- Price    : $385.47
+- Amount   : $15.52 | Shares: 0.040269
+- RSI      : n/a | EMA: BEARISH | BB: n/a
+- RL       : null conf=null | null
+- Stop     : $386.74 (ATR trail stop hit) | Target: $448.81
+- Strategy : surge | Sell date: null
+- Regime   : bearish_ema
+- Reason   : ATR trailing stop triggered ($385.47 ≤ $386.74 trail); also -5.5% below entry $408.01 (stop-loss threshold $387.61)
+
 ## 2026-11-10T17:23:00Z
 - SUMMARY: Market OPEN (12:23 PM ET), in_window=true. Regime: BEARISH_EMA. 0 SELLs: GD(+0.78% $367.24>trail$346.19); DPZ(+0.185% $330.37>trail$329.41 — barely above); APP(−4.95% $387.83>trail$386.74 — barely above, $408.01×0.95=$387.61 also OK). 0 BUYs: 0 RSI BUY signals; 0 net_buy BUY signals; 0 surge signals. Surge tracker cleared (no 10%+ surges this cycle). ATR: no ratchets (GD +0.78% < 2.5%; DPZ +0.19% < 2.5%; APP -4.95% negative). CB: daily −0.07%/weekly −0.08% (OK). Acct=$227.72. BP=$117.94. Universe=503.
 
