@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T19:23:00Z",
+  "updated_at": "2026-11-10T20:30:00Z",
   "buying_power": 117.94,
   "market_regime": "bearish_ema",
-  "account_value": 227.82,
+  "account_value": 227.71,
   "peak_value": 249.0,
   "day_start_value": 227.57,
   "day_start_date": "2026-11-10",
@@ -17,9 +17,9 @@
       "ticker": "GD",
       "quantity": 0.205492,
       "avg_cost": 364.39,
-      "current_price": 368.225,
-      "pnl_pct": 0.01053,
-      "value": 75.70,
+      "current_price": 367.95,
+      "pnl_pct": 0.00977,
+      "value": 75.61,
       "entry_atr_pct": 0.0107,
       "entry_time": "2026-11-04T17:26:40Z",
       "trail_stop": 346.19,
@@ -29,8 +29,8 @@
     }
   ],
   "last_actions": [
+    "2026-11-10T20:30Z Market CLOSED (signal at 3:25 PM ET). Regime: BEARISH_EMA. 0 SELLs: GD(+0.98% $367.95>trail$346.19). 0 BUYs (market closed). RSI: 0 BUY, 1 SELL (CLX not held). Net-buy: CVS BUY conf=2 (market closed), 10 net-buy SELLs (none held). Surge: 0. CB: daily +0.06%/weekly +0.03%(OK). Acct=$227.71. BP=$117.94. Universe=503.",
     "2026-11-10T19:22Z Market OPEN (2:22 PM ET), in_window=true. Regime: BEARISH_EMA. 1 SELL: DPZ ATR trail stop ($329.30≤$329.41, −0.14% from entry $329.76, 100.9h held). GD(+1.05% $368.23>trail$346.19 OK). 0 BUYs: 0 RSI BUY; CVS net-buy-only conf=2 insufficient (bearish_ema needs conf=3); 0 surge. CB: daily +0.11%/weekly +0.08%(OK). Acct=$227.82. BP=$117.94. Universe=503.",
-    "2026-11-10T18:30Z Market OPEN (1:30 PM ET), in_window=true. Regime: BEARISH_EMA. 1 SELL: APP ATR trail stop ($385.47≤$386.74, also -5.5% stop-loss). 0 BUYs: 0 RSI/net-buy/surge signals. CB: daily -0.07%/weekly +0.01%(OK). Acct≈$227.61. BP≈$133.46. Universe=503.",
-    "2026-11-10T17:23Z Market OPEN (12:23 PM ET), in_window=true. Regime: BEARISH_EMA. 0 SELLs: GD(+0.78% $367.24>trail$346.19); DPZ(+0.185% $330.37>trail$329.41 — barely above); APP(−4.95% $387.83>trail$386.74 — barely above, $408.01×0.95=$387.61 also OK). 0 BUYs: 0 RSI BUY signals; 0 net_buy BUY signals; 0 surge signals. Surge tracker cleared (no 10%+ surges this cycle). ATR: no ratchets (GD +0.78% < 2.5%; DPZ +0.19% < 2.5%; APP -4.95% negative). CB: daily −0.07%/weekly −0.08% (OK). Acct=$227.72. BP=$117.94. Universe=503."
+    "2026-11-10T18:30Z Market OPEN (1:30 PM ET), in_window=true. Regime: BEARISH_EMA. 1 SELL: APP ATR trail stop ($385.47≤$386.74, also -5.5% stop-loss). 0 BUYs: 0 RSI/net-buy/surge signals. CB: daily -0.07%/weekly +0.01%(OK). Acct≈$227.61. BP≈$133.46. Universe=503."
   ]
 }

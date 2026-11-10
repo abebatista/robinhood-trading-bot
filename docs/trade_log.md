@@ -1,3 +1,6 @@
+## 2026-11-10T20:30:00Z
+- SUMMARY: Market CLOSED (3:25 PM ET signal). Regime: BEARISH_EMA. 0 SELLs: GD(+0.98% $367.95>trail$346.19, OK). 0 BUYs (market closed). RSI: 0 BUY, 1 SELL (CLX — not held). Net-buy: CVS BUY (conf=2, would be MODERATE but market closed); 10 SELLs (not held). Surge: 0. CB: daily +0.06%/weekly +0.03%(OK). Acct=$227.71. BP=$117.94. Universe=503.
+
 ## 2026-11-10T19:22:48Z
 - SUMMARY: Market OPEN (2:22 PM ET), in_window=true. Regime: BEARISH_EMA. 1 SELL: DPZ ATR trail stop ($329.30≤$329.41, −0.14% from entry $329.76, 100.9h held). GD(+1.05% $368.23>trail$346.19 OK — no ratchet, <2.5%). 0 BUYs: 0 RSI BUY signals; CVS net-buy-only conf=2 insufficient for bearish_ema (need conf=3); 0 surge signals. CB: daily +0.11%/weekly +0.08%(OK). Acct=$227.82. BP=$117.94 (settlement lag). Universe=503.
 
