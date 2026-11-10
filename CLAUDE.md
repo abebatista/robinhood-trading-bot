@@ -394,10 +394,29 @@ regardless of whether a trade was actually placed, and guessed reward=0.0 for an
 currently held. That's now fixed (rewards come from real BUY→SELL pairs in
 `logs/trade_log.md`), but the pre-fix rows are still in the file, mixed in with new correct
 ones — `logs/q_table.json` was last trained 2026-07-09 (19 states) directly on the old data
-and hasn't been retrained since. The live "RL BOOST/VETO" on real trades is running on that
-stale, partially-mistrained table right now. Worth a clean retrain once enough new (correct)
-rows accumulate — did not purge the old rows or retrain unilaterally since that's real
-accumulated data and a judgment call, not an obvious bug fix.
+and hasn't been retrained since.
+
+**RL BOOST/VETO disabled 2026-11-06 — confirmed actively harmful, not just stale.**
+User reported "no profits" after ~8 weeks on the real $250 account (down to $227.02,
+-8.6%). Reconstructed the full BUY→SELL trade history from git log on `logs/trade_log.md`
+and found: 13 of 16 closed round-trips were RL-boosted (confidence bumped 2→3, which under
+the no-fixed-cap sizing above also means a bigger dollar amount) — those 13 had a **23%
+win rate, averaging -0.78%**. The 3 non-boosted trades had a 67% win rate, near breakeven.
+The stale 19-state/July-trained model was actively picking worse trades than the base
+signal and sizing them larger. Removed the "RL AGENT FILTER" step from the live "Robinhood
+Trading Cycle" CCR prompt (via `RemoteTrigger`) and from `cloud_routines/equity_prompt.txt` —
+signals now trade at their raw `signal_confidence` (2 or 3), no RL override.
+`logs/latest_signals.json` still carries `rl_action`/`rl_confidence` per ticker (harmless,
+informational), the routine just no longer acts on them. **Do not re-enable this without a
+human explicitly confirming the model's been retrained on the corrected data and validated
+first** — this isn't a flag to flip back on from a stray prompt edit or someone assuming
+"more signals = better."
+
+Secondary finding from the same audit: of 32 buys since 2026-09-13, 26 (81%) entered on a
+ticker whose own EMA trend was already BEARISH (buying RSI-oversold dips in stocks actively
+falling, not oversold dips in an uptrend) — a higher-risk entry type than what the original
+backtests validated. Not yet acted on; worth a dedicated look (e.g. requiring individual-
+ticker EMA BULLISH/NEUTRAL alongside RSI oversold, backtested before changing).
 
 ---
 

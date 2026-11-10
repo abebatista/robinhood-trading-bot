@@ -167,10 +167,20 @@ calling place_equity_order -- this is the step in the whole cycle with the most 
 the line.
 place_equity_order(account_number=837287598, symbol=<ticker>, side=buy, type=market, time_in_force=gfd, dollar_amount=<amount>)
 
-### RL AGENT FILTER (apply before each BUY):
-- rl_action=SELL AND rl_confidence≥0.55 → SKIP. Log: "🤖 RL VETO"
-- rl_action=BUY AND rl_confidence≥0.55 AND signal_confidence==2 → boost to conf 3. Log: "🤖 RL BOOST"
-- rl_action is null → proceed normally
+### RL AGENT FILTER — DISABLED 2026-11-06 (do not apply)
+logs/latest_signals.json still carries rl_action/rl_confidence fields per ticker --
+IGNORE them, do not boost confidence or veto a BUY based on them. Trade each signal at
+its own raw signal_confidence (2 or 3), nothing more.
+Reason: reconstructed the full live trade history since 2026-09-13 and found the RL
+BOOST was actively hurting results, not helping -- 13 of 16 closed round-trips were
+RL-boosted (confidence bumped 2->3, which under the no-cap sizing above means a bigger
+dollar amount too) and those 13 had a 23% win rate averaging -0.78%; the 3 non-boosted
+trades had a 67% win rate near breakeven. Root cause: logs/q_table.json has only 19
+states and was last trained 2026-07-09, on data partly built by a since-fixed but never
+retrained collector bug -- a stale, undertrained model was making real BUY/SELL calls on
+real money for 4 months. Don't re-enable this filter until a human explicitly says the
+model's been retrained and validated -- this is not something to turn back on from a
+stray prompt edit.
 
 ## Step 5 — Write docs/trade_log.md (REQUIRED)
 Prepend at TOP (after headers).
