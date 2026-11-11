@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10T23:54:38.261228+00:00",
+  "timestamp": "2026-11-11T00:22:59.564923+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -1992,6 +1992,20 @@
       "confidence": 0,
       "atr_pct": 0.0089,
       "reason": "RSI=59.8 (falling), BB=IN_BAND, EMA=BULLISH",
+      "fib_target": null,
+      "rl_action": null,
+      "rl_confidence": null
+    },
+    {
+      "ticker": "ANET",
+      "action": "HOLD",
+      "price": 185.10000610351562,
+      "rsi": 57.36,
+      "ema_trend": "BULLISH",
+      "bb_signal": "IN_BAND",
+      "confidence": 0,
+      "atr_pct": 0.0193,
+      "reason": "RSI=57.4 (stable), BB=IN_BAND, EMA=BULLISH",
       "fib_target": null,
       "rl_action": null,
       "rl_confidence": null
